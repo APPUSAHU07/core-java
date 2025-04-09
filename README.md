@@ -42,2103 +42,2103 @@ CONTENTS
 
 
 
-**Java Basics**
-
-**1. What is the difference between JDK and JRE? **
-
-**2. What is Java Virtual Machine \(JVM\)? **
-
-**3. What are the different types of memory areas allocated by JVM? **
-
-**4. What is JIT compiler? **
-
-**5. How Java platform is different from other platforms? **
-
-**6. Why people say that Java is 'write once and run anywhere' language? **
-
-**7. How does ClassLoader work in Java? **
-
-**8. Do you think ‘main’ used for main method is a keyword in Java? **
-
-**9. Can we write main method as public void static instead of public static** **void? **
-
-**10. In Java, if we do not specify any value for local variables, then what** **will be the default value of the local variables? **
-
-**11. Let say, we run a java class without passing any arguments. What will** **be the value of String array of arguments in Main method? **
-
-**12. What is the difference between byte and char data types in Java? **
-
-**OOPS**
-
-**13. What are the main principles of Object Oriented Programming? **
-
-**14. What is the difference between Object Oriented Programming** **language and Object Based Programming language? **
-
-**15. In Java what is the default value of an object reference defined as an**
-
-**instance variable in an Object? **
-
-**16. Why do we need constructor in Java? **
-
-**17. Why do we need default constructor in Java classes? **
-
-**18. What is the value returned by Constructor in Java? **
-
-**19. Can we inherit a Constructor? **
-
-**20. Why constructors cannot be final, static, or abstract in Java? **
-
-**Inheritance**
-
-**21. What is the purpose of ‘this’ keyword in java? **
-
-**22. Explain the concept of Inheritance? **
-
-**23. Which class in Java is superclass of every other class? **
-
-**24. Why Java does not support multiple inheritance? **
-
-**25. In OOPS, what is meant by composition? **
-
-**26. How aggregation and composition are different concepts? **
-
-**27. Why there are no pointers in Java? **
-
-**28. If there are no pointers in Java, then why do we get** **NullPointerException? **
-
-**29. What is the purpose of ‘super’ keyword in java? **
-
-**30. Is it possible to use this\(\) and super\(\) both in same constructor? **
-
-**31. What is the meaning of object cloning in Java? **
-
-**Static**
-
-**32. In Java, why do we use static variable? **
-
-**33. Why it is not a good practice to create static variables in Java? **
-
-**34. What is the purpose of static method in Java? **
-
-**35. Why do we mark main method as static in Java? **
-
-**36. In what scenario do we use a static block? **
-
-**37. Is it possible to execute a program without defining a main\(\) method? **
-
-**38. What happens when static modifier is not mentioned in the signature** **of main method? **
-
-**39. What is the difference between static method and instance method in** **Java? **
-
-**Method Overloading and Overriding**
-
-**40. What is the other name of Method Overloading? **
-
-**41. How will you implement method overloading in Java? **
-
-**42. What kinds of argument variations are allowed in Method** **Overloading? **
-
-**43. Why it is not possible to do method overloading by changing return** **type of method in java? **
-
-**44. Is it allowed to overload main\(\) method in Java? **
-
-**45. How do we implement method overriding in Java? **
-
-**46. Are we allowed to override a static method in Java? **
-
-**47. Why Java does not allow overriding a static method? **
-
-**48. Is it allowed to override an overloaded method? **
-
-**49. What is the difference between method overloading and method** **overriding in Java? **
-
-**50. Does Java allow virtual functions? **
-
-**51. What is meant by covariant return type in Java? **
-
-**Polymorphism**
-
-**52. What is Runtime Polymorphism? **
-
-**53. Is it possible to achieve Runtime Polymorphism by data members in** **Java? **
-
-**54. Explain the difference between static and dynamic binding? **
-
-**Abstraction**
-
-**55. What is Abstraction in Object Oriented programming? **
-
-**56. How is Abstraction different from Encapsulation? **
-
-**57. What is an abstract class in Java? **
-
-**58. Is it allowed to mark a method abstract method without marking the** **class abstract? **
-
-**59. Is it allowed to mark a method abstract as well as final? **
-
-**60. Can we instantiate an abstract class in Java? **
-
-**61. What is an interface in Java? **
-
-**62. Is it allowed to mark an interface method as static? **
-
-**63. Why an Interface cannot be marked as final in Java? **
-
-**64. What is a marker interface? **
-
-**65. What can we use instead of Marker interface? **
-
-**66. How Annotations are better than Marker Interfaces? **
-
-**67. What is the difference between abstract class and interface in Java? **
-
-**68. Does Java allow us to use private and protected modifiers for** **variables in interfaces? **
-
-**69. How can we cast to an object reference to an interface reference? **
-
-**Final**
-
-**70. How can you change the value of a final variable in Java? **
-
-**71. Can a class be marked final in Java? **
-
-**72. How can we create a final method in Java? **
-
-**73. How can we prohibit inheritance in Java? **
-
-**74. Why Integer class in final in Java? **
-
-**75. What is a blank final variable in Java? **
-
-**76. How can we initialize a blank final variable? **
-
-**77. Is it allowed to declare main method as final? **
-
-**Package**
-
-**78. What is the purpose of package in Java? **
-
-**79. What is java.lang package? **
-
-**80. Which is the most important class in Java? **
-
-**81. Is it mandatory to import java.lang package every time? **
-
-**82. Can you import same package or class twice in your class? **
-
-**83. What is a static import in Java? **
-
-**84. What is the difference between import static com.test.Fooclass and** **import com.test.Fooclass? **
-
-**Internationalization**
-
-**85. What is Locale in Java? **
-
-**86. How will you use a specific Locale in Java? **
-
-**Serialization**
-
-**87. What is the serialization? **
-
-**88. What is the purpose of serialization? **
-
-**89. What is Deserialization? **
-
-**90. What is Serialization and Deserialization conceptually? **
-
-**91. Why do we mark a data member transient? **
-
-**92. Is it allowed to mark a method as transient? **
-
-**93. How does marking a field as transient makes it possible to serialize an** **object? **
-
-**94. What is Externalizable interface in Java? **
-
-**95. What is the difference between Serializable and Externalizable** **interface? **
-
-**Reflection**
-
-**96. What is Reflection in Java? **
-
-**97. What are the uses of Reflection in Java? **
-
-**98. How can we access private method of a class from outside the class? **
-
-**99. How can we create an Object dynamically at Runtime in Java? **
-
-**Garbage Collection**
-
-**100. What is Garbage Collection in Java? **
-
-**101. Why Java provides Garbage Collector? **
-
-**102. What is the purpose of gc\(\) in Java? **
-
-**103. How does Garbage Collection work in Java? **
-
-**104. When does an object become eligible for Garbage Collection in Java? **
-
-**105. Why do we use finalize\(\) method in Java? **
-
-**106. What are the different types of References in Java? **
-
-**107. How can we reference an unreferenced object again? **
-
-**108. What kind of process is the Garbage collector thread? **
-
-**109. What is the purpose of the Runtime class? **
-
-**110. How can we invoke an external process in Java? **
-
-**111. What are the uses of Runtime class? **
-
-**Inner Classes**
-
-**112. What is a Nested class? **
-
-**113. How many types of Nested classes are in Java? **
-
-**114. Why do we use Nested Classes? **
-
-**115. What is the difference between a Nested class and an Inner class in** **Java? **
-
-**116. What is a Nested interface? **
-
-**117. How can we access the non-final local variable, inside a Local Inner** **class? **
-
-**118. Can an Interface be defined in a Class? **
-
-**119. Do we have to explicitly mark a Nested Interface public static? **
-
-**120. Why do we use Static Nested interface in Java? **
-
-**String**
-
-**121. What is the meaning of Immutable in the context of String class in** **Java? **
-
-**122. Why a String object is considered immutable in java? **
-
-**123. How many objects does following code create? **
-
-**124. How many ways are there in Java to create a String object? **
-
-**125. How many objects does following code create? **
-
-**126. What is String interning? **
-
-**127. Why Java uses String literal concept? **
-
-**128. What is the basic difference between a String and StringBuffer** **object? **
-
-**129. How will you create an immutable class in Java? **
-
-**130. What is the use of toString\(\) method in java ? **
-
-**131. Arrange the three classes String, StringBuffer and StringBuilder in** **the order of efficiency for String processing operations? **
-
-**Exception Handling**
-
-**132. What is Exception Handling in Java? **
-
-**133. In Java, what are the differences between a Checked and** **Unchecked? **
-
-**134. What is the base class for Error and Exception classes in Java? **
-
-**135. What is a finally block in Java? **
-
-**136. What is the use of finally block in Java? **
-
-**137. Can we create a finally block without creating a catch block? **
-
-**138. Do we have to always put a catch block after a try block? **
-
-**139. In what scenarios, a finally block will not be executed? **
-
-**140. Can we re-throw an Exception in Java? **
-
-**141. What is the difference between throw and throws in Java? **
-
-**142. What is the concept of Exception Propagation? **
-
-**143. When we override a method in a Child class, can we throw an** **additional Exception that is not thrown by the Parent class method? **
-
-**Multi-threading**
-
-**144.How Multi-threading works in Java? **
-
-**145. What are the advantages of Multithreading? **
-
-**146. What are the disadvantages of Multithreading? **
-
-**147. What is a Thread in Java? **
-
-**148. What is a Thread’s priority and how it is used in scheduling? **
-
-**149. What are the differences between Pre-emptive Scheduling Scheduler** **and Time Slicing Scheduler? **
-
-**150. Is it possible to call run\(\) method instead of start\(\) on a thread in** **Java? **
-
-**151. How will you make a user thread into daemon thread if it has already** **started? **
-
-**152. Can we start a thread two times in Java? **
-
-**153. In what scenarios can we interrupt a thread? **
-
-**154. In Java, is it possible to lock an object for exclusive use by a thread? **
-
-**155. How notify\(\) method is different from notifyAll\(\) method? **
-
-**Collections**
-
-**156. What are the differences between the two data structures: a Vector** **and an ArrayList? **
-
-**157. What are the differences between Collection and Collections in Java? **
-
-**158. In which scenario, LinkedList is better than ArrayList in Java? **
-
-**159. What are the differences between a List and Set collection in Java? **
-
-**160. What are the differences between a HashSet and TreeSet collection** **in Java? **
-
-**161. In Java, how will you decide when to use a List, Set or a Map**
-
-**collection? **
-
-**162. What are the differences between a HashMap and a Hashtable in** **Java? **
-
-**163. What are the differences between a HashMap and a TreeMap? **
-
-**164. What are the differences between Comparable and Comparator? **
-
-**165. In Java, what is the purpose of Properties file? **
-
-**166. What is the reason for overriding equals\(\) method? **
-
-**167. How does hashCode\(\) method work in Java? **
-
-**168. Is it a good idea to use Generics in collections? **
-
-**Mixed Questions**
-
-**169. What are Wrapper classes in Java? **
-
-**170. What is the purpose of native method in Java? **
-
-**171. What is System class? **
-
-**172. What is System, out and println in System.out.println method call? **
-
-**173. What is the other name of Shallow Copy in Java? **
-
-**174. What is the difference between Shallow Copy and Deep Copy in** **Java? **
-
-**175. What is a Singleton class? **
-
-**176. What is the difference between Singleton class and Static class? **
-
-**Java Collection**
-
-**177. What is the difference between Collection and Collections** **Framework in Java? **
-
-**178. What are the main benefits of Collections Framework in Java? **
-
-**179. What is the root interface of Collection hierarchy in Java? **
-
-**180. What are the main differences between Collection and Collections? **
-
-**181. What are the Thread-safe classes in Java Collections framework? **
-
-**182. How will you efficiently remove elements while iterating a** **Collection? **
-
-**183. How will you convert a List into an array of integers like- int\[\]? **
-
-**184. How will you convert an array of primitive integers int\[\] to a List** **collection? **
-
-**185. How will you run a filter on a Collection? **
-
-**186. How will you convert a List to a Set? **
-
-**187. How will you remove duplicate elements from an ArrayList? **
-
-**188. How can you maintain a Collection with elements in Sorted order? **
-
-**189. What is the difference between Collections.emptyList\(\) and creating** **new instance of Collection? **
-
-**190. How will you copy elements from a Source List to another list? **
-
-**191. What are the Java Collection classes that implement List interface? **
-
-**192. What are the Java Collection classes that implement Set interface? **
-
-**193. What is the difference between an Iterator and ListIterator in Java? **
-
-**194. What is the difference between Iterator and Enumeration? **
-
-**195. What is the difference between an ArrayList and a LinkedList data** **structure? **
-
-**196. What is the difference between a Set and a Map in Java? **
-
-**197. What is the use of a Dictionary class? **
-
-**198. What is the default size of load factor in a HashMap collection in** **Java? **
-
-**199. What is the significance of load factor in a HashMap in Java? **
-
-**200.What are the major differences between a HashSet and a HashMap? **
-
-**201. What are the similarities between a HashSet and a HashMap in Java? **
-
-**202.What is the reason for overriding equals\(\) method? **
-
-**203.How can we synchronize the elements of a List, a Set or a Map? **
-
-**204.What is Hash Collision? How Java handles hash-collision in** **HashMap? **
-
-**205.What are the Hash Collision resolution techniques? **
-
-**206.What is the difference between Queue and Stack data structures? **
-
-**207.What is an Iterator in Java? **
-
-**208.What is the difference between Iterator and Enumeration in Java? **
-
-**209.What is the design pattern used in the implementation of Enumeration** **in Java? **
-
-**210. Which methods do we need to override to use an object as key in a** **HashMap? **
-
-**211. How will you reverse a List in Java? **
-
-**212. How will you convert an array of String objects into a List? **
-
-**213. What is the difference between peek\(\), poll\(\) and remove\(\) methods** **of Queue interface in java? **
-
-**214. What is the difference between Array and ArrayList in Java? **
-
-**215. How will you insert, delete and retrieve elements from a HashMap** **collection in Java? **
-
-**216. What are the main differences between HashMap and** **ConcurrentHashMap in Java? **
-
-**217. What is the increasing order of performance for following collection** **classes in Java? **
-
-**218. Why does Map interface not extend Collection interface in Java? **
-
-**219. What are the different ways to iterate elements of a list in Java? **
-
-**220.What is CopyOnWriteArrayList? How it is different from ArrayList** **in Java? **
-
-**221. How remove\(\) method is implemented in a HashMap? **
-
-**222.What is BlockingQueue in Java Collections? **
-
-**223.How is TreeMap class implemented in Java? **
-
-**224.What is the difference between Fail-fast and Fail-safe iterator in** **Java? **
-
-**225.How does ConcurrentHashMap work in Java? **
-
-**226.What is the importance of hashCode\(\) and equals\(\) methods? **
-
-**227.What is the contract of hashCode\(\) and equals\(\) methods in Java? **
-
-**228.What is an EnumSet in Java? **
-
-**229.What are the main Concurrent Collection classes in Java? **
-
-**230.How will you convert a Collection to SynchronizedCollection in Java? **
-
-**231. How IdentityHashMap is different from a regular Map in Java? **
-
-**232.What is the main use of IdentityHashMap? **
-
-**233.How can we improve the performance of IdentityHashMap? **
-
-**234.Is IdentityHashMap thread-safe? **
-
-**235.What is a WeakHashMap in Java? **
-
-**236.How can you make a Collection class read Only in Java? **
-
-**237.When is UnsupportedOperationException thrown in Java? **
-
-**238.Let say there is a Customer class. We add objects of Customer class** **to an ArrayList. How can we sort the Customer objects in ArrayList by** **using customer firstName attribute of Customer class? **
-
-**239.What is the difference between Synchronized Collection and** **Concurrent Collection? **
-
-**240.What is the scenario to use ConcurrentHashMap in Java? **
-
-**241. How will you create an empty Map in Java? **
-
-**242.What is the difference between remove\(\) method of Collection and** **remove\(\) method of Iterator? **
-
-**243.Between an Array and ArrayList, which one is the preferred** **collection for storing objects? **
-
-**244.Is it possible to replace Hashtable with ConcurrentHashMap in Java? **
-
-**245.How CopyOnWriteArrayList class is different from ArrayList and** **Vector classes? **
-
-**246.Why ListIterator has add\(\) method but Iterator does not have? **
-
-**247.Why do we sometime get ConcurrentModificationException during** **iteration? **
-
-**248.How will you convert a Map to a List in Java? **
-
-**249.How can we create a Map with reverse view and lookup in Java? **
-
-**250.How will you create a shallow copy of a Map? **
-
-**251. Why we cannot create a generic array in Java? **
-
-**252.What is a PriorityQueue in Java? **
-
-**253.What are the important points to remember while using Java** **Collections Framework? **
-
-**254.How can we pass a Collection as an argument to a method and ensure** **that method will not be able to modify it? **
-
-**255.Can you explain how HashMap works in Java? **
-
-**256.Can you explain how HashSet is implemented in Java? **
-
-**257.What is a NavigableMap in Java? **
-
-**258.What is the difference between descendingKeySet\(\) and** **descendingMap\(\) methods of NavigableMap? **
-
-**259.What is the advantage of NavigableMap over Map? **
-
-**260.What is the difference between headMap\(\), tailMap\(\) and subMap\(\)** **methods of NavigableMap? **
-
-**261. How will you sort objects by Natural order in a Java List? **
-
-**262.How can we get a Stream from a List in Java? **
-
-**263.Can we get a Map from a Stream in Java? **
-
-**264.What are the popular implementations of Deque in Java? **
-
-**Advanced Multi-threading**
-
-**265.What is a Thread in Java? **
-
-**266.What is the priority of a Thread and how it is used in scheduling? **
-
-**267.What is the default priority of a thread in Java? **
-
-**268.What are the three different priorities that can be set on a Thread in** **Java? **
-
-**269.What is the purpose of join\(\) method in Thread class? **
-
-**270.What is the fundamental difference between wait\(\) and sleep\(\)** **methods? **
-
-**271. Is it possible to call run\(\) method instead of start\(\) on a thread in**
-
-**Java? **
-
-**272.What is a daemon thread in Java? **
-
-**273.How can we make a regular thread Daemon thread in Java? **
-
-**274.How will you make a user thread into daemon thread if it has already** **started? **
-
-**275.Can we start a thread two times in Java? **
-
-**276.What is a Shutdown hook in Java? **
-
-**277.What is synchronization in Java? **
-
-**278.What is the purpose of Synchronized block in Java? **
-
-**279.What is static synchronization? **
-
-**280.What is a Deadlock situation? **
-
-**281. What is the meaning of concurrency? **
-
-**282.What is the main difference between process and thread? **
-
-**283.What is a process and thread in the context of Java? **
-
-**284.What is a Scheduler? **
-
-**285.What is the minimum number of Threads in a Java program? **
-
-**286.What are the properties of a Java thread? **
-
-**287.What are the different states of a Thread in Java? **
-
-**288.How will you set the priority of a thread in Java? **
-
-**289.What is the purpose of Thread Groups in Java? **
-
-**290.Why we should not stop a thread by calling its stop\(\) method? **
-
-**291. How will you create a Thread in Java? **
-
-**292.How can we stop a thread in the middle of execution in Java? **
-
-**293.How do you access the current thread in a Java program? **
-
-**294.What is Busy waiting in Multi-threading? **
-
-**295.How can we prevent busy waiting in Java? **
-
-**296.Can we use Thread.sleep\(\) method for real-time processing in Java? **
-
-**297.Can we wake up a thread that has been put to sleep by using** **Thread.sleep\(\) method? **
-
-**298.What are the two ways to check if a Thread has been interrupted? **
-
-**299.How can we make sure that Parent thread waits for termination of** **Child thread? **
-
-**300.How will you handle InterruptedException in Java? **
-
-**301. Which intrinsic lock is acquired by a synchronized method in Java? **
-
-**302.Can we mark a constructor as synchronized in Java? **
-
-**303.Can we use primitive values for intrinsic locks? **
-
-**304.Do we have re-entrant property in intrinsic locks? **
-
-**305.What is an atomic operation? **
-
-**306.Can we consider the statement i\+\+ as an atomic operation in Java? **
-
-**307.What are the Atomic operations in Java? **
-
-**308.Can you check if following code is thread-safe? **
-
-**309.What are the minimum requirements for a Deadlock situation in a** **program? **
-
-**310. How can we prevent a Deadlock? **
-
-**311. How can we detect a Deadlock situation? **
-
-**312. What is a Livelock? **
-
-**313. What is Thread starvation? **
-
-**314. How can a synchronized block cause Thread starvation in Java? **
-
-**315. What is a Race condition? **
-
-**316. What is a Fair lock in multi-threading? **
-
-**317. Which two methods of Object class can be used to implement a** **Producer Consumer scenario? **
-
-**318. How JVM determines which thread should wake up on notify\(\)? **
-
-**319. Check if following code is thread-safe for retrieving an integer value** **from a Queue? **
-
-**320.How can we check if a thread has a monitor lock on a given object? **
-
-**321. What is the use of yield\(\) method in Thread class? **
-
-**322.What is an important point to consider while passing an object from** **one thread to another thread? **
-
-**323.What are the rules for creating Immutable Objects? **
-
-**324.What is the use of ThreadLocal class? **
-
-**325.What are the scenarios suitable for using ThreadLocal class? **
-
-**326.How will you improve the performance of an application by multithreading? **
-
-**327.What is scalability in a Software program? **
-
-**328.How will you calculate the maximum speed up of an application by** **using multiple processors? **
-
-**329.What is Lock contention in multi-threading? **
-
-**330.What are the techniques to reduce Lock contention? **
-
-**331. What technique can be used in following code to reduce Lock** **contention? **
-
-**332.What is Lock splitting technique? **
-
-**333.Which technique is used in ReadWriteLock class for reducing Lock** **contention? **
-
-**334.What is Lock striping? **
-
-**335.What is a CAS operation? **
-
-**336.Which Java classes use CAS operation? **
-
-**337.Is it always possible to improve performance by object pooling in a** **multi-threading application? **
-
-**338.How can techniques used for performance improvement in a single** **thread application may degrade the performance in a multi-threading** **application? **
-
-**339.What is the relation between Executor and ExecutorService** **interface? **
-
-**340.What will happen on calling submit\(\) method of an ExecutorService** **instance whose queue is already full? **
-
-**341. What is a ScheduledExecutorService? **
-
-**342.How will you create a Thread pool in Java? **
-
-**343.What is the main difference between Runnable and Callable** **interface? **
-
-**344.What are the uses of Future interface in Java? **
-
-**345.What is the difference in concurrency in HashMap and in Hashtable? **
-
-**346.How will you create synchronized instance of List or Map Collection? **
-
-**347.What is a Semaphore in Java? **
-
-**348.What is a CountDownLatch in Java? **
-
-**349.What is the difference between CountDownLatch and CyclicBarrier? **
-
-**350.What are the scenarios suitable for using Fork/Join framework? **
-
-**351. What is the difference between RecursiveTask and RecursiveAction** **class? **
-
-**352.In Java 8, can we process stream operations with a Thread pool? **
-
-**353.What are the scenarios to use parallel stream in Java 8? **
-
-**354.How Stack and Heap work in Java multi-threading environment? **
-
-**355.How can we take Thread dump in Java? **
-
-**356.Which parameter can be used to control stack size of a thread in** **Java? **
-
-**357.There are two threads T1 and T2? How will you ensure that these** **threads run in sequence T1, T2 in Java? **
-
-**Java 8**
-
-**358.What are the new features released in Java 8? **
-
-**359.What are the main benefits of new features introduced in Java 8? **
-
-**360.What is a Lambda expression in Java 8? **
-
-**361. What are the three main parts of a Lambda expression in Java? **
-
-**362.What is the data type of a Lambda expression? **
-
-**363.What is the meaning of following lambda expression? **
-
-**364.Why did Oracle release a new version of Java like Java 8? **
-
-**365.What are the advantages of a lambda expression? **
-
-**366.What is a Functional interface in Java 8? **
-
-**367.What is a Single Abstract Method \(SAM\) interface in Java 8? **
-
-**368.How can we define a Functional interface in Java 8? **
-
-**369.Why do we need Functional interface in Java? **
-
-**370.Is it mandatory to use @FunctionalInterface annotation to define a** **Functional interface in Java 8? **
-
-**371. What are the differences between Collection and Stream API in Java** **8? **
-
-**372.What are the main uses of Stream API in Java 8? **
-
-**373.What are the differences between Intermediate and Terminal** **Operations in Java 8 Streams? **
-
-**374.What is a Spliterator in Java 8? **
-
-**375.What are the differences between Iterator and Spliterator in Java 8? **
-
-**376.What is Type Inference in Java 8? **
-
-**377.Does Java 7 support Type Inference? **
-
-**378.How does Internal Iteration work in Java 8? **
-
-**379.What are the main differences between Internal and External** **Iterator? **
-
-**380.What are the main advantages of Internal Iterator over External** **Iterator in Java 8? **
-
-**381. What are the applications in which we should use Internal Iteration? **
-
-**382.What is the main disadvantage of Internal Iteration over External** **Iteration? **
-
-**383.Can we provide implementation of a method in a Java Interface? **
-
-**384.What is a Default Method in an Interface? **
-
-**385.Why do we need Default method in a Java 8 Interface? **
-
-**386.What is the purpose of a Static method in an Interface in Java 8? **
-
-**387.What are the core ideas behind the Date/Time API of Java 8? **
-
-**388.What are the advantages of new Date and Time API in Java 8 over** **old Date API? **
-
-**389.What are the main differences between legacy Date/Time API in Java** **and Date/Time API of Java 8? **
-
-**390.How can we get duration between two dates or time in Java 8? **
-
-**391. What is the new method family introduced in Java 8 for processing of** **Arrays on multi core machines? **
-
-**392.How does Java 8 solve Diamond problem of Multiple Inheritance? **
-
-**393.What are the differences between Predicate, Supplier and Consumer** **in Java 8? **
-
-**394.Is it possible to have default method definition in an interface without** **marking it with default keyword? **
-
-**395.Can we create a class that implements two Interfaces with default** **methods of same name and signature? **
-
-**396.How Java 8 supports Multiple Inheritance? **
-
-**397.In case we create a class that extends a base class and implements an** **interface. If both base class and interface have a default method with** **same name and arguments, then which definition will be picked by JVM? **
-
-**398.If we create same method and define it in a class , in its parent class** **and in an interface implemented by the class, then definition will be** **invoked if we access it using the reference of Interface and the object of** **class? **
-
-**399.Can we access a static method of an interface by using reference of**
-
-**the interface? **
-
-**400.How can you get the name of Parameter in Java by using reflection? **
-
-**401. What is Optional in Java 8? **
-
-**402.What are the uses of Optional? **
-
-**403.Which method in Optional provides the fallback mechanism in case of** **null value? **
-
-**404.How can we get current time by using Date/Time API of Java 8? **
-
-**405.Is it possible to define a static method in an Interface? **
-
-**406.How can we analyze the dependencies in Java classes and packages? **
-
-**407.What are the new JVM arguments introduced by Java 8? **
-
-**408.What are the popular annotations introduced in Java 8? **
-
-**409.What is a StringJoiner in Java 8? **
-
-**410. What is the type of a Lambda expression in Java 8? **
-
-**411. What is the target type of a lambda expression ? **
-
-**412. What are the main differences between an interface with default** **method and an abstract class in Java 8? **
-
-**Java Tricky Questions**
-
-**413. Is there any difference between a = a \+ b and a \+= b expressions? **
-
-**414.What does the expression 1.0 / 0.0 return? Will there be any** **compilation error? **
-
-**415. Can we use multiple main methods in multiple classes? **
-
-**416. Does Java allow you to override a private or static method? **
-
-**417. What happens when you put a key object in a HashMap that is** **already present? **
-
-**418. How can you make sure that N threads can access N resources** **without deadlock? **
-
-**419. How can you determine if JVM is 32-bit or 64-bit from Java** **Program? **
-
-**420.What is the right data type to represent Money \(like Dollar/Pound\) in** **Java? **
-
-**421. How can you do multiple inheritances in Java? **
-
-**422.Is \+\+ operation thread-safe in Java? **
-
-**423.How can you access a non-static variable from the static context? **
-
-**424.Let say there is a method that throws NullPointerException in the** **superclass. Can we override it with a method that throws** **RuntimeException? **
-
-**425.How can you mark an array volatile in Java? **
-
-**426.What is a thread local variable in Java? **
-
-**427.What is the difference between sleep\(\) and wait\(\) methods in Java? **
-
-**428.Can you create an Immutable object that contains a mutable object? **
-
-**429.How can you convert an Array of bytes to String? **
-
-**430.What is difference between CyclicBarrier and CountDownLatch** **class? **
-
-**431. What is the difference between StringBuffer and StringBuilder? **
-
-**432.Which class contains clone method? Cloneable or Object class? **
-
-**433.How will you take thread dump in Java? **
-
-**434.Can you cast an int variable into a byte variable? What happens if the** **value of int is larger than byte? **
-
-**435.In Java, can we store a double value in a long variable without explicit**
-
-**casting? **
-
-**436.What will this return 5\*0.1 == 0.5? true or false? **
-
-**437.Out of an int and Integer, which one takes more memory? **
-
-**438.Can we use String in the switch case statement in Java? **
-
-**439.Can we use multiple main methods in same class? **
-
-**440.When creating an abstract class, is it a good idea to call abstract** **methods inside its constructor? **
-
-**441.How can you do constructor chaining in Java? **
-
-**442.How can we find the memory usage of JVM from Java code? **
-
-**443.What is the difference between x == y and x.equals\(y\) expressions in** **Java? **
-
-**444. **
-
-**How can you guarantee that the garbage collection takes place? **
-
-**445.What is the relation between x.hashCode\(\) method and x.equals\(y\)** **method of Object class? **
-
-**446.What is a compile time constant in Java? **
-
-**447.Explain the difference between fail-fast and fail-safe iterators? **
-
-**448. You have a character array and a String. Which one is more secure** **to store sensitive data \(like password, date of birth, etc.\)? **
-
-**449.Why do you use volatile keyword in Java? **
-
-**450.What is the difference between poll\(\) and remove\(\) methods of Queue** **in Java? **
-
-**451. Can you catch an exception thrown by another thread in Java? **
-
-**452.How do you decide which type of Inner Class – Static or Non-Static to** **use in Java? **
-
-**453.What are the different types of Classloaders in Java? **
-
-**454.What are the situations in which you choose HashSet or TreeSet? **
-
-**455.What is the use of method references in Java? **
-
-**456.Do you think Java Enums are more powerful than integer constants? **
-
-**457.Why do we use static initializers in Java? **
-
-**458.Your client is complaining that your code is throwing** **NoClassDefFoundError or NoSuchMethodError, even though you are able** **to compile your code without error and method exists in your code. What** **could be the reason behind this? **
-
-**459.How can you check if a String is a number by using regular** **expression? **
-
-**460.What is the difference between the expressions String s =**
-
-**"Temporary" and String s = new String\("Temporary "\)? Which one is** **better and more efficient? **
-
-**461. In Java, can two equal objects have the different hash code? **
-
-**462.How can we print an Array in Java? **
-
-**463.Is it ok to use random numbers in the implementation of hashcode\(\)** **method in Java? **
-
-**464.Between two types of dependency injections, constructor injection** **and setter dependency injection, which one is better? **
-
-**465.What is the difference between DOM and SAX parser in Java? **
-
-**466.Between Enumeration and Iterator, which one has better performance** **in Java? **
-
-**467.What is the difference between pass by reference and pass by value? **
-
-**468.What are the different ways to sort a collection in Java? **
-
-**469.Why Collection interface doesn’t extend Cloneable and Serializable** **interfaces? **
-
-**470.What is the difference between a process and a thread in Java? **
-
-**471. What are the benefits of using an unordered array over an ordered** **array? **
-
-**472.Between HashSet and TreeSet collections in Java, which one is** **better? **
-
-**473.When does JVM call the finalize\(\) method? **
-
-**474.When would you use Serial Garabage collector or Throughput** **Garbage collector in Java? **
-
-**475.In Java, if you set an object reference to null, will the Garbage** **Collector immediately free the memory held by that object? **
-
-**476.How can you make an Object eligible for Garbage collection in Java? **
-
-**477.When do you use Exception or Error in Java? What is the difference** **between these two? **
-
-**478.What is the advantage of PreparedStatement over Statement class in** **Java? **
-
-**479.In Java, what is the difference between throw and throws keywords? **
-
-**480.What happens to the Exception object after the exception handling is** **done? **
-
-**481. How do you find which client machine is sending request to your** **servlet in Java? **
-
-**482.What is the difference between a Cookie and a Session object in** **Java? **
-
-**483.Which protocol does Browser and Servlet use to communicate with** **each other? **
-
-**484. What is HTTP Tunneling? **
-
-**485.Why do we use JSP instead of Servlet in Java? **
-
-**486.Is empty ‘.java’ file name a valid source file name in Java? **
-
-**487.How do you implement Servlet Chaining in Java? **
-
-**488.Can you instantiate this class? **
-
-**489.Why Java does not support operator overloading? **
-
-**490.Why String class is Immutable or Final in Java? **
-
-**491. What is the difference between sendRedirect and forward methods? **
-
-**492.How do you fix your Serializable class, if it contains a member that is** **not serializable? **
-
-**493.What is the use of run time polymorphism in Java? **
-
-**494.What are the rules of method overloading and method overriding in** **Java? **
-
-**495.What is the difference between a class and an object in Java? **
-
-**496.Can we create an abstract class that extends another abstract class? **
-
-**497.Why do you use Upcasting or Downcasting in Java ? **
-
-**498.What is the reason to organize classes and interfaces in a package in** **Java? **
-
-**499.What is information hiding in Java? **
-
-**500.Why does Java provide default constructor? **
-
-**501. What is the difference between super and this keywords in Java? **
-
-**502.What is the advantage of using Unicode characters in Java? **
-
-**503.Can you override an overloaded method in Java? **
-
-**504.How can we change the heap size of a JVM? **
-
-**505.Why should you define a default constructor in Java? **
-
-**506.How will you make an Object Immutable in Java? **
-
-**507.How can you prevent SQL Injection in Java Code? **
-
-**508.Which two methods should be always implemented by HashMap key** **Object? **
-
-**509.Why an Object used as Key in HashMap should be Immutable? **
-
-**510. How can we share an object between multiple threads? **
-
-**511. How can you determine if your program has a deadlock? **
-
-**JSP**
-
-**512. What are the implicit objects in JSP? **
-
-**513. How will you extend JSP code? **
-
-**514. How will you handle runtime exceptions in JSP? **
-
-**515. How will you prevent multiple submits of a page that come by clicking** **refresh button multiple times? **
-
-**516. How will you implement a thread safe JSP page? **
-
-**517. How will you include a static file in a JSP page? **
-
-**518. What are the lifecycle methods of a JSP? **
-
-**519. What are the advantages of using JSP in web architecture? **
-
-**520.What is the advantage of JSP over Javascript? **
-
-**521. What is the Lifecycle of JSP? **
-
-**522.What is a JSP expression? **
-
-**523.What are the different types of directive tags in JSP? **
-
-**524.What is session attribute in JSP? **
-
-**525.What are the different scopes of a JSP object? **
-
-**526.What is pageContext in JSP? **
-
-**527.What is the use of jsp:useBean in JSP? **
-
-**528.What is difference between include Directive and include Action of** **JSP? **
-
-**529.How will you use other Java files of your application in JSP code? **
-
-**530.How will you use an existing class and extend it to use in the JSP? **
-
-**531. Why \_jspService method starts with \_ symbol in JSP? **
-
-**532.Why do we use tag library in JSP? **
-
-**533.What is the different type of tag library groups in JSTL? **
-
-**534.How will you pass information from one JSP to another JSP? **
-
-**535.How will you call a stored procedure from JSP? **
-
-**536.Can we override \_jspService\(\) method in JSP? **
-
-**537.What is a directive in JSP? **
-
-**538.How will you implement Session tracking in JSP? **
-
-**539.How do you debug code in JSP? **
-
-**540.How will you implement error page in JSP? **
-
-**541. How will you send XML data from a JSP? **
-
-**542.What happens when we request for a JSP page from web browser? **
-
-**543.How will you implement Auto Refresh of page in JSP? **
-
-**544.What are the important status codes in HTTP? **
-
-**545.What is the meaning of Accept attribute in HTTP header? **
-
-**546.What is the difference between Expression and Scriptlet in JSP? **
-
-**547.How will you delete a Cookie in JSP? **
-
-**548.How will you use a Cookie in JSP? **
-
-**549.What is the main difference between a Session and Cookie in JSP? **
-
-**550.How will you prevent creation of session in JSP? **
-
-**551. What is an output comment in JSP? **
-
-**552.How will you prevent caching of HTML output by web browser in** **JSP? **
-
-**553.How will you redirect request to another page in browser in JSP**
-
-**code? **
-
-**554.What is the difference between sendRedirect and forward in a JSP? **
-
-**555.What is the use of config implicit object in JSP? **
-
-**556.What is the difference between init-param and context-param? **
-
-**557.What is the purpose of RequestDispatcher? **
-
-**558.How can be read data from a Form in a JSP? **
-
-**559.What is a filter in JSP? **
-
-**560.How can you upload a large file in JSP? **
-
-**561. In which scenario, Container initializes multiple JSP/Servlet objects? **
-
-**Java Design Patterns**
-
-**562.When will you use Strategy Design Pattern in Java? **
-
-**563.What is Observer design pattern? **
-
-**564.What are the examples of Observer design pattern in JDK? **
-
-**565.How Strategy design pattern is different from State design pattern in** **Java? **
-
-**566.Can you explain Decorator design pattern with an example in Java? **
-
-**567.What is a good scenario for using Composite design Pattern in Java? **
-
-**568.Have you used Singleton design pattern in your Java project? **
-
-**569.What are the main uses of Singleton design pattern in Java project? **
-
-**570.Why java.lang.Runtime is a Singleton in Java? **
-
-**571. What is the way to implement a thread-safe Singleton design pattern** **in Java? **
-
-**572.What are the examples of Singleton design pattern in JDK? **
-
-**573.What is Template Method design pattern in Java? **
-
-**574.What are the examples of Template method design pattern in JDK? **
-
-**575.Can you tell some examples of Factory Method design pattern** **implementation in Java? **
-
-**576.What is the benefit we get by using static factory method to create** **object? **
-
-**577.What are the examples of Builder design pattern in JDK? **
-
-**578.What are the examples of Abstract Factory design pattern in JDK? **
-
-**579.What are the examples of Decorator design pattern in JDK? **
-
-**580.What are the examples of Proxy design pattern in JDK? **
-
-**581. What are the examples of Chain of Responsibility design pattern in** **JDK? **
-
-**582.What are the main uses of Command design pattern? **
-
-**583.What are the examples of Command design pattern in JDK? **
-
-**584.What are the examples of Interpreter design pattern in JDK? **
-
-**585.What are the examples of Mediator design pattern in JDK? **
-
-**586.What are the examples of Strategy design pattern in JDK? **
-
-**587.What are the examples of Visitor design pattern in JDK? **
-
-**588.How Decorator design pattern is different from Proxy pattern? **
-
-**589.What are the different scenarios to use Setter and Constructor based** **injection in Dependency Injection \(DI\) design pattern? **
-
-**590.What are the different scenarios for using Proxy design pattern? **
-
-**591. What is the main difference between Adapter and Proxy design** **pattern? **
-
-**592.When will you use Adapter design pattern in Java? **
-
-**593.What are the examples of Adapter design pattern in JDK? **
-
-**594.What is the difference between Factory and Abstract Factory design** **pattern? **
-
-**595.What is Open/closed design principle in Software engineering? **
-
-**596.What is SOLID design principle? **
-
-**597.What is Builder design pattern? **
-
-**598.What are the different categories of Design Patterns used in Object** **Oriented Design? **
-
-**599.What is the design pattern suitable to access elements of a** **Collection? **
-
-**600.How can we implement Producer Consumer design pattern in Java? **
-
-**601. What design pattern is suitable to add new features to an existing** **object? **
-
-**602.Which design pattern can be used when to decouple abstraction from** **the implementation? **
-
-**603.Which is the design pattern used in Android applications? **
-
-**604.How can we prevent users from creating more than one instance of** **singleton object by using clone\(\) method? **
-
-**605.What is the use of Interceptor design pattern? **
-
-**606.What are the Architectural patterns that you have used? **
-
-**607.What are the popular uses of Façade design pattern? **
-
-**608.What is the difference between Builder design pattern and Factory** **design pattern? **
-
-**609.What is Memento design pattern? **
-
-**610. What is an AntiPattern? **
-
-**611. What is a Data Access Object \(DAO\) design pattern? **
-
-**Spring Questions**
-
-**612. What is Spring framework? **
-
-**613. What are the benefits of Spring framework in software development? **
-
-**614. What are the modules in Core Container of Spring framework? **
-
-**615. What are the modules in Data Access/Integration layer of Spring** **framework? **
-
-**616. What are the modules in Web layer of Spring framework? **
-
-**617. What is the main use of Core Container module in Spring framework? **
-
-**618. What kind of testing can be done in Spring Test Module? **
-
-**619. What is the use of BeanFactory in Spring framework? **
-
-**620.Which is the most popular implementation of BeanFactory in Spring? **
-
-**621. What is XMLBeanFactory in Spring framework? **
-
-**622.What are the uses of AOP module in Spring framework? **
-
-**623.What are the benefits of JDBC abstraction layer module in Spring** **framework? **
-
-**624.How does Spring support Object Relational Mapping \(ORM\)** **integration? **
-
-**625.How does Web module work in Spring framework? **
-
-**626.What are the main uses of Spring MVC module? **
-
-**627.What is the purpose of Spring configuration file? **
-
-**628.What is the purpose of Spring IoC container? **
-
-**629.What is the main benefit of Inversion of Control \(IOC\) principle? **
-
-**630.Does IOC containers support Eager Instantiation or Lazy loading of** **beans? **
-
-**631. What are the benefits of ApplicationContext in Spring? **
-
-**632.How will you implement ApplicationContext in Spring framework? **
-
-**633.Explain the difference between ApplicationContext and BeanFactory** **in Spring? **
-
-**634.Between ApplicationContext and BeanFactory which one is** **preferable to use in Spring? **
-
-**635.What are the main components of a typical Spring based application? **
-
-**636.Explain Dependency Injection \(DI\) concept in Spring framework? **
-
-**637.What are the different roles in Dependency Injection \(DI\)? **
-
-**638.Spring framework provides what kinds of Dependency Injection** **mechanism? **
-
-**639.In Spring framework, which Dependency Injection is better? **
-
-**Constructor-based DI or Setter-based DI? **
-
-**640.What are the advantages of Dependency Injection \(DI\)? **
-
-**641. What are the disadvantages of Dependency Injection \(DI\)? **
-
-**642.What is a Spring Bean? **
-
-**643.What does the definition of a Spring Bean contain? **
-
-**644.What are the different ways to provide configuration metadata to a** **Spring Container? **
-
-**645.What are the different scopes of a Bean supported by Spring? **
-
-**646.How will you define the scope of a bean in Spring? **
-
-**647.Is it safe to assume that a Singleton bean is thread safe in Spring** **Framework? **
-
-**648.What are the design-patterns used in Spring framework? **
-
-**649.What is the lifecycle of a Bean in Spring framework? **
-
-**650.What are the two main groups of methods in a Bean’s lifecycle? **
-
-**651. Can we override main lifecycle methods of a Bean in Spring? **
-
-**652.What are Inner beans in Spring? **
-
-**653.How can we inject a Java Collection in Spring framework? **
-
-**654.What is Bean wiring in Spring? **
-
-**655.What is Autowiring in Spring? **
-
-**656.What are the different modes of Autowiring supported by Spring? **
-
-**657.What are the cases in which Autowiring may not work in Spring** **framework? **
-
-**658.Is it allowed to inject null or empty String values in Spring? **
-
-**659.What is a Java-based Configuration in Spring? **
-
-**660.What is the purpose of @Configuration annotation? **
-
-**661. What is the difference between Full @Configuration and 'lite' **
-
-**@Beans mode? **
-
-**662.In Spring framework, what is Annotation-based container** **configuration? **
-
-**663.How will you switch on Annotation based wiring in Spring? **
-
-**664.What is @Autowired annotation? **
-
-**665.What is @Required annotation? **
-
-**666.What are the two ways to enable**
-
-**RequiredAnnotationBeanPostProcessor in Spring? **
-
-**667.What is @Qualifier annotation in Spring? **
-
-**668.How Spring framework makes JDBC coding easier for developers? **
-
-**669.What is the purpose of JdbcTemplate? **
-
-**670.What are the benefits of using Spring DAO? **
-
-**671. What are the different ways to use Hibernate in Spring? **
-
-**672.What types of Object Relational Mapping \(ORM\) are supported by** **Spring? **
-
-**673.How will you integrate Spring and Hibernate by using** **HibernateDaoSupport? **
-
-**674.What are the different types of the Transaction Management** **supported by Spring framework? **
-
-**675.What are the benefits provided by Spring Framework’s Transaction** **Management? **
-
-**676.Given a choice between declarative and programmatic Transaction** **Management, which method will you choose? **
-
-**677.What is Aspect Oriented Programming \(AOP\)** **678.What is an Aspect in Spring? **
-
-**679.In Spring AOP, what is the main difference between a Concern and a** **Cross cutting concern? **
-
-**680.What is a Joinpoint in Spring AOP? **
-
-**681. What is an Advice in Spring AOP? **
-
-**682.What are the different types of Advice in Spring AOP? **
-
-**683.What is a Pointcut in Spring AOP? **
-
-**684.What is an Introduction in Spring AOP? **
-
-**685.What is a Target object in Spring AOP? **
-
-**686.What is a Proxy in Spring AOP? **
-
-**687.What are the different types of AutoProxy creators in Spring? **
-
-**688.What is Weaving in Spring AOP? **
-
-**689.In Spring AOP, Weaving is done at compile time or run time? **
-
-**690.What is XML Schema-based Aspect implementation? **
-
-**691. What is Annotation-based aspect implementation in Spring AOP? **
-
-**692.How does Spring MVC framework work? **
-
-**693.What is DispatcherServlet? **
-
-**694.Can we have more than one DispatcherServlet in Spring MVC? **
-
-**695.What is WebApplicationContext in Spring MVC? **
-
-**696.What is Controller in Spring MVC framework? **
-
-**697.What is @RequestMapping annotation in Spring? **
-
-**698.What are the main features of Spring MVC? **
-
-**699.What is the difference between a Singleton and Prototype bean in** **Spring? **
-
-**700.How will you decide which scope- Prototype or Singleton to use for a** **bean in Spring? **
-
-**701. What is the difference between Setter and Constructor based** **Dependency Injection \(DI\) in Spring framework? **
-
-**702.What are the drawbacks of Setter based Dependency Injection \(DI\) in** **Spring? **
-
-**703.What are the differences between Dependency Injection \(DI\) and** **Factory Pattern? **
-
-**704.In Spring framework, what is the difference between** **FileSystemResource and ClassPathResource? **
-
-**705.Name some popular Spring framework annotations that you use in** **your project? **
-
-**706.How can you upload a file in Spring MVC Application? **
-
-**707.What are the different types of events provided by Spring** **framework? **
-
-**708.What is the difference between DispatcherServlet and** **ContextLoaderListener in Spring? **
-
-**709.How will you handle exceptions in Spring MVC Framework? **
-
-**710. What are the best practices of Spring Framework? **
-
-**711. What is Spring Boot? **
-
-**Hibernate**
-
-**712. What is Hibernate framework? **
-
-**713. What is an Object Relational Mapping \(ORM\)? **
-
-**714. What is the purpose of Configuration Interface in Hibernate? **
-
-**715. What is Object Relational Impedance Mismatch? **
-
-**716. What are the main problems of Object Relational Impedance** **Mismatch? **
-
-**717. What are the key characteristics of Hibernate? **
-
-**718. Can you tell us about the core interfaces of Hibernate framework? **
-
-**719. How will you map the columns of a DB table to the properties of a** **Java class in Hibernate? **
-
-**720.Does Hibernate make it mandatory for a mapping file to have**
-
-**.hbm.xml extension? **
-
-**721. What are the steps for creating a SessionFactory in Hibernate? **
-
-**722.Why do we use POJO in Hibernate? **
-
-**723.What is Hibernate Query Language \(HQL\)? **
-
-**724.How will you call a stored procedure in Hibernate? **
-
-**725.What is Criteria API in Hibernate? **
-
-**726.Why do we use HibernateTemplate? **
-
-**727.How can you see SQL code generated by Hibernate on console? **
-
-**728.What are the different types of collections supported by Hibernate? **
-
-**729.What is the difference between session.save\(\) and** **session.saveOrUpdate\(\) methods in Hibernate? **
-
-**730.What are the advantages of Hibernate framework over JDBC? **
-
-**731. How can we get statistics of a SessionFactory in Hibernate? **
-
-**732.What is the Transient state of an object in Hibernate? **
-
-**733.What is the Detached state of an object in Hibernate? **
-
-**734.What is the use of Dirty Checking in Hibernate? **
-
-**735.What is the purpose of Callback interface in Hibernate? **
-
-**736.What are the different ORM levels in Hibernate? **
-
-**737.What are the different ways to configure a Hibernate application? **
-
-**738.What is Query Cache in Hibernate? **
-
-**739.What are the different types of Association mappings supported by** **Hibernate? **
-
-**740.What are the different types of Unidirectional Association mappings** **in Hibernate? **
-
-**741. What is Unit of Work design pattern? **
-
-**742.In Hibernate, how can an object go in Detached state? **
-
-**743.How will you order the results returned by a Criteria in Hibernate? **
-
-**744.How does Example criterion work in Hibernate? **
-
-**745.How does Transaction management work in Hibernate? **
-
-**746.How can we mark an entity/collection as immutable in Hibernate? **
-
-**747.What are the different options to retrieve an object from database in** **Hibernate? **
-
-**748.How can we auto-generate primary key in Hibernate? **
-
-**749.How will you re-attach an object in Detached state in Hibernate? **
-
-**750.What is the first level of cache in Hibernate? **
-
-**751. What are the different second level caches available in Hibernate? **
-
-**752.Which is the default transaction factory in Hibernate? **
-
-**753.What are the options to disable second level cache in Hibernate? **
-
-**754.What are the different fetching strategies in Hibernate? **
-
-**755.What is the difference between Immediate fetching and Lazy** **collection fetching? **
-
-**756.What is ‘Extra lazy fetching’ in Hibernate? **
-
-**757.How can we check is a collection is initialized or not under Lazy** **Initialization strategy? **
-
-**758.What are the different strategies for cache mapping in Hibernate? **
-
-**759.What is the difference between a Set and a Bag in Hibernate? **
-
-**760.How can we monitor the performance of Hibernate in an application? **
-
-**761. How can we check if an Object is in Persistent, Detached or** **Transient state in Hibernate? **
-
-**762.What is ‘the inverse side of association’ in a mapping? **
-
-**763.What is ORM metadata? **
-
-**764.What is the difference between load\(\) and get\(\) method in Hibernate? **
-
-**765.When should we use get\(\) method or load\(\) method in Hibernate? **
-
-**766.What is a derived property in Hibernate? **
-
-**767.How can we use Named Query in Hibernate? **
-
-**768.What are the two locking strategies in Hibernate? **
-
-**769.What is the use of version number in Hibernate? **
-
-**770.What is the use of session.lock\(\) method in Hibernate? **
-
-**771. What inheritance mapping strategies are supported by Hibernate? **
-
-**Maven**
-
-**772.What is Maven? **
-
-**773.What are the main features of Maven? **
-
-**774.What areas of a Project can you manage by using Maven? **
-
-**775.What are the main advantages of Maven? **
-
-**776.Why do we say “Maven uses convention over configuration”? **
-
-**777.What are the responsibilities of a Build tool like Maven? **
-
-**778.What are the differences between Ant and Maven? **
-
-**779.What is MOJO in Maven? **
-
-**780.What is a Repository in Maven? **
-
-**781. What are the different types of repositories in Maven? **
-
-**782.What is a local repository in Maven? **
-
-**783.What is a central repository in Maven? **
-
-**784.What is a Remote repository in Maven? **
-
-**785.Why we should not store jars in CVS or any other version control** **system instead of Maven repository? **
-
-**786.Can anyone upload JARS or artifacts to Central Repository? **
-
-**787.What is a POM? **
-
-**788.What is Super POM? **
-
-**789.What are the main required elements in POM file? **
-
-**790.What are the phases in Build lifecycle in Maven? **
-
-**791. What command will you use to package your Maven project? **
-
-**792.What is the format of fully qualified artifact name of a Maven** **project? **
-
-**793.What is an Archetype in Maven? **
-
-**794.What is the command in Maven to generate an Archetype? **
-
-**795.What are the three main build lifecycles of Maven? **
-
-**796.What are the main uses of a Maven plugin? **
-
-**797.How will you find the version of a plugin being used? **
-
-**798.What are the different types of profile in Maven? Where will you** **define these profiles? **
-
-**799.What are the different setting files in Maven? Where will you find** **these files? **
-
-**800.What are the main elements we can find in settings.xml? **
-
-**801. How will you check the version of Maven in your system? **
-
-**802.How will you verify if Maven is installed on Windows? **
-
-**803.What is a Maven artifact? **
-
-**804.What are the different dependency scopes in Maven? **
-
-**805.How can we exclude a dependency in Maven? **
-
-**806.How Maven searches for JAR corresponding to a dependency? **
-
-**807.What is a transitive dependency in Maven? **
-
-**808.What are Excluded dependencies in Maven? **
-
-**809.What are Optional dependencies in Maven? **
-
-**810. Where will you find the class files after compiling a Maven project** **successfully? **
-
-**811. What are the default locations for source, test and build directories in** **Maven? **
-
-**812. What is the result of jar:jar goal in Maven? **
-
-**813. How can we get the debug or error messages from the execution of** **Maven? **
-
-**814. What is the difference between a Release version and SNAPSHOT**
-
-**version in Maven? **
-
-**815. How will you run test classes in Maven? **
-
-**816. Sometimes Maven compiles the test classes but doesn't run them? **
-
-**What could be the reason for it? **
-
-**817. How can we skip the running of tests in Maven? **
-
-**818. Can we create our own directory structure for a project in Maven? **
-
-**819. What are the differences between Gradle and Maven? **
-
-**820.What is the difference between Inheritance and Multi-module in** **Maven? **
-
-**821. What is Build portability in Maven? **
-
-**GIT**
-
-**822.How can we see n most recent commits in GIT? **
-
-**823.How can we know if a branch is already merged into master in GIT? **
-
-**824.What is the purpose of git stash drop? **
-
-**825.What is the HEAD in GIT? **
-
-**826.What is the most popular branching strategy in GIT? **
-
-**827.What is SubGit? **
-
-**828.What is the use of git instaweb? **
-
-**829.What are git hooks? **
-
-**830.What is GIT? **
-
-**831. What is a repository in GIT? **
-
-**832.What are the main benefits of GIT? **
-
-**833.What are the disadvantages of GIT? **
-
-**834.What are the main differences between GIT and SVN? **
-
-**835.How will you start GIT for your project? **
-
-**836.What is git clone in GIT? **
-
-**837.How will you create a repository in GIT? **
-
-**838.What are the different ways to start work in GIT? **
-
-**839.GIT is written in which language? **
-
-**840.What does ‘git pull’ command in GIT do internally? **
-
-**841. What does ‘git push’ command in GIT do internally? **
-
-**842.What is git stash? **
-
-**843.What is the meaning of ‘stage’ in GIT? **
-
-**844. What is the purpose of git config command? **
-
-**845.How can we see the configuration settings of GIT installation? **
-
-**846.How will you write a message with commit command in GIT? **
-
-**847.What is stored inside a commit object in GIT? **
-
-**848.How many heads can you create in a GIT repository? **
-
-**849.Why do we create branches in GIT? **
-
-**850.What are the different kinds of branches that can be created in GIT? **
-
-**851. How will you create a new branch in GIT? **
-
-**852.How will you add a new feature to the main branch? **
-
-**853.What is a pull request in GIT? **
-
-**854.What is merge conflict in GIT? **
-
-**855.How can we resolve a merge conflict in GIT? **
-
-**856.What command will you use to delete a branch? **
-
-**857.What command will you use to delete a branch that has unmerged** **changes? **
-
-**858.What is the alternative command to merging in GIT? **
-
-**859.What is Rebasing in GIT? **
-
-**860.What is the ‘Golden Rule of Rebasing’ in GIT? **
-
-**861. Why do we use Interactive Rebasing in place of Auto Rebasing? **
-
-**862.What is the command for Rebasing in Git? **
-
-**863.What is the main difference between git clone and git remote? **
-
-**864.What is GIT version control? **
-
-**865.What GUI do you use for working on GIT? **
-
-**866.What is the use of git diff command in GIT? **
-
-**867.What is git rerere? **
-
-**868.What are the three most popular version of git diff command? **
-
-**869.What is the use of git status command? **
-
-**870.What is the main difference between git diff and git status? **
-
-**871. What is the use of git rm command in GIT? **
-
-**872.What is the command to apply a stash? **
-
-**873.Why do we use git log command? **
-
-**874.Why do we need git add command in GIT? **
-
-**875.Why do we use git reset command? **
-
-**876.What does a commit object contain? **
-
-**877.How can we convert git log messages to a different format? **
-
-**878.What are the programming languages in which git hooks can be** **written? **
-
-**879.What is a commit message in GIT? **
-
-**880.How GIT protects the code in a repository? **
-
-**881. How GIT provides flexibility in version control? **
-
-**882.How can we change a commit message in GIT? **
-
-**883.Why is it advisable to create an additional commit instead of amending** **an existing commit? **
-
-**884.What is a bare repository in GIT? **
-
-**885.How do we put a local repository on GitHub server? **
-
-**886.How will you delete a branch in GIT? **
-
-**887.How can we set up a Git repository to run code sanity checks and** **UAT tests just before a commit? **
-
-**888.How can we revert a commit that was pushed earlier and is public** **now? **
-
-**889.In GIT, how will you compress last n commits into a single commit? **
-
-**890.How will you switch from one branch to a new branch in GIT? **
-
-**891. How can we clean unwanted files from our working directory in GIT? **
-
-**892.What is the purpose of git tag command? **
-
-**893.What is cherry-pick in GIT? **
-
-**894.What is shortlog in GIT? **
-
-**895.How can you find the names of files that were changed in a specific** **commit? **
-
-**896.How can we attach an automated script to run on the event of a new** **commit by push command? **
-
-**897.What is the difference between pre-receive, update and post-receive** **hooks in GIT? **
-
-**898.Do we have to store Scripts for GIT hooks within same repository? **
-
-**899.How can we determine the commit that is the source of a bug in GIT? **
-
-**900.How can we see differences between two commits in GIT? **
-
-**901. What are the different ways to identify a commit in GIT? **
-
-**902.When we run git branch <branchname>, how does GIT know the** **SHA-1 of the last commit? **
-
-**903.What are the different types of Tags you can create in GIT? **
-
-**904.How can we rename a remote repository? **
-
-**905.Some people use git checkout and some use git co for checkout. How** **is that possible? **
-
-**906.How can we see the last commit on each of our branch in GIT? **
-
-**907.Is origin a special branch in GIT? **
-
-**908.How can we configure GIT to not ask for password every time? **
-
-**909.What are the four major protocols used by GIT for data transfer? **
-
-**910. What is GIT protocol? **
-
-**911. How can we work on a project where we do not have push access? **
-
-**912. What is git grep? **
-
-**913. How can your reorder commits in GIT? **
-
-**914. How will you split a commit into multiple commits? **
-
-**915. What is filter-branch in GIT? **
-
-**916. What are the three main trees maintained by GIT? **
-
-**917. What are the three main steps of working GIT? **
-
-**918. What are ours and theirs merge options in GIT? **
-
-**919. How can we ignore merge conflicts due to Whitespace? **
-
-**920.What is git blame? **
-
-**921. What is a submodule in GIT? **
-
-**AWS**
-
-**922.What do you know about AWS Region? **
-
-**923.What are the important components of IAM? **
-
-**924.What are the important points about AWS IAM? **
-
-**925.What are the important features of Amazon S3? **
-
-**926.What is the scale of durability in Amazon S3? **
-
-**927.What are the Consistency levels supported by Amazon S3? **
-
-**928.What are the different tiers in Amazon S3 storage? **
-
-**929.How will you upload a file greater than 100 megabytes in Amazon S3? **
-
-**930.What happens to an Object when we delete it from Amazon S3? **
-
-**931. What is the use of Amazon Glacier? **
-
-**932.Can we disable versioning on a version-enabled bucket in Amazon S3? **
-
-**933.What are the use cases of Cross Region Replication Amazon S3? **
-
-**934.Can we do Cross Region replication in Amazon S3 without enabling** **versioning on a bucket? **
-
-**935.What are the different types of actions in Object Lifecycle** **Management in Amazon S3? **
-
-**936.How do we get higher performance in our application by using** **Amazon CloudFront? **
-
-**937.What is the mechanism behind Regional Edge Cache in Amazon** **CloudFront? **
-
-**938.What are the benefits of Streaming content? **
-
-**939.What is Lambda@Edge in AWS? **
-
-**940.What are the different types of events triggered by Amazon** **CloudFront? **
-
-**941. What is Geo Targeting in Amazon CloudFront? **
-
-**942.What are the main features of Amazon CloudFront? **
-
-**943.What are the security mechanisms available in Amazon S3? **
-
-**Cloud Computing**
-
-**944.What are the benefits of Cloud Computing? **
-
-**945.What is On-demand computing in Cloud Computing? **
-
-**946.What are the different layers of Cloud computing? **
-
-**947.What resources are provided by Infrastructure as a Service \(IAAS\)** **provider? **
-
-**948.What is the benefit of Platform as a Service? **
-
-**949.What are the main advantages of PaaS? **
-
-**950.What is the main disadvantage of PaaS? **
-
-**951. What are the different deployment models in Cloud computing? **
-
-**952.What is the difference between Scalability and Elasticity? **
-
-**953.What is Software as a Service? **
-
-**954.What are the different types of Datacenters in Cloud computing? **
-
-**955.Explain the various modes of Software as a Service \(SaaS\) cloud** **environment? **
-
-**956.What are the important things to care about in Security in a cloud** **environment? **
-
-**957.Why do we use API in cloud computing environment? **
-
-**958.What are the different areas of Security Management in cloud? **
-
-**959.What are the main cost factors of cloud based data center? **
-
-**960.How can we measure the cloud-based services? **
-
-**961. How a traditional datacenter is different from a cloud environment? **
-
-**962.How will you optimize availability of your application in a Cloud** **environment? **
-
-**963.What are the requirements for implementing IaaS strategy in Cloud? **
-
-**DOCKER**
-
-**964.What is Docker? **
-
-**965.What is the difference between Docker image and Docker container? **
-
-**966.How will you remove an image from Docker? **
-
-**967.How is a Docker container different from a hypervisor? **
-
-**968.Can we write compose file in json file instead of yaml? **
-
-**969.Can we run multiple apps on one server with Docker? **
-
-**970.What are the common use cases of Docker? **
-
-**971. What are the main features of Docker-compose? **
-
-**972.What is the most popular use of Docker? **
-
-**973.What is the role of open source development in the popularity of** **Docker? **
-
-**UNIX Shell**
-
-**974.How will you remove all files in current directory? Including the files** **that are two levels down in a sub-directory. **
-
-**975.What is the difference between the –v and –x options in Bash shell** **scripts? **
-
-**976.What is a Filter in Unix command? **
-
-**977.What is Kernel in Unix operating system? **
-
-**978.What is a Shell in Unix OS? **
-
-**979.What are the different shells in Unix that you know about? **
-
-**980.What is the first character of the output in ls –l command ? **
-
-**981. What is the difference between Multi-tasking and Multi-user** **environment? **
-
-**982.What is Command Substitution in Unix? **
-
-**983.What is an Inode in Unix? **
-
-**984.What is the difference between absolute path and relative path in** **Unix file system? **
-
-**985.What are the main responsibilities of a Unix Shell? **
-
-**986.What is a Shell variable? **
-
-**Microservices**
-
-**987.What is a Microservice? **
-
-**988.What are the benefits of Microservices architecture? **
-
-**989.What is the role of architect in Microservices architecture? **
-
-**990.What is the advantage of Microservices architecture over Service** **Oriented Architecture \(SOA\)? **
-
-**991. Is it a good idea to provide a Tailored Service Template for** **Microservices development in an organization? **
-
-**992.What are the disadvantages of using Shared libraries approach to** **decompose a monolith application? **
-
-**993.What are the characteristics of a Good Microservice? **
-
-**994.What is Bounded Context? **
-
-**995.What are the points to remember during integration of** **Microservices? **
-
-**996.Is it a good idea for Microservices to share a common database? **
-
-**997.What is the preferred type of communication between Microservices? **
-
-**Synchronous or Asynchronous? **
-
-**998.What is the difference between Orchestration and Choreography in** **Microservices architecture? **
-
-**999.What are the issues in using REST over HTTP for Microservices? **
-
-**1000. **
-
-**Can we create Microservices as State Machines? **
+    Java Basics
+    
+    1. What is the difference between JDK and JRE? 
+    
+    2. What is Java Virtual Machine \(JVM\)? 
+    
+    3. What are the different types of memory areas allocated by JVM? 
+    
+    4. What is JIT compiler? 
+    
+    5. How Java platform is different from other platforms? 
+    
+    6. Why people say that Java is 'write once and run anywhere' language? 
+    
+    7. How does ClassLoader work in Java? 
+    
+    8. Do you think ‘main’ used for main method is a keyword in Java? 
+    
+    9. Can we write main method as public void static instead of public static void? 
+    
+    10. In Java, if we do not specify any value for local variables, then what will be the default value of the local variables? 
+    
+    11. Let say, we run a java class without passing any arguments. What will be the value of String array of arguments in Main method? 
+    
+    12. What is the difference between byte and char data types in Java? 
+    
+    OOPS
+    
+    13. What are the main principles of Object Oriented Programming? 
+    
+    14. What is the difference between Object Oriented Programming language and Object Based Programming language? 
+    
+    15. In Java what is the default value of an object reference defined as an
+    
+    instance variable in an Object? 
+    
+    16. Why do we need constructor in Java? 
+    
+    17. Why do we need default constructor in Java classes? 
+    
+    18. What is the value returned by Constructor in Java? 
+    
+    19. Can we inherit a Constructor? 
+    
+    20. Why constructors cannot be final, static, or abstract in Java? 
+    
+    Inheritance
+    
+    21. What is the purpose of ‘this’ keyword in java? 
+    
+    22. Explain the concept of Inheritance? 
+    
+    23. Which class in Java is superclass of every other class? 
+    
+    24. Why Java does not support multiple inheritance? 
+    
+    25. In OOPS, what is meant by composition? 
+    
+    26. How aggregation and composition are different concepts? 
+    
+    27. Why there are no pointers in Java? 
+    
+    28. If there are no pointers in Java, then why do we get NullPointerException? 
+    
+    29. What is the purpose of ‘super’ keyword in java? 
+    
+    30. Is it possible to use this\(\) and super\(\) both in same constructor? 
+    
+    31. What is the meaning of object cloning in Java? 
+    
+    Static
+    
+    32. In Java, why do we use static variable? 
+    
+    33. Why it is not a good practice to create static variables in Java? 
+    
+    34. What is the purpose of static method in Java? 
+    
+    35. Why do we mark main method as static in Java? 
+    
+    36. In what scenario do we use a static block? 
+    
+    37. Is it possible to execute a program without defining a main\(\) method? 
+    
+    38. What happens when static modifier is not mentioned in the signature of main method? 
+    
+    39. What is the difference between static method and instance method in Java? 
+    
+    Method Overloading and Overriding
+    
+    40. What is the other name of Method Overloading? 
+    
+    41. How will you implement method overloading in Java? 
+    
+    42. What kinds of argument variations are allowed in Method Overloading? 
+    
+    43. Why it is not possible to do method overloading by changing return type of method in java? 
+    
+    44. Is it allowed to overload main\(\) method in Java? 
+    
+    45. How do we implement method overriding in Java? 
+    
+    46. Are we allowed to override a static method in Java? 
+    
+    47. Why Java does not allow overriding a static method? 
+    
+    48. Is it allowed to override an overloaded method? 
+    
+    49. What is the difference between method overloading and method overriding in Java? 
+    
+    50. Does Java allow virtual functions? 
+    
+    51. What is meant by covariant return type in Java? 
+    
+    Polymorphism
+    
+    52. What is Runtime Polymorphism? 
+    
+    53. Is it possible to achieve Runtime Polymorphism by data members in Java? 
+    
+    54. Explain the difference between static and dynamic binding? 
+    
+    Abstraction
+    
+    55. What is Abstraction in Object Oriented programming? 
+    
+    56. How is Abstraction different from Encapsulation? 
+    
+    57. What is an abstract class in Java? 
+    
+    58. Is it allowed to mark a method abstract method without marking the class abstract? 
+    
+    59. Is it allowed to mark a method abstract as well as final? 
+    
+    60. Can we instantiate an abstract class in Java? 
+    
+    61. What is an interface in Java? 
+    
+    62. Is it allowed to mark an interface method as static? 
+    
+    63. Why an Interface cannot be marked as final in Java? 
+    
+    64. What is a marker interface? 
+    
+    65. What can we use instead of Marker interface? 
+    
+    66. How Annotations are better than Marker Interfaces? 
+    
+    67. What is the difference between abstract class and interface in Java? 
+    
+    68. Does Java allow us to use private and protected modifiers for variables in interfaces? 
+    
+    69. How can we cast to an object reference to an interface reference? 
+    
+    Final
+    
+    70. How can you change the value of a final variable in Java? 
+    
+    71. Can a class be marked final in Java? 
+    
+    72. How can we create a final method in Java? 
+    
+    73. How can we prohibit inheritance in Java? 
+    
+    74. Why Integer class in final in Java? 
+    
+    75. What is a blank final variable in Java? 
+    
+    76. How can we initialize a blank final variable? 
+    
+    77. Is it allowed to declare main method as final? 
+    
+    Package
+    
+    78. What is the purpose of package in Java? 
+    
+    79. What is java.lang package? 
+    
+    80. Which is the most important class in Java? 
+    
+    81. Is it mandatory to import java.lang package every time? 
+    
+    82. Can you import same package or class twice in your class? 
+    
+    83. What is a static import in Java? 
+    
+    84. What is the difference between import static com.test.Fooclass and import com.test.Fooclass? 
+    
+    Internationalization
+    
+    85. What is Locale in Java? 
+    
+    86. How will you use a specific Locale in Java? 
+    
+    Serialization
+    
+    87. What is the serialization? 
+    
+    88. What is the purpose of serialization? 
+    
+    89. What is Deserialization? 
+    
+    90. What is Serialization and Deserialization conceptually? 
+    
+    91. Why do we mark a data member transient? 
+    
+    92. Is it allowed to mark a method as transient? 
+    
+    93. How does marking a field as transient makes it possible to serialize an object? 
+    
+    94. What is Externalizable interface in Java? 
+    
+    95. What is the difference between Serializable and Externalizable interface? 
+    
+    Reflection
+    
+    96. What is Reflection in Java? 
+    
+    97. What are the uses of Reflection in Java? 
+    
+    98. How can we access private method of a class from outside the class? 
+    
+    99. How can we create an Object dynamically at Runtime in Java? 
+    
+    Garbage Collection
+    
+    100. What is Garbage Collection in Java? 
+    
+    101. Why Java provides Garbage Collector? 
+    
+    102. What is the purpose of gc\(\) in Java? 
+    
+    103. How does Garbage Collection work in Java? 
+    
+    104. When does an object become eligible for Garbage Collection in Java? 
+    
+    105. Why do we use finalize\(\) method in Java? 
+    
+    106. What are the different types of References in Java? 
+    
+    107. How can we reference an unreferenced object again? 
+    
+    108. What kind of process is the Garbage collector thread? 
+    
+    109. What is the purpose of the Runtime class? 
+    
+    110. How can we invoke an external process in Java? 
+    
+    111. What are the uses of Runtime class? 
+    
+    Inner Classes
+    
+    112. What is a Nested class? 
+    
+    113. How many types of Nested classes are in Java? 
+    
+    114. Why do we use Nested Classes? 
+    
+    115. What is the difference between a Nested class and an Inner class in Java? 
+    
+    116. What is a Nested interface? 
+    
+    117. How can we access the non-final local variable, inside a Local Inner class? 
+    
+    118. Can an Interface be defined in a Class? 
+    
+    119. Do we have to explicitly mark a Nested Interface public static? 
+    
+    120. Why do we use Static Nested interface in Java? 
+    
+    String
+    
+    121. What is the meaning of Immutable in the context of String class in Java? 
+    
+    122. Why a String object is considered immutable in java? 
+    
+    123. How many objects does following code create? 
+    
+    124. How many ways are there in Java to create a String object? 
+    
+    125. How many objects does following code create? 
+    
+    126. What is String interning? 
+    
+    127. Why Java uses String literal concept? 
+    
+    128. What is the basic difference between a String and StringBuffer object? 
+    
+    129. How will you create an immutable class in Java? 
+    
+    130. What is the use of toString\(\) method in java ? 
+    
+    131. Arrange the three classes String, StringBuffer and StringBuilder in the order of efficiency for String processing operations? 
+    
+    Exception Handling
+    
+    132. What is Exception Handling in Java? 
+    
+    133. In Java, what are the differences between a Checked and Unchecked? 
+    
+    134. What is the base class for Error and Exception classes in Java? 
+    
+    135. What is a finally block in Java? 
+    
+    136. What is the use of finally block in Java? 
+    
+    137. Can we create a finally block without creating a catch block? 
+    
+    138. Do we have to always put a catch block after a try block? 
+    
+    139. In what scenarios, a finally block will not be executed? 
+    
+    140. Can we re-throw an Exception in Java? 
+    
+    141. What is the difference between throw and throws in Java? 
+    
+    142. What is the concept of Exception Propagation? 
+    
+    143. When we override a method in a Child class, can we throw an additional Exception that is not thrown by the Parent class method? 
+    
+    Multi-threading
+    
+    144.How Multi-threading works in Java? 
+    
+    145. What are the advantages of Multithreading? 
+    
+    146. What are the disadvantages of Multithreading? 
+    
+    147. What is a Thread in Java? 
+    
+    148. What is a Thread’s priority and how it is used in scheduling? 
+    
+    149. What are the differences between Pre-emptive Scheduling Scheduler and Time Slicing Scheduler? 
+    
+    150. Is it possible to call run\(\) method instead of start\(\) on a thread in Java? 
+    
+    151. How will you make a user thread into daemon thread if it has already started? 
+    
+    152. Can we start a thread two times in Java? 
+    
+    153. In what scenarios can we interrupt a thread? 
+    
+    154. In Java, is it possible to lock an object for exclusive use by a thread? 
+    
+    155. How notify\(\) method is different from notifyAll\(\) method? 
+    
+    Collections
+    
+    156. What are the differences between the two data structures: a Vector and an ArrayList? 
+    
+    157. What are the differences between Collection and Collections in Java? 
+    
+    158. In which scenario, LinkedList is better than ArrayList in Java? 
+    
+    159. What are the differences between a List and Set collection in Java? 
+    
+    160. What are the differences between a HashSet and TreeSet collection in Java? 
+    
+    161. In Java, how will you decide when to use a List, Set or a Map
+    
+    collection? 
+    
+    162. What are the differences between a HashMap and a Hashtable in Java? 
+    
+    163. What are the differences between a HashMap and a TreeMap? 
+    
+    164. What are the differences between Comparable and Comparator? 
+    
+    165. In Java, what is the purpose of Properties file? 
+    
+    166. What is the reason for overriding equals\(\) method? 
+    
+    167. How does hashCode\(\) method work in Java? 
+    
+    168. Is it a good idea to use Generics in collections? 
+    
+    Mixed Questions
+    
+    169. What are Wrapper classes in Java? 
+    
+    170. What is the purpose of native method in Java? 
+    
+    171. What is System class? 
+    
+    172. What is System, out and println in System.out.println method call? 
+    
+    173. What is the other name of Shallow Copy in Java? 
+    
+    174. What is the difference between Shallow Copy and Deep Copy in Java? 
+    
+    175. What is a Singleton class? 
+    
+    176. What is the difference between Singleton class and Static class? 
+    
+    Java Collection
+    
+    177. What is the difference between Collection and Collections Framework in Java? 
+    
+    178. What are the main benefits of Collections Framework in Java? 
+    
+    179. What is the root interface of Collection hierarchy in Java? 
+    
+    180. What are the main differences between Collection and Collections? 
+    
+    181. What are the Thread-safe classes in Java Collections framework? 
+    
+    182. How will you efficiently remove elements while iterating a Collection? 
+    
+    183. How will you convert a List into an array of integers like- int\[\]? 
+    
+    184. How will you convert an array of primitive integers int\[\] to a List collection? 
+    
+    185. How will you run a filter on a Collection? 
+    
+    186. How will you convert a List to a Set? 
+    
+    187. How will you remove duplicate elements from an ArrayList? 
+    
+    188. How can you maintain a Collection with elements in Sorted order? 
+    
+    189. What is the difference between Collections.emptyList\(\) and creating new instance of Collection? 
+    
+    190. How will you copy elements from a Source List to another list? 
+    
+    191. What are the Java Collection classes that implement List interface? 
+    
+    192. What are the Java Collection classes that implement Set interface? 
+    
+    193. What is the difference between an Iterator and ListIterator in Java? 
+    
+    194. What is the difference between Iterator and Enumeration? 
+    
+    195. What is the difference between an ArrayList and a LinkedList data structure? 
+    
+    196. What is the difference between a Set and a Map in Java? 
+    
+    197. What is the use of a Dictionary class? 
+    
+    198. What is the default size of load factor in a HashMap collection in Java? 
+    
+    199. What is the significance of load factor in a HashMap in Java? 
+    
+    200.What are the major differences between a HashSet and a HashMap? 
+    
+    201. What are the similarities between a HashSet and a HashMap in Java? 
+    
+    202.What is the reason for overriding equals\(\) method? 
+    
+    203.How can we synchronize the elements of a List, a Set or a Map? 
+    
+    204.What is Hash Collision? How Java handles hash-collision in HashMap? 
+    
+    205.What are the Hash Collision resolution techniques? 
+    
+    206.What is the difference between Queue and Stack data structures? 
+    
+    207.What is an Iterator in Java? 
+    
+    208.What is the difference between Iterator and Enumeration in Java? 
+    
+    209.What is the design pattern used in the implementation of Enumeration in Java? 
+    
+    210. Which methods do we need to override to use an object as key in a HashMap? 
+    
+    211. How will you reverse a List in Java? 
+    
+    212. How will you convert an array of String objects into a List? 
+    
+    213. What is the difference between peek\(\), poll\(\) and remove\(\) methods of Queue interface in java? 
+    
+    214. What is the difference between Array and ArrayList in Java? 
+    
+    215. How will you insert, delete and retrieve elements from a HashMap collection in Java? 
+    
+    216. What are the main differences between HashMap and ConcurrentHashMap in Java? 
+    
+    217. What is the increasing order of performance for following collection classes in Java? 
+    
+    218. Why does Map interface not extend Collection interface in Java? 
+    
+    219. What are the different ways to iterate elements of a list in Java? 
+    
+    220.What is CopyOnWriteArrayList? How it is different from ArrayList in Java? 
+    
+    221. How remove\(\) method is implemented in a HashMap? 
+    
+    222.What is BlockingQueue in Java Collections? 
+    
+    223.How is TreeMap class implemented in Java? 
+    
+    224.What is the difference between Fail-fast and Fail-safe iterator in Java? 
+    
+    225.How does ConcurrentHashMap work in Java? 
+    
+    226.What is the importance of hashCode\(\) and equals\(\) methods? 
+    
+    227.What is the contract of hashCode\(\) and equals\(\) methods in Java? 
+    
+    228.What is an EnumSet in Java? 
+    
+    229.What are the main Concurrent Collection classes in Java? 
+    
+    230.How will you convert a Collection to SynchronizedCollection in Java? 
+    
+    231. How IdentityHashMap is different from a regular Map in Java? 
+    
+    232.What is the main use of IdentityHashMap? 
+    
+    233.How can we improve the performance of IdentityHashMap? 
+    
+    234.Is IdentityHashMap thread-safe? 
+    
+    235.What is a WeakHashMap in Java? 
+    
+    236.How can you make a Collection class read Only in Java? 
+    
+    237.When is UnsupportedOperationException thrown in Java? 
+    
+    238.Let say there is a Customer class. We add objects of Customer class to an ArrayList. How can we sort the Customer objects in ArrayList by using customer firstName attribute of Customer class? 
+    
+    239.What is the difference between Synchronized Collection and Concurrent Collection? 
+    
+    240.What is the scenario to use ConcurrentHashMap in Java? 
+    
+    241. How will you create an empty Map in Java? 
+    
+    242.What is the difference between remove\(\) method of Collection and remove\(\) method of Iterator? 
+    
+    243.Between an Array and ArrayList, which one is the preferred collection for storing objects? 
+    
+    244.Is it possible to replace Hashtable with ConcurrentHashMap in Java? 
+    
+    245.How CopyOnWriteArrayList class is different from ArrayList and Vector classes? 
+    
+    246.Why ListIterator has add\(\) method but Iterator does not have? 
+    
+    247.Why do we sometime get ConcurrentModificationException during iteration? 
+    
+    248.How will you convert a Map to a List in Java? 
+    
+    249.How can we create a Map with reverse view and lookup in Java? 
+    
+    250.How will you create a shallow copy of a Map? 
+    
+    251. Why we cannot create a generic array in Java? 
+    
+    252.What is a PriorityQueue in Java? 
+    
+    253.What are the important points to remember while using Java Collections Framework? 
+    
+    254.How can we pass a Collection as an argument to a method and ensure that method will not be able to modify it? 
+    
+    255.Can you explain how HashMap works in Java? 
+    
+    256.Can you explain how HashSet is implemented in Java? 
+    
+    257.What is a NavigableMap in Java? 
+    
+    258.What is the difference between descendingKeySet\(\) and descendingMap\(\) methods of NavigableMap? 
+    
+    259.What is the advantage of NavigableMap over Map? 
+    
+    260.What is the difference between headMap\(\), tailMap\(\) and subMap\(\) methods of NavigableMap? 
+    
+    261. How will you sort objects by Natural order in a Java List? 
+    
+    262.How can we get a Stream from a List in Java? 
+    
+    263.Can we get a Map from a Stream in Java? 
+    
+    264.What are the popular implementations of Deque in Java? 
+    
+    Advanced Multi-threading
+    
+    265.What is a Thread in Java? 
+    
+    266.What is the priority of a Thread and how it is used in scheduling? 
+    
+    267.What is the default priority of a thread in Java? 
+    
+    268.What are the three different priorities that can be set on a Thread in Java? 
+    
+    269.What is the purpose of join\(\) method in Thread class? 
+    
+    270.What is the fundamental difference between wait\(\) and sleep\(\) methods? 
+    
+    271. Is it possible to call run\(\) method instead of start\(\) on a thread in
+    
+    Java? 
+    
+    272.What is a daemon thread in Java? 
+    
+    273.How can we make a regular thread Daemon thread in Java? 
+    
+    274.How will you make a user thread into daemon thread if it has already started? 
+    
+    275.Can we start a thread two times in Java? 
+    
+    276.What is a Shutdown hook in Java? 
+    
+    277.What is synchronization in Java? 
+    
+    278.What is the purpose of Synchronized block in Java? 
+    
+    279.What is static synchronization? 
+    
+    280.What is a Deadlock situation? 
+    
+    281. What is the meaning of concurrency? 
+    
+    282.What is the main difference between process and thread? 
+    
+    283.What is a process and thread in the context of Java? 
+    
+    284.What is a Scheduler? 
+    
+    285.What is the minimum number of Threads in a Java program? 
+    
+    286.What are the properties of a Java thread? 
+    
+    287.What are the different states of a Thread in Java? 
+    
+    288.How will you set the priority of a thread in Java? 
+    
+    289.What is the purpose of Thread Groups in Java? 
+    
+    290.Why we should not stop a thread by calling its stop\(\) method? 
+    
+    291. How will you create a Thread in Java? 
+    
+    292.How can we stop a thread in the middle of execution in Java? 
+    
+    293.How do you access the current thread in a Java program? 
+    
+    294.What is Busy waiting in Multi-threading? 
+    
+    295.How can we prevent busy waiting in Java? 
+    
+    296.Can we use Thread.sleep\(\) method for real-time processing in Java? 
+    
+    297.Can we wake up a thread that has been put to sleep by using Thread.sleep\(\) method? 
+    
+    298.What are the two ways to check if a Thread has been interrupted? 
+    
+    299.How can we make sure that Parent thread waits for termination of Child thread? 
+    
+    300.How will you handle InterruptedException in Java? 
+    
+    301. Which intrinsic lock is acquired by a synchronized method in Java? 
+    
+    302.Can we mark a constructor as synchronized in Java? 
+    
+    303.Can we use primitive values for intrinsic locks? 
+    
+    304.Do we have re-entrant property in intrinsic locks? 
+    
+    305.What is an atomic operation? 
+    
+    306.Can we consider the statement i\+\+ as an atomic operation in Java? 
+    
+    307.What are the Atomic operations in Java? 
+    
+    308.Can you check if following code is thread-safe? 
+    
+    309.What are the minimum requirements for a Deadlock situation in a program? 
+    
+    310. How can we prevent a Deadlock? 
+    
+    311. How can we detect a Deadlock situation? 
+    
+    312. What is a Livelock? 
+    
+    313. What is Thread starvation? 
+    
+    314. How can a synchronized block cause Thread starvation in Java? 
+    
+    315. What is a Race condition? 
+    
+    316. What is a Fair lock in multi-threading? 
+    
+    317. Which two methods of Object class can be used to implement a Producer Consumer scenario? 
+    
+    318. How JVM determines which thread should wake up on notify\(\)? 
+    
+    319. Check if following code is thread-safe for retrieving an integer value from a Queue? 
+    
+    320.How can we check if a thread has a monitor lock on a given object? 
+    
+    321. What is the use of yield\(\) method in Thread class? 
+    
+    322.What is an important point to consider while passing an object from one thread to another thread? 
+    
+    323.What are the rules for creating Immutable Objects? 
+    
+    324.What is the use of ThreadLocal class? 
+    
+    325.What are the scenarios suitable for using ThreadLocal class? 
+    
+    326.How will you improve the performance of an application by multithreading? 
+    
+    327.What is scalability in a Software program? 
+    
+    328.How will you calculate the maximum speed up of an application by using multiple processors? 
+    
+    329.What is Lock contention in multi-threading? 
+    
+    330.What are the techniques to reduce Lock contention? 
+    
+    331. What technique can be used in following code to reduce Lock contention? 
+    
+    332.What is Lock splitting technique? 
+    
+    333.Which technique is used in ReadWriteLock class for reducing Lock contention? 
+    
+    334.What is Lock striping? 
+    
+    335.What is a CAS operation? 
+    
+    336.Which Java classes use CAS operation? 
+    
+    337.Is it always possible to improve performance by object pooling in a multi-threading application? 
+    
+    338.How can techniques used for performance improvement in a single thread application may degrade the performance in a multi-threading application? 
+    
+    339.What is the relation between Executor and ExecutorService interface? 
+    
+    340.What will happen on calling submit\(\) method of an ExecutorService instance whose queue is already full? 
+    
+    341. What is a ScheduledExecutorService? 
+    
+    342.How will you create a Thread pool in Java? 
+    
+    343.What is the main difference between Runnable and Callable interface? 
+    
+    344.What are the uses of Future interface in Java? 
+    
+    345.What is the difference in concurrency in HashMap and in Hashtable? 
+    
+    346.How will you create synchronized instance of List or Map Collection? 
+    
+    347.What is a Semaphore in Java? 
+    
+    348.What is a CountDownLatch in Java? 
+    
+    349.What is the difference between CountDownLatch and CyclicBarrier? 
+    
+    350.What are the scenarios suitable for using Fork/Join framework? 
+    
+    351. What is the difference between RecursiveTask and RecursiveAction class? 
+    
+    352.In Java 8, can we process stream operations with a Thread pool? 
+    
+    353.What are the scenarios to use parallel stream in Java 8? 
+    
+    354.How Stack and Heap work in Java multi-threading environment? 
+    
+    355.How can we take Thread dump in Java? 
+    
+    356.Which parameter can be used to control stack size of a thread in Java? 
+    
+    357.There are two threads T1 and T2? How will you ensure that these threads run in sequence T1, T2 in Java? 
+    
+    Java 8
+    
+    358.What are the new features released in Java 8? 
+    
+    359.What are the main benefits of new features introduced in Java 8? 
+    
+    360.What is a Lambda expression in Java 8? 
+    
+    361. What are the three main parts of a Lambda expression in Java? 
+    
+    362.What is the data type of a Lambda expression? 
+    
+    363.What is the meaning of following lambda expression? 
+    
+    364.Why did Oracle release a new version of Java like Java 8? 
+    
+    365.What are the advantages of a lambda expression? 
+    
+    366.What is a Functional interface in Java 8? 
+    
+    367.What is a Single Abstract Method \(SAM\) interface in Java 8? 
+    
+    368.How can we define a Functional interface in Java 8? 
+    
+    369.Why do we need Functional interface in Java? 
+    
+    370.Is it mandatory to use @FunctionalInterface annotation to define a Functional interface in Java 8? 
+    
+    371. What are the differences between Collection and Stream API in Java 8? 
+    
+    372.What are the main uses of Stream API in Java 8? 
+    
+    373.What are the differences between Intermediate and Terminal Operations in Java 8 Streams? 
+    
+    374.What is a Spliterator in Java 8? 
+    
+    375.What are the differences between Iterator and Spliterator in Java 8? 
+    
+    376.What is Type Inference in Java 8? 
+    
+    377.Does Java 7 support Type Inference? 
+    
+    378.How does Internal Iteration work in Java 8? 
+    
+    379.What are the main differences between Internal and External Iterator? 
+    
+    380.What are the main advantages of Internal Iterator over External Iterator in Java 8? 
+    
+    381. What are the applications in which we should use Internal Iteration? 
+    
+    382.What is the main disadvantage of Internal Iteration over External Iteration? 
+    
+    383.Can we provide implementation of a method in a Java Interface? 
+    
+    384.What is a Default Method in an Interface? 
+    
+    385.Why do we need Default method in a Java 8 Interface? 
+    
+    386.What is the purpose of a Static method in an Interface in Java 8? 
+    
+    387.What are the core ideas behind the Date/Time API of Java 8? 
+    
+    388.What are the advantages of new Date and Time API in Java 8 over old Date API? 
+    
+    389.What are the main differences between legacy Date/Time API in Java and Date/Time API of Java 8? 
+    
+    390.How can we get duration between two dates or time in Java 8? 
+    
+    391. What is the new method family introduced in Java 8 for processing of Arrays on multi core machines? 
+    
+    392.How does Java 8 solve Diamond problem of Multiple Inheritance? 
+    
+    393.What are the differences between Predicate, Supplier and Consumer in Java 8? 
+    
+    394.Is it possible to have default method definition in an interface without marking it with default keyword? 
+    
+    395.Can we create a class that implements two Interfaces with default methods of same name and signature? 
+    
+    396.How Java 8 supports Multiple Inheritance? 
+    
+    397.In case we create a class that extends a base class and implements an interface. If both base class and interface have a default method with same name and arguments, then which definition will be picked by JVM? 
+    
+    398.If we create same method and define it in a class , in its parent class and in an interface implemented by the class, then definition will be invoked if we access it using the reference of Interface and the object of class? 
+    
+    399.Can we access a static method of an interface by using reference of
+    
+    the interface? 
+    
+    400.How can you get the name of Parameter in Java by using reflection? 
+    
+    401. What is Optional in Java 8? 
+    
+    402.What are the uses of Optional? 
+    
+    403.Which method in Optional provides the fallback mechanism in case of null value? 
+    
+    404.How can we get current time by using Date/Time API of Java 8? 
+    
+    405.Is it possible to define a static method in an Interface? 
+    
+    406.How can we analyze the dependencies in Java classes and packages? 
+    
+    407.What are the new JVM arguments introduced by Java 8? 
+    
+    408.What are the popular annotations introduced in Java 8? 
+    
+    409.What is a StringJoiner in Java 8? 
+    
+    410. What is the type of a Lambda expression in Java 8? 
+    
+    411. What is the target type of a lambda expression ? 
+    
+    412. What are the main differences between an interface with default method and an abstract class in Java 8? 
+    
+    Java Tricky Questions
+    
+    413. Is there any difference between a = a \+ b and a \+= b expressions? 
+    
+    414.What does the expression 1.0 / 0.0 return? Will there be any compilation error? 
+    
+    415. Can we use multiple main methods in multiple classes? 
+    
+    416. Does Java allow you to override a private or static method? 
+    
+    417. What happens when you put a key object in a HashMap that is already present? 
+    
+    418. How can you make sure that N threads can access N resources without deadlock? 
+    
+    419. How can you determine if JVM is 32-bit or 64-bit from Java Program? 
+    
+    420.What is the right data type to represent Money \(like Dollar/Pound\) in Java? 
+    
+    421. How can you do multiple inheritances in Java? 
+    
+    422.Is \+\+ operation thread-safe in Java? 
+    
+    423.How can you access a non-static variable from the static context? 
+    
+    424.Let say there is a method that throws NullPointerException in the superclass. Can we override it with a method that throws RuntimeException? 
+    
+    425.How can you mark an array volatile in Java? 
+    
+    426.What is a thread local variable in Java? 
+    
+    427.What is the difference between sleep\(\) and wait\(\) methods in Java? 
+    
+    428.Can you create an Immutable object that contains a mutable object? 
+    
+    429.How can you convert an Array of bytes to String? 
+    
+    430.What is difference between CyclicBarrier and CountDownLatch class? 
+    
+    431. What is the difference between StringBuffer and StringBuilder? 
+    
+    432.Which class contains clone method? Cloneable or Object class? 
+    
+    433.How will you take thread dump in Java? 
+    
+    434.Can you cast an int variable into a byte variable? What happens if the value of int is larger than byte? 
+    
+    435.In Java, can we store a double value in a long variable without explicit
+    
+    casting? 
+    
+    436.What will this return 5\*0.1 == 0.5? true or false? 
+    
+    437.Out of an int and Integer, which one takes more memory? 
+    
+    438.Can we use String in the switch case statement in Java? 
+    
+    439.Can we use multiple main methods in same class? 
+    
+    440.When creating an abstract class, is it a good idea to call abstract methods inside its constructor? 
+    
+    441.How can you do constructor chaining in Java? 
+    
+    442.How can we find the memory usage of JVM from Java code? 
+    
+    443.What is the difference between x == y and x.equals\(y\) expressions in Java? 
+    
+    444. 
+    
+    How can you guarantee that the garbage collection takes place? 
+    
+    445.What is the relation between x.hashCode\(\) method and x.equals\(y\) method of Object class? 
+    
+    446.What is a compile time constant in Java? 
+    
+    447.Explain the difference between fail-fast and fail-safe iterators? 
+    
+    448. You have a character array and a String. Which one is more secure to store sensitive data \(like password, date of birth, etc.\)? 
+    
+    449.Why do you use volatile keyword in Java? 
+    
+    450.What is the difference between poll\(\) and remove\(\) methods of Queue in Java? 
+    
+    451. Can you catch an exception thrown by another thread in Java? 
+    
+    452.How do you decide which type of Inner Class – Static or Non-Static to use in Java? 
+    
+    453.What are the different types of Classloaders in Java? 
+    
+    454.What are the situations in which you choose HashSet or TreeSet? 
+    
+    455.What is the use of method references in Java? 
+    
+    456.Do you think Java Enums are more powerful than integer constants? 
+    
+    457.Why do we use static initializers in Java? 
+    
+    458.Your client is complaining that your code is throwing NoClassDefFoundError or NoSuchMethodError, even though you are able to compile your code without error and method exists in your code. What could be the reason behind this? 
+    
+    459.How can you check if a String is a number by using regular expression? 
+    
+    460.What is the difference between the expressions String s =
+    
+    "Temporary" and String s = new String\("Temporary "\)? Which one is better and more efficient? 
+    
+    461. In Java, can two equal objects have the different hash code? 
+    
+    462.How can we print an Array in Java? 
+    
+    463.Is it ok to use random numbers in the implementation of hashcode\(\) method in Java? 
+    
+    464.Between two types of dependency injections, constructor injection and setter dependency injection, which one is better? 
+    
+    465.What is the difference between DOM and SAX parser in Java? 
+    
+    466.Between Enumeration and Iterator, which one has better performance in Java? 
+    
+    467.What is the difference between pass by reference and pass by value? 
+    
+    468.What are the different ways to sort a collection in Java? 
+    
+    469.Why Collection interface doesn’t extend Cloneable and Serializable interfaces? 
+    
+    470.What is the difference between a process and a thread in Java? 
+    
+    471. What are the benefits of using an unordered array over an ordered array? 
+    
+    472.Between HashSet and TreeSet collections in Java, which one is better? 
+    
+    473.When does JVM call the finalize\(\) method? 
+    
+    474.When would you use Serial Garabage collector or Throughput Garbage collector in Java? 
+    
+    475.In Java, if you set an object reference to null, will the Garbage Collector immediately free the memory held by that object? 
+    
+    476.How can you make an Object eligible for Garbage collection in Java? 
+    
+    477.When do you use Exception or Error in Java? What is the difference between these two? 
+    
+    478.What is the advantage of PreparedStatement over Statement class in Java? 
+    
+    479.In Java, what is the difference between throw and throws keywords? 
+    
+    480.What happens to the Exception object after the exception handling is done? 
+    
+    481. How do you find which client machine is sending request to your servlet in Java? 
+    
+    482.What is the difference between a Cookie and a Session object in Java? 
+    
+    483.Which protocol does Browser and Servlet use to communicate with each other? 
+    
+    484. What is HTTP Tunneling? 
+    
+    485.Why do we use JSP instead of Servlet in Java? 
+    
+    486.Is empty ‘.java’ file name a valid source file name in Java? 
+    
+    487.How do you implement Servlet Chaining in Java? 
+    
+    488.Can you instantiate this class? 
+    
+    489.Why Java does not support operator overloading? 
+    
+    490.Why String class is Immutable or Final in Java? 
+    
+    491. What is the difference between sendRedirect and forward methods? 
+    
+    492.How do you fix your Serializable class, if it contains a member that is not serializable? 
+    
+    493.What is the use of run time polymorphism in Java? 
+    
+    494.What are the rules of method overloading and method overriding in Java? 
+    
+    495.What is the difference between a class and an object in Java? 
+    
+    496.Can we create an abstract class that extends another abstract class? 
+    
+    497.Why do you use Upcasting or Downcasting in Java ? 
+    
+    498.What is the reason to organize classes and interfaces in a package in Java? 
+    
+    499.What is information hiding in Java? 
+    
+    500.Why does Java provide default constructor? 
+    
+    501. What is the difference between super and this keywords in Java? 
+    
+    502.What is the advantage of using Unicode characters in Java? 
+    
+    503.Can you override an overloaded method in Java? 
+    
+    504.How can we change the heap size of a JVM? 
+    
+    505.Why should you define a default constructor in Java? 
+    
+    506.How will you make an Object Immutable in Java? 
+    
+    507.How can you prevent SQL Injection in Java Code? 
+    
+    508.Which two methods should be always implemented by HashMap key Object? 
+    
+    509.Why an Object used as Key in HashMap should be Immutable? 
+    
+    510. How can we share an object between multiple threads? 
+    
+    511. How can you determine if your program has a deadlock? 
+    
+    JSP
+    
+    512. What are the implicit objects in JSP? 
+    
+    513. How will you extend JSP code? 
+    
+    514. How will you handle runtime exceptions in JSP? 
+    
+    515. How will you prevent multiple submits of a page that come by clicking refresh button multiple times? 
+    
+    516. How will you implement a thread safe JSP page? 
+    
+    517. How will you include a static file in a JSP page? 
+    
+    518. What are the lifecycle methods of a JSP? 
+    
+    519. What are the advantages of using JSP in web architecture? 
+    
+    520.What is the advantage of JSP over Javascript? 
+    
+    521. What is the Lifecycle of JSP? 
+    
+    522.What is a JSP expression? 
+    
+    523.What are the different types of directive tags in JSP? 
+    
+    524.What is session attribute in JSP? 
+    
+    525.What are the different scopes of a JSP object? 
+    
+    526.What is pageContext in JSP? 
+    
+    527.What is the use of jsp:useBean in JSP? 
+    
+    528.What is difference between include Directive and include Action of JSP? 
+    
+    529.How will you use other Java files of your application in JSP code? 
+    
+    530.How will you use an existing class and extend it to use in the JSP? 
+    
+    531. Why \_jspService method starts with \_ symbol in JSP? 
+    
+    532.Why do we use tag library in JSP? 
+    
+    533.What is the different type of tag library groups in JSTL? 
+    
+    534.How will you pass information from one JSP to another JSP? 
+    
+    535.How will you call a stored procedure from JSP? 
+    
+    536.Can we override \_jspService\(\) method in JSP? 
+    
+    537.What is a directive in JSP? 
+    
+    538.How will you implement Session tracking in JSP? 
+    
+    539.How do you debug code in JSP? 
+    
+    540.How will you implement error page in JSP? 
+    
+    541. How will you send XML data from a JSP? 
+    
+    542.What happens when we request for a JSP page from web browser? 
+    
+    543.How will you implement Auto Refresh of page in JSP? 
+    
+    544.What are the important status codes in HTTP? 
+    
+    545.What is the meaning of Accept attribute in HTTP header? 
+    
+    546.What is the difference between Expression and Scriptlet in JSP? 
+    
+    547.How will you delete a Cookie in JSP? 
+    
+    548.How will you use a Cookie in JSP? 
+    
+    549.What is the main difference between a Session and Cookie in JSP? 
+    
+    550.How will you prevent creation of session in JSP? 
+    
+    551. What is an output comment in JSP? 
+    
+    552.How will you prevent caching of HTML output by web browser in JSP? 
+    
+    553.How will you redirect request to another page in browser in JSP
+    
+    code? 
+    
+    554.What is the difference between sendRedirect and forward in a JSP? 
+    
+    555.What is the use of config implicit object in JSP? 
+    
+    556.What is the difference between init-param and context-param? 
+    
+    557.What is the purpose of RequestDispatcher? 
+    
+    558.How can be read data from a Form in a JSP? 
+    
+    559.What is a filter in JSP? 
+    
+    560.How can you upload a large file in JSP? 
+    
+    561. In which scenario, Container initializes multiple JSP/Servlet objects? 
+    
+    Java Design Patterns
+    
+    562.When will you use Strategy Design Pattern in Java? 
+    
+    563.What is Observer design pattern? 
+    
+    564.What are the examples of Observer design pattern in JDK? 
+    
+    565.How Strategy design pattern is different from State design pattern in Java? 
+    
+    566.Can you explain Decorator design pattern with an example in Java? 
+    
+    567.What is a good scenario for using Composite design Pattern in Java? 
+    
+    568.Have you used Singleton design pattern in your Java project? 
+    
+    569.What are the main uses of Singleton design pattern in Java project? 
+    
+    570.Why java.lang.Runtime is a Singleton in Java? 
+    
+    571. What is the way to implement a thread-safe Singleton design pattern in Java? 
+    
+    572.What are the examples of Singleton design pattern in JDK? 
+    
+    573.What is Template Method design pattern in Java? 
+    
+    574.What are the examples of Template method design pattern in JDK? 
+    
+    575.Can you tell some examples of Factory Method design pattern implementation in Java? 
+    
+    576.What is the benefit we get by using static factory method to create object? 
+    
+    577.What are the examples of Builder design pattern in JDK? 
+    
+    578.What are the examples of Abstract Factory design pattern in JDK? 
+    
+    579.What are the examples of Decorator design pattern in JDK? 
+    
+    580.What are the examples of Proxy design pattern in JDK? 
+    
+    581. What are the examples of Chain of Responsibility design pattern in JDK? 
+    
+    582.What are the main uses of Command design pattern? 
+    
+    583.What are the examples of Command design pattern in JDK? 
+    
+    584.What are the examples of Interpreter design pattern in JDK? 
+    
+    585.What are the examples of Mediator design pattern in JDK? 
+    
+    586.What are the examples of Strategy design pattern in JDK? 
+    
+    587.What are the examples of Visitor design pattern in JDK? 
+    
+    588.How Decorator design pattern is different from Proxy pattern? 
+    
+    589.What are the different scenarios to use Setter and Constructor based injection in Dependency Injection \(DI\) design pattern? 
+    
+    590.What are the different scenarios for using Proxy design pattern? 
+    
+    591. What is the main difference between Adapter and Proxy design pattern? 
+    
+    592.When will you use Adapter design pattern in Java? 
+    
+    593.What are the examples of Adapter design pattern in JDK? 
+    
+    594.What is the difference between Factory and Abstract Factory design pattern? 
+    
+    595.What is Open/closed design principle in Software engineering? 
+    
+    596.What is SOLID design principle? 
+    
+    597.What is Builder design pattern? 
+    
+    598.What are the different categories of Design Patterns used in Object Oriented Design? 
+    
+    599.What is the design pattern suitable to access elements of a Collection? 
+    
+    600.How can we implement Producer Consumer design pattern in Java? 
+    
+    601. What design pattern is suitable to add new features to an existing object? 
+    
+    602.Which design pattern can be used when to decouple abstraction from the implementation? 
+    
+    603.Which is the design pattern used in Android applications? 
+    
+    604.How can we prevent users from creating more than one instance of singleton object by using clone\(\) method? 
+    
+    605.What is the use of Interceptor design pattern? 
+    
+    606.What are the Architectural patterns that you have used? 
+    
+    607.What are the popular uses of Façade design pattern? 
+    
+    608.What is the difference between Builder design pattern and Factory design pattern? 
+    
+    609.What is Memento design pattern? 
+    
+    610. What is an AntiPattern? 
+    
+    611. What is a Data Access Object \(DAO\) design pattern? 
+    
+    Spring Questions
+    
+    612. What is Spring framework? 
+    
+    613. What are the benefits of Spring framework in software development? 
+    
+    614. What are the modules in Core Container of Spring framework? 
+    
+    615. What are the modules in Data Access/Integration layer of Spring framework? 
+    
+    616. What are the modules in Web layer of Spring framework? 
+    
+    617. What is the main use of Core Container module in Spring framework? 
+    
+    618. What kind of testing can be done in Spring Test Module? 
+    
+    619. What is the use of BeanFactory in Spring framework? 
+    
+    620.Which is the most popular implementation of BeanFactory in Spring? 
+    
+    621. What is XMLBeanFactory in Spring framework? 
+    
+    622.What are the uses of AOP module in Spring framework? 
+    
+    623.What are the benefits of JDBC abstraction layer module in Spring framework? 
+    
+    624.How does Spring support Object Relational Mapping \(ORM\) integration? 
+    
+    625.How does Web module work in Spring framework? 
+    
+    626.What are the main uses of Spring MVC module? 
+    
+    627.What is the purpose of Spring configuration file? 
+    
+    628.What is the purpose of Spring IoC container? 
+    
+    629.What is the main benefit of Inversion of Control \(IOC\) principle? 
+    
+    630.Does IOC containers support Eager Instantiation or Lazy loading of beans? 
+    
+    631. What are the benefits of ApplicationContext in Spring? 
+    
+    632.How will you implement ApplicationContext in Spring framework? 
+    
+    633.Explain the difference between ApplicationContext and BeanFactory in Spring? 
+    
+    634.Between ApplicationContext and BeanFactory which one is preferable to use in Spring? 
+    
+    635.What are the main components of a typical Spring based application? 
+    
+    636.Explain Dependency Injection \(DI\) concept in Spring framework? 
+    
+    637.What are the different roles in Dependency Injection \(DI\)? 
+    
+    638.Spring framework provides what kinds of Dependency Injection mechanism? 
+    
+    639.In Spring framework, which Dependency Injection is better? 
+    
+    Constructor-based DI or Setter-based DI? 
+    
+    640.What are the advantages of Dependency Injection \(DI\)? 
+    
+    641. What are the disadvantages of Dependency Injection \(DI\)? 
+    
+    642.What is a Spring Bean? 
+    
+    643.What does the definition of a Spring Bean contain? 
+    
+    644.What are the different ways to provide configuration metadata to a Spring Container? 
+    
+    645.What are the different scopes of a Bean supported by Spring? 
+    
+    646.How will you define the scope of a bean in Spring? 
+    
+    647.Is it safe to assume that a Singleton bean is thread safe in Spring Framework? 
+    
+    648.What are the design-patterns used in Spring framework? 
+    
+    649.What is the lifecycle of a Bean in Spring framework? 
+    
+    650.What are the two main groups of methods in a Bean’s lifecycle? 
+    
+    651. Can we override main lifecycle methods of a Bean in Spring? 
+    
+    652.What are Inner beans in Spring? 
+    
+    653.How can we inject a Java Collection in Spring framework? 
+    
+    654.What is Bean wiring in Spring? 
+    
+    655.What is Autowiring in Spring? 
+    
+    656.What are the different modes of Autowiring supported by Spring? 
+    
+    657.What are the cases in which Autowiring may not work in Spring framework? 
+    
+    658.Is it allowed to inject null or empty String values in Spring? 
+    
+    659.What is a Java-based Configuration in Spring? 
+    
+    660.What is the purpose of @Configuration annotation? 
+    
+    661. What is the difference between Full @Configuration and 'lite' 
+    
+    @Beans mode? 
+    
+    662.In Spring framework, what is Annotation-based container configuration? 
+    
+    663.How will you switch on Annotation based wiring in Spring? 
+    
+    664.What is @Autowired annotation? 
+    
+    665.What is @Required annotation? 
+    
+    666.What are the two ways to enable
+    
+    RequiredAnnotationBeanPostProcessor in Spring? 
+    
+    667.What is @Qualifier annotation in Spring? 
+    
+    668.How Spring framework makes JDBC coding easier for developers? 
+    
+    669.What is the purpose of JdbcTemplate? 
+    
+    670.What are the benefits of using Spring DAO? 
+    
+    671. What are the different ways to use Hibernate in Spring? 
+    
+    672.What types of Object Relational Mapping \(ORM\) are supported by Spring? 
+    
+    673.How will you integrate Spring and Hibernate by using HibernateDaoSupport? 
+    
+    674.What are the different types of the Transaction Management supported by Spring framework? 
+    
+    675.What are the benefits provided by Spring Framework’s Transaction Management? 
+    
+    676.Given a choice between declarative and programmatic Transaction Management, which method will you choose? 
+    
+    677.What is Aspect Oriented Programming \(AOP\) 678.What is an Aspect in Spring? 
+    
+    679.In Spring AOP, what is the main difference between a Concern and a Cross cutting concern? 
+    
+    680.What is a Joinpoint in Spring AOP? 
+    
+    681. What is an Advice in Spring AOP? 
+    
+    682.What are the different types of Advice in Spring AOP? 
+    
+    683.What is a Pointcut in Spring AOP? 
+    
+    684.What is an Introduction in Spring AOP? 
+    
+    685.What is a Target object in Spring AOP? 
+    
+    686.What is a Proxy in Spring AOP? 
+    
+    687.What are the different types of AutoProxy creators in Spring? 
+    
+    688.What is Weaving in Spring AOP? 
+    
+    689.In Spring AOP, Weaving is done at compile time or run time? 
+    
+    690.What is XML Schema-based Aspect implementation? 
+    
+    691. What is Annotation-based aspect implementation in Spring AOP? 
+    
+    692.How does Spring MVC framework work? 
+    
+    693.What is DispatcherServlet? 
+    
+    694.Can we have more than one DispatcherServlet in Spring MVC? 
+    
+    695.What is WebApplicationContext in Spring MVC? 
+    
+    696.What is Controller in Spring MVC framework? 
+    
+    697.What is @RequestMapping annotation in Spring? 
+    
+    698.What are the main features of Spring MVC? 
+    
+    699.What is the difference between a Singleton and Prototype bean in Spring? 
+    
+    700.How will you decide which scope- Prototype or Singleton to use for a bean in Spring? 
+    
+    701. What is the difference between Setter and Constructor based Dependency Injection \(DI\) in Spring framework? 
+    
+    702.What are the drawbacks of Setter based Dependency Injection \(DI\) in Spring? 
+    
+    703.What are the differences between Dependency Injection \(DI\) and Factory Pattern? 
+    
+    704.In Spring framework, what is the difference between FileSystemResource and ClassPathResource? 
+    
+    705.Name some popular Spring framework annotations that you use in your project? 
+    
+    706.How can you upload a file in Spring MVC Application? 
+    
+    707.What are the different types of events provided by Spring framework? 
+    
+    708.What is the difference between DispatcherServlet and ContextLoaderListener in Spring? 
+    
+    709.How will you handle exceptions in Spring MVC Framework? 
+    
+    710. What are the best practices of Spring Framework? 
+    
+    711. What is Spring Boot? 
+    
+    Hibernate
+    
+    712. What is Hibernate framework? 
+    
+    713. What is an Object Relational Mapping \(ORM\)? 
+    
+    714. What is the purpose of Configuration Interface in Hibernate? 
+    
+    715. What is Object Relational Impedance Mismatch? 
+    
+    716. What are the main problems of Object Relational Impedance Mismatch? 
+    
+    717. What are the key characteristics of Hibernate? 
+    
+    718. Can you tell us about the core interfaces of Hibernate framework? 
+    
+    719. How will you map the columns of a DB table to the properties of a Java class in Hibernate? 
+    
+    720.Does Hibernate make it mandatory for a mapping file to have
+    
+    .hbm.xml extension? 
+    
+    721. What are the steps for creating a SessionFactory in Hibernate? 
+    
+    722.Why do we use POJO in Hibernate? 
+    
+    723.What is Hibernate Query Language \(HQL\)? 
+    
+    724.How will you call a stored procedure in Hibernate? 
+    
+    725.What is Criteria API in Hibernate? 
+    
+    726.Why do we use HibernateTemplate? 
+    
+    727.How can you see SQL code generated by Hibernate on console? 
+    
+    728.What are the different types of collections supported by Hibernate? 
+    
+    729.What is the difference between session.save\(\) and session.saveOrUpdate\(\) methods in Hibernate? 
+    
+    730.What are the advantages of Hibernate framework over JDBC? 
+    
+    731. How can we get statistics of a SessionFactory in Hibernate? 
+    
+    732.What is the Transient state of an object in Hibernate? 
+    
+    733.What is the Detached state of an object in Hibernate? 
+    
+    734.What is the use of Dirty Checking in Hibernate? 
+    
+    735.What is the purpose of Callback interface in Hibernate? 
+    
+    736.What are the different ORM levels in Hibernate? 
+    
+    737.What are the different ways to configure a Hibernate application? 
+    
+    738.What is Query Cache in Hibernate? 
+    
+    739.What are the different types of Association mappings supported by Hibernate? 
+    
+    740.What are the different types of Unidirectional Association mappings in Hibernate? 
+    
+    741. What is Unit of Work design pattern? 
+    
+    742.In Hibernate, how can an object go in Detached state? 
+    
+    743.How will you order the results returned by a Criteria in Hibernate? 
+    
+    744.How does Example criterion work in Hibernate? 
+    
+    745.How does Transaction management work in Hibernate? 
+    
+    746.How can we mark an entity/collection as immutable in Hibernate? 
+    
+    747.What are the different options to retrieve an object from database in Hibernate? 
+    
+    748.How can we auto-generate primary key in Hibernate? 
+    
+    749.How will you re-attach an object in Detached state in Hibernate? 
+    
+    750.What is the first level of cache in Hibernate? 
+    
+    751. What are the different second level caches available in Hibernate? 
+    
+    752.Which is the default transaction factory in Hibernate? 
+    
+    753.What are the options to disable second level cache in Hibernate? 
+    
+    754.What are the different fetching strategies in Hibernate? 
+    
+    755.What is the difference between Immediate fetching and Lazy collection fetching? 
+    
+    756.What is ‘Extra lazy fetching’ in Hibernate? 
+    
+    757.How can we check is a collection is initialized or not under Lazy Initialization strategy? 
+    
+    758.What are the different strategies for cache mapping in Hibernate? 
+    
+    759.What is the difference between a Set and a Bag in Hibernate? 
+    
+    760.How can we monitor the performance of Hibernate in an application? 
+    
+    761. How can we check if an Object is in Persistent, Detached or Transient state in Hibernate? 
+    
+    762.What is ‘the inverse side of association’ in a mapping? 
+    
+    763.What is ORM metadata? 
+    
+    764.What is the difference between load\(\) and get\(\) method in Hibernate? 
+    
+    765.When should we use get\(\) method or load\(\) method in Hibernate? 
+    
+    766.What is a derived property in Hibernate? 
+    
+    767.How can we use Named Query in Hibernate? 
+    
+    768.What are the two locking strategies in Hibernate? 
+    
+    769.What is the use of version number in Hibernate? 
+    
+    770.What is the use of session.lock\(\) method in Hibernate? 
+    
+    771. What inheritance mapping strategies are supported by Hibernate? 
+    
+    Maven
+    
+    772.What is Maven? 
+    
+    773.What are the main features of Maven? 
+    
+    774.What areas of a Project can you manage by using Maven? 
+    
+    775.What are the main advantages of Maven? 
+    
+    776.Why do we say “Maven uses convention over configuration”? 
+    
+    777.What are the responsibilities of a Build tool like Maven? 
+    
+    778.What are the differences between Ant and Maven? 
+    
+    779.What is MOJO in Maven? 
+    
+    780.What is a Repository in Maven? 
+    
+    781. What are the different types of repositories in Maven? 
+    
+    782.What is a local repository in Maven? 
+    
+    783.What is a central repository in Maven? 
+    
+    784.What is a Remote repository in Maven? 
+    
+    785.Why we should not store jars in CVS or any other version control system instead of Maven repository? 
+    
+    786.Can anyone upload JARS or artifacts to Central Repository? 
+    
+    787.What is a POM? 
+    
+    788.What is Super POM? 
+    
+    789.What are the main required elements in POM file? 
+    
+    790.What are the phases in Build lifecycle in Maven? 
+    
+    791. What command will you use to package your Maven project? 
+    
+    792.What is the format of fully qualified artifact name of a Maven project? 
+    
+    793.What is an Archetype in Maven? 
+    
+    794.What is the command in Maven to generate an Archetype? 
+    
+    795.What are the three main build lifecycles of Maven? 
+    
+    796.What are the main uses of a Maven plugin? 
+    
+    797.How will you find the version of a plugin being used? 
+    
+    798.What are the different types of profile in Maven? Where will you define these profiles? 
+    
+    799.What are the different setting files in Maven? Where will you find these files? 
+    
+    800.What are the main elements we can find in settings.xml? 
+    
+    801. How will you check the version of Maven in your system? 
+    
+    802.How will you verify if Maven is installed on Windows? 
+    
+    803.What is a Maven artifact? 
+    
+    804.What are the different dependency scopes in Maven? 
+    
+    805.How can we exclude a dependency in Maven? 
+    
+    806.How Maven searches for JAR corresponding to a dependency? 
+    
+    807.What is a transitive dependency in Maven? 
+    
+    808.What are Excluded dependencies in Maven? 
+    
+    809.What are Optional dependencies in Maven? 
+    
+    810. Where will you find the class files after compiling a Maven project successfully? 
+    
+    811. What are the default locations for source, test and build directories in Maven? 
+    
+    812. What is the result of jar:jar goal in Maven? 
+    
+    813. How can we get the debug or error messages from the execution of Maven? 
+    
+    814. What is the difference between a Release version and SNAPSHOT
+    
+    version in Maven? 
+    
+    815. How will you run test classes in Maven? 
+    
+    816. Sometimes Maven compiles the test classes but doesn't run them? 
+    
+    What could be the reason for it? 
+    
+    817. How can we skip the running of tests in Maven? 
+    
+    818. Can we create our own directory structure for a project in Maven? 
+    
+    819. What are the differences between Gradle and Maven? 
+    
+    820.What is the difference between Inheritance and Multi-module in Maven? 
+    
+    821. What is Build portability in Maven? 
+    
+    GIT
+    
+    822.How can we see n most recent commits in GIT? 
+    
+    823.How can we know if a branch is already merged into master in GIT? 
+    
+    824.What is the purpose of git stash drop? 
+    
+    825.What is the HEAD in GIT? 
+    
+    826.What is the most popular branching strategy in GIT? 
+    
+    827.What is SubGit? 
+    
+    828.What is the use of git instaweb? 
+    
+    829.What are git hooks? 
+    
+    830.What is GIT? 
+    
+    831. What is a repository in GIT? 
+    
+    832.What are the main benefits of GIT? 
+    
+    833.What are the disadvantages of GIT? 
+    
+    834.What are the main differences between GIT and SVN? 
+    
+    835.How will you start GIT for your project? 
+    
+    836.What is git clone in GIT? 
+    
+    837.How will you create a repository in GIT? 
+    
+    838.What are the different ways to start work in GIT? 
+    
+    839.GIT is written in which language? 
+    
+    840.What does ‘git pull’ command in GIT do internally? 
+    
+    841. What does ‘git push’ command in GIT do internally? 
+    
+    842.What is git stash? 
+    
+    843.What is the meaning of ‘stage’ in GIT? 
+    
+    844. What is the purpose of git config command? 
+    
+    845.How can we see the configuration settings of GIT installation? 
+    
+    846.How will you write a message with commit command in GIT? 
+    
+    847.What is stored inside a commit object in GIT? 
+    
+    848.How many heads can you create in a GIT repository? 
+    
+    849.Why do we create branches in GIT? 
+    
+    850.What are the different kinds of branches that can be created in GIT? 
+    
+    851. How will you create a new branch in GIT? 
+    
+    852.How will you add a new feature to the main branch? 
+    
+    853.What is a pull request in GIT? 
+    
+    854.What is merge conflict in GIT? 
+    
+    855.How can we resolve a merge conflict in GIT? 
+    
+    856.What command will you use to delete a branch? 
+    
+    857.What command will you use to delete a branch that has unmerged changes? 
+    
+    858.What is the alternative command to merging in GIT? 
+    
+    859.What is Rebasing in GIT? 
+    
+    860.What is the ‘Golden Rule of Rebasing’ in GIT? 
+    
+    861. Why do we use Interactive Rebasing in place of Auto Rebasing? 
+    
+    862.What is the command for Rebasing in Git? 
+    
+    863.What is the main difference between git clone and git remote? 
+    
+    864.What is GIT version control? 
+    
+    865.What GUI do you use for working on GIT? 
+    
+    866.What is the use of git diff command in GIT? 
+    
+    867.What is git rerere? 
+    
+    868.What are the three most popular version of git diff command? 
+    
+    869.What is the use of git status command? 
+    
+    870.What is the main difference between git diff and git status? 
+    
+    871. What is the use of git rm command in GIT? 
+    
+    872.What is the command to apply a stash? 
+    
+    873.Why do we use git log command? 
+    
+    874.Why do we need git add command in GIT? 
+    
+    875.Why do we use git reset command? 
+    
+    876.What does a commit object contain? 
+    
+    877.How can we convert git log messages to a different format? 
+    
+    878.What are the programming languages in which git hooks can be written? 
+    
+    879.What is a commit message in GIT? 
+    
+    880.How GIT protects the code in a repository? 
+    
+    881. How GIT provides flexibility in version control? 
+    
+    882.How can we change a commit message in GIT? 
+    
+    883.Why is it advisable to create an additional commit instead of amending an existing commit? 
+    
+    884.What is a bare repository in GIT? 
+    
+    885.How do we put a local repository on GitHub server? 
+    
+    886.How will you delete a branch in GIT? 
+    
+    887.How can we set up a Git repository to run code sanity checks and UAT tests just before a commit? 
+    
+    888.How can we revert a commit that was pushed earlier and is public now? 
+    
+    889.In GIT, how will you compress last n commits into a single commit? 
+    
+    890.How will you switch from one branch to a new branch in GIT? 
+    
+    891. How can we clean unwanted files from our working directory in GIT? 
+    
+    892.What is the purpose of git tag command? 
+    
+    893.What is cherry-pick in GIT? 
+    
+    894.What is shortlog in GIT? 
+    
+    895.How can you find the names of files that were changed in a specific commit? 
+    
+    896.How can we attach an automated script to run on the event of a new commit by push command? 
+    
+    897.What is the difference between pre-receive, update and post-receive hooks in GIT? 
+    
+    898.Do we have to store Scripts for GIT hooks within same repository? 
+    
+    899.How can we determine the commit that is the source of a bug in GIT? 
+    
+    900.How can we see differences between two commits in GIT? 
+    
+    901. What are the different ways to identify a commit in GIT? 
+    
+    902.When we run git branch <branchname>, how does GIT know the SHA-1 of the last commit? 
+    
+    903.What are the different types of Tags you can create in GIT? 
+    
+    904.How can we rename a remote repository? 
+    
+    905.Some people use git checkout and some use git co for checkout. How is that possible? 
+    
+    906.How can we see the last commit on each of our branch in GIT? 
+    
+    907.Is origin a special branch in GIT? 
+    
+    908.How can we configure GIT to not ask for password every time? 
+    
+    909.What are the four major protocols used by GIT for data transfer? 
+    
+    910. What is GIT protocol? 
+    
+    911. How can we work on a project where we do not have push access? 
+    
+    912. What is git grep? 
+    
+    913. How can your reorder commits in GIT? 
+    
+    914. How will you split a commit into multiple commits? 
+    
+    915. What is filter-branch in GIT? 
+    
+    916. What are the three main trees maintained by GIT? 
+    
+    917. What are the three main steps of working GIT? 
+    
+    918. What are ours and theirs merge options in GIT? 
+    
+    919. How can we ignore merge conflicts due to Whitespace? 
+    
+    920.What is git blame? 
+    
+    921. What is a submodule in GIT? 
+    
+    AWS
+    
+    922.What do you know about AWS Region? 
+    
+    923.What are the important components of IAM? 
+    
+    924.What are the important points about AWS IAM? 
+    
+    925.What are the important features of Amazon S3? 
+    
+    926.What is the scale of durability in Amazon S3? 
+    
+    927.What are the Consistency levels supported by Amazon S3? 
+    
+    928.What are the different tiers in Amazon S3 storage? 
+    
+    929.How will you upload a file greater than 100 megabytes in Amazon S3? 
+    
+    930.What happens to an Object when we delete it from Amazon S3? 
+    
+    931. What is the use of Amazon Glacier? 
+    
+    932.Can we disable versioning on a version-enabled bucket in Amazon S3? 
+    
+    933.What are the use cases of Cross Region Replication Amazon S3? 
+    
+    934.Can we do Cross Region replication in Amazon S3 without enabling versioning on a bucket? 
+    
+    935.What are the different types of actions in Object Lifecycle Management in Amazon S3? 
+    
+    936.How do we get higher performance in our application by using Amazon CloudFront? 
+    
+    937.What is the mechanism behind Regional Edge Cache in Amazon CloudFront? 
+    
+    938.What are the benefits of Streaming content? 
+    
+    939.What is Lambda@Edge in AWS? 
+    
+    940.What are the different types of events triggered by Amazon CloudFront? 
+    
+    941. What is Geo Targeting in Amazon CloudFront? 
+    
+    942.What are the main features of Amazon CloudFront? 
+    
+    943.What are the security mechanisms available in Amazon S3? 
+    
+    Cloud Computing
+    
+    944.What are the benefits of Cloud Computing? 
+    
+    945.What is On-demand computing in Cloud Computing? 
+    
+    946.What are the different layers of Cloud computing? 
+    
+    947.What resources are provided by Infrastructure as a Service \(IAAS\) provider? 
+    
+    948.What is the benefit of Platform as a Service? 
+    
+    949.What are the main advantages of PaaS? 
+    
+    950.What is the main disadvantage of PaaS? 
+    
+    951. What are the different deployment models in Cloud computing? 
+    
+    952.What is the difference between Scalability and Elasticity? 
+    
+    953.What is Software as a Service? 
+    
+    954.What are the different types of Datacenters in Cloud computing? 
+    
+    955.Explain the various modes of Software as a Service \(SaaS\) cloud environment? 
+    
+    956.What are the important things to care about in Security in a cloud environment? 
+    
+    957.Why do we use API in cloud computing environment? 
+    
+    958.What are the different areas of Security Management in cloud? 
+    
+    959.What are the main cost factors of cloud based data center? 
+    
+    960.How can we measure the cloud-based services? 
+    
+    961. How a traditional datacenter is different from a cloud environment? 
+    
+    962.How will you optimize availability of your application in a Cloud environment? 
+    
+    963.What are the requirements for implementing IaaS strategy in Cloud? 
+    
+    DOCKER
+    
+    964.What is Docker? 
+    
+    965.What is the difference between Docker image and Docker container? 
+    
+    966.How will you remove an image from Docker? 
+    
+    967.How is a Docker container different from a hypervisor? 
+    
+    968.Can we write compose file in json file instead of yaml? 
+    
+    969.Can we run multiple apps on one server with Docker? 
+    
+    970.What are the common use cases of Docker? 
+    
+    971. What are the main features of Docker-compose? 
+    
+    972.What is the most popular use of Docker? 
+    
+    973.What is the role of open source development in the popularity of Docker? 
+    
+    UNIX Shell
+    
+    974.How will you remove all files in current directory? Including the files that are two levels down in a sub-directory. 
+    
+    975.What is the difference between the –v and –x options in Bash shell scripts? 
+    
+    976.What is a Filter in Unix command? 
+    
+    977.What is Kernel in Unix operating system? 
+    
+    978.What is a Shell in Unix OS? 
+    
+    979.What are the different shells in Unix that you know about? 
+    
+    980.What is the first character of the output in ls –l command ? 
+    
+    981. What is the difference between Multi-tasking and Multi-user environment? 
+    
+    982.What is Command Substitution in Unix? 
+    
+    983.What is an Inode in Unix? 
+    
+    984.What is the difference between absolute path and relative path in Unix file system? 
+    
+    985.What are the main responsibilities of a Unix Shell? 
+    
+    986.What is a Shell variable? 
+    
+    Microservices
+    
+    987.What is a Microservice? 
+    
+    988.What are the benefits of Microservices architecture? 
+    
+    989.What is the role of architect in Microservices architecture? 
+    
+    990.What is the advantage of Microservices architecture over Service Oriented Architecture \(SOA\)? 
+    
+    991. Is it a good idea to provide a Tailored Service Template for Microservices development in an organization? 
+    
+    992.What are the disadvantages of using Shared libraries approach to decompose a monolith application? 
+    
+    993.What are the characteristics of a Good Microservice? 
+    
+    994.What is Bounded Context? 
+    
+    995.What are the points to remember during integration of Microservices? 
+    
+    996.Is it a good idea for Microservices to share a common database? 
+    
+    997.What is the preferred type of communication between Microservices? 
+    
+    Synchronous or Asynchronous? 
+    
+    998.What is the difference between Orchestration and Choreography in Microservices architecture? 
+    
+    999.What are the issues in using REST over HTTP for Microservices? 
+    
+    1000. 
+    
+    Can we create Microservices as State Machines? 
 
 ACKNOWLEDGMENTS
 
@@ -2182,11 +2182,11 @@ Java Interview Questions
 
 
 
-**Java Basics**
+Java Basics
 
 
 
-**1. ** **What is the difference between** **JDK and JRE? **
+1.  What is the difference between JDK and JRE? 
 
 
 
@@ -2198,7 +2198,7 @@ JRE provides libraries and JVM that is required to run a Java program.
 
 
 
-**2. ** **What is Java Virtual Machine** **\(JVM\)? **
+2.  What is Java Virtual Machine \(JVM\)? 
 
 
 
@@ -2208,7 +2208,7 @@ Java Virtual Machine \(JVM\) is an abstract machine that executes Java Bytecode.
 
 
 
-**3. ** **What are the different types of** **memory areas allocated by JVM? **
+3.  What are the different types of memory areas allocated by JVM? 
 
 
 
@@ -2238,7 +2238,7 @@ Native Method Stack: This area is reserved for all the native methods used in th
 
 
 
-**4. ** **What is JIT compiler? **
+4.  What is JIT compiler? 
 
 
 
@@ -2250,7 +2250,7 @@ Java has popularized the use of JIT compiler by including it in JVM.
 
 
 
-**5. ** **How Java platform is different** **from other platforms? **
+5.  How Java platform is different from other platforms? 
 
 
 
@@ -2266,7 +2266,7 @@ Where as other languages require libraries compiled for a specific platform to r
 
 
 
-**6. ** **Why people say that Java is 'write** **once and run anywhere' language? **
+6.  Why people say that Java is 'write once and run anywhere' language? 
 
 
 
@@ -2284,7 +2284,7 @@ Java compiler javac compiles java code and JVM java runs that code.
 
 
 
-**7. ** **How does ClassLoader work in** **Java? **
+7.  How does ClassLoader work in Java? 
 
 
 
@@ -2316,7 +2316,7 @@ Application ClassLoader: This ClassLoader depends on CLASSPATH to find the locat
 
 
 
-**8. ** **Do you think ‘main’ used for main** **method is a keyword in Java? **
+8.  Do you think ‘main’ used for main method is a keyword in Java? 
 
 
 
@@ -2324,9 +2324,9 @@ No, main is just a name of method. There can be multiple methods with same name 
 
 
 
-**9. ** **Can we write main method as** **public void static instead of public**
+9.  Can we write main method as public void static instead of public
 
-**static void? **
+static void? 
 
 
 
@@ -2340,11 +2340,11 @@ We can write static public void main\(\) instead of public static void main\(\).
 
 
 
-**10. ** **In Java, if we do not specify any** **value for local variables, then what**
+10.  In Java, if we do not specify any value for local variables, then what
 
-**will be the default value of the local**
+will be the default value of the local
 
-**variables? **
+variables? 
 
 
 
@@ -2352,11 +2352,11 @@ Java does not initialize local variables with any default value. So these variab
 
 
 
-**11. ** **Let say, we run a java class without** **passing any arguments. What will be**
+11.  Let say, we run a java class without passing any arguments. What will be
 
-**the value of String array of**
+the value of String array of
 
-**arguments in Main method? **
+arguments in Main method? 
 
 
 
@@ -2368,7 +2368,7 @@ It is not null.
 
 
 
-**12. ** **What is the difference between** **byte and char data types in Java? **
+12.  What is the difference between byte and char data types in Java? 
 
 
 
@@ -2394,13 +2394,13 @@ A byte is made of 8 bits. But a char is made of 16 bits. So it is equivalent to 
 
 
 
-**OOPS**
+OOPS
 
 
 
 
 
-**13. ** **What are the main principles of** **Object Oriented Programming? **
+13.  What are the main principles of Object Oriented Programming? 
 
 
 
@@ -2422,11 +2422,11 @@ Polymorphism
 
 
 
-**14. ** **What is the difference between** **Object Oriented Programming**
+14.  What is the difference between Object Oriented Programming
 
-**language and Object Based**
+language and Object Based
 
-**Programming language? **
+Programming language? 
 
 
 
@@ -2444,9 +2444,9 @@ Object Based Programming languages provide support for Objects and you can build
 
 
 
-**15. ** **In Java what is the default value of** **an object reference defined as an**
+15.  In Java what is the default value of an object reference defined as an
 
-**instance variable in an Object? **
+instance variable in an Object? 
 
 
 
@@ -2454,7 +2454,7 @@ All the instance variable object references in Java are null.
 
 
 
-**16. ** **Why do we need constructor in** **Java? **
+16.  Why do we need constructor in Java? 
 
 
 
@@ -2474,7 +2474,7 @@ By default, Java provides a default constructor for every object. If we overload
 
 
 
-**17. ** **Why do we need default** **constructor in Java classes? **
+17.  Why do we need default constructor in Java classes? 
 
 
 
@@ -2494,7 +2494,7 @@ When we have overloaded constructor, then Java assumes that we want some custom 
 
 
 
-**18. ** **What is the value returned by** **Constructor in Java? **
+18.  What is the value returned by Constructor in Java? 
 
 
 
@@ -2502,15 +2502,15 @@ When we call a constructor in Java, it returns the object created by it. That is
 
 
 
-**19. ** **Can we inherit a Constructor? **
+19.  Can we inherit a Constructor? 
 
 
 
 No, Java does not support inheritance of constructor. 
 
-****
 
-**20. ** **Why constructors cannot be final,** **static, or abstract in Java? **
+
+20.  Why constructors cannot be final, static, or abstract in Java? 
 
 
 
@@ -2524,13 +2524,13 @@ If we set a method as abstract it means that it has no body and it should be imp
 
 If we set a method as static it means that it belongs to the class, but not a particular object. The constructor is always called to initialize an object. Therefore, there is no use of marking constructor static. 
 
-**Inheritance**
+Inheritance
 
 
 
-**21. ** **What is the purpose of ‘this’**
+21.  What is the purpose of ‘this’
 
-**keyword in java? **
+keyword in java? 
 
 
 
@@ -2550,7 +2550,7 @@ In case of method overriding, this is used for falling the method of current cla
 
 
 
-**22. ** **Explain the concept of** **Inheritance? **
+22.  Explain the concept of Inheritance? 
 
 
 
@@ -2570,7 +2570,7 @@ Inheritance promotes, code reuse, method overriding and polymorphism.
 
 
 
-**23. ** **Which class in Java is superclass** **of every other class? **
+23.  Which class in Java is superclass of every other class? 
 
 
 
@@ -2578,7 +2578,7 @@ Java is an object oriented programming language. In Java, Object class is the su
 
 
 
-**24. ** **Why Java does not support** **multiple inheritance? **
+24.  Why Java does not support multiple inheritance? 
 
 
 
@@ -2604,7 +2604,7 @@ But you can implement multiple interfaces in Java.
 
 
 
-**25. ** **In OOPS, what is meant by** **composition? **
+25.  In OOPS, what is meant by composition? 
 
 
 
@@ -2618,7 +2618,7 @@ If a class holds the instance of another class, then it is called composition.
 
 
 
-**26. ** **How aggregation and composition** **are different concepts? **
+26.  How aggregation and composition are different concepts? 
 
 
 
@@ -2638,7 +2638,7 @@ Books of a Library cannot exist without the Library. So Book and Library are rel
 
 
 
-**27. ** **Why there are no pointers in** **Java? **
+27.  Why there are no pointers in Java? 
 
 
 
@@ -2652,9 +2652,9 @@ The absence of pointers helps Java in managing memory and garbage collection eff
 
 
 
-**28. ** **If there are no pointers in Java,** **then why do we get**
+28.  If there are no pointers in Java, then why do we get
 
-**NullPointerException? **
+NullPointerException? 
 
 
 
@@ -2666,9 +2666,9 @@ it points to object reference. So JVM uses pointers but programmers only see obj
 
 In case an object reference points to null object, and we try to access a method or member variable on it, then we get NullPointerException. 
 
-**29. ** **What is the purpose of ‘super’**
+29.  What is the purpose of ‘super’
 
-**keyword in java? **
+keyword in java? 
 
 
 
@@ -2684,7 +2684,7 @@ We can also call the constructor of a parent class from the constructor of a chi
 
 
 
-**30. ** **Is it possible to use this\(\) and** **super\(\) both in same constructor? **
+30.  Is it possible to use this\(\) and super\(\) both in same constructor? 
 
 
 
@@ -2692,7 +2692,7 @@ No, Java does not allow using both super\(\) and this\(\) in same constructor. A
 
 
 
-**31. ** **What is the meaning of object** **cloning in Java? **
+31.  What is the meaning of object cloning in Java? 
 
 
 
@@ -2706,11 +2706,11 @@ One disadvantage of cloning is that the return type is an Object. It has to be e
 
 
 
-**Static**
+Static
 
 
 
-**32. ** **In Java, why do we use static** **variable? **
+32.  In Java, why do we use static variable? 
 
 
 
@@ -2722,7 +2722,7 @@ This variable is loaded in memory only once at the time of class loading. So it 
 
 
 
-**33. ** **Why it is not a good practice to** **create static variables in Java? **
+33.  Why it is not a good practice to create static variables in Java? 
 
 
 
@@ -2740,7 +2740,7 @@ Also defining static variables is not a good practice because they go against th
 
 
 
-**34. ** **What is the purpose of static** **method in Java? **
+34.  What is the purpose of static method in Java? 
 
 
 
@@ -2754,7 +2754,7 @@ This also helps in keeping the behavior as well as state at the class level.
 
 
 
-**35. ** **Why do we mark main method as** **static in Java? **
+35.  Why do we mark main method as static in Java? 
 
 
 
@@ -2772,7 +2772,7 @@ So this convention helps in Java process to identify the starting code for a pro
 
 
 
-**36. ** **In what scenario do we use a static** **block? **
+36.  In what scenario do we use a static block? 
 
 
 
@@ -2788,7 +2788,7 @@ Sometimes, we can also replace static block with a static method of class.
 
 
 
-**37. ** **Is it possible to execute a program** **without defining a main\(\) method? **
+37.  Is it possible to execute a program without defining a main\(\) method? 
 
 
 
@@ -2796,9 +2796,9 @@ No, with Java 7 onwards, you need a main\(\) method to execute a program. In ear
 
 
 
-**38. ** **What happens when static** **modifier is not mentioned in the**
+38.  What happens when static modifier is not mentioned in the
 
-**signature of main method? **
+signature of main method? 
 
 
 
@@ -2812,9 +2812,9 @@ A program can compile with a non-static method. But on execution it will give No
 
 
 
-**39. ** **What is the difference between** **static method and instance method in**
+39.  What is the difference between static method and instance method in
 
-**Java? **
+Java? 
 
 
 
@@ -2834,13 +2834,13 @@ But an instance method can call both instance variables and static variables.
 
 
 
-****
-
-**Method Overloading and Overriding**
 
 
+Method Overloading and Overriding
 
-**40. ** **What is the other name of Method** **Overloading? **
+
+
+40.  What is the other name of Method Overloading? 
 
 
 
@@ -2848,7 +2848,7 @@ Method Overloading is also known as Static Polymorphism.
 
 
 
-**41. ** **How will you implement method** **overloading in Java? **
+41.  How will you implement method overloading in Java? 
 
 
 
@@ -2870,9 +2870,9 @@ Different sequence of data type of parameters
 
 
 
-**42. ** **What kinds of argument** **variations are allowed in Method**
+42.  What kinds of argument variations are allowed in Method
 
-**Overloading? **
+Overloading? 
 
 
 
@@ -2894,9 +2894,9 @@ Sequence of data type of parameters
 
 
 
-**43. ** **Why it is not possible to do** **method overloading by changing**
+43.  Why it is not possible to do method overloading by changing
 
-**return type of method in java? **
+return type of method in java? 
 
 
 
@@ -2904,7 +2904,7 @@ If we change the return type of overloaded methods then it will lead to ambiguou
 
 
 
-**44. ** **Is it allowed to overload main\(\)** **method in Java? **
+44.  Is it allowed to overload main\(\) method in Java? 
 
 
 
@@ -2916,7 +2916,7 @@ Yes, Java allows users to create many methods with same name
 
 
 
-**45. ** **How do we implement method** **overriding in Java? **
+45.  How do we implement method overriding in Java? 
 
 
 
@@ -2926,7 +2926,7 @@ To override a method, we just provide a new implementation of a method with same
 
 
 
-**46. ** **Are we allowed to override a static** **method in Java? **
+46.  Are we allowed to override a static method in Java? 
 
 
 
@@ -2934,7 +2934,7 @@ No. Java does not allow overriding a static method. If you create a static metho
 
 
 
-**47. ** **Why Java does not allow** **overriding a static method? **
+47.  Why Java does not allow overriding a static method? 
 
 
 
@@ -2946,7 +2946,7 @@ Therefore, Java does not allow overriding a static method.
 
 
 
-**48. ** **Is it allowed to override an** **overloaded method? **
+48.  Is it allowed to override an overloaded method? 
 
 
 
@@ -2954,9 +2954,9 @@ Yes. You can override an overloaded method in Java.
 
 
 
-**49. ** **What is the difference between** **method overloading and method**
+49.  What is the difference between method overloading and method
 
-**overriding in Java? **
+overriding in Java? 
 
 
 
@@ -2982,7 +2982,7 @@ Method overloading is a compile time concept. Method overriding is a runtime con
 
 
 
-**50. ** **Does Java allow virtual functions? **
+50.  Does Java allow virtual functions? 
 
 
 
@@ -2992,7 +2992,7 @@ Only class methods and private instance methods are not virtual methods in Java.
 
 
 
-**51. ** **What is meant by covariant return** **type in Java? **
+51.  What is meant by covariant return type in Java? 
 
 
 
@@ -3012,11 +3012,11 @@ Before Java 5, any method that overrides the method of parent class would have s
 
 From Java 5 onwards, a child class can override a method of parent class and the child class method can return an object that is child of object return by parent class method. 
 
-**Polymorphism**
+Polymorphism
 
 
 
-**52. ** **What is Runtime Polymorphism? **
+52.  What is Runtime Polymorphism? 
 
 
 
@@ -3030,9 +3030,9 @@ So at compile time it is not known which method will be called at run time.
 
 
 
-**53. ** **Is it possible to achieve Runtime** **Polymorphism by data members in**
+53.  Is it possible to achieve Runtime Polymorphism by data members in
 
-**Java? **
+Java? 
 
 
 
@@ -3040,7 +3040,7 @@ No. We need to create Runtime Polymorphism by implementing methods at two levels
 
 
 
-**54. ** **Explain the difference between** **static and dynamic binding? **
+54.  Explain the difference between static and dynamic binding? 
 
 
 
@@ -3064,11 +3064,11 @@ public void walk\(Object o\)\{
 
 
 
-**Abstraction**
+Abstraction
 
 
 
-**55. ** **What is Abstraction in Object** **Oriented programming? **
+55.  What is Abstraction in Object Oriented programming? 
 
 
 
@@ -3084,7 +3084,7 @@ Abstraction process identifies commonalities and hides the complexity of impleme
 
 
 
-**56. ** **How is Abstraction different from** **Encapsulation? **
+56.  How is Abstraction different from Encapsulation? 
 
 
 
@@ -3094,7 +3094,7 @@ Abstraction happens at class level design. It results in hiding the implementati
 
 
 
-**57. ** **What is an abstract class in Java? **
+57.  What is an abstract class in Java? 
 
 
 
@@ -3106,9 +3106,9 @@ An abstract class has to be extended in Java and its abstract methods have to be
 
 
 
-**58. ** **Is it allowed to mark a method** **abstract method without marking the**
+58.  Is it allowed to mark a method abstract method without marking the
 
-**class abstract? **
+class abstract? 
 
 
 
@@ -3116,7 +3116,7 @@ No. Java specification says that if there is at least one abstract method in a c
 
 
 
-**59. ** **Is it allowed to mark a method** **abstract as well as final? **
+59.  Is it allowed to mark a method abstract as well as final? 
 
 
 
@@ -3128,7 +3128,7 @@ An abstract method has to be overridden by a child class. And a final method can
 
 
 
-**60. ** **Can we instantiate an abstract** **class in Java? **
+60.  Can we instantiate an abstract class in Java? 
 
 
 
@@ -3136,7 +3136,7 @@ No. We cannot create an instance of an abstract class in Java.
 
 
 
-**61. ** **What is an interface in Java? **
+61.  What is an interface in Java? 
 
 
 
@@ -3148,7 +3148,7 @@ It has method signatures and constant declarations.
 
 
 
-**62. ** **Is it allowed to mark an interface** **method as static? **
+62.  Is it allowed to mark an interface method as static? 
 
 
 
@@ -3156,7 +3156,7 @@ Yes, from Java 8 onwards, we can define static and default methods in an interfa
 
 
 
-**63. ** **Why an Interface cannot be** **marked as final in Java? **
+63.  Why an Interface cannot be marked as final in Java? 
 
 
 
@@ -3164,7 +3164,7 @@ A final method cannot be overridden. But an interface method has to be implement
 
 
 
-**64. ** **What is a marker interface? **
+64.  What is a marker interface? 
 
 
 
@@ -3176,7 +3176,7 @@ E.g. Serializable, Cloneable, Remote etc.
 
 
 
-**65. ** **What can we use instead of** **Marker interface? **
+65.  What can we use instead of Marker interface? 
 
 
 
@@ -3184,7 +3184,7 @@ We can use annotations instead of Marker interface.
 
 
 
-**66. ** **How Annotations are better than** **Marker Interfaces? **
+66.  How Annotations are better than Marker Interfaces? 
 
 
 
@@ -3198,7 +3198,7 @@ Annotations are more powerful than a Marker interface. They allow programmers to
 
 
 
-**67. ** **What is the difference between** **abstract class and interface in Java? **
+67.  What is the difference between abstract class and interface in Java? 
 
 
 
@@ -3220,9 +3220,9 @@ A class can extend only one abstract class. A class can implement more than one 
 
 
 
-**68. ** **Does Java allow us to use private** **and protected modifiers for variables**
+68.  Does Java allow us to use private and protected modifiers for variables
 
-**in interfaces? **
+in interfaces? 
 
 
 
@@ -3230,7 +3230,7 @@ No. All the variables in an interface are implicitly public.
 
 
 
-**69. ** **How can we cast to an object** **reference to an interface reference? **
+69.  How can we cast to an object reference to an interface reference? 
 
 
 
@@ -3238,11 +3238,11 @@ An Object that implements an Interface can be cast to the same Interface. Since 
 
 
 
-**Final**
+Final
 
 
 
-**70. ** **How can you change the value of a** **final variable in Java? **
+70.  How can you change the value of a final variable in Java? 
 
 
 
@@ -3252,7 +3252,7 @@ Java does not allow changing the value of a final variable. Once the value is se
 
 
 
-**71. ** **Can a class be marked final in** **Java? **
+71.  Can a class be marked final in Java? 
 
 
 
@@ -3260,7 +3260,7 @@ Yes a class can be marked final in Java. Once a class is marked final, it cannot
 
 
 
-**72. ** **How can we create a final method** **in Java? **
+72.  How can we create a final method in Java? 
 
 
 
@@ -3268,7 +3268,7 @@ To mark a method, add modifier final to that method. A final method can not be o
 
 
 
-**73. ** **How can we prohibit inheritance** **in Java? **
+73.  How can we prohibit inheritance in Java? 
 
 
 
@@ -3276,7 +3276,7 @@ If you mark a class final, it cannot be extended. This will prohibit the inherit
 
 
 
-**74. ** **Why Integer class in final in Java? **
+74.  Why Integer class in final in Java? 
 
 
 
@@ -3284,7 +3284,7 @@ Integer class is a wrapper for int. If it is not marked final, then any other cl
 
 
 
-**75. ** **What is a blank final variable in** **Java? **
+75.  What is a blank final variable in Java? 
 
 
 
@@ -3292,7 +3292,7 @@ When we declare a final variable without giving any initial value, then it is ca
 
 
 
-**76. ** **How can we initialize a blank final** **variable? **
+76.  How can we initialize a blank final variable? 
 
 
 
@@ -3304,7 +3304,7 @@ A blank final static variable can be initialized in the static block of class.
 
 
 
-**77. ** **Is it allowed to declare main** **method as final? **
+77.  Is it allowed to declare main method as final? 
 
 
 
@@ -3314,11 +3314,11 @@ Yes, we can mark the main method as final.
 
 
 
-**Package**
+Package
 
 
 
-**78. ** **What is the purpose of package in** **Java? **
+78.  What is the purpose of package in Java? 
 
 
 
@@ -3330,7 +3330,7 @@ A Package also provides access protection for classes and interfaces. A package 
 
 
 
-**79. ** **What is java.lang package? **
+79.  What is java.lang package? 
 
 
 
@@ -3342,7 +3342,7 @@ It also contains wrapper classes like- Integer, Boolean, Character etc. It provi
 
 
 
-**80. ** **Which is the most important class** **in Java? **
+80.  Which is the most important class in Java? 
 
 
 
@@ -3350,7 +3350,7 @@ It is an open-ended question with many answers. In my view, Object class is the 
 
 
 
-**81. ** **Is it mandatory to import java.lang** **package every time? **
+81.  Is it mandatory to import java.lang package every time? 
 
 
 
@@ -3358,7 +3358,7 @@ No. By default, JVM loads it internally.
 
 
 
-**82. ** **Can you import same package or** **class twice in your class? **
+82.  Can you import same package or class twice in your class? 
 
 
 
@@ -3374,7 +3374,7 @@ JVM internally loads the class only one time.
 
 
 
-**83. ** **What is a static import in Java? **
+83.  What is a static import in Java? 
 
 
 
@@ -3382,9 +3382,9 @@ Static import is similar to normal import declaration. Normal import allows us t
 
 
 
-**84. ** **What is the difference between** **import static com.test.Fooclass and**
+84.  What is the difference between import static com.test.Fooclass and
 
-**import com.test.Fooclass? **
+import com.test.Fooclass? 
 
 
 
@@ -3394,13 +3394,13 @@ First import is a static import and the second import is normal import of a clas
 
 
 
-****
-
-**Internationalization**
 
 
+Internationalization
 
-**85. ** **What is Locale in Java? **
+
+
+85.  What is Locale in Java? 
 
 
 
@@ -3412,19 +3412,19 @@ It helps is following the local conventions of a country, native or region. Thes
 
 
 
-**86. ** **How will you use a specific Locale** **in Java? **
+86.  How will you use a specific Locale in Java? 
 
 
 
 To use a specific Locale, we need to load that Locale. We can use ResourceBundle.getBundle\("Locale.UK"\) method to load a Locale. 
 
-****
-
-**Serialization**
 
 
+Serialization
 
-**87. ** **What is the serialization? **
+
+
+87.  What is the serialization? 
 
 
 
@@ -3434,7 +3434,7 @@ This byte array represents the class, version and internal state of the object. 
 
 
 
-**88. ** **What is the purpose of** **serialization? **
+88.  What is the purpose of serialization? 
 
 
 
@@ -3460,7 +3460,7 @@ Cross JVM Synchronization: It can be used in same way across multiple JVM that f
 
 
 
-**89. ** **What is Deserialization? **
+89.  What is Deserialization? 
 
 
 
@@ -3468,7 +3468,7 @@ Deserialization is the process of reconstructing the object from the serialized 
 
 
 
-**90. ** **What is Serialization and** **Deserialization conceptually? **
+90.  What is Serialization and Deserialization conceptually? 
 
 
 
@@ -3476,7 +3476,7 @@ Serialization is to convert Object data into a stream of bytes Deserialization i
 
 
 
-**91. ** **Why do we mark a data member** **transient? **
+91.  Why do we mark a data member transient? 
 
 
 
@@ -3488,7 +3488,7 @@ During serialization process the transient variables are not considered part of 
 
 
 
-**92. ** **Is it allowed to mark a method as** **transient? **
+92.  Is it allowed to mark a method as transient? 
 
 
 
@@ -3496,9 +3496,9 @@ No, Java does not allow marking a method as transient. The transient keyword is 
 
 
 
-**93. ** **How does marking a field as** **transient makes it possible to serialize**
+93.  How does marking a field as transient makes it possible to serialize
 
-**an object? **
+an object? 
 
 
 
@@ -3512,7 +3512,7 @@ To solve this issue, we can mark the member variable XYZ as Transient in class A
 
 
 
-**94. ** **What is Externalizable interface** **in Java? **
+94.  What is Externalizable interface in Java? 
 
 
 
@@ -3524,9 +3524,9 @@ A class implements methods writeExternal\(\) and readExternal\(\) to store and r
 
 
 
-**95. ** **What is the difference between** **Serializable and Externalizable**
+95.  What is the difference between Serializable and Externalizable
 
-**interface? **
+interface? 
 
 
 
@@ -3558,11 +3558,11 @@ In Serialization, we need to define serialVersionUID. If it is not explicitly de
 
 
 
-**Reflection**
+Reflection
 
 
 
-**96. ** **What is Reflection in Java? **
+96.  What is Reflection in Java? 
 
 
 
@@ -3572,7 +3572,7 @@ Reflection is Java language's ability to inspect and dynamically call classes, m
 
 
 
-**97. ** **What are the uses of Reflection in** **Java? **
+97.  What are the uses of Reflection in Java? 
 
 
 
@@ -3596,9 +3596,9 @@ JAVA API for XML Parsing \(JAXP\) also uses Reflection.
 
 
 
-**98. ** **How can we access private** **method of a class from outside the**
+98.  How can we access private method of a class from outside the
 
-**class? **
+class? 
 
 
 
@@ -3646,7 +3646,7 @@ m.invoke\(o, null\);
 
 
 
-**99. ** **How can we create an Object** **dynamically at Runtime in Java? **
+99.  How can we create an Object dynamically at Runtime in Java? 
 
 
 
@@ -3670,11 +3670,11 @@ Constructor.newInstance\(\) methods for creating such Objects.
 
 
 
-**Garbage Collection**
+Garbage Collection
 
 
 
-**100. ** **What is Garbage Collection in** **Java? **
+100.  What is Garbage Collection in Java? 
 
 
 
@@ -3686,7 +3686,7 @@ Garbage collection is also known as automatic memory management.
 
 
 
-**101. ** **Why Java provides Garbage** **Collector? **
+101.  Why Java provides Garbage Collector? 
 
 
 
@@ -3694,7 +3694,7 @@ In Java, there are no pointers. Memory management and allocation is done by JVM.
 
 
 
-**102. ** **What is the purpose of gc\(\) in** **Java? **
+102.  What is the purpose of gc\(\) in Java? 
 
 
 
@@ -3704,7 +3704,7 @@ But JVM process can reject this request and wait for some time before running th
 
 
 
-**103. ** **How does Garbage Collection** **work in Java? **
+103.  How does Garbage Collection work in Java? 
 
 
 
@@ -3712,9 +3712,9 @@ Java has an automated process called Garbage Collector for Memory Management. It
 
 
 
-**104. ** **When does an object become** **eligible for Garbage Collection in**
+104.  When does an object become eligible for Garbage Collection in
 
-**Java? **
+Java? 
 
 
 
@@ -3734,7 +3734,7 @@ A set of circularly referenced instances that cannot be reached by any other ins
 
 
 
-**105. ** **Why do we use finalize\(\) method** **in Java? **
+105.  Why do we use finalize\(\) method in Java? 
 
 
 
@@ -3750,7 +3750,7 @@ This method is never invoked more than once by JVM.
 
 
 
-**106. ** **What are the different types of** **References in Java? **
+106.  What are the different types of References in Java? 
 
 
 
@@ -3774,7 +3774,7 @@ Weak Reference
 
 Phantom Reference
 
-**107. ** **How can we reference an** **unreferenced object again? **
+107.  How can we reference an unreferenced object again? 
 
 
 
@@ -3782,7 +3782,7 @@ We can provide implementation in finalize\(\) method to reference and unreferenc
 
 
 
-**108. ** **What kind of process is the** **Garbage collector thread? **
+108.  What kind of process is the Garbage collector thread? 
 
 
 
@@ -3790,7 +3790,7 @@ Garbage Collection is a Daemon process in JVM. It is an internal process that ke
 
 
 
-**109. ** **What is the purpose of the** **Runtime class? **
+109.  What is the purpose of the Runtime class? 
 
 
 
@@ -3814,7 +3814,7 @@ Runtime.gc\(\) – This method can invoke garbage collection.
 
 
 
-**110. ** **How can we invoke an external** **process in Java? **
+110.  How can we invoke an external process in Java? 
 
 
 
@@ -3822,7 +3822,7 @@ Java provides the method Runtime.getRuntime\(\).exec\(\) to invoke an external p
 
 
 
-**111. ** **What are the uses of Runtime** **class? **
+111.  What are the uses of Runtime class? 
 
 
 
@@ -3836,11 +3836,11 @@ It can use system properties and environment variables 3.
 
 It helps in running non-java programs from within a java application. 
 
-**Inner Classes**
+Inner Classes
 
 
 
-**112. ** **What is a Nested class? **
+112.  What is a Nested class? 
 
 
 
@@ -3848,7 +3848,7 @@ In Java, a Nested class is a class declared inside another class. We can have mo
 
 
 
-**113. ** **How many types of Nested classes** **are in Java? **
+113.  How many types of Nested classes are in Java? 
 
 
 
@@ -3874,9 +3874,9 @@ Static nested class
 
 
 
-****
 
-**114. ** **Why do we use Nested Classes? **
+
+114.  Why do we use Nested Classes? 
 
 
 
@@ -3898,9 +3898,9 @@ Code Clarity: Nested classed make the code more readable and well organized. Onl
 
 
 
-**115. ** **What is the difference between a** **Nested class and an Inner class in**
+115.  What is the difference between a Nested class and an Inner class in
 
-**Java? **
+Java? 
 
 
 
@@ -3912,7 +3912,7 @@ An Inner class has access to other members of the enclosing class, even if they 
 
 
 
-**116. ** **What is a Nested interface? **
+116.  What is a Nested interface? 
 
 
 
@@ -3924,9 +3924,9 @@ A Nested interface is also known as Static interface.
 
 
 
-**117. ** **How can we access the non-final** **local variable, inside a Local Inner**
+117.  How can we access the non-final local variable, inside a Local Inner
 
-**class? **
+class? 
 
 
 
@@ -3936,7 +3936,7 @@ Java allows a Local Inner class to access only Constant local members. So we hav
 
 
 
-**118. ** **Can an Interface be defined in a** **Class? **
+118.  Can an Interface be defined in a Class? 
 
 
 
@@ -3944,13 +3944,13 @@ Yes, we can define a Static Nested interface within a class. Only the enclosing 
 
 
 
-**119. ** **Do we have to explicitly mark a** **Nested Interface public static? **
+119.  Do we have to explicitly mark a Nested Interface public static? 
 
 
 
 A Nested Interface is implicitly public static. So the modifiers public and static are redundant in declaration. 
 
-**120. ** **Why do we use Static Nested** **interface in Java? **
+120.  Why do we use Static Nested interface in Java? 
 
 
 
@@ -3996,15 +3996,15 @@ So the purpose of declaring an Inner interface is to restrict its access from ou
 
 
 
-****
-
-**String**
 
 
+String
 
-**121. ** **What is the meaning of** **Immutable in the context of String**
 
-**class in Java? **
+
+121.  What is the meaning of Immutable in the context of String
+
+class in Java? 
 
 
 
@@ -4016,7 +4016,7 @@ Once a String object is created, it cannot be changed. When we assign the String
 
 
 
-**122. ** **Why a String object is considered** **immutable in java? **
+122.  Why a String object is considered immutable in java? 
 
 
 
@@ -4034,7 +4034,7 @@ Let say there are 2 String variables A and B that reference to a String object �
 
 
 
-**123. ** **How many objects does following** **code create? **
+123.  How many objects does following code create? 
 
 
 
@@ -4054,7 +4054,7 @@ The above code creates only one object. Since there is only one String Literal �
 
 
 
-**124. ** **How many ways are there in** **Java to create a String object? **
+124.  How many ways are there in Java to create a String object? 
 
 
 
@@ -4064,7 +4064,7 @@ Java provides two ways to create a String object. One is by using String Literal
 
 
 
-**125. ** **How many objects does** **following code create? **
+125.  How many objects does following code create? 
 
 
 
@@ -4076,7 +4076,7 @@ String s = new String\("HelloWorld"\); The above code creates two objects. One o
 
 
 
-**126. ** **What is String interning? **
+126.  What is String interning? 
 
 
 
@@ -4088,7 +4088,7 @@ It provides the advantage of making String processing efficient in Time as well 
 
 
 
-**127. ** **Why Java uses String literal** **concept? **
+127.  Why Java uses String literal concept? 
 
 
 
@@ -4098,9 +4098,9 @@ Java uses String literal concept to make Java more efficient in memory. If same 
 
 
 
-**128. ** **What is the basic difference** **between a String and StringBuffer**
+128.  What is the basic difference between a String and StringBuffer
 
-**object? **
+object? 
 
 
 
@@ -4112,7 +4112,7 @@ StringBuffer is a mutable object. We can keep appending or modifying the content
 
 
 
-**129. ** **How will you create an immutable** **class in Java? **
+129.  How will you create an immutable class in Java? 
 
 
 
@@ -4138,7 +4138,7 @@ In clone method, return a copy of object instead of the actual object reference
 
 
 
-**130. ** **What is the use of toString\(\)** **method in java ? **
+130.  What is the use of toString\(\) method in java ? 
 
 
 
@@ -4150,11 +4150,11 @@ Java provides a default implementation for toString\(\) method. But we can overr
 
 
 
-**131. ** **Arrange the three classes String,** **StringBuffer and StringBuilder in the**
+131.  Arrange the three classes String, StringBuffer and StringBuilder in the
 
-**order of efficiency for String**
+order of efficiency for String
 
-**processing operations? **
+processing operations? 
 
 
 
@@ -4168,11 +4168,11 @@ So the decreasing order of efficiency is: StringBuilder, StringBuffer, String
 
 
 
-**Exception Handling**
+Exception Handling
 
 
 
-**132. ** **What is Exception Handling in** **Java? **
+132.  What is Exception Handling in Java? 
 
 
 
@@ -4184,7 +4184,7 @@ Exception handling mechanism catches these checked exceptions and takes relevant
 
 
 
-**133. ** **In Java, what are the differences** **between a Checked and Unchecked? **
+133.  In Java, what are the differences between a Checked and Unchecked? 
 
 
 
@@ -4202,7 +4202,7 @@ IOException, SQLException etc. are examples of Checked Exceptions. NullPointerEx
 
 
 
-**134. ** **What is the base class for** **Error and Exception classes in Java? **
+134.  What is the base class for Error and Exception classes in Java? 
 
 
 
@@ -4212,7 +4212,7 @@ Error as well as Exception class is derived from Throwable class in Java.
 
 
 
-**135. ** **What is a finally block in Java? **
+135.  What is a finally block in Java? 
 
 
 
@@ -4220,7 +4220,7 @@ Java provides a finally block with a try block. This is an optional block. But f
 
 
 
-**136. ** **What is the use of finally block in** **Java? **
+136.  What is the use of finally block in Java? 
 
 
 
@@ -4228,7 +4228,7 @@ As per Java specification, a finally block is always executed, whether an error 
 
 
 
-**137. ** **Can we create a finally block** **without creating a catch block? **
+137.  Can we create a finally block without creating a catch block? 
 
 
 
@@ -4236,7 +4236,7 @@ Yes. A finally block can follow a try block or catch block. So we can defined a 
 
 
 
-**138. ** **Do we have to always put a catch** **block after a try block? **
+138.  Do we have to always put a catch block after a try block? 
 
 
 
@@ -4252,7 +4252,7 @@ Any exception that we want to catch is mentioned in catch block.
 
 
 
-**139. ** **In what scenarios, a finally block** **will not be executed? **
+139.  In what scenarios, a finally block will not be executed? 
 
 
 
@@ -4270,7 +4270,7 @@ A fatal error causes JVM to crash.
 
 
 
-**140. ** **Can we re-throw an Exception** **in Java? **
+140.  Can we re-throw an Exception in Java? 
 
 
 
@@ -4280,7 +4280,7 @@ Yes, Java allows to re-throw an Exception.
 
 
 
-**141. ** **What is the difference between** **throw and throws in Java? **
+141.  What is the difference between throw and throws in Java? 
 
 
 
@@ -4310,7 +4310,7 @@ We can throw only one exception at a time. But we can mention as many exceptions
 
 
 
-**142. ** **What is the concept of** **Exception Propagation? **
+142.  What is the concept of Exception Propagation? 
 
 
 
@@ -4328,11 +4328,11 @@ A\(\) calls B\(\), which calls C\(\), which calls D\(\). And if D\(\) throws an 
 
 
 
-**143. ** **When we override a method in** **a Child class, can we throw an**
+143.  When we override a method in a Child class, can we throw an
 
-**additional Exception that is not**
+additional Exception that is not
 
-**thrown by the Parent class method? **
+thrown by the Parent class method? 
 
 
 
@@ -4342,13 +4342,13 @@ Yes, Java allows us to throw additional Exception in a child class, but the addi
 
 
 
-**Java Collection**
+Java Collection
 
 
 
-**144. ** **What is the difference between** **Collection and Collections**
+144.  What is the difference between Collection and Collections
 
-**Framework in Java? **
+Framework in Java? 
 
 
 
@@ -4362,7 +4362,7 @@ In Java Collections Framework is a library that provides common architecture for
 
 
 
-**145. ** **What are the main benefits of** **Collections Framework in Java? **
+145.  What are the main benefits of Collections Framework in Java? 
 
 
 
@@ -4390,7 +4390,7 @@ Maintenance: Since most of the Java Collections framework code is open source an
 
 
 
-**146. ** **What is the root interface of** **Collection hierarchy in Java? **
+146.  What is the root interface of Collection hierarchy in Java? 
 
 
 
@@ -4416,7 +4416,7 @@ Due to this Collection interface is the root of Collections Framework.
 
 
 
-**147. ** **What are the main differences** **between Collection and Collections? **
+147.  What are the main differences between Collection and Collections? 
 
 
 
@@ -4442,9 +4442,9 @@ Collection defines methods that are used for data structures that contain the ob
 
 
 
-**148. ** **What are the Thread-safe** **classes in Java Collections**
+148.  What are the Thread-safe classes in Java Collections
 
-**framework? **
+framework? 
 
 
 
@@ -4466,9 +4466,9 @@ ConcurrentNavigableMap
 
 
 
-**149. ** **How will you efficiently** **remove elements while iterating a**
+149.  How will you efficiently remove elements while iterating a
 
-**Collection? **
+Collection? 
 
 
 
@@ -4512,7 +4512,7 @@ In Java, it is not allowed for a thread to modify a collection while another thr
 
 
 
-**150. ** **How will you convert a List into** **an array of integers like- int\[\]? **
+150.  How will you convert a List into an array of integers like- int\[\]? 
 
 
 
@@ -4552,9 +4552,9 @@ intArray \[i\] = myList.get\(i\);
 
 
 
-**151. ** **How will you convert an array of** **primitive integers int\[\] to a List**
+151.  How will you convert an array of primitive integers int\[\] to a List
 
-**collection? **
+collection? 
 
 
 
@@ -4584,7 +4584,7 @@ intList.add\(i\);
 
 
 
-**152. ** **How will you run a filter on a** **Collection? **
+152.  How will you run a filter on a Collection? 
 
 
 
@@ -4626,7 +4626,7 @@ In Java 8, we can use Predicate to filter a Collection through Stream.
 
 
 
-**153. ** **How will you convert a List to a** **Set? **
+153.  How will you convert a List to a Set? 
 
 
 
@@ -4652,7 +4652,7 @@ Set<Integer> mySet = new TreeSet<Integer>\(myComparator\); mySet.addAll\(myList\
 
 
 
-**154. ** **How will you remove duplicate** **elements from an ArrayList? **
+154.  How will you remove duplicate elements from an ArrayList? 
 
 
 
@@ -4688,9 +4688,9 @@ myList.addAll\(mySet\);
 
 
 
-**155. ** **How can you maintain a** **Collection with elements in Sorted**
+155.  How can you maintain a Collection with elements in Sorted
 
-**order? **
+order? 
 
 
 
@@ -4720,9 +4720,9 @@ We can use TreeSet to maintain sorted order of elements in collection if there a
 
 
 
-**156. ** **What are the differences between** **the two data structures: a Vector and**
+156.  What are the differences between the two data structures: a Vector and
 
-**an ArrayList? **
+an ArrayList? 
 
 
 
@@ -4742,7 +4742,7 @@ Data Growth: Internally both an ArrayList and Vector use an array to store data.
 
 
 
-**157. ** **What are the differences between** **Collection and Collections in Java? **
+157.  What are the differences between Collection and Collections in Java? 
 
 
 
@@ -4764,7 +4764,7 @@ Method Type: Most of the methods in Collection are at instance level. Collection
 
 
 
-**158. ** **In which scenario, LinkedList** **is better than ArrayList in Java? **
+158.  In which scenario, LinkedList is better than ArrayList in Java? 
 
 
 
@@ -4778,7 +4778,7 @@ But LinkedList is better in the scenario when we do not need random access to el
 
 
 
-**159. ** **What are the differences between** **a List and Set collection in Java? **
+159.  What are the differences between a List and Set collection in Java? 
 
 
 
@@ -4804,9 +4804,9 @@ Duplicate: In a List we can store duplicate elements. A Set can hold only unique
 
 
 
-**160. ** **What are the differences between** **a HashSet and TreeSet collection in**
+160.  What are the differences between a HashSet and TreeSet collection in
 
-**Java? **
+Java? 
 
 
 
@@ -4856,7 +4856,7 @@ comparison to maintain ordering of elements.
 
 
 
-**161. ** **In Java, how will you decide when** **to use a List, Set or a Map collection? **
+161.  In Java, how will you decide when to use a List, Set or a Map collection? 
 
 
 
@@ -4892,7 +4892,7 @@ If we want to maintain the elements in a sorted order, then we use a TreeSet bas
 
 
 
-**162. ** **What are the differences between** **a HashMap and a Hashtable in Java? **
+162.  What are the differences between a HashMap and a Hashtable in Java? 
 
 
 
@@ -4930,7 +4930,7 @@ Enumerator of the Hashtable is not fail-fast.
 
 
 
-**163. ** **What are the differences between** **a HashMap and a TreeMap? **
+163.  What are the differences between a HashMap and a TreeMap? 
 
 
 
@@ -4992,9 +4992,9 @@ Features: A TreeMap has more features than a HashMap. It has methods like pollFi
 
 
 
-**164. ** **What are the differences** **between Comparable and**
+164.  What are the differences between Comparable and
 
-**Comparator? **
+Comparator? 
 
 
 
@@ -5034,7 +5034,7 @@ Package location: Comparable interface in Java is defined in java.lang package. 
 
 
 
-**165. ** **In Java, what is the purpose of** **Properties file? **
+165.  In Java, what is the purpose of Properties file? 
 
 
 
@@ -5056,7 +5056,7 @@ When we change the value of a key in a properties file, there is no need to reco
 
 
 
-**166. ** **What is the reason for overriding** **equals\(\) method? **
+166.  What is the reason for overriding equals\(\) method? 
 
 
 
@@ -5072,7 +5072,7 @@ Generally in HashMap implementation, if we want to use an object as key, then we
 
 
 
-**167. ** **How does hashCode\(\) method** **work in Java? **
+167.  How does hashCode\(\) method work in Java? 
 
 
 
@@ -5094,7 +5094,7 @@ If two objects are same then their hashCode\(\) is also same.
 
 
 
-**168. ** **Is it a good idea to use Generics** **in collections? **
+168.  Is it a good idea to use Generics in collections? 
 
 
 
@@ -5104,9 +5104,9 @@ Yes. A collection is a group of elements put together in an order or based on a 
 
 
 
-**169. ** **What is the difference between** **Collections.emptyList\(\) and creating**
+169.  What is the difference between Collections.emptyList\(\) and creating
 
-**new instance of Collection? **
+new instance of Collection? 
 
 
 
@@ -5122,7 +5122,7 @@ Therefore, Collections.emptylist\(\) gives better performance if we need to get 
 
 
 
-**170. ** **How will you copy elements from** **a Source List to another list? **
+170.  How will you copy elements from a Source List to another list? 
 
 
 
@@ -5172,7 +5172,7 @@ One limitation of Collections.copy\(\) is that it can accept only List as source
 
 
 
-**171. ** **What are the Java Collection** **classes that implement List interface? **
+171.  What are the Java Collection classes that implement List interface? 
 
 
 
@@ -5200,7 +5200,7 @@ Vector
 
 
 
-**172. ** **What are the Java Collection** **classes that implement Set interface? **
+172.  What are the Java Collection classes that implement Set interface? 
 
 
 
@@ -5224,7 +5224,7 @@ TreeSet
 
 
 
-**173. ** **What is the difference between an** **Iterator and ListIterator in Java? **
+173.  What is the difference between an Iterator and ListIterator in Java? 
 
 
 
@@ -5268,7 +5268,7 @@ An existing element’s value cannot be replaced by using Iterator. ListIterator
 
 
 
-**174. ** **What is the difference between** **Iterator and Enumeration? **
+174.  What is the difference between Iterator and Enumeration? 
 
 
 
@@ -5320,9 +5320,9 @@ Method names in Iterator are shorter than in an Enumeration.
 
 
 
-**175. ** **What is the difference between an** **ArrayList and a LinkedList data**
+175.  What is the difference between an ArrayList and a LinkedList data
 
-**structure? **
+structure? 
 
 
 
@@ -5332,13 +5332,13 @@ Main differences between ArrayList and LinkedList data structures are:
 
 1. 
 
-**Data Structure**: An ArrayList is an indexed based dynamic array. A LinkedList is a Doubly Linked List data structure. 
+Data Structure: An ArrayList is an indexed based dynamic array. A LinkedList is a Doubly Linked List data structure. 
 
 
 
 2. 
 
-**Insertion**: It is easier to insert new elements in a LinkedList, since there is no need to resize an array. 
+Insertion: It is easier to insert new elements in a LinkedList, since there is no need to resize an array. 
 
 Insertion in ArrayList is O\(n\), since it may require resizing of array and copying its contents to new array. 
 
@@ -5346,43 +5346,43 @@ Insertion in ArrayList is O\(n\), since it may require resizing of array and cop
 
 3. 
 
-**Remove elements**: LinkedList has better performance in removal of elements than ArrayList. 
+Remove elements: LinkedList has better performance in removal of elements than ArrayList. 
 
 
 
 4. 
 
-**Memory Usage**: LinkedList uses more memory than ArrayList, since it has to maintain links for next and previous nodes as well. 
+Memory Usage: LinkedList uses more memory than ArrayList, since it has to maintain links for next and previous nodes as well. 
 
 
 
 5. 
 
-**Access**: LinkedList is slower in accessing an element, since we have to traverse the list one by one to access the right location. 
+Access: LinkedList is slower in accessing an element, since we have to traverse the list one by one to access the right location. 
 
 
 
 
 
-**176. ** **What is the difference between a** **Set and a Map in Java? **
+176.  What is the difference between a Set and a Map in Java? 
 
 
 
 Main differences between a Set and a Map in Java are: 1. 
 
-**Duplicate Elements**: A Set does not allow inserting duplicate elements. A Map does not allow using duplicate keys, but it allows inserting duplicate values for unique keys. 
+Duplicate Elements: A Set does not allow inserting duplicate elements. A Map does not allow using duplicate keys, but it allows inserting duplicate values for unique keys. 
 
 
 
 2. 
 
-**Null values**: A Set allows inserting maximum one null value. In a Map we can have single null key at most and any number of null values. 
+Null values: A Set allows inserting maximum one null value. In a Map we can have single null key at most and any number of null values. 
 
 
 
 3. 
 
-**Ordering**: A Set does not maintain any order of elements. 
+Ordering: A Set does not maintain any order of elements. 
 
 Some of sub-classes of a Set can sort the elements in an order like LinkedHashSet. A Map does not maintain any order of its elements. Some of its sub-classes like TreeMap store elements of the map in ascending order of keys. 
 
@@ -5390,7 +5390,7 @@ Some of sub-classes of a Set can sort the elements in an order like LinkedHashSe
 
 
 
-**177. ** **What is the use of a Dictionary** **class? **
+177.  What is the use of a Dictionary class? 
 
 
 
@@ -5402,9 +5402,9 @@ Dictionary class is deprecated now. So it should not be used in newer implementa
 
 
 
-**178. ** **What is the default size of load** **factor in a HashMap collection in**
+178.  What is the default size of load factor in a HashMap collection in
 
-**Java? **
+Java? 
 
 
 
@@ -5412,7 +5412,7 @@ Default value of load factor in a HashMap is 0.75.
 
 
 
-**179. ** **What is the significance of load** **factor in a HashMap in Java? **
+179.  What is the significance of load factor in a HashMap in Java? 
 
 
 
@@ -5426,13 +5426,13 @@ For example, in a HashMap of capacity 16 and load factor .75. The capacity will 
 
 
 
-**180. ** **What are the major differences** **between a HashSet and a HashMap? **
+180.  What are the major differences between a HashSet and a HashMap? 
 
 
 
 The main difference between a HashSet and a HashMap are: 1. 
 
-**Base class**: A HashSet class implements the Set interface. 
+Base class: A HashSet class implements the Set interface. 
 
 Whereas a HashMap class implements the Map interface. 
 
@@ -5440,31 +5440,31 @@ Whereas a HashMap class implements the Map interface.
 
 2. 
 
-**Storage**: A HashSet is used to store distinct objects. A HashMap is used for storing key & value pairs, so that these can be retrieved by key later on. 
+Storage: A HashSet is used to store distinct objects. A HashMap is used for storing key & value pairs, so that these can be retrieved by key later on. 
 
 
 
 3. 
 
-**Duplicate Elements**: A HashSet does not allow storing duplicate elements. A HashMap also does not allow duplicate keys. But we can store duplicate values in a HashMap. 
+Duplicate Elements: A HashSet does not allow storing duplicate elements. A HashMap also does not allow duplicate keys. But we can store duplicate values in a HashMap. 
 
 
 
 4. 
 
-**Null Elements**: In a HashSet we can store a single null value. In a HashMap we can store single null key, but any number of null values. 
+Null Elements: In a HashSet we can store a single null value. In a HashMap we can store single null key, but any number of null values. 
 
 
 
 5. 
 
-**Element Type**: A HashSet contains only values of objects as its elements. Whereas a HashMap contains entries\(key value pairs\). 
+Element Type: A HashSet contains only values of objects as its elements. Whereas a HashMap contains entries\(key value pairs\). 
 
 
 
 6. 
 
-**Iteration**: By using an Iterator we can iterate a HashSet. 
+Iteration: By using an Iterator we can iterate a HashSet. 
 
 But a HashMap has to be converted into Set for iteration. 
 
@@ -5472,37 +5472,37 @@ But a HashMap has to be converted into Set for iteration.
 
 
 
-**181. ** **What are the similarities between** **a HashSet and a HashMap in Java? **
+181.  What are the similarities between a HashSet and a HashMap in Java? 
 
 
 
 As the name suggests, HashSet and HashMap are Hashing based collections. Similarities between HashSet and HashMap are: 1. 
 
-**Thread Safety**: Both HashMap and HashSet are not synchronized collections. Therefore they are not good for thread-safe operations. To make these thread-safe we need to explicitly use synchronized versions. 
+Thread Safety: Both HashMap and HashSet are not synchronized collections. Therefore they are not good for thread-safe operations. To make these thread-safe we need to explicitly use synchronized versions. 
 
 
 
 2. 
 
-**Order of Elements**: None of these classes guarantee the order of elements. These are unordered collections. 
+Order of Elements: None of these classes guarantee the order of elements. These are unordered collections. 
 
 
 
 3. 
 
-**Internal Implementation**: A HashMap backs up a HashSet internally. So HashSet uses a HashMap for performing its operations. 
+Internal Implementation: A HashMap backs up a HashSet internally. So HashSet uses a HashMap for performing its operations. 
 
 
 
 4. 
 
-**Performance**: Both of these collections provide constant time performance for basic operations such as insertion and removal of elements. 
+Performance: Both of these collections provide constant time performance for basic operations such as insertion and removal of elements. 
 
 
 
 
 
-**182. ** **What is the reason for** **overriding equals\(\) method? **
+182.  What is the reason for overriding equals\(\) method? 
 
 
 
@@ -5520,7 +5520,7 @@ Generally in HashMap implementation, if we want to use an object as key, then we
 
 
 
-**183. ** **How can we synchronize the** **elements of a List, a Set or a Map? **
+183.  How can we synchronize the elements of a List, a Set or a Map? 
 
 
 
@@ -5568,9 +5568,9 @@ static <T> SortedSet<T> synchronizedSortedSet\(SortedSet<T> s\) Returns a synchr
 
 
 
-**184. ** **What is Hash Collision? How** **Java handles hash-collision in**
+184.  What is Hash Collision? How Java handles hash-collision in
 
-**HashMap? **
+HashMap? 
 
 
 
@@ -5582,7 +5582,7 @@ There are different techniques of resolving or avoiding Hash Collision. But in H
 
 
 
-**185. ** **What are the Hash Collision** **resolution techniques? **
+185.  What are the Hash Collision resolution techniques? 
 
 
 
@@ -5604,7 +5604,7 @@ Robinhood Hashing
 
 
 
-**186. ** **What is the difference between** **Queue and Stack data structures? **
+186.  What is the difference between Queue and Stack data structures? 
 
 
 
@@ -5628,7 +5628,7 @@ A real world example of Stack is back button in browser. We can go back one by o
 
 
 
-**187. ** **What is an Iterator in Java? **
+187.  What is an Iterator in Java? 
 
 
 
@@ -5646,13 +5646,13 @@ Iterator interface in Java is based on Iterator design pattern. By using an Iter
 
 
 
-**188. ** **What is the difference between** **Iterator and Enumeration in Java? **
+188.  What is the difference between Iterator and Enumeration in Java? 
 
 
 
 Main differences between Iterator and Enumeration in Java are: 1. 
 
-**Version**: Enumeration interface is in Java since JDK 1.0. 
+Version: Enumeration interface is in Java since JDK 1.0. 
 
 Iterator interface was introduced in Java 1.2. 
 
@@ -5660,7 +5660,7 @@ Iterator interface was introduced in Java 1.2.
 
 2. 
 
-**remove\(\) method**: The main difference between Enumeration and Iterator interface is remove\(\) method. 
+remove\(\) method: The main difference between Enumeration and Iterator interface is remove\(\) method. 
 
 Enumeration can just traverse a Collection object. If we use Enumeration, we cannot do any modifications to a Collection while traversing the collection. Iterator interface provides remove\(\) method to remove an element while traversing the Collection. There is not remove\(\) method in Enumeration interface. 
 
@@ -5668,7 +5668,7 @@ Enumeration can just traverse a Collection object. If we use Enumeration, we can
 
 3. 
 
-**Method names**: Names of methods in Iterator interface are hasNext\(\), next\(\), remove\(\). Names of methods in Enumeration 
+Method names: Names of methods in Iterator interface are hasNext\(\), next\(\), remove\(\). Names of methods in Enumeration 
 
 interface 
 
@@ -5682,13 +5682,13 @@ nextElement\(\).
 
 4. 
 
-**Legacy Interface**: Enumeration is considered as a legacy interface. It is used to traverse legacy classes like Vector, Stack and HashTable. Iterator is a newer interface that is used to traverse almost all of the classes in Java Collections framework. 
+Legacy Interface: Enumeration is considered as a legacy interface. It is used to traverse legacy classes like Vector, Stack and HashTable. Iterator is a newer interface that is used to traverse almost all of the classes in Java Collections framework. 
 
 
 
 5. 
 
-**Fail-fast vs. Fail-safe**: Iterator is based on fail-fast principle. It throws ConcurrentModificationException if a collection is modified during iteration over that collection. 
+Fail-fast vs. Fail-safe: Iterator is based on fail-fast principle. It throws ConcurrentModificationException if a collection is modified during iteration over that collection. 
 
 An Enumeration is based on fail-safe principle. It doesn’t throw any exception if a collection is modified during traversal. 
 
@@ -5696,15 +5696,15 @@ An Enumeration is based on fail-safe principle. It doesn’t throw any exception
 
 6. 
 
-**Safety**: Since Iterator is fail-fast and does not allow modification of a collection by other threads, it is considered safer than Enumeration. 
+Safety: Since Iterator is fail-fast and does not allow modification of a collection by other threads, it is considered safer than Enumeration. 
 
 
 
 
 
-**189. ** **What is the design pattern** **used in the implementation of**
+189.  What is the design pattern used in the implementation of
 
-**Enumeration in Java? **
+Enumeration in Java? 
 
 
 
@@ -5714,9 +5714,9 @@ Enumeration is based on Iterator design pattern. Iterator design pattern provide
 
 
 
-**190. ** **Which methods do we need to** **override to use an object as key in a**
+190.  Which methods do we need to override to use an object as key in a
 
-**HashMap? **
+HashMap? 
 
 
 
@@ -5726,7 +5726,7 @@ If we want to use an object as a key in a HashMap in Java, then we have to make 
 
 
 
-**191. ** **How will you reverse a List in** **Java? **
+191.  How will you reverse a List in Java? 
 
 
 
@@ -5740,7 +5740,7 @@ Collections.reverse\(myList\);
 
 
 
-**192. ** **How will you convert an array of** **String objects into a List? **
+192.  How will you convert an array of String objects into a List? 
 
 
 
@@ -5752,9 +5752,9 @@ public static <T> List<T> asList\(T... a\) String\[\] myArray = \{"George" , "Ja
 
 
 
-**193. ** **What is the difference between** **peek\(\), poll\(\) and remove\(\) methods of**
+193.  What is the difference between peek\(\), poll\(\) and remove\(\) methods of
 
-**Queue interface in java? **
+Queue interface in java? 
 
 
 
@@ -5772,13 +5772,13 @@ In a Java Queue, peek\(\) method retrieves the head of Queue but it does not rem
 
 
 
-**194. ** **What is the difference between** **Array and ArrayList in Java? **
+194.  What is the difference between Array and ArrayList in Java? 
 
 
 
 The main differences between Array and ArrayList in Java are: 1. 
 
-**Size**: Array in Java is fixed in size. We cannot change the size of array after creating it. ArrayList is dynamic in size. 
+Size: Array in Java is fixed in size. We cannot change the size of array after creating it. ArrayList is dynamic in size. 
 
 When we add elements to an ArrayList, its capacity increases automatically. 
 
@@ -5786,7 +5786,7 @@ When we add elements to an ArrayList, its capacity increases automatically.
 
 2. 
 
-**Performance**: In Java Array and ArrayList give different performance for different operations. 
+Performance: In Java Array and ArrayList give different performance for different operations. 
 
 
 
@@ -5794,13 +5794,13 @@ When we add elements to an ArrayList, its capacity increases automatically.
 
 3. 
 
-**add\(\) or get\(\):** Adding an element to or retrieving an element from an array or ArrayList object has similar performance. These are constant time operations. 
+add\(\) or get\(\): Adding an element to or retrieving an element from an array or ArrayList object has similar performance. These are constant time operations. 
 
 
 
 4. 
 
-**resize\(\):** Automatic resize of ArrayList slows down the performance. ArrayList is internally backed by an Array. 
+resize\(\): Automatic resize of ArrayList slows down the performance. ArrayList is internally backed by an Array. 
 
 In resize\(\) a temporary array is used to copy elements from old array to new array. 
 
@@ -5810,19 +5810,19 @@ In resize\(\) a temporary array is used to copy elements from old array to new a
 
 5. 
 
-**Primitives**: Array can contain both primitive data types as well as objects. But ArrayList cannot contain primitive data types. It contains only objects. 
+Primitives: Array can contain both primitive data types as well as objects. But ArrayList cannot contain primitive data types. It contains only objects. 
 
 
 
 6. 
 
-**Iterator**: In an ArrayList we use an Iterator object to traverse the elements. We use for loop for iterating elements in an array. 
+Iterator: In an ArrayList we use an Iterator object to traverse the elements. We use for loop for iterating elements in an array. 
 
 
 
 7. 
 
-**Type Safety**: Java helps in ensuring Type Safety of elements in an ArrayList by using Generics. An Array can
+Type Safety: Java helps in ensuring Type Safety of elements in an ArrayList by using Generics. An Array can
 
 contain objects of same type of class. If we try to store a different data type object in an Array then it throws ArrayStoreException. 
 
@@ -5830,13 +5830,13 @@ contain objects of same type of class. If we try to store a different data type 
 
 8. 
 
-**Length**: Size of ArrayList can be obtained by using size\(\) method. Every array object has length variable that is same as the length/size of the array. 
+Length: Size of ArrayList can be obtained by using size\(\) method. Every array object has length variable that is same as the length/size of the array. 
 
 
 
 9. 
 
-**Adding elements**: In an ArrayList we can use add\(\) method to add objects. In an Array assignment operator is used for adding elements. 
+Adding elements: In an ArrayList we can use add\(\) method to add objects. In an Array assignment operator is used for adding elements. 
 
 
 
@@ -5848,9 +5848,9 @@ Multi-dimension: An Array can be multi-dimensional. An ArrayList is always of si
 
 
 
-**195. ** **How will you insert, delete and** **retrieve elements from a HashMap**
+195.  How will you insert, delete and retrieve elements from a HashMap
 
-**collection in Java? **
+collection in Java? 
 
 
 
@@ -5860,7 +5860,7 @@ We use following methods to insert, delete and retrieve elements in a HashMap.
 
 1. 
 
-**Retrieve**: We use get\(\) method to retrieve elements from a HashMap. 
+Retrieve: We use get\(\) method to retrieve elements from a HashMap. 
 
 Value get\(Object key\)
 
@@ -5868,7 +5868,7 @@ Value get\(Object key\)
 
 2. 
 
-**Insert**: We use put\(\) method to insert a key value pair in a HashMap. 
+Insert: We use put\(\) method to insert a key value pair in a HashMap. 
 
 Value put\(Key k, Value v\)
 
@@ -5876,7 +5876,7 @@ Value put\(Key k, Value v\)
 
 3. 
 
-**Delete**: We use remove\(\) method to delete key-value pair from the HashMap. 
+Delete: We use remove\(\) method to delete key-value pair from the HashMap. 
 
 Value remove\(Object key\)
 
@@ -5884,29 +5884,29 @@ Value remove\(Object key\)
 
 
 
-**196. ** **What are the main differences** **between HashMap and**
+196.  What are the main differences between HashMap and
 
-**ConcurrentHashMap in Java? **
+ConcurrentHashMap in Java? 
 
 
 
 Main differences between HashMap and ConcurrentHashMap are: 1. 
 
-**Synchronization**: A HashMap is not synchronized. But a ConcurrentHashMap is a synchronized object. 
+Synchronization: A HashMap is not synchronized. But a ConcurrentHashMap is a synchronized object. 
 
 2. 
 
-**Null Key**: A HashMap can have one null key and any number of null values. A ConcurrentHashMap cannot have null keys or null values. 
+Null Key: A HashMap can have one null key and any number of null values. A ConcurrentHashMap cannot have null keys or null values. 
 
 3. 
 
-**Multi-threading**: A ConcurrentHashMap works well in a multi-threading environment. 
+Multi-threading: A ConcurrentHashMap works well in a multi-threading environment. 
 
 
 
-**197. ** **What is the increasing order of** **performance for following collection**
+197.  What is the increasing order of performance for following collection
 
-**classes in Java? **
+classes in Java? 
 
 
 
@@ -5930,7 +5930,7 @@ Hashtable has the worst performance and HashMap has the best performance.
 
 
 
-**198. ** **Why does Map interface not** **extend Collection interface in Java? **
+198.  Why does Map interface not extend Collection interface in Java? 
 
 
 
@@ -5954,25 +5954,25 @@ These methods are specific to Map collection. Where as methods in Collection int
 
 
 
-**199. ** **What are the different ways to** **iterate elements of a list in Java? **
+199.  What are the different ways to iterate elements of a list in Java? 
 
 
 
 There are mainly two ways to iterate the elements of list in Java: 1. 
 
-**Iterator**: We can get an Iterator for list and use it to iterate the objects of the list. 
+Iterator: We can get an Iterator for list and use it to iterate the objects of the list. 
 
 
 
 2. 
 
-**For-each loop**: We can use for-each loop to traverse all the elements of a list. 
+For-each loop: We can use for-each loop to traverse all the elements of a list. 
 
 
 
-**200. ** **What is** **CopyOnWriteArrayList? How it is**
+200.  What is CopyOnWriteArrayList? How it is
 
-**different from ArrayList in Java? **
+different from ArrayList in Java? 
 
 
 
@@ -5994,7 +5994,7 @@ All elements including null are permitted in CopyOnWriteArrayList.
 
 
 
-**201. ** **How remove\(\) method is** **implemented in a HashMap? **
+201.  How remove\(\) method is implemented in a HashMap? 
 
 
 
@@ -6004,7 +6004,7 @@ Remove\(\) method in HashMap uses logic similar to the one used in get\(\) metho
 
 If e is the first element in the bucket we set the corresponding element of Hash to e.next. Else we set the next field of the element just before e to e.next. 
 
-**202. ** **What is BlockingQueue in** **Java Collections? **
+202.  What is BlockingQueue in Java Collections? 
 
 
 
@@ -6034,7 +6034,7 @@ operation to indicate that no more items will be added.
 
 
 
-**203. ** **How is TreeMap class** **implemented in Java? **
+203.  How is TreeMap class implemented in Java? 
 
 
 
@@ -6050,9 +6050,9 @@ The implementation of TreeMap is not synchronized in Java.
 
 
 
-**204. ** **What is the difference between** **Fail-fast and Fail-safe iterator in**
+204.  What is the difference between Fail-fast and Fail-safe iterator in
 
-**Java? **
+Java? 
 
 
 
@@ -6072,7 +6072,7 @@ A Fail-fast iterator tries to immediately throw Exception when it encounters fai
 
 
 
-**205. ** **How does** **ConcurrentHashMap work in Java? **
+205.  How does ConcurrentHashMap work in Java? 
 
 
 
@@ -6098,7 +6098,7 @@ It also supports a set of sequential and bulk operations. These operations accep
 
 
 
-**206. ** **What is the importance of** **hashCode\(\) and equals\(\) methods? **
+206.  What is the importance of hashCode\(\) and equals\(\) methods? 
 
 
 
@@ -6114,9 +6114,9 @@ So it is important to implement hashCode\(\) and equals\(\) methods correctly fo
 
 
 
-**207. ** **What is the contract of** **hashCode\(\) and equals\(\) methods in**
+207.  What is the contract of hashCode\(\) and equals\(\) methods in
 
-**Java? **
+Java? 
 
 
 
@@ -6130,7 +6130,7 @@ If object1.hashCode\(\) == object2.hashCode\(\) is true, it does not guarantee t
 
 
 
-**208. ** **What is an EnumSet in Java? **
+208.  What is an EnumSet in Java? 
 
 
 
@@ -6140,37 +6140,37 @@ Set: EnumSet is a specialized implementation of Set.
 
 1. 
 
-**Use**: It is mainly used with enum types. 
+Use: It is mainly used with enum types. 
 
 
 
 2. 
 
-**Single enum type**: All the elements in an EnumSet must come from a single enum type when the set is created. 
+Single enum type: All the elements in an EnumSet must come from a single enum type when the set is created. 
 
 
 
 3. 
 
-**Bit vector**: Internally, EnumSet is represented as bit vector. 
+Bit vector: Internally, EnumSet is represented as bit vector. 
 
 
 
 4. 
 
-**Iterator**: The iterator of EnumSet traverses the elements in their natural order. \(It is the order in which the enum constants are declared\). 
+Iterator: The iterator of EnumSet traverses the elements in their natural order. \(It is the order in which the enum constants are declared\). 
 
 
 
 5. 
 
-**Null**: In an EnumSet, null elements are not permitted. If we try to insert a null element it throws NullPointerException. 
+Null: In an EnumSet, null elements are not permitted. If we try to insert a null element it throws NullPointerException. 
 
 
 
 6. 
 
-**Thread-safe**: EnumSet is not a synchronized collection. 
+Thread-safe: EnumSet is not a synchronized collection. 
 
 For use in multi-threading scenarios, EnumSet should be synchronized. 
 
@@ -6178,13 +6178,13 @@ For use in multi-threading scenarios, EnumSet should be synchronized.
 
 7. 
 
-**Bit flags**: EnumSet is a very good alternative to int based
+Bit flags: EnumSet is a very good alternative to int based
 
 “bit flags” implementation. 
 
 
 
-**209. ** **What are the main Concurrent** **Collection classes in Java? **
+209.  What are the main Concurrent Collection classes in Java? 
 
 
 
@@ -6214,7 +6214,7 @@ PriorityBlockingQueue
 
 
 
-**210. ** **How will you convert a Collection** **to SynchronizedCollection in Java? **
+210.  How will you convert a Collection to SynchronizedCollection in Java? 
 
 
 
@@ -6230,7 +6230,7 @@ For any class of type T we can use following method: static <T> Collection<T> sy
 
 
 
-**211. ** **How IdentityHashMap is** **different from a regular Map in Java? **
+211.  How IdentityHashMap is different from a regular Map in Java? 
 
 
 
@@ -6250,7 +6250,7 @@ It implements the Map interface with a hash table, using reference-equality in p
 
 
 
-**212. ** **What is the main use of** **IdentityHashMap? **
+212.  What is the main use of IdentityHashMap? 
 
 
 
@@ -6290,7 +6290,7 @@ Proxy objects: Another use of this class is to maintain proxy objects. A debuggi
 
 
 
-**213. ** **How can we improve the** **performance of IdentityHashMap? **
+213.  How can we improve the performance of IdentityHashMap? 
 
 
 
@@ -6324,7 +6324,7 @@ Therefore the value of expectedMaxSize should be set in consideration with both 
 
 
 
-**214. ** **Is IdentityHashMap thread-safe? **
+214.  Is IdentityHashMap thread-safe? 
 
 
 
@@ -6354,7 +6354,7 @@ ConcurrentModificationException.
 
 
 
-**215. ** **What is a WeakHashMap in** **Java? **
+215.  What is a WeakHashMap in Java? 
 
 
 
@@ -6382,7 +6382,7 @@ WeakHashMap also permits null keys and null values.
 
 
 
-**216. ** **How can you make a Collection** **class read Only in Java? **
+216.  How can you make a Collection class read Only in Java? 
 
 
 
@@ -6404,11 +6404,11 @@ Collections.unmodifiableCollection\(Collection c\)
 
 
 
-**217. ** **When is**
+217.  When is
 
-**UnsupportedOperationException**
+UnsupportedOperationException
 
-**thrown in Java? **
+thrown in Java? 
 
 
 
@@ -6426,17 +6426,17 @@ If there is an optional add\(\) or remove\(\) methods in a read only collection,
 
 
 
-**218. ** **Let say there is a Customer** **class. We add objects of Customer**
+218.  Let say there is a Customer class. We add objects of Customer
 
-**class to an ArrayList. How can we**
+class to an ArrayList. How can we
 
-**sort the Customer objects in**
+sort the Customer objects in
 
-**ArrayList by using customer**
+ArrayList by using customer
 
-**firstName attribute of Customer**
+firstName attribute of Customer
 
-**class? **
+class? 
 
 
 
@@ -6452,9 +6452,9 @@ Comparator: Implement Comparator for comparing two Customer objects on the basis
 
 
 
-**219. ** **What is the difference between** **Synchronized Collection and**
+219.  What is the difference between Synchronized Collection and
 
-**Concurrent Collection? **
+Concurrent Collection? 
 
 
 
@@ -6498,7 +6498,7 @@ The main difference is in performance. Concurrent collection classes have better
 
 
 
-**220. ** **What is the scenario to use** **ConcurrentHashMap in Java? **
+220.  What is the scenario to use ConcurrentHashMap in Java? 
 
 
 
@@ -6512,7 +6512,7 @@ If we have an equal number of reader and writer threads then ConcurrentHashMap p
 
 
 
-**221. ** **How will you create an empty** **Map in Java? **
+221.  How will you create an empty Map in Java? 
 
 
 
@@ -6522,7 +6522,7 @@ There are two ways to create an empty Map in Java.
 
 1. 
 
-**Immutable**: If we want an immutable empty Map, we can use following code:
+Immutable: If we want an immutable empty Map, we can use following code:
 
 
 
@@ -6532,7 +6532,7 @@ myMap = Collections.emptyMap\(\);
 
 2. 
 
-**Any map**: For all other scenarios, we can use following code by using new method:
+Any map: For all other scenarios, we can use following code by using new method:
 
 
 
@@ -6542,11 +6542,11 @@ myMap = new HashMap\(\);
 
 
 
-****
 
-**222. ** **What is the difference between** **remove\(\) method of Collection and**
 
-**remove\(\) method of Iterator? **
+222.  What is the difference between remove\(\) method of Collection and
+
+remove\(\) method of Iterator? 
 
 
 
@@ -6572,9 +6572,9 @@ Therefore, it is recommended to use remove\(\) method of Iterator during the tra
 
 
 
-**223. ** **Between an Array and** **ArrayList, which one is the preferred**
+223.  Between an Array and ArrayList, which one is the preferred
 
-**collection for storing objects? **
+collection for storing objects? 
 
 
 
@@ -6604,9 +6604,9 @@ If we know the size in advance and do not need re-sizing the collection then Arr
 
 
 
-**224. ** **Is it possible to replace** **Hashtable with ConcurrentHashMap**
+224.  Is it possible to replace Hashtable with ConcurrentHashMap
 
-**in Java? **
+in Java? 
 
 
 
@@ -6630,9 +6630,9 @@ In a ConcurrentHashMap we use putIfAbsent\(\) method for such a scenario.
 
 
 
-**225. ** **How CopyOnWriteArrayList** **class is different from ArrayList and**
+225.  How CopyOnWriteArrayList class is different from ArrayList and
 
-**Vector classes? **
+Vector classes? 
 
 
 
@@ -6676,7 +6676,7 @@ CopyOnWriteArrayList provides better Concurrency by reducing contention among re
 
 
 
-**226. ** **Why ListIterator has add\(\)** **method but Iterator does not have? **
+226.  Why ListIterator has add\(\) method but Iterator does not have? 
 
 
 
@@ -6694,9 +6694,9 @@ In Iterator we can only traverse in one direction. So there is no purpose of add
 
 
 
-**227. ** **Why do we sometime get** **ConcurrentModificationException**
+227.  Why do we sometime get ConcurrentModificationException
 
-**during iteration? **
+during iteration? 
 
 
 
@@ -6720,7 +6720,7 @@ ConcurrentModificationException.
 
 
 
-**228. ** **How will you convert a Map to** **a List in Java? **
+228.  How will you convert a Map to a List in Java? 
 
 
 
@@ -6750,7 +6750,7 @@ List valueList = new ArrayList\(map.values\(\)\); List entryList = new ArrayList
 
 
 
-**229. ** **How can we create a Map with** **reverse view and lookup in Java? **
+229.  How can we create a Map with reverse view and lookup in Java? 
 
 
 
@@ -6770,7 +6770,7 @@ But Apache Common Collections and Guava libraries provide implementation of bidi
 
 
 
-**230. ** **How will you create a shallow** **copy of a Map? **
+230.  How will you create a shallow copy of a Map? 
 
 
 
@@ -6810,7 +6810,7 @@ But it is not considered as a recommended approach.
 
 
 
-**231. ** **Why we cannot create a generic** **array in Java? **
+231.  Why we cannot create a generic array in Java? 
 
 
 
@@ -6830,7 +6830,7 @@ In case of Generics, the type information of a collection is erased at runtime b
 
 
 
-**232. ** **What is a PriorityQueue in** **Java? **
+232.  What is a PriorityQueue in Java? 
 
 
 
@@ -6860,9 +6860,9 @@ It gives O\(log n\) time for enqueing and dequeing operations.
 
 
 
-**233. ** **What are the important points** **to remember while using Java**
+233.  What are the important points to remember while using Java
 
-**Collections Framework? **
+Collections Framework? 
 
 
 
@@ -6872,25 +6872,25 @@ Some of the important points to remember while using Java Collections Framework 
 
 1. 
 
-**Interfaces**: For Collections, we should write code with generic interfaces instead of concrete implementation. Due to this we maintain the flexibility of changing the implementation at a later point of time. 
+Interfaces: For Collections, we should write code with generic interfaces instead of concrete implementation. Due to this we maintain the flexibility of changing the implementation at a later point of time. 
 
 
 
 2. 
 
-**Generics**: We should use Generics for type-safety and to avoid ClassCastException at runtime. 
+Generics: We should use Generics for type-safety and to avoid ClassCastException at runtime. 
 
 
 
 3. 
 
-**Collections**: It is recommended to use Collections utility class for algorithms and various other common methods for Collections. 
+Collections: It is recommended to use Collections utility class for algorithms and various other common methods for Collections. 
 
 
 
 4. 
 
-**Right Type**: We have to choose the right type of Java collection based on our need. If size is fixed, we can use Array over ArrayList. If we do not want duplicate elements we use Set. 
+Right Type: We have to choose the right type of Java collection based on our need. If size is fixed, we can use Array over ArrayList. If we do not want duplicate elements we use Set. 
 
 
 
@@ -6900,7 +6900,7 @@ If we need the ability to iterate the elements of a Map in the order of insertio
 
 5. 
 
-**Initial Size**: In some collection classes we can specify the initial size/capacity. Therefore we should have an estimate of number of elements in a Collection before deciding the right collection type. We can use it to avoid rehashing or resizing. 
+Initial Size: In some collection classes we can specify the initial size/capacity. Therefore we should have an estimate of number of elements in a Collection before deciding the right collection type. We can use it to avoid rehashing or resizing. 
 
 
 
@@ -6908,17 +6908,17 @@ If we need the ability to iterate the elements of a Map in the order of insertio
 
 6. 
 
-**Map**: We should use immutable classes provided by Java as key elements in a Map. 
+Map: We should use immutable classes provided by Java as key elements in a Map. 
 
 
 
 
 
-**234. ** **How can we pass a Collection** **as an argument to a method and**
+234.  How can we pass a Collection as an argument to a method and
 
-**ensure that method will not be able to**
+ensure that method will not be able to
 
-**modify it? **
+modify it? 
 
 
 
@@ -6954,7 +6954,7 @@ This will make sure that any operation to change the collection will throw Unsup
 
 
 
-**235. ** **Can you explain how** **HashMap works in Java? **
+235.  Can you explain how HashMap works in Java? 
 
 
 
@@ -6982,7 +6982,7 @@ Once Key object’s location is found, it may happen that more than one Key is s
 
 
 
-**236. ** **Can you explain how HashSet** **is implemented in Java? **
+236.  Can you explain how HashSet is implemented in Java? 
 
 
 
@@ -6998,7 +6998,7 @@ When we insert an element in HashSet, it inserts it into corresponding HashMap.
 
 
 
-**237. ** **What is a NavigableMap in** **Java? **
+237.  What is a NavigableMap in Java? 
 
 
 
@@ -7008,11 +7008,11 @@ As the name suggests, NavigableMap provides the capability to navigate the keys 
 
 Some of the interesting methods of a NavigableMap are descendingKeySet\(\), descendingMap\(\), headMap\(\) and tailMap\(\). 
 
-**238. ** **What is the difference between** **descendingKeySet\(\) and**
+238.  What is the difference between descendingKeySet\(\) and
 
-**descendingMap\(\) methods of**
+descendingMap\(\) methods of
 
-**NavigableMap? **
+NavigableMap? 
 
 
 
@@ -7032,7 +7032,7 @@ The descendingMap\(\) method of NavigableMap returns a NavigableMap which is an 
 
 
 
-**239. ** **What is the advantage of** **NavigableMap over Map? **
+239.  What is the advantage of NavigableMap over Map? 
 
 
 
@@ -7056,9 +7056,9 @@ Methods like lowerKey, floorKey, ceilingKey, and higherKey return only the assoc
 
 
 
-**240. ** **What is the difference between** **headMap\(\), tailMap\(\) and subMap\(\)**
+240.  What is the difference between headMap\(\), tailMap\(\) and subMap\(\)
 
-**methods of NavigableMap? **
+methods of NavigableMap? 
 
 
 
@@ -7104,7 +7104,7 @@ All the three methods return a subset of the original map in a view form.
 
 
 
-**241. ** **How will you sort objects by** **Natural order in a Java List? **
+241.  How will you sort objects by Natural order in a Java List? 
 
 
 
@@ -7116,7 +7116,7 @@ We can also use a Comparator to define the natural ordering for elements of a Li
 
 
 
-**242. ** **How can we get a Stream from** **a List in Java? **
+242.  How can we get a Stream from a List in Java? 
 
 
 
@@ -7126,7 +7126,7 @@ We can just use stream\(\) method to get a stream from a list of elements.
 
 
 
-**243. ** **Can we get a Map from a** **Stream in Java? **
+243.  Can we get a Map from a Stream in Java? 
 
 
 
@@ -7146,7 +7146,7 @@ In this example we are creating a map with each item object mapped to its LowerC
 
 This is also used in Map-Reduce implementation on a Stream. 
 
-**244. ** **What are the popular** **implementations of Deque in Java? **
+244.  What are the popular implementations of Deque in Java? 
 
 
 
@@ -7156,23 +7156,23 @@ The two most popular implementation of Deque interface in Java are:
 
 
 
-1. **ArrayDeque**: It is a resizable array implementation of Deque. The capacity of ArrayDeque can increase based on the need of the program. It is not thread safe implementation. Also the iterator on ArrayDeque is fail-fast. 
+1. ArrayDeque: It is a resizable array implementation of Deque. The capacity of ArrayDeque can increase based on the need of the program. It is not thread safe implementation. Also the iterator on ArrayDeque is fail-fast. 
 
 
 
-2. **LinkedList**: This is another popular implementation of Deque interface in Java. It is also not synchronized, so it is not thread-safe. It mainly provides functionality of a doubly linked list. 
-
-
-
-
-
-**Multi-threading**
+2. LinkedList: This is another popular implementation of Deque interface in Java. It is also not synchronized, so it is not thread-safe. It mainly provides functionality of a doubly linked list. 
 
 
 
 
 
-**245. ** **What is a Thread in Java? **
+Multi-threading
+
+
+
+
+
+245.  What is a Thread in Java? 
 
 
 
@@ -7188,9 +7188,9 @@ When we start JVM, Java starts one thread. This thread calls the main method of 
 
 
 
-**246. ** **What is the priority of a** **Thread and how it is used in**
+246.  What is the priority of a Thread and how it is used in
 
-**scheduling? **
+scheduling? 
 
 
 
@@ -7206,7 +7206,7 @@ The thread with higher priority gets preference in execution over a thread with 
 
 
 
-**247. ** **What is the default priority of** **a thread in Java? **
+247.  What is the default priority of a thread in Java? 
 
 
 
@@ -7218,9 +7218,9 @@ Default priority of a thread is 5 \(NORM\_PRIORITY\).
 
 
 
-**248. ** **What are the three different** **priorities that can be set on a Thread**
+248.  What are the three different priorities that can be set on a Thread
 
-**in Java? **
+in Java? 
 
 
 
@@ -7248,7 +7248,7 @@ Default priority of a thread is 5 NORM\_PRIORITY. The value of MIN\_PRIORITY is 
 
 
 
-**249. ** **What is the purpose of join\(\)** **method in Thread class? **
+249.  What is the purpose of join\(\) method in Thread class? 
 
 
 
@@ -7308,9 +7308,9 @@ thread joins the importantThread. Now it lets importantTread to finish and then 
 
 
 
-**250. ** **What is the fundamental** **difference between wait\(\) and sleep\(\)**
+250.  What is the fundamental difference between wait\(\) and sleep\(\)
 
-**methods? **
+methods? 
 
 
 
@@ -7334,7 +7334,7 @@ In case of sleep\(\) current thread does not release the monitor or locks. It ju
 
 
 
-**251. ** **Is it possible to call run\(\) method** **instead of start\(\) on a thread in Java? **
+251.  Is it possible to call run\(\) method instead of start\(\) on a thread in Java? 
 
 
 
@@ -7344,7 +7344,7 @@ Yes. We can call run\(\) method of a thread. But it does not work as a separate 
 
 
 
-**252. ** **How Multi-threading works in** **Java? **
+252.  How Multi-threading works in Java? 
 
 
 
@@ -7360,7 +7360,7 @@ Java provides methods like- start\(\), notify\(\), wait\(\), sleep\(\) etc. to m
 
 
 
-**253. ** **What are the advantages of** **Multithreading? **
+253.  What are the advantages of Multithreading? 
 
 
 
@@ -7386,7 +7386,7 @@ Simplified Coding: In certain scenarios, it is easier to code multiple threads t
 
 
 
-**254. ** **What are the disadvantages of** **Multithreading? **
+254.  What are the disadvantages of Multithreading? 
 
 
 
@@ -7408,7 +7408,7 @@ Deadlocks: In case of multi-threading we can experience deadlocks in threads tha
 
 
 
-**255. ** **What is a Thread in Java? **
+255.  What is a Thread in Java? 
 
 
 
@@ -7422,7 +7422,7 @@ By default Java starts one thread when the main method of a class is called.
 
 
 
-**256. ** **What is a Thread’s priority** **and how it is used in scheduling? **
+256.  What is a Thread’s priority and how it is used in scheduling? 
 
 
 
@@ -7436,11 +7436,11 @@ The task scheduler schedules the higher priority threads first, followed by the 
 
 
 
-**257. ** **What are the differences** **between Pre-emptive Scheduling**
+257.  What are the differences between Pre-emptive Scheduling
 
-**Scheduler and Time Slicing**
+Scheduler and Time Slicing
 
-**Scheduler? **
+Scheduler? 
 
 
 
@@ -7454,9 +7454,9 @@ In Time slicing scheduling, every task gets a predefined slice of time for execu
 
 
 
-**258. ** **Is it possible to call run\(\)** **method instead of start\(\) on a thread**
+258.  Is it possible to call run\(\) method instead of start\(\) on a thread
 
-**in Java​? **
+in Java​? 
 
 
 
@@ -7466,9 +7466,9 @@ Yes. We can call run\(\) method of a thread. But it does not work as a separate 
 
 
 
-**259. ** **How will you make a user** **thread into daemon thread if it has**
+259.  How will you make a user thread into daemon thread if it has
 
-**already started? **
+already started? 
 
 
 
@@ -7480,7 +7480,7 @@ If we do it by calling setDaemon\(\), it will throw IllegalThreadStateException
 
 
 
-**260. ** **Can we start a thread two** **times in Java? **
+260.  Can we start a thread two times in Java? 
 
 
 
@@ -7490,7 +7490,7 @@ No. We can call start\(\) method only once on a thread in Java. If we call it tw
 
 
 
-**261. ** **In what scenarios can we** **interrupt a thread? **
+261.  In what scenarios can we interrupt a thread? 
 
 
 
@@ -7500,7 +7500,7 @@ We can interrupt a thread if we want to wake it up from the sleep or wait state.
 
 
 
-**262. ** **In Java, is it possible to lock an** **object for exclusive use by a thread? **
+262.  In Java, is it possible to lock an object for exclusive use by a thread? 
 
 
 
@@ -7510,7 +7510,7 @@ Yes. We can use synchronized block to lock an object. The locked object is inacc
 
 
 
-**263. ** **How notify\(\) method is** **different from notifyAll\(\) method? **
+263.  How notify\(\) method is different from notifyAll\(\) method? 
 
 
 
@@ -7520,7 +7520,7 @@ In Java, notify\(\) method is used to unblock a specific thread that is in waiti
 
 
 
-**264. ** **What is a daemon thread in** **Java? **
+264.  What is a daemon thread in Java? 
 
 
 
@@ -7528,7 +7528,7 @@ A daemon thread in Java is a low priority thread that does not prevent the JVM f
 
 
 
-**265. ** **How can we make a regular** **thread Daemon thread in Java? **
+265.  How can we make a regular thread Daemon thread in Java? 
 
 
 
@@ -7536,9 +7536,9 @@ We can call setDaemon\(boolean\) method to change a thread to daemon thread befo
 
 
 
-**266. ** **How will you make a user** **thread into daemon thread if it has**
+266.  How will you make a user thread into daemon thread if it has
 
-**already started? **
+already started? 
 
 
 
@@ -7546,7 +7546,7 @@ No. We cannot make a user thread to daemon thread once it has already started. I
 
 
 
-**267. ** **Can we start a thread two** **times in Java? **
+267.  Can we start a thread two times in Java? 
 
 
 
@@ -7554,7 +7554,7 @@ No. We can call start\(\) method only once on a thread in Java. If we call it tw
 
 
 
-**268. ** **What is a Shutdown hook in** **Java? **
+268.  What is a Shutdown hook in Java? 
 
 
 
@@ -7570,7 +7570,7 @@ We can use java.lang.Runtime.addShutdownHook\(Thread hook\) method to register a
 
 
 
-**269. ** **What is synchronization in** **Java? **
+269.  What is synchronization in Java? 
 
 
 
@@ -7586,7 +7586,7 @@ It is used to prevent Deadlock between multiple threads.
 
 
 
-**270. ** **What is the purpose of** **Synchronized block in Java? **
+270.  What is the purpose of Synchronized block in Java? 
 
 
 
@@ -7602,7 +7602,7 @@ It is also used to avoid memory inconsistency issues In general, scope of synchr
 
 
 
-**271. ** **What is static synchronization? **
+271.  What is static synchronization? 
 
 
 
@@ -7618,7 +7618,7 @@ In static synchronization, the lock is on class not on object.
 
 
 
-**272. ** **What is a Deadlock situation? **
+272.  What is a Deadlock situation? 
 
 
 
@@ -7630,7 +7630,7 @@ At times there is a circular wait when more than two threads are waiting on each
 
 
 
-**273. ** **What is the meaning of** **concurrency? **
+273.  What is the meaning of concurrency? 
 
 
 
@@ -7642,7 +7642,7 @@ It can increase the speed of execution of the overall program in multi-processor
 
 
 
-**274. ** **What is the main difference** **between process and thread? **
+274.  What is the main difference between process and thread? 
 
 
 
@@ -7666,7 +7666,7 @@ This ability to share resources between different threads makes thread more suit
 
 
 
-**275. ** **What is a process and thread** **in the context of Java? **
+275.  What is a process and thread in the context of Java? 
 
 
 
@@ -7674,7 +7674,7 @@ In Java, a process refers to the running of Java Virtual Machine \(JVM\). But a 
 
 
 
-**276. ** **What is a Scheduler? **
+276.  What is a Scheduler? 
 
 
 
@@ -7684,7 +7684,7 @@ A scheduler is a program that is the implementation of a scheduling algorithm to
 
 The goal of most scheduling algorithms is to provide load balancing for the available processes/threads and to guarantee that each process/thread will get a reasonable time frame to access the requested resource exclusively. 
 
-**277. ** **What is the minimum number** **of Threads in a Java program? **
+277.  What is the minimum number of Threads in a Java program? 
 
 
 
@@ -7692,7 +7692,7 @@ In a JVM, each Java program is executed within the main process that starts with
 
 
 
-**278. ** **What are the properties of a** **Java thread? **
+278.  What are the properties of a Java thread? 
 
 
 
@@ -7702,67 +7702,67 @@ Each Java thread has following properties:
 
 1. 
 
-**Identifier**: An identifier of type long that is unique within the JVM
+Identifier: An identifier of type long that is unique within the JVM
 
 2. 
 
-**Name**: A name of type String
+Name: A name of type String
 
 3. 
 
-**Priority**: Priority of type int
+Priority: Priority of type int
 
 4. 
 
-**State**: A state of type java.lang.Thread.State 5. 
+State: A state of type java.lang.Thread.State 5. 
 
-**Group**: A thread group the thread belongs to
-
-
+Group: A thread group the thread belongs to
 
 
 
-**279. ** **What are the different states of** **a Thread in Java? **
+
+
+279.  What are the different states of a Thread in Java? 
 
 
 
 Following are the different states of a Thread in Java: 1. 
 
-**New**: In the New state the thread has not yet. 
+New: In the New state the thread has not yet. 
 
 
 
 2. 
 
-**Runnable**: A thread executing in the JVM is in Runnable state. 
+Runnable: A thread executing in the JVM is in Runnable state. 
 
 
 
 3. 
 
-**Blocked**: A thread waiting for a monitor lock is in Blocked state. 
+Blocked: A thread waiting for a monitor lock is in Blocked state. 
 
 
 
 4. 
 
-**Waiting**: A thread waiting indefinitely for another thread to perform a particular action is in Waiting state. 
+Waiting: A thread waiting indefinitely for another thread to perform a particular action is in Waiting state. 
 
 
 
 5. 
 
-**Timed\_waiting**: A thread waiting for another thread to perform an action for up to a specified waiting time is in Timed\_waiting state. 
+Timed\_waiting: A thread waiting for another thread to perform an action for up to a specified waiting time is in Timed\_waiting state. 
 
 
 
 6. 
 
-**Terminated**: A thread that has exited is in Terminated state. 
+Terminated: A thread that has exited is in Terminated state. 
 
 
 
-**280. ** ** How will you set the priority** **of a thread in Java? **
+280.   How will you set the priority of a thread in Java? 
 
 
 
@@ -7782,7 +7782,7 @@ Or we can use constant Thread.NORM\_PRIORITY to set the default priority of a th
 
 
 
-**281. ** **What is the purpose of Thread** **Groups in Java? **
+281.  What is the purpose of Thread Groups in Java? 
 
 
 
@@ -7802,7 +7802,7 @@ So a thread group is used for taking collective actions on a group of threads.
 
 
 
-**282. ** **Why we should not stop a** **thread by calling its stop\(\) method? **
+282.  Why we should not stop a thread by calling its stop\(\) method? 
 
 
 
@@ -7824,7 +7824,7 @@ So calling stop\(\) method to stop a thread is not advisable.
 
 
 
-**283. ** **How will you create a Thread** **in Java? **
+283.  How will you create a Thread in Java? 
 
 
 
@@ -7834,19 +7834,19 @@ There are two main ways to create a thread in Java.
 
 1. 
 
-**Extend Thread class**: We can extend java.lang.Thread class and implement run\(\) method. On calling start\(\) method it will start a new thread. 
+Extend Thread class: We can extend java.lang.Thread class and implement run\(\) method. On calling start\(\) method it will start a new thread. 
 
 
 
 2. 
 
-**Implement Runnable interface**: We can implement java.lang.Runnable interface and pass the implemented object to the constructor of java.lang.Thread class. On calling start\(\) it will start a new thread. 
+Implement Runnable interface: We can implement java.lang.Runnable interface and pass the implemented object to the constructor of java.lang.Thread class. On calling start\(\) it will start a new thread. 
 
 
 
 
 
-**284. ** **How can we stop a thread in** **the middle of execution in Java? **
+284.  How can we stop a thread in the middle of execution in Java? 
 
 
 
@@ -7916,7 +7916,7 @@ Thread.sleep\(100\);
 
 
 
-**285. ** **How do you access the current** **thread in a Java program? **
+285.  How do you access the current thread in a Java program? 
 
 
 
@@ -7950,7 +7950,7 @@ String name = Thread.currentThread\(\).getName\(\);
 
 
 
-**286. ** **What is Busy waiting in Multithreading? **
+286.  What is Busy waiting in Multithreading? 
 
 
 
@@ -7996,7 +7996,7 @@ currentTime = System.currentTimeMillis\(\);
 
 
 
-**287. ** **How can we prevent busy** **waiting in Java? **
+287.  How can we prevent busy waiting in Java? 
 
 
 
@@ -8010,9 +8010,9 @@ We can pass the number of milliseconds to sleep\(\) method as an argument.
 
 
 
-**288. ** **Can we use Thread.sleep\(\)** **method for real-time processing in**
+288.  Can we use Thread.sleep\(\) method for real-time processing in
 
-**Java? **
+Java? 
 
 
 
@@ -8028,9 +8028,9 @@ Therefore the invocation of Thread.sleep\(\) method is not recommended for use i
 
 
 
-**289. ** **Can we wake up a thread that** **has been put to sleep by using**
+289.  Can we wake up a thread that has been put to sleep by using
 
-**Thread.sleep\(\) method? **
+Thread.sleep\(\) method? 
 
 
 
@@ -8080,9 +8080,9 @@ myThread.interrupt\(\);
 
 
 
-**290. ** **What are the two ways to** **check if a Thread has been**
+290.  What are the two ways to check if a Thread has been
 
-**interrupted? **
+interrupted? 
 
 
 
@@ -8100,9 +8100,9 @@ The other option is to call isInterrupted\(\) method of Thread class to check if
 
 
 
-**291. ** **How can we make sure that** **Parent thread waits for termination of**
+291.  How can we make sure that Parent thread waits for termination of
 
-**Child thread? **
+Child thread? 
 
 
 
@@ -8134,7 +8134,7 @@ myThread.join\(\);
 
 
 
-**292. ** **How will you handle** **InterruptedException in Java? **
+292.  How will you handle InterruptedException in Java? 
 
 
 
@@ -8176,9 +8176,9 @@ Therefore the correct way to handle this exception is that run\(\) method should
 
 
 
-**293. ** **Which intrinsic lock is** **acquired by a synchronized method in**
+293.  Which intrinsic lock is acquired by a synchronized method in
 
-**Java? **
+Java? 
 
 
 
@@ -8204,7 +8204,7 @@ synchronized\(this\) \{
 
 \}
 
-**294. ** **Can we mark a constructor as** **synchronized in Java? **
+294.  Can we mark a constructor as synchronized in Java? 
 
 
 
@@ -8220,7 +8220,7 @@ The reasoning behind this is that, in this case, only the constructing thread wo
 
 
 
-**295. ** **Can we use primitive values** **for intrinsic locks? **
+295.  Can we use primitive values for intrinsic locks? 
 
 
 
@@ -8228,7 +8228,7 @@ No. Java does not allow primitive values to be used for intrinsic locks.
 
 
 
-**296. ** **Do we have re-entrant** **property in intrinsic locks? **
+296.  Do we have re-entrant property in intrinsic locks? 
 
 
 
@@ -8240,7 +8240,7 @@ If it is not allowed then the code that acquires a lock would have to avoid acqu
 
 
 
-**297. ** **What is an atomic operation? **
+297.  What is an atomic operation? 
 
 
 
@@ -8256,7 +8256,7 @@ There is no halfway mark in Atomic operation.
 
 
 
-**298. ** **Can we consider the statement** **i\+\+ as an atomic operation in Java? **
+298.  Can we consider the statement i\+\+ as an atomic operation in Java? 
 
 
 
@@ -8272,7 +8272,7 @@ The current thread that executes this operation may be interrupted between any o
 
 
 
-**299. ** **What are the Atomic** **operations in Java? **
+299.  What are the Atomic operations in Java? 
 
 
 
@@ -8304,7 +8304,7 @@ Write operations on all variables declared as volatile
 
 
 
-**300. ** **Can you check if following** **code is thread-safe? **
+300.  Can you check if following code is thread-safe? 
 
 
 
@@ -8354,39 +8354,39 @@ Any variables that is marked as volatile will be visible to other threads only a
 
 
 
-**301. ** **What are the minimum** **requirements for a Deadlock situation**
+301.  What are the minimum requirements for a Deadlock situation
 
-**in a program? **
+in a program? 
 
 
 
 For a deadlock to occur following are the minimum requirements: 1. 
 
-**Mutual exclusion**: There has to be a resource that can be accessed by only one thread at any point of time. 
+Mutual exclusion: There has to be a resource that can be accessed by only one thread at any point of time. 
 
 
 
 2. 
 
-**Resource holding**: One thread locks one resource and holds it, and at the same time it tries to acquire lock on another mutually exclusive resource. 
+Resource holding: One thread locks one resource and holds it, and at the same time it tries to acquire lock on another mutually exclusive resource. 
 
 
 
 3. 
 
-**No preemption**: There is no pre-emption mechanism by which resource held by a thread can be freed after a specific period of time. 
+No preemption: There is no pre-emption mechanism by which resource held by a thread can be freed after a specific period of time. 
 
 
 
 4. 
 
-**Circular wait**: There can be a scenario in which two or more threads lock one resource each and they wait for each other’s resource to get free. This causes circular wait among threads for same set of resources. 
+Circular wait: There can be a scenario in which two or more threads lock one resource each and they wait for each other’s resource to get free. This causes circular wait among threads for same set of resources. 
 
 
 
 
 
-**302. ** **How can we prevent a** **Deadlock? **
+302.  How can we prevent a Deadlock? 
 
 
 
@@ -8396,29 +8396,29 @@ To prevent a Deadlock from occurring at least one requirement for a deadlock has
 
 1. 
 
-**Mutual exclusion**: We can use optimistic locking to prevent mutual exclusion among resources. 
+Mutual exclusion: We can use optimistic locking to prevent mutual exclusion among resources. 
 
 
 
 2. 
 
-**Resource holding**: A thread has to release all its exclusive locks if it does not succeed in acquiring all exclusive locks for resources required. 
+Resource holding: A thread has to release all its exclusive locks if it does not succeed in acquiring all exclusive locks for resources required. 
 
 
 
 3. 
 
-**No preemption**: We can use timeout period for an exclusive lock to get free after a given amount of time. 
+No preemption: We can use timeout period for an exclusive lock to get free after a given amount of time. 
 
 
 
 4. 
 
-**Circular wait**: We can check and ensure that circular wait does not occur, when all exclusive locks have been acquired by all the threads in the same sequence. 
+Circular wait: We can check and ensure that circular wait does not occur, when all exclusive locks have been acquired by all the threads in the same sequence. 
 
 
 
-**303. ** **How can we detect a Deadlock** **situation? **
+303.  How can we detect a Deadlock situation? 
 
 
 
@@ -8442,7 +8442,7 @@ StackTraceElement\[\] stack = info.getStackTrace\(\);
 
 \}
 
-**304. ** **What is a Livelock? **
+304.  What is a Livelock? 
 
 
 
@@ -8470,7 +8470,7 @@ Now both threads hold two different locks. And both threads want to have both lo
 
 
 
-**305. ** **What is Thread starvation? **
+305.  What is Thread starvation? 
 
 
 
@@ -8482,7 +8482,7 @@ If a lower priority thread performs a long running computation, it may happen th
 
 
 
-**306. ** **How can a synchronized block** **cause Thread starvation in Java? **
+306.  How can a synchronized block cause Thread starvation in Java? 
 
 
 
@@ -8494,7 +8494,7 @@ Hence these threads with lower priority will not get enough time to finish their
 
 
 
-**307. ** **What is a Race condition? **
+307.  What is a Race condition? 
 
 
 
@@ -8532,7 +8532,7 @@ y = x \* 5; // Act
 
 
 
-**308. ** **What is a Fair lock in multithreading? **
+308.  What is a Fair lock in multithreading? 
 
 
 
@@ -8554,9 +8554,9 @@ The only exception to a Fair lock is tryLock\(\) method of ReentrantLock. This m
 
 
 
-**309. ** **Which two methods of Object** **class can be used to implement a**
+309.  Which two methods of Object class can be used to implement a
 
-**Producer Consumer scenario? **
+Producer Consumer scenario? 
 
 
 
@@ -8572,7 +8572,7 @@ In this way the processor time between produce and consume operations is freed d
 
 
 
-**310. ** **How JVM determines which** **thread should wake up on notify\(\)? **
+310.  How JVM determines which thread should wake up on notify\(\)? 
 
 
 
@@ -8584,9 +8584,9 @@ So there is no guarantee of rule that a specific thread will be awakened by JVM 
 
 
 
-**311. ** **Check if following code is thread-safe for retrieving an integer value**
+311.  Check if following code is thread-safe for retrieving an integer value
 
-**from a Queue? **
+from a Queue? 
 
 
 
@@ -8652,7 +8652,7 @@ Only one of the two threads will get new value from the queue and make it empty.
 
 
 
-**312. ** **How can we check if a thread has** **a monitor lock on a given object? **
+312.  How can we check if a thread has a monitor lock on a given object? 
 
 
 
@@ -8664,7 +8664,7 @@ This method will return true if current thread holds the lock on the objToLock o
 
 
 
-**313. ** **What is the use of yield\(\) method** **in Thread class? **
+313.  What is the use of yield\(\) method in Thread class? 
 
 
 
@@ -8680,9 +8680,9 @@ It can be used for debugging or testing purposes. But there is rarely any concre
 
 
 
-**314. ** **What is an important point to** **consider while passing an object from**
+314.  What is an important point to consider while passing an object from
 
-**one thread to another thread? **
+one thread to another thread? 
 
 
 
@@ -8700,7 +8700,7 @@ So it is recommended to make the object Immutable. This will help in avoiding an
 
 
 
-**315. ** **What are the rules for creating** **Immutable Objects? **
+315.  What are the rules for creating Immutable Objects? 
 
 
 
@@ -8734,7 +8734,7 @@ Similarly, create copies of your internal mutable objects when necessary to avoi
 
 
 
-**316. ** **What is the use of ThreadLocal** **class? **
+316.  What is the use of ThreadLocal class? 
 
 
 
@@ -8752,7 +8752,7 @@ Typically, ThreadLocal instances are private static fields that are associated w
 
 
 
-**317. ** **What are the scenarios suitable** **for using ThreadLocal class? **
+317.  What are the scenarios suitable for using ThreadLocal class? 
 
 
 
@@ -8768,9 +8768,9 @@ Another use case is to transport transaction information across an application, 
 
 
 
-**318. ** **How will you improve the** **performance of an application by**
+318.  How will you improve the performance of an application by
 
-**multi-threading? **
+multi-threading? 
 
 
 
@@ -8790,7 +8790,7 @@ parallel threads. So each thread will take 100 files each. Since now work is hap
 
 
 
-**319. ** **What is scalability in a Software** **program? **
+319.  What is scalability in a Software program? 
 
 
 
@@ -8806,9 +8806,9 @@ When we say a program does not scale, it means that program fails on increasing 
 
 
 
-**320. ** **How will you calculate the** **maximum speed up of an application**
+320.  How will you calculate the maximum speed up of an application
 
-**by using multiple processors? **
+by using multiple processors? 
 
 
 
@@ -8838,7 +8838,7 @@ In general, the theoretical maximum speedup behaves in inverse proportion to the
 
 
 
-**321. ** **What is Lock contention in multithreading? **
+321.  What is Lock contention in multithreading? 
 
 
 
@@ -8856,7 +8856,7 @@ If locking is implemented correctly it reduces the occurrence of contention betw
 
 
 
-**322. ** **What are the techniques to** **reduce Lock contention? **
+322.  What are the techniques to reduce Lock contention? 
 
 
 
@@ -8884,9 +8884,9 @@ Implement hardware supported Optimistic locking in place of synchronization.
 
 
 
-**323. ** **What technique can be used in** **following code to reduce Lock**
+323.  What technique can be used in following code to reduce Lock
 
-**contention? **
+contention? 
 
 
 
@@ -8924,7 +8924,7 @@ map.put\(key, value\);
 
 
 
-**324. ** **What is Lock splitting** **technique? **
+324.  What is Lock splitting technique? 
 
 
 
@@ -8936,9 +8936,9 @@ Sometimes we put one lock to protect the whole array. There can be multiple thre
 
 
 
-**325. ** **Which technique is used in** **ReadWriteLock class for reducing**
+325.  Which technique is used in ReadWriteLock class for reducing
 
-**Lock contention? **
+Lock contention? 
 
 
 
@@ -8954,7 +8954,7 @@ In this implementation, read-only lock can be obtained by multiple threads. And 
 
 
 
-**326. ** **What is Lock striping? **
+326.  What is Lock striping? 
 
 
 
@@ -8974,7 +8974,7 @@ Lock striping technique gives better performance than Synchronizing the whole da
 
 
 
-**327. ** **What is a CAS operation? **
+327.  What is a CAS operation? 
 
 
 
@@ -9002,9 +9002,9 @@ This is an example of optimistic locking.
 
 
 
-**328. ** **Which Java classes use CAS**
+328.  Which Java classes use CAS
 
-**operation? **
+operation? 
 
 
 
@@ -9018,9 +9018,9 @@ These classes are in package java.util.concurrent.atomic.
 
 
 
-**329. ** **Is it always possible to improve** **performance by object pooling in a**
+329.  Is it always possible to improve performance by object pooling in a
 
-**multi-threading application? **
+multi-threading application? 
 
 
 
@@ -9036,13 +9036,13 @@ Therefore using an Object pool may not always improve the performance in a multi
 
 
 
-**330. ** **How can techniques used for** **performance improvement in a single**
+330.  How can techniques used for performance improvement in a single
 
-**thread application may degrade the**
+thread application may degrade the
 
-**performance in a multi-threading**
+performance in a multi-threading
 
-**application? **
+application? 
 
 
 
@@ -9060,9 +9060,9 @@ But in a multi-threading application, this separate variable can rather degrade 
 
 
 
-**331. ** **What is the relation between** **Executor and ExecutorService**
+331.  What is the relation between Executor and ExecutorService
 
-**interface? **
+interface? 
 
 
 
@@ -9074,11 +9074,11 @@ ExecutorService interface extends Executor interface. It provides additional met
 
 
 
-**332. ** **What will happen on calling** **submit\(\) method of an**
+332.  What will happen on calling submit\(\) method of an
 
-**ExecutorService instance whose**
+ExecutorService instance whose
 
-**queue is already full? **
+queue is already full? 
 
 
 
@@ -9098,7 +9098,7 @@ RejectedExecutionException, when its queue is already full and a new task is sub
 
 
 
-**333. ** **What is a** **ScheduledExecutorService? **
+333.  What is a ScheduledExecutorService? 
 
 
 
@@ -9140,7 +9140,7 @@ scheduleWithFixedDelay\(\) methods that can execute an action at a periodic inte
 
 
 
-**334. ** **How will you create a Thread** **pool in Java? **
+334.  How will you create a Thread pool in Java? 
 
 
 
@@ -9190,9 +9190,9 @@ myService.shutdown\(\);
 
 
 
-**335. ** **What is the main difference** **between Runnable and Callable**
+335.  What is the main difference between Runnable and Callable
 
-**interface? **
+interface? 
 
 
 
@@ -9206,7 +9206,7 @@ Callable interface allows call\(\) method to return a value to its caller. A Cal
 
 
 
-**336. ** **What are the uses of Future** **interface in Java? **
+336.  What are the uses of Future interface in Java? 
 
 
 
@@ -9230,9 +9230,9 @@ Future also provides cancel\(\) method to attempt the cancellation of a task.
 
 
 
-**337. ** **What is the difference in** **concurrency in HashMap and in**
+337.  What is the difference in concurrency in HashMap and in
 
-**Hashtable? **
+Hashtable? 
 
 
 
@@ -9252,9 +9252,9 @@ In a multi-threading it is not advisable to use regular HashMap. We can use Conc
 
 
 
-**338. ** **How will you create** **synchronized instance of List or Map**
+338.  How will you create synchronized instance of List or Map
 
-**Collection? **
+Collection? 
 
 
 
@@ -9266,7 +9266,7 @@ It also provides synchronizedList\(List\) and synchronizedMap\(Map\) methods tha
 
 
 
-**339. ** **What is a Semaphore in Java? **
+339.  What is a Semaphore in Java? 
 
 
 
@@ -9294,7 +9294,7 @@ Once a thread has finished its work, we can use release\(\) method to release th
 
 
 
-**340. ** **What is a CountDownLatch in** **Java? **
+340.  What is a CountDownLatch in Java? 
 
 
 
@@ -9312,7 +9312,7 @@ It is a versatile tool that can be used for other Synchronization scenarios as w
 
 
 
-**341. ** **What is the difference between** **CountDownLatch and CyclicBarrier? **
+341.  What is the difference between CountDownLatch and CyclicBarrier? 
 
 
 
@@ -9328,7 +9328,7 @@ CyclicBarrier resets the internal value to the initial value once the value reac
 
 
 
-**342. ** **What are the scenarios suitable** **for using Fork/Join framework? **
+342.  What are the scenarios suitable for using Fork/Join framework? 
 
 
 
@@ -9360,9 +9360,9 @@ implemented with Fork/Join framework.
 
 
 
-**343. ** **What is the difference between** **RecursiveTask and RecursiveAction**
+343.  What is the difference between RecursiveTask and RecursiveAction
 
-**class? **
+class? 
 
 
 
@@ -9382,9 +9382,9 @@ Both RecursiveTask and RecursiveAction classes are used in ForkJoinTask implemen
 
 
 
-**344. ** **In Java 8, can we process** **stream operations with a Thread**
+344.  In Java 8, can we process stream operations with a Thread
 
-**pool? **
+pool? 
 
 
 
@@ -9396,7 +9396,7 @@ We can also call the intermediate method parallel\(\) on a given stream to conve
 
 
 
-**345. ** **What are the scenarios to use** **parallel stream in Java 8? **
+345.  What are the scenarios to use parallel stream in Java 8? 
 
 
 
@@ -9416,7 +9416,7 @@ When current implementation is not already running in a multithread environment.
 
 
 
-**346. ** **How Stack and Heap work in** **Java multi-threading environment? **
+346.  How Stack and Heap work in Java multi-threading environment? 
 
 
 
@@ -9440,7 +9440,7 @@ In such a scenario we should used volatile keyword to mark a variable volatile. 
 
 
 
-**347. ** **How can we take Thread dump** **in Java? **
+347.  How can we take Thread dump in Java? 
 
 
 
@@ -9466,9 +9466,9 @@ This is the simple one, -Xss parameter is used to control stack size of Thread i
 
 
 
-**348. ** **Which parameter can be used** **to control stack size of a thread in**
+348.  Which parameter can be used to control stack size of a thread in
 
-**Java? **
+Java? 
 
 
 
@@ -9480,11 +9480,11 @@ If we set it as 1 MB, then every thread will get 1MB of stack size.
 
 
 
-**349. ** **There are two threads T1 and** **T2? How will you ensure that these**
+349.  There are two threads T1 and T2? How will you ensure that these
 
-**threads run in sequence T1, T2 in**
+threads run in sequence T1, T2 in
 
-**Java? **
+Java? 
 
 
 
@@ -9512,13 +9512,13 @@ Once T1 completes execution, T2 thread starts executing.
 
 
 
-**Java 8**
+Java 8
 
 
 
 
 
-**350. ** **What are the new features** **released in Java 8? **
+350.  What are the new features released in Java 8? 
 
 
 
@@ -9592,7 +9592,7 @@ JVM Parameter Changes
 
 
 
-**351. ** **What are the main benefits of** **new features introduced in Java 8? **
+351.  What are the main benefits of new features introduced in Java 8? 
 
 
 
@@ -9632,7 +9632,7 @@ Faster execution with Nashorn JavaScript engine support
 
 
 
-**352. ** **What is a Lambda expression** **in Java 8? **
+352.  What is a Lambda expression in Java 8? 
 
 
 
@@ -9644,7 +9644,7 @@ Lambda expression can be passed as a parameter in a method. So we can treat code
 
 
 
-**353. ** **What are the three main parts** **of a Lambda expression in Java? **
+353.  What are the three main parts of a Lambda expression in Java? 
 
 
 
@@ -9684,7 +9684,7 @@ Body = System.out.println\( e \)
 
 
 
-**354. ** **What is the data type of a** **Lambda expression? **
+354.  What is the data type of a Lambda expression? 
 
 
 
@@ -9702,7 +9702,7 @@ In most of the cases this is java.lang.Runnable interface.
 
 
 
-**355. ** **What is the meaning of** **following lambda expression? **
+355.  What is the meaning of following lambda expression? 
 
 
 
@@ -9718,7 +9718,7 @@ This Lambda expression takes a parameter e and prints it via System.out.
 
 
 
-**356. ** **Why did Oracle release a new** **version of Java like Java 8? **
+356.  Why did Oracle release a new version of Java like Java 8? 
 
 
 
@@ -9744,7 +9744,7 @@ Optional is a best practice that is borrowed from Google Guava library for handl
 
 
 
-**357. ** **What are the advantages of a** **lambda expression? **
+357.  What are the advantages of a lambda expression? 
 
 
 
@@ -9754,7 +9754,7 @@ We can pass a lambda expression as an object to a method. This reduces the overh
 
 We can also pass a method as a parameter to another method using lambda expressions. 
 
-**358. ** **What is a Functional interface** **in Java 8? **
+358.  What is a Functional interface in Java 8? 
 
 
 
@@ -9770,7 +9770,7 @@ In Java 8, java.lang.Runnable and java.util.concurrent.Callable are two very pop
 
 
 
-**359. ** **What is a Single Abstract** **Method \(SAM\) interface in Java 8? **
+359.  What is a Single Abstract Method \(SAM\) interface in Java 8? 
 
 
 
@@ -9778,7 +9778,7 @@ A Functional interface is also known as Single Abstract Method Interface, since 
 
 
 
-**360. ** **How can we define a** **Functional interface in Java 8? **
+360.  How can we define a Functional interface in Java 8? 
 
 
 
@@ -9796,7 +9796,7 @@ The only exception to this rule is that if we override java.lang.Object class’
 
 
 
-**361. ** **Why do we need Functional** **interface in Java? **
+361.  Why do we need Functional interface in Java? 
 
 
 
@@ -9812,13 +9812,13 @@ Functional Interface serves as a data type for Lambda expressions.
 
 Since a Functional interface contains only one abstract method, the implementation of that method becomes the code that gets passed as an argument to another method. 
 
-**362. ** **Is it mandatory to use**
+362.  Is it mandatory to use
 
-**@FunctionalInterface annotation to**
+@FunctionalInterface annotation to
 
-**define a Functional interface in Java**
+define a Functional interface in Java
 
-**8? **
+8? 
 
 
 
@@ -9834,9 +9834,9 @@ Java does not impose this rule.
 
 But, if we mark an interface with @FunctionalInterface annotation then Java Compiler will give us error in case we define more than one abstract method inside that interface. 
 
-**363. ** **What are the differences** **between Collection and Stream API in**
+363.  What are the differences between Collection and Stream API in
 
-**Java 8? **
+Java 8? 
 
 
 
@@ -9862,7 +9862,7 @@ Multiple consumption: Most of the Collection APIs support iteration and consumpt
 
 
 
-**364. ** **What are the main uses of** **Stream API in Java 8? **
+364.  What are the main uses of Stream API in Java 8? 
 
 
 
@@ -9896,9 +9896,9 @@ It provides parallel processing of data.
 
 
 
-**365. ** **What are the differences** **between Intermediate and Terminal**
+365.  What are the differences between Intermediate and Terminal
 
-**Operations in Java 8 Streams? **
+Operations in Java 8 Streams? 
 
 
 
@@ -9928,7 +9928,7 @@ Multiple: There can be multiple Intermediate operations in a Stream operation. T
 
 
 
-**366. ** **What is a Spliterator in Java** **8? **
+366.  What is a Spliterator in Java 8? 
 
 
 
@@ -9940,9 +9940,9 @@ channel or a generator function.
 
 A Spliterator may traverse elements individually or sequentially in bulk. 
 
-**367. ** **What are the differences** **between Iterator and Spliterator in**
+367.  What are the differences between Iterator and Spliterator in
 
-**Java 8? **
+Java 8? 
 
 
 
@@ -9964,7 +9964,7 @@ Spliterator can iterate Streams in Parallel as well as Sequential manner. Iterat
 
 Spliterator can traverse elements individually as well as in bulk. Iterator only iterates elements individually. 
 
-**368. ** **What is Type Inference in Java** **8? **
+368.  What is Type Inference in Java 8? 
 
 
 
@@ -9978,7 +9978,7 @@ By Type Inference, Java can determine the types of the arguments as well as the 
 
 Type inference algorithm also tries to find the most specific type that can work with all types of arguments. 
 
-**369. ** **Does Java 7 support Type** **Inference? **
+369.  Does Java 7 support Type Inference? 
 
 
 
@@ -9986,7 +9986,7 @@ Yes, Java 7 supports Type Inference. In Java 8, Oracle has enhanced the Type Inf
 
 
 
-**370. ** **How does Internal Iteration** **work in Java 8? **
+370.  How does Internal Iteration work in Java 8? 
 
 
 
@@ -10004,9 +10004,9 @@ In case of Internal Iteration, the client hands over an operation to Iterator an
 
 Internal Iteration is easier to implement, since the Iterator does not have to store the state of the collection. 
 
-**371. ** **What are the main differences** **between Internal and External**
+371.  What are the main differences between Internal and External
 
-**Iterator? **
+Iterator? 
 
 
 
@@ -10040,9 +10040,9 @@ Some people consider Internal Iterator code more readable than that of External 
 
 
 
-**372. ** **What are the main advantages** **of Internal Iterator over External**
+372.  What are the main advantages of Internal Iterator over External
 
-**Iterator in Java 8? **
+Iterator in Java 8? 
 
 
 
@@ -10064,9 +10064,9 @@ Internal Iterator supports concurrency and parallel processing.
 
 
 
-**373. ** **What are the applications in** **which we should use Internal**
+373.  What are the applications in which we should use Internal
 
-**Iteration? **
+Iteration? 
 
 
 
@@ -10080,9 +10080,9 @@ become more important.
 
 
 
-**374. ** **What is the main disadvantage** **of Internal Iteration over External**
+374.  What is the main disadvantage of Internal Iteration over External
 
-**Iteration? **
+Iteration? 
 
 
 
@@ -10090,13 +10090,13 @@ Internal Iteration has many advantages over External Iteration. But it has one b
 
 
 
-****
 
-**375. ** **Can we provide**
 
-**implementation of a method in a Java**
+375.  Can we provide
 
-**Interface? **
+implementation of a method in a Java
+
+Interface? 
 
 
 
@@ -10112,7 +10112,7 @@ Default Method: We can give default implementation of a method.
 
 Static Method: We can create a static method in an interface and provide implementation. 
 
-**376. ** **What is a Default Method in** **an Interface? **
+376.  What is a Default Method in an Interface? 
 
 
 
@@ -10126,7 +10126,7 @@ In this way, this implementation of the method becomes default behavior for any 
 
 
 
-**377. ** **Why do we need Default** **method in a Java 8 Interface? **
+377.  Why do we need Default method in a Java 8 Interface? 
 
 
 
@@ -10136,7 +10136,7 @@ Default methods in an Interface provide backward compatibility feature in Java 8
 
 Let say there is an interface Car that is implemented by BMW, Chevrolet and Toyota classes. Now a Car needs to add capability for flying. It will require change in Car interface. Some of the car classes that do not have flying capability may fail. Therefore a Default Implementation of flying methods is added in Car interface so that cars with no flying capability can continue to implement the original Car interface. 
 
-**378. ** **What is the purpose of a Static** **method in an Interface in Java 8? **
+378.  What is the purpose of a Static method in an Interface in Java 8? 
 
 
 
@@ -10158,7 +10158,7 @@ Extension: It is easier to extend a Class/API. If we extend a collection ArrayLi
 
 
 
-**379. ** **What are the core ideas behind** **the Date/Time API of Java 8? **
+379.  What are the core ideas behind the Date/Time API of Java 8? 
 
 
 
@@ -10188,9 +10188,9 @@ Separation of chronologies: The new API allows people to work with different cal
 
 
 
-**380. ** **What are the advantages of** **new Date and Time API in Java 8 over**
+380.  What are the advantages of new Date and Time API in Java 8 over
 
-**old Date API? **
+old Date API? 
 
 
 
@@ -10210,9 +10210,9 @@ No need for 3rd Party Libraries: With the popularity of third-party Date/Time li
 
 
 
-**381. ** **What are the main differences** **between legacy Date/Time API in Java**
+381.  What are the main differences between legacy Date/Time API in Java
 
-**and Date/Time API of Java 8? **
+and Date/Time API of Java 8? 
 
 
 
@@ -10248,7 +10248,7 @@ Old API has month values from 0 to 11. New API has months from 1 to 12.
 
 
 
-**382. ** **How can we get duration** **between two dates or time in Java 8? **
+382.  How can we get duration between two dates or time in Java 8? 
 
 
 
@@ -10262,9 +10262,9 @@ We can call the static method Duration.between\(date1, date2\) to get the time p
 
 
 
-**383. ** **What is the new method family** **introduced in Java 8 for processing of**
+383.  What is the new method family introduced in Java 8 for processing of
 
-**Arrays on multi core machines? **
+Arrays on multi core machines? 
 
 
 
@@ -10282,9 +10282,9 @@ This parallel set of methods provides parallel processing of Arrays that can run
 
 
 
-**384. ** **How does Java 8 solve** **Diamond problem of Multiple**
+384.  How does Java 8 solve Diamond problem of Multiple
 
-**Inheritance? **
+Inheritance? 
 
 
 
@@ -10362,9 +10362,9 @@ The method invocation at BaseOne.super.display\(\); solves the Diamond problem a
 
 
 
-**385. ** **What are the differences** **between Predicate, Supplier and**
+385.  What are the differences between Predicate, Supplier and
 
-**Consumer in Java 8? **
+Consumer in Java 8? 
 
 
 
@@ -10386,11 +10386,11 @@ Consumer is an anonymous function that accepts one argument and returns no resul
 
 
 
-**386. ** **Is it possible to have default** **method definition in an interface**
+386.  Is it possible to have default method definition in an interface
 
-**without marking it with default**
+without marking it with default
 
-**keyword? **
+keyword? 
 
 
 
@@ -10402,11 +10402,11 @@ If we create a method with implementation in an interface, but do not mark it as
 
 
 
-**387. ** **Can we create a class that** **implements two Interfaces with**
+387.  Can we create a class that implements two Interfaces with
 
-**default methods of same name and**
+default methods of same name and
 
-**signature? **
+signature? 
 
 
 
@@ -10418,7 +10418,7 @@ It will give us compile time error for duplicate default methods.
 
 
 
-**388. ** **How Java 8 supports Multiple** **Inheritance? **
+388.  How Java 8 supports Multiple Inheritance? 
 
 
 
@@ -10440,17 +10440,17 @@ Now if we implement more than one interface with method implementation in a clas
 
 
 
-**389. ** **In case we create a class that** **extends a base class and implements**
+389.  In case we create a class that extends a base class and implements
 
-**an interface. If both base class and**
+an interface. If both base class and
 
-**interface have a default method with**
+interface have a default method with
 
-**same name and arguments, then**
+same name and arguments, then
 
-**which definition will be picked by**
+which definition will be picked by
 
-**JVM? **
+JVM? 
 
 
 
@@ -10460,15 +10460,15 @@ In such a scenario, JVM will pick the definition in base class.
 
 
 
-**390. ** **If we create same method and** **define it in a class , in its parent class** **and in an interface implemented by**
+390.  If we create same method and define it in a class , in its parent class and in an interface implemented by
 
-**the class, then definition will be**
+the class, then definition will be
 
-**invoked if we access it using the**
+invoked if we access it using the
 
-**reference of Interface and the object**
+reference of Interface and the object
 
-**of class? **
+of class? 
 
 
 
@@ -10478,9 +10478,9 @@ In all the cases, method defined in the class will be invoked.
 
 
 
-**391. ** **Can we access a static method of** **an interface by using reference of the**
+391.  Can we access a static method of an interface by using reference of the
 
-**interface? **
+interface? 
 
 
 
@@ -10490,9 +10490,9 @@ No, a static method of interface has to be invoked by using the name of the inte
 
 
 
-**392. ** **How can you get the name of** **Parameter in Java by using**
+392.  How can you get the name of Parameter in Java by using
 
-**reflection? **
+reflection? 
 
 
 
@@ -10514,7 +10514,7 @@ isNamePresent\(\) method.
 
 
 
-**393. ** **What is Optional in Java 8? **
+393.  What is Optional in Java 8? 
 
 
 
@@ -10530,7 +10530,7 @@ It is very useful in handling data that has null values.
 
 
 
-**394. ** **What are the uses of Optional? **
+394.  What are the uses of Optional? 
 
 
 
@@ -10546,15 +10546,15 @@ Optional reduces the codebase pollution by removing unnecessary null checks.
 
 Optional can also be used to handle default case for data when a value is null. 
 
-**395. ** **Which method in Optional** **provides the fallback mechanism in**
+395.  Which method in Optional provides the fallback mechanism in
 
-**case of null value? **
+case of null value? 
 
 
 
 In case, an Optional has null value, we can use orElseGet\(\) method as fallback mechanism. If we implement orElseGet\(\) method, it will be invoked when the value of Optional is null. 
 
-**396. ** **How can we get current time** **by using Date/Time API of Java 8? **
+396.  How can we get current time by using Date/Time API of Java 8? 
 
 
 
@@ -10566,7 +10566,7 @@ We can also call instant\(\) method on Clock object to get the current time in a
 
 
 
-**397. ** **Is it possible to define a static** **method in an Interface? **
+397.  Is it possible to define a static method in an Interface? 
 
 
 
@@ -10574,9 +10574,9 @@ Yes, from Java 8, an Interface can also has a static method.
 
 
 
-**398. ** **How can we analyze the** **dependencies in Java classes and**
+398.  How can we analyze the dependencies in Java classes and
 
-**packages? **
+packages? 
 
 
 
@@ -10590,9 +10590,9 @@ We can pass a jar file name or a class name as an argument to this tool. It will
 
 
 
-**399. ** **What are the new JVM**
+399.  What are the new JVM
 
-**arguments introduced by Java 8? **
+arguments introduced by Java 8? 
 
 
 
@@ -10610,7 +10610,7 @@ The JVM options -XX:PermSize and –XX:MaxPermSize are replaced by -XX:MetaSpace
 
 
 
-**400. ** **What are the popular** **annotations introduced in Java 8? **
+400.  What are the popular annotations introduced in Java 8? 
 
 
 
@@ -10626,7 +10626,7 @@ Some of the popular annotations introduced in Java 8 are:
 
 
 
-**401. ** **What is a StringJoiner in Java** **8? **
+401.  What is a StringJoiner in Java 8? 
 
 
 
@@ -10642,7 +10642,7 @@ The String "\[One:Two:Three\]" may be constructed as follows: StringJoiner sj = 
 
 
 
-**402. ** **What is the type of a Lambda** **expression in Java 8? **
+402.  What is the type of a Lambda expression in Java 8? 
 
 
 
@@ -10656,7 +10656,7 @@ A lambda is like a method reference. It does not have a type of its own.
 
 Generally, a Lambda is an instance of a Functional Interface. 
 
-**403. ** **What is the target type of a** **lambda expression ? **
+403.  What is the target type of a lambda expression ? 
 
 
 
@@ -10674,11 +10674,11 @@ The lambda expression must have same parameter type as the parameter in the func
 
 
 
-**404. ** **What are the main differences** **between an interface with default**
+404.  What are the main differences between an interface with default
 
-**method and an abstract class in Java**
+method and an abstract class in Java
 
-**8? **
+8? 
 
 
 
@@ -10706,13 +10706,13 @@ Lambda: An interface with exactly one default method can be used for lambda expr
 
 
 
-**Java Tricky Questions**
+Java Tricky Questions
 
 
 
-**405. ** **Is there any difference between** **a = a \+ b and a \+= b expressions? **
+405.  Is there any difference between a = a \+ b and a \+= b expressions? 
 
-****
+
 
 When we add two integral variables e.g. variables of type byte, short, or int in Java, then they are first promoted to int type, and then addition happens. 
 
@@ -10734,11 +10734,11 @@ You can answer by saying that finally block executes even if we put a return sta
 
 
 
-**406. ** **What does the expression 1.0 /**
+406.  What does the expression 1.0 /
 
-**0.0 return? Will there be any**
+0.0 return? Will there be any
 
-**compilation error? **
+compilation error? 
 
 
 
@@ -10752,7 +10752,7 @@ The answer to this question is that 1.0 / 0.0 will compile successfully. And it 
 
 . 
 
-**407. ** **Can we use multiple main** **methods in multiple classes? **
+407.  Can we use multiple main methods in multiple classes? 
 
 
 
@@ -10764,7 +10764,7 @@ Therefore, there is no conflict amongst the multiple classes having main method.
 
 
 
-**408. ** **Does Java allow you to** **override a private or static method? **
+408.  Does Java allow you to override a private or static method? 
 
 
 
@@ -10782,11 +10782,11 @@ So in both the cases, it is not method overriding. It is either method hiding or
 
 
 
-**409. ** **What happens when you put a** **key object in a HashMap that is**
+409.  What happens when you put a key object in a HashMap that is
 
-**already present? **
+already present? 
 
-****
+
 
 
 
@@ -10798,13 +10798,13 @@ If you put the same key again in a HashMap, then it will replace the old mapping
 
 
 
-**410. ** **How can you make sure that N**
+410.  How can you make sure that N
 
-**threads can access N resources**
+threads can access N resources
 
-**without deadlock? **
+without deadlock? 
 
-****
+
 
 This question checks your knowledge of writing multi-threading code. If you have experience with deadlock and race conditions, you can easily answer this. 
 
@@ -10820,7 +10820,7 @@ So a thread waiting for same resource can not get into deadlock while the other 
 
 
 
-**411. ** **How can you determine if JVM is** **32-bit or 64-bit from Java Program? **
+411.  How can you determine if JVM is 32-bit or 64-bit from Java Program? 
 
 
 
@@ -10846,11 +10846,11 @@ We can use System.getProperty\("sun.arch.data.model"\) to determine if it is 32/
 
 
 
-**412. ** **What is the right data type to** **represent Money \(like Dollar/Pound\)**
+412.  What is the right data type to represent Money \(like Dollar/Pound\)
 
-**in Java? **
+in Java? 
 
-****
+
 
 To represent money you need decimal points in the numbers like $1.99. 
 
@@ -10866,7 +10866,7 @@ We can also use double with predefined precision. But calculation on double can 
 
 
 
-**413. ** **How can you do multiple** **inheritances in Java? **
+413.  How can you do multiple inheritances in Java? 
 
 This is a question to trick people coming from C\+\+ and Scala background to Java. There are many Object Oriented languages that support multiple inheritances. But Java is not one of them. 
 
@@ -10884,9 +10884,9 @@ But in Java 8, the default method breaks the rule of multiple inheritances behav
 
 
 
-**414. ** **Is \+\+ operation thread-safe in** **Java? **
+414.  Is \+\+ operation thread-safe in Java? 
 
-****
+
 
 No, \+\+ operator is not a thread safe operation. It involves multiple instructions like- reading a value, incrementing it and storing it back into memory. These instructions can overlap between multiple threads. So it can cause issues in multi-threading. 
 
@@ -10894,9 +10894,9 @@ No, \+\+ operator is not a thread safe operation. It involves multiple instructi
 
 
 
-**415. ** **How can you access a non-static variable from the static context? **
+415.  How can you access a non-static variable from the static context? 
 
-****
+
 
 We cannot access a non-static variable from the static context in Java. If you write a code like that, then you will get compile time error. It is one of the most common problems for beginner Java programmers, when they try to access instance variable inside the main method in a class. 
 
@@ -10904,15 +10904,15 @@ We cannot access a non-static variable from the static context in Java. If you w
 
 Since main method is static in Java, and instance variables are non-static, we cannot access instance variable inside main. The solution is to create an instance of the object and then access the instance variables. 
 
-**416. ** **Let say there is a method that** **throws NullPointerException in the**
+416.  Let say there is a method that throws NullPointerException in the
 
-**superclass. Can we override it with a**
+superclass. Can we override it with a
 
-**method that throws**
+method that throws
 
-**RuntimeException? **
+RuntimeException? 
 
-****
+
 
 This question is checking your understanding of the concepts of method overloading and overriding in Java. 
 
@@ -10922,7 +10922,7 @@ We can throw superclass of RuntimeException in an overridden method, but we cann
 
 
 
-**417. ** **How can you mark an array** **volatile in Java? **
+417.  How can you mark an array volatile in Java? 
 
 If you know multi-threading well then you can easily answer it. 
 
@@ -10934,11 +10934,11 @@ We can mark an array volatile in Java. But it makes only the reference to array 
 
 If one thread changes the reference variable to point to another array, then it will provide a volatile guarantee. But if multiple threads are changing individual array elements, they won't be having same reference due to the reference itself being volatile. 
 
-****
 
-**418. ** **What is a thread local variable** **in Java? **
 
-****
+418.  What is a thread local variable in Java? 
+
+
 
 Thread-local variable is a variable restricted to a specific thread. It is like thread's own copy of variable that is not shared among multiple threads. 
 
@@ -10948,9 +10948,9 @@ To achieve thread-safety, you can use it. To avoid any memory leak, it is always
 
 
 
-**419. ** **What is the difference between** **sleep\(\) and wait\(\) methods in Java? **
+419.  What is the difference between sleep\(\) and wait\(\) methods in Java? 
 
-****
+
 
 In Java, we use these methods to pause currently running thread. 
 
@@ -10964,9 +10964,9 @@ sleep\(\) is actually meant for short pause because it doesn't release lock.
 
 wait\(\) is meant for conditional wait and it can release a lock that can be acquired by another thread to change the condition on which it is waiting. 
 
-**420. ** **Can you create an Immutable** **object that contains a mutable object? **
+420.  Can you create an Immutable object that contains a mutable object? 
 
-****
+
 
 In Java, it is possible to create an Immutable object that contains a mutable object. 
 
@@ -10978,19 +10978,19 @@ We should not share the reference of the mutable object, since it is inside an i
 
 
 
-**421. ** **How can you convert an Array** **of bytes to String? **
+421.  How can you convert an Array of bytes to String? 
 
-****
+
 
 You can convert an Array of bytes to String object by using the String constructor that accepts byte\[\]. We need to make sure that right character encoding is used. Else we may get different results after conversion. 
 
 
 
-**422. ** **What is difference between** **CyclicBarrier and CountDownLatch**
+422.  What is difference between CyclicBarrier and CountDownLatch
 
-**class? **
+class? 
 
-****
+
 
 CyclicBarrier and CountDownLatch classes were introduced from Java 5. 
 
@@ -11000,9 +11000,9 @@ We can reuse CyclicBarrier even if it is broken, but we cannot reuse CountDownLa
 
 
 
-**423. ** **What is the difference between** **StringBuffer and StringBuilder? **
+423.  What is the difference between StringBuffer and StringBuilder? 
 
-****
+
 
 StringBuilder was introduced in Java 5. The main difference between both of them is that StringBuffer methods e.g. length\(\), capacity\(\), append\(\) are synchronized. But corresponding methods in StringBuilder are not synchronized. 
 
@@ -11012,15 +11012,15 @@ Due to this difference, concatenation of String using StringBuilder is faster th
 
 
 
-**424. ** **Which class contains clone** **method? Cloneable or Object class? **
+424.  Which class contains clone method? Cloneable or Object class? 
 
-****
+
 
 It is a very basic trick question. clone\(\) method is defined in Object class. Cloneable is a marker interface that doesn't contain any method. 
 
 
 
-**425. ** **How will you take thread dump** **in Java? **
+425.  How will you take thread dump in Java? 
 
 There are platform specific commands to take thread dump in Java. 
 
@@ -11036,11 +11036,11 @@ In Windows, press Ctrl \+ Break. This will instruct JVM to print thread dump in 
 
 
 
-**426. ** **Can you cast an int variable** **into a byte variable? What happens if**
+426.  Can you cast an int variable into a byte variable? What happens if
 
-**the value of int is larger than byte? **
+the value of int is larger than byte? 
 
-****
+
 
 An int is 32 bit in Java. But a byte is just 8 bit in Java. We can cast an int to byte. But we will lose higher 24 bits of int while casting. 
 
@@ -11048,11 +11048,11 @@ Because a byte can hold only first 8 bits of int. Remaining 24 bits \(32-8 = 24\
 
 
 
-**427. ** **In Java, can we store a double** **value in a long variable without**
+427.  In Java, can we store a double value in a long variable without
 
-**explicit casting? **
+explicit casting? 
 
-****
+
 
 No, we cannot store a double value into a long variable without casting it to long. The range of double is more than that of long. So we need to type cast. 
 
@@ -11064,27 +11064,27 @@ To answer this question, just remember which one is bigger between double and lo
 
 
 
-**428. ** **What will this return 5\*0.1 ==**
+428.  What will this return 5\*0.1 ==
 
-**0.5? true or false? **
+0.5? true or false? 
 
-****
+
 
 The answer is false because floating point numbers can not be represented exactly in Java, so 5\*0.1 is not same as 0.5. 
 
 
 
-**429. ** **Out of an int and Integer,** **which one takes more memory? **
+429.  Out of an int and Integer, which one takes more memory? 
 
-****
+
 
 An Integer object takes more memory than an int in Java. An Integer is an object and it stores meta-data overhead about the object. An int is a primitive type so its takes less memory and there is no metadata overhead. 
 
 
 
-**430. ** **Can we use String in the switch** **case statement in Java? **
+430.  Can we use String in the switch case statement in Java? 
 
-****
+
 
 Yes. From Java 7 onwards, String can be used in switch case statement. This gives convenience to programmer. But internally hash code of String is used for the switch statement. 
 
@@ -11092,7 +11092,7 @@ Yes. From Java 7 onwards, String can be used in switch case statement. This give
 
 
 
-**431. ** **Can we use multiple main** **methods in same class? **
+431.  Can we use multiple main methods in same class? 
 
 
 
@@ -11102,9 +11102,9 @@ Yes. You can have multiple methods with name main in the same class. But there s
 
 
 
-**432. ** **When creating an abstract** **class, is it a good idea to call abstract**
+432.  When creating an abstract class, is it a good idea to call abstract
 
-**methods inside its constructor? **
+methods inside its constructor? 
 
 
 
@@ -11124,9 +11124,9 @@ This is a problem of object initialization order. The superclass constructor wil
 
 
 
-**433. ** **How can you do constructor** **chaining in Java? **
+433.  How can you do constructor chaining in Java? 
 
-****
+
 
 When we call one constructor from another constructor of the same class, then it is known as constructor chaining in Java. When you have multiple overloaded constructors in a class, you can do constructor chaining. 
 
@@ -11134,7 +11134,7 @@ When we call one constructor from another constructor of the same class, then it
 
 
 
-**434. ** **How can we find the memory** **usage of JVM from Java code? **
+434.  How can we find the memory usage of JVM from Java code? 
 
 We can use memory management related methods provided in java.lang.Runtime class to get the free memory, total memory and maximum heap memory in Java. 
 
@@ -11152,9 +11152,9 @@ Runtime.maxMemory\(\) returns maximum memory in bytes.
 
 
 
-**435. ** **What is the difference between** **x == y and x.equals\(y\) expressions in**
+435.  What is the difference between x == y and x.equals\(y\) expressions in
 
-**Java? **
+Java? 
 
 The x == y expression does object reference matching if both a and b are an object and only returns true if both are pointing to the same object in the heap space. 
 
@@ -11172,9 +11172,9 @@ Eg. A Book object may be logically equal to another copy of same Book, but it is
 
 
 
-**436. ** **How can you guarantee that** **the garbage collection takes place? **
+436.  How can you guarantee that the garbage collection takes place? 
 
-****
+
 
 No. We cannot guarantee the garbage collection in Java. Java documentation explicitly says that GarbageCollection is not guaranteed. 
 
@@ -11184,11 +11184,11 @@ You can call System.gc\(\) to request garbage collection, however, that's what i
 
 
 
-**437. ** **What is the relation between** **x.hashCode\(\) method and x.equals\(y\)**
+437.  What is the relation between x.hashCode\(\) method and x.equals\(y\)
 
-**method of Object class? **
+method of Object class? 
 
-****
+
 
 x.hashCode\(\) method returns an int hash value corresponding to an object instance. 
 
@@ -11210,9 +11210,9 @@ Therefore, two objects with same hashCode may or may not be equal to each other.
 
 
 
-**438. ** **What is a compile time** **constant in Java? **
+438.  What is a compile time constant in Java? 
 
-****
+
 
 A compile time constant is public static final variable. The public modifier is optional here. At compile time, they are replaced with actual values because compiler knows their value up-front and it also knows that it cannot be changed during run-time. So they are constants. 
 
@@ -11220,7 +11220,7 @@ A compile time constant is public static final variable. The public modifier is 
 
 
 
-**439. ** **Explain the difference between** **fail-fast and fail-safe iterators? **
+439.  Explain the difference between fail-fast and fail-safe iterators? 
 
 
 
@@ -11244,11 +11244,11 @@ Eg. ConcurrentHashMap, CopyOnWriteArrayList are fail-safe.
 
 
 
-**440. ** **You have a character array** **and a String. Which one is more**
+440.  You have a character array and a String. Which one is more
 
-**secure to store sensitive data \(like**
+secure to store sensitive data \(like
 
-**password, date of birth, etc.\)? **
+password, date of birth, etc.\)? 
 
 
 
@@ -11264,7 +11264,7 @@ Whereas, if you use a mutable object like a character array, to store the value,
 
 
 
-**441. ** **Why do you use volatile** **keyword in Java? **
+441.  Why do you use volatile keyword in Java? 
 
 
 
@@ -11278,9 +11278,9 @@ By marking the variable volatile, the value of a variable is never cached thread
 
 
 
-**442. ** **What is the difference between** **poll\(\) and remove\(\) methods of Queue**
+442.  What is the difference between poll\(\) and remove\(\) methods of Queue
 
-**in Java? **
+in Java? 
 
 It is a basic question to know the understanding of Queue data structure. Both poll\(\) and remove\(\) methods remove and return the head of the Queue. 
 
@@ -11292,7 +11292,7 @@ When Queue is empty, poll\(\) method fails and it returns null, but remove\(\) m
 
 
 
-**443. ** **Can you catch an exception** **thrown by another thread in Java? **
+443.  Can you catch an exception thrown by another thread in Java? 
 
 
 
@@ -11308,9 +11308,9 @@ its UncaughtExceptionHandler usingThread.getUncaughtExceptionHandler\(\) will in
 
 
 
-**444. ** **How do you decide which type** **of Inner Class – Static or Non-Static**
+444.  How do you decide which type of Inner Class – Static or Non-Static
 
-**to use in Java? **
+to use in Java? 
 
 
 
@@ -11326,7 +11326,7 @@ At times, due to their “hidden” reference to enclosing class, Inner classes 
 
 
 
-**445. ** **What are the different types of** **Classloaders in Java? **
+445.  What are the different types of Classloaders in Java? 
 
 
 
@@ -11348,9 +11348,9 @@ Classes may be loaded from the local file system, a remote file system, or even 
 
 
 
-**446. ** **What are the situations in** **which you choose HashSet or**
+446.  What are the situations in which you choose HashSet or
 
-**TreeSet? **
+TreeSet? 
 
 
 
@@ -11368,7 +11368,7 @@ We should use TreeSet when we want to maintain order. Or when there are enough r
 
 
 
-**447. ** **What is the use of method** **references in Java? **
+447.  What is the use of method references in Java? 
 
 
 
@@ -11382,9 +11382,9 @@ The main uses of Method reference are to improve code organization, clarity and 
 
 
 
-**448. ** **Do you think Java Enums are** **more powerful than integer**
+448.  Do you think Java Enums are more powerful than integer
 
-**constants? **
+constants? 
 
 
 
@@ -11406,7 +11406,7 @@ You can also define custom behavior in enum values.
 
 
 
-**449. ** **Why do we use static** **initializers in Java? **
+449.  Why do we use static initializers in Java? 
 
 
 
@@ -11420,19 +11420,19 @@ Initializing static members from constructors is more work. You have to make sur
 
 
 
-**450. ** **Your client is complaining that** **your code is throwing**
+450.  Your client is complaining that your code is throwing
 
-**NoClassDefFoundError or**
+NoClassDefFoundError or
 
-**NoSuchMethodError, even though**
+NoSuchMethodError, even though
 
-**you are able to compile your code**
+you are able to compile your code
 
-**without error and method exists in**
+without error and method exists in
 
-**your code. What could be the reason**
+your code. What could be the reason
 
-**behind this? **
+behind this? 
 
 
 
@@ -11446,9 +11446,9 @@ Java build tools and IDEs can also produce dependency reports that tell you whic
 
 
 
-**451. ** **How can you check if a String** **is a number by using regular**
+451.  How can you check if a String is a number by using regular
 
-**expression? **
+expression? 
 
 
 
@@ -11460,11 +11460,11 @@ A numeric String can only contain digits i.e. 0 to 9. It can also contain \+ and
 
 
 
-**452. ** **What is the difference between** **the expressions String s =**
+452.  What is the difference between the expressions String s =
 
-**"Temporary" and String s = new**
+"Temporary" and String s = new
 
-**String\("Temporary "\)? Which one is** **better and more efficient? **
+String\("Temporary "\)? Which one is better and more efficient? 
 
 
 
@@ -11494,7 +11494,7 @@ So String s = “Temporary” is always an efficient way.
 
 
 
-**453. ** **In Java, can two equal objects** **have the different hash code? **
+453.  In Java, can two equal objects have the different hash code? 
 
 
 
@@ -11504,7 +11504,7 @@ No. It is not possible for two equal objects to have different hashcode. But two
 
 
 
-**454. ** **How can we print an Array in** **Java? **
+454.  How can we print an Array in Java? 
 
 We can print an array by using methods of Arrays class. We can either 
 
@@ -11534,9 +11534,9 @@ But we can use Arrays.toString\(\) to print each element of an array.
 
 
 
-**455. ** **Is it ok to use random numbers** **in the implementation of hashcode\(\)**
+455.  Is it ok to use random numbers in the implementation of hashcode\(\)
 
-**method in Java? **
+method in Java? 
 
 
 
@@ -11546,11 +11546,11 @@ No. The hashcode of an object should be always same. If you use random number in
 
 
 
-**456. ** **Between two types of** **dependency injections, constructor**
+456.  Between two types of dependency injections, constructor
 
-**injection and setter dependency**
+injection and setter dependency
 
-**injection, which one is better? **
+injection, which one is better? 
 
 
 
@@ -11568,7 +11568,7 @@ In general, it is a good practice to use constructor injection for mandatory dep
 
 
 
-**457. ** **What is the difference between** **DOM and SAX parser in Java? **
+457.  What is the difference between DOM and SAX parser in Java? 
 
 
 
@@ -11582,9 +11582,9 @@ On the other hand, Simple API for XML \(SAX\) parser is an event based parser. I
 
 
 
-**458. ** **Between Enumeration and** **Iterator, which one has better**
+458.  Between Enumeration and Iterator, which one has better
 
-**performance in Java? **
+performance in Java? 
 
 
 
@@ -11598,7 +11598,7 @@ If a collection is altered while an Iterator is iterating, then it throws Concur
 
 
 
-**459. ** **What is the difference between** **pass by reference and pass by value? **
+459.  What is the difference between pass by reference and pass by value? 
 
 
 
@@ -11614,7 +11614,7 @@ Therefore, any changes made by an external method, are also reflected in the act
 
 
 
-**460. ** **What are the different ways to** **sort a collection in Java? **
+460.  What are the different ways to sort a collection in Java? 
 
 
 
@@ -11626,9 +11626,9 @@ The other way is to use a Sorted collection like TreeSet or TreeMap that stores 
 
 
 
-**461. ** **Why Collection interface** **doesn’t extend Cloneable and**
+461.  Why Collection interface doesn’t extend Cloneable and
 
-**Serializable interfaces? **
+Serializable interfaces? 
 
 
 
@@ -11662,7 +11662,7 @@ Cloning and serialization come into picture while doing concrete implementation.
 
 
 
-**462. ** **What is the difference between** **a process and a thread in Java? **
+462.  What is the difference between a process and a thread in Java? 
 
 
 
@@ -11678,9 +11678,9 @@ A process may contain multiple threads. A Thread is also called as a lightweight
 
 
 
-**463. ** **What are the benefits of using** **an unordered array over an ordered**
+463.  What are the benefits of using an unordered array over an ordered
 
-**array? **
+array? 
 
 
 
@@ -11700,9 +11700,9 @@ Therefore, when we have more writes than reads, it is preferable to use an unord
 
 
 
-**464. ** **Between HashSet and TreeSet** **collections in Java, which one is**
+464.  Between HashSet and TreeSet collections in Java, which one is
 
-**better? **
+better? 
 
 
 
@@ -11718,7 +11718,7 @@ So from performance perspective, HashSet has better performance than TreeSet. Bu
 
 
 
-**465. ** **When does JVM call the** **finalize\(\) method? **
+465.  When does JVM call the finalize\(\) method? 
 
 
 
@@ -11726,9 +11726,9 @@ JVM instructs the Garbage Collector to call the finalize method, just before rel
 
 
 
-**466. ** **When would you use Serial** **Garabage collector or Throughput**
+466.  When would you use Serial Garabage collector or Throughput
 
-**Garbage collector in Java? **
+Garbage collector in Java? 
 
 
 
@@ -11740,11 +11740,11 @@ The Throughput Garbage collector is used in medium to large size Java applicatio
 
 
 
-**467. ** **In Java, if you set an object** **reference to null, will the Garbage**
+467.  In Java, if you set an object reference to null, will the Garbage
 
-**Collector immediately free the**
+Collector immediately free the
 
-**memory held by that object? **
+memory held by that object? 
 
 
 
@@ -11758,9 +11758,9 @@ So just setting an Object reference null makes it eligible for Garbage Collectio
 
 
 
-**468. ** **How can you make an Object** **eligible for Garbage collection in**
+468.  How can you make an Object eligible for Garbage collection in
 
-**Java? **
+Java? 
 
 
 
@@ -11772,9 +11772,9 @@ To make an Object eligible for Garbage collection, just make sure that it is unr
 
 
 
-**469. ** **When do you use Exception or** **Error in Java? What is the difference**
+469.  When do you use Exception or Error in Java? What is the difference
 
-**between these two? **
+between these two? 
 
 Throwable class is the superclass of Exception and Error classes in Java. 
 
@@ -11788,9 +11788,9 @@ When you come across situations that are unexpected then use Error class in Java
 
 
 
-**470. ** **What is the advantage of** **PreparedStatement over Statement**
+470.  What is the advantage of PreparedStatement over Statement
 
-**class in Java? **
+class in Java? 
 
 
 
@@ -11802,7 +11802,7 @@ Where as, Statement class does not provide these features.
 
 
 
-**471. ** **In Java, what is the difference** **between throw and throws keywords? **
+471.  In Java, what is the difference between throw and throws keywords? 
 
 
 
@@ -11820,9 +11820,9 @@ Another minor difference is that throw is used only with one exception, but thro
 
 
 
-**472. ** **What happens to the Exception** **object after the exception handling is**
+472.  What happens to the Exception object after the exception handling is
 
-**done? **
+done? 
 
 
 
@@ -11832,9 +11832,9 @@ Once the exception handling is complete, the Exception object is not reachable. 
 
 
 
-**473. ** **How do you find which client** **machine is sending request to your**
+473.  How do you find which client machine is sending request to your
 
-**servlet in Java? **
+servlet in Java? 
 
 
 
@@ -11848,9 +11848,9 @@ There are methods getRemoteAddr\(\) to get the IP address of the client machine 
 
 
 
-**474. ** **What is the difference between** **a Cookie and a Session object in**
+474.  What is the difference between a Cookie and a Session object in
 
-**Java? **
+Java? 
 
 
 
@@ -11864,9 +11864,9 @@ Also a Session can store any Java object. But the Cookie can only store small in
 
 
 
-**475. ** **Which protocol does Browser** **and Servlet use to communicate with**
+475.  Which protocol does Browser and Servlet use to communicate with
 
-**each other? **
+each other? 
 
 
 
@@ -11874,7 +11874,7 @@ HTTP protocol. The Browser and Servlet communicate with each other by using the 
 
 
 
-**476. ** **What is HTTP Tunneling? **
+476.  What is HTTP Tunneling? 
 
 
 
@@ -11888,7 +11888,7 @@ Tunneling.
 
 
 
-**477. ** **Why do we use JSP instead of** **Servlet in Java? **
+477.  Why do we use JSP instead of Servlet in Java? 
 
 
 
@@ -11910,7 +11910,7 @@ In addition, programmers can make logic changes at the class level, without edit
 
 
 
-**478. ** **Is empty ‘.java’ file name a** **valid source file name in Java? **
+478.  Is empty ‘.java’ file name a valid source file name in Java? 
 
 
 
@@ -11922,7 +11922,7 @@ You can try it yourself, by creating, compiling and running such a file. It will
 
 
 
-**479. ** **How do you implement Servlet** **Chaining in Java? **
+479.  How do you implement Servlet Chaining in Java? 
 
 
 
@@ -11936,7 +11936,7 @@ The last servlet in the chain will be responsible for sending final response to 
 
 
 
-**480. ** **Can you instantiate this class? **
+480.  Can you instantiate this class? 
 
 
 
@@ -11958,7 +11958,7 @@ No, this class cannot be instantiated, since it will result in recursively calli
 
 
 
-**481. ** **Why Java does not support** **operator overloading? **
+481.  Why Java does not support operator overloading? 
 
 
 
@@ -11970,7 +11970,7 @@ One more reason is that, it will reduce the performance of JVM by operator overl
 
 
 
-**482. ** **Why String class is Immutable** **or Final in Java? **
+482.  Why String class is Immutable or Final in Java? 
 
 
 
@@ -11986,7 +11986,7 @@ String is also used as a parameter in many Java classes. Eg. You can pass hostna
 
 
 
-**483. ** **What is the difference between** **sendRedirect and forward methods? **
+483.  What is the difference between sendRedirect and forward methods? 
 
 
 
@@ -12008,9 +12008,9 @@ Also the sendRedirect method is considered slower than the forward method.
 
 
 
-**484. ** **How do you fix your** **Serializable class, if it contains a**
+484.  How do you fix your Serializable class, if it contains a
 
-**member that is not serializable? **
+member that is not serializable? 
 
 
 
@@ -12022,7 +12022,7 @@ Therefore, Transient keyword of Java comes to help in this scenario.
 
 
 
-**485. ** **What is the use of run time** **polymorphism in Java? **
+485.  What is the use of run time polymorphism in Java? 
 
 
 
@@ -12032,9 +12032,9 @@ During the run time the behavior of an Object can change based on its run time s
 
 
 
-**486. ** **What are the rules of method** **overloading and method overriding in**
+486.  What are the rules of method overloading and method overriding in
 
-**Java? **
+Java? 
 
 
 
@@ -12052,7 +12052,7 @@ Also we cannot override Static and Final methods in Java.
 
 
 
-**487. ** **What is the difference between** **a class and an object in Java? **
+487.  What is the difference between a class and an object in Java? 
 
 
 
@@ -12068,7 +12068,7 @@ Most of the OOPS concepts are valid only when an Object is created.
 
 
 
-**488. ** **Can we create an abstract class** **that extends another abstract class? **
+488.  Can we create an abstract class that extends another abstract class? 
 
 
 
@@ -12076,7 +12076,7 @@ Yes. An abstract class can extend another abstract class. It does not need to de
 
 
 
-**489. ** **Why do you use Upcasting or** **Downcasting in Java ? **
+489.  Why do you use Upcasting or Downcasting in Java ? 
 
 
 
@@ -12094,9 +12094,9 @@ At times, Downcasting can throw the ClassCastException if it fails the type chec
 
 
 
-**490. ** **What is the reason to organize** **classes and interfaces in a package in**
+490.  What is the reason to organize classes and interfaces in a package in
 
-**Java? **
+Java? 
 
 
 
@@ -12114,7 +12114,7 @@ Also we can introduce access restriction by using package and the right modifier
 
 
 
-**491. ** **What is information hiding in** **Java? **
+491.  What is information hiding in Java? 
 
 
 
@@ -12124,7 +12124,7 @@ Information hiding is OOPS concept. In Java you can use encapsulation to do Info
 
 By using Information hiding, an object can change its internal implementation without impacting the outside calling client’s code. 
 
-**492. ** **Why does Java provide default** **constructor? **
+492.  Why does Java provide default constructor? 
 
 
 
@@ -12138,7 +12138,7 @@ Whenever an object has to be created and programmer has not provided a construct
 
 
 
-**493. ** **What is the difference between** **super and this keywords in Java? **
+493.  What is the difference between super and this keywords in Java? 
 
 
 
@@ -12152,7 +12152,7 @@ We use this keyword to access methods of the same class.
 
 
 
-**494. ** **What is the advantage of using** **Unicode characters in Java? **
+494.  What is the advantage of using Unicode characters in Java? 
 
 
 
@@ -12168,7 +12168,7 @@ Most of the modern technologies, websites and browsers support these Unicode cha
 
 
 
-**495. ** **Can you override an** **overloaded method in Java? **
+495.  Can you override an overloaded method in Java? 
 
 
 
@@ -12178,7 +12178,7 @@ Yes. Java allows to override an overloaded method, if that method is not a stati
 
 
 
-**496. ** **How can we change the heap** **size of a JVM? **
+496.  How can we change the heap size of a JVM? 
 
 
 
@@ -12190,7 +12190,7 @@ You can specify the values in –Xms and –Xmx parameters. These parameters sta
 
 
 
-**497. ** **Why should you define a** **default constructor in Java? **
+497.  Why should you define a default constructor in Java? 
 
 
 
@@ -12206,7 +12206,7 @@ At times, we can mark the default constructor private. So that any other class c
 
 
 
-**498. ** **How will you make an Object** **Immutable in Java? **
+498.  How will you make an Object Immutable in Java? 
 
 
 
@@ -12216,9 +12216,9 @@ To make an object immutable follow these two rules. One, do not use any setter m
 
 
 
-**499. ** **How can you prevent SQL**
+499.  How can you prevent SQL
 
-**Injection in Java Code? **
+Injection in Java Code? 
 
 
 
@@ -12230,9 +12230,9 @@ injection attacks.
 
 
 
-**500. ** **Which two methods should be** **always implemented by HashMap key**
+500.  Which two methods should be always implemented by HashMap key
 
-**Object? **
+Object? 
 
 
 
@@ -12242,7 +12242,7 @@ Any object that we want to use as key for HashMap or in any other hash based col
 
 
 
-**501. ** **Why an Object used as Key in** **HashMap should be Immutable? **
+501.  Why an Object used as Key in HashMap should be Immutable? 
 
 
 
@@ -12270,7 +12270,7 @@ Although, the compiler does not enforce this rule, a good programmer always reme
 
 
 
-**502. ** **How can we share an object** **between multiple threads? **
+502.  How can we share an object between multiple threads? 
 
 
 
@@ -12284,7 +12284,7 @@ You can also use Exchanger class for this purpose. An Exchanger is a bidirection
 
 
 
-**503. ** **How can you determine if your** **program has a deadlock? **
+503.  How can you determine if your program has a deadlock? 
 
 
 
@@ -12304,13 +12304,13 @@ If you don't need programmatic detection you can do this via JConsole. On the th
 
 
 
-**Mixed Questions**
+Mixed Questions
 
 
 
 
 
-**1. ** **What are Wrapper classes in Java? **
+1.  What are Wrapper classes in Java? 
 
 
 
@@ -12360,7 +12360,7 @@ System.out.println\(count\+" "\+i\+" "\+j\);
 
 
 
-**2. ** **What is the purpose of native** **method in Java? **
+2.  What is the purpose of native method in Java? 
 
 
 
@@ -12376,7 +12376,7 @@ Often, native methods are linked to native library.
 
 
 
-**3. ** **What is System class? **
+3.  What is System class? 
 
 
 
@@ -12388,9 +12388,9 @@ The purpose of System class is to provide access to system resources.
 
 
 
-**4. ** **What is System, out and println in** **System.out.println method call? **
+4.  What is System, out and println in System.out.println method call? 
 
-****
+
 
 System is a final class provided by java.lang package. 
 
@@ -12404,7 +12404,7 @@ println is a method of PrintStream class.
 
 
 
-**5. ** **What is the other name of Shallow** **Copy in Java? **
+5.  What is the other name of Shallow Copy in Java? 
 
 
 
@@ -12412,9 +12412,9 @@ Object Cloning. A Shallow Copy just copies the values of references in a Class.
 
 
 
-**6. ** **What is the difference between** **Shallow Copy and Deep Copy in**
+6.  What is the difference between Shallow Copy and Deep Copy in
 
-**Java? **
+Java? 
 
 
 
@@ -12424,7 +12424,7 @@ A Deep copy copies the values of the objects as well.
 
 
 
-**7. ** **What is a Singleton class? **
+7.  What is a Singleton class? 
 
 
 
@@ -12432,7 +12432,7 @@ A Singleton class in Java has maximum one instance of the class present in JVM, 
 
 
 
-**8. ** **What is the difference between** **Singleton class and Static class? **
+8.  What is the difference between Singleton class and Static class? 
 
 
 
@@ -12444,11 +12444,11 @@ Singleton class is a pattern in Object Oriented Design. A Singleton class has on
 
 
 
-**JSP**
+JSP
 
 
 
-**9. ** **What are the implicit objects in** **JSP? **
+9.  What are the implicit objects in JSP? 
 
 
 
@@ -12488,7 +12488,7 @@ Session
 
 
 
-**10. ** **How will you extend JSP code? **
+10.  How will you extend JSP code? 
 
 
 
@@ -12496,7 +12496,7 @@ We can extend JSP code by using Tag libraries and Custom actions.
 
 
 
-**11. ** **How will you handle runtime** **exceptions in JSP? **
+11.  How will you handle runtime exceptions in JSP? 
 
 
 
@@ -12508,11 +12508,11 @@ We use Errorpage attribute in JSP to catch runtime exceptions. This attribute fo
 
 
 
-**12. ** **How will you prevent multiple** **submits of a page that come by**
+12.  How will you prevent multiple submits of a page that come by
 
-**clicking refresh button multiple**
+clicking refresh button multiple
 
-**times? **
+times? 
 
 
 
@@ -12532,7 +12532,7 @@ Then we load a view by using GET command. There is no data is sent in this. Sinc
 
 
 
-**13. ** **How will you implement a thread** **safe JSP page? **
+13.  How will you implement a thread safe JSP page? 
 
 
 
@@ -12544,7 +12544,7 @@ We can also add <%@page isThreadSafe=”false” %> directive in JSP page to mak
 
 
 
-**14. ** **How will you include a static file in** **a JSP page? **
+14.  How will you include a static file in a JSP page? 
 
 
 
@@ -12564,7 +12564,7 @@ E.g. <%@ include file="footer.html" %>
 
 
 
-**15. ** **What are the lifecycle methods of a** **JSP? **
+15.  What are the lifecycle methods of a JSP? 
 
 
 
@@ -12574,53 +12574,53 @@ A JSP has following lifecycle methods:
 
 1. 
 
-**jspInit**\(\): This method is invoked when the JSP is called for the first time. We can do initial setup for servicing a request in this method. 
+jspInit\(\): This method is invoked when the JSP is called for the first time. We can do initial setup for servicing a request in this method. 
 
 
 
 2. 
 
-\_**jspService**\(\): This method is used to serve every request of the JSP. 
+\_jspService\(\): This method is used to serve every request of the JSP. 
 
 
 
 3. 
 
-**jspDestroy**\(\): Once we remove a JSP from the container, we call this method. It is used for cleanup of resources like Database connections etc. 
+jspDestroy\(\): Once we remove a JSP from the container, we call this method. It is used for cleanup of resources like Database connections etc. 
 
 
 
-**16. ** **What are the advantages of using** **JSP in web architecture? **
+16.  What are the advantages of using JSP in web architecture? 
 
 
 
 We get following advantages by using JSP in web architecture: 1. 
 
-**Performance**: JSP provides very good performance due to their design of using same code to service multiple requests. 
+Performance: JSP provides very good performance due to their design of using same code to service multiple requests. 
 
 
 
 2. 
 
-**Fast**: Since JSP is pre-compiled, server can serve the pages very fast. 
+Fast: Since JSP is pre-compiled, server can serve the pages very fast. 
 
 
 
 3. 
 
-**Extendable**: JSP is based on Java Servlets. This helps in extending JSP architecture with other Java technologies like JDBC, JMS, JNDI etc. 
+Extendable: JSP is based on Java Servlets. This helps in extending JSP architecture with other Java technologies like JDBC, JMS, JNDI etc. 
 
 
 
 4. 
 
-**Design**: It is easier to design user interface with JSP, since it is very close to HTML. UI designers can create a JSP
+Design: It is easier to design user interface with JSP, since it is very close to HTML. UI designers can create a JSP
 
 with mock data and developers can later provide implementation of dynamic data. 
 
 
 
-**17. ** **What is the advantage of JSP over** **Javascript? **
+17.  What is the advantage of JSP over Javascript? 
 
 
 
@@ -12632,7 +12632,7 @@ Javascript code is mostly executed at client side. This limits the tasks that ca
 
 
 
-**18. ** **What is the Lifecycle of JSP? **
+18.  What is the Lifecycle of JSP? 
 
 
 
@@ -12642,7 +12642,7 @@ JSP has following lifecycle stages:
 
 1. 
 
-**Compilation**: When a request is made for a JSP, the corresponding JSP is converted into Servlet and compiled. 
+Compilation: When a request is made for a JSP, the corresponding JSP is converted into Servlet and compiled. 
 
 If there is already a compiled form of JSP and there is not change in JSP page since last compilation, this stage does not do anything. 
 
@@ -12650,7 +12650,7 @@ If there is already a compiled form of JSP and there is not change in JSP page s
 
 2. 
 
-**Initialization**: In this stage, jspInit\(\) method is called to initialize any data or code that will be later used multiple times in \_jspService\(\) method. 
+Initialization: In this stage, jspInit\(\) method is called to initialize any data or code that will be later used multiple times in \_jspService\(\) method. 
 
 
 
@@ -12658,19 +12658,19 @@ If there is already a compiled form of JSP and there is not change in JSP page s
 
 3. 
 
-**Service**: In this stage, with each request to JSP, \_jspService\(\) method is called to service the request. This is the core logic of JSP that generates response for request. 
+Service: In this stage, with each request to JSP, \_jspService\(\) method is called to service the request. This is the core logic of JSP that generates response for request. 
 
 
 
 4. 
 
-**Destroy**: In this stage, JSP is removed from the container/server. Just before removal, this stage performs the cleanup of any resources held by JSP. 
+Destroy: In this stage, JSP is removed from the container/server. Just before removal, this stage performs the cleanup of any resources held by JSP. 
 
 
 
 
 
-**19. ** **What is a JSP expression? **
+19.  What is a JSP expression? 
 
 
 
@@ -12686,7 +12686,7 @@ E.g. <%= expression =%>
 
 
 
-**20. ** **What are the different types of** **directive tags in JSP? **
+20.  What are the different types of directive tags in JSP? 
 
 
 
@@ -12696,7 +12696,7 @@ JSP has following directive tags:
 
 1. 
 
-**Page**: This directive is used for page related attributes. It can be put anywhere in the JSP page. But by convention we put it on the top of the page. 
+Page: This directive is used for page related attributes. It can be put anywhere in the JSP page. But by convention we put it on the top of the page. 
 
 
 
@@ -12704,7 +12704,7 @@ E.g.
 
 <%@ page attribute="value" %> 2. 
 
-**Taglib**: We can create custom tags in JSP and use these by taglib directive in a JSP page. 
+Taglib: We can create custom tags in JSP and use these by taglib directive in a JSP page. 
 
 
 
@@ -12712,7 +12712,7 @@ E.g.
 
 <%@ taglib uri=“abc.html” prefix=“tag\_prefix” > 3. 
 
-**Include**: We use include directive to read a file and merge its content with the JSP page. This is done during compilation stage. 
+Include: We use include directive to read a file and merge its content with the JSP page. This is done during compilation stage. 
 
 
 
@@ -12722,7 +12722,7 @@ E.g.
 
 
 
-**21. ** **What is session attribute in JSP? **
+21.  What is session attribute in JSP? 
 
 
 
@@ -12732,7 +12732,7 @@ Session attribute in JSP is used for HTTP session mechanism. If we do not want t
 
 
 
-**22. ** **What are the different scopes of a** **JSP object? **
+22.  What are the different scopes of a JSP object? 
 
 
 
@@ -12742,31 +12742,31 @@ A JSP object, implicit or explicit, can have one of the following scopes:
 
 1. 
 
-**Page**: In this scope, the object is accessible from the page where it was created. Important point here is that when a user refreshes the page, the objects of this scope also get created again. 
+Page: In this scope, the object is accessible from the page where it was created. Important point here is that when a user refreshes the page, the objects of this scope also get created again. 
 
 
 
 2. 
 
-**Request**: In request scope, the object is accessible to the HTTP request that created this object. 
+Request: In request scope, the object is accessible to the HTTP request that created this object. 
 
 
 
 3. 
 
-**Session**: In this scope, the object is available throughout the same HTTP session. 
+Session: In this scope, the object is available throughout the same HTTP session. 
 
 
 
 4. 
 
-**Application**: This is the widest scope. The object is available throughout the application in which JSP was created. 
+Application: This is the widest scope. The object is available throughout the application in which JSP was created. 
 
 
 
 
 
-**23. ** **What is pageContext in JSP? **
+23.  What is pageContext in JSP? 
 
 
 
@@ -12780,7 +12780,7 @@ It is an instance of the PageContext class from javax.servlet.jsp package.
 
 
 
-**24. ** **What is the use of jsp:useBean in** **JSP? **
+24.  What is the use of jsp:useBean in JSP? 
 
 
 
@@ -12798,9 +12798,9 @@ Later this bean can be used in expressions or JSP code.
 
 
 
-**25. ** **What is difference between** **include Directive and include Action**
+25.  What is difference between include Directive and include Action
 
-**of JSP? **
+of JSP? 
 
 
 
@@ -12832,7 +12832,7 @@ Include action will dynamically process the resource being called and then inclu
 
 
 
-**26. ** **How will you use other Java files** **of your application in JSP code? **
+26.  How will you use other Java files of your application in JSP code? 
 
 
 
@@ -12846,7 +12846,7 @@ For better organization of Java code, we should create a package of classes that
 
 
 
-**27. ** **How will you use an existing class** **and extend it to use in the JSP? **
+27.  How will you use an existing class and extend it to use in the JSP? 
 
 
 
@@ -12864,7 +12864,7 @@ E.g.
 
 
 
-**28. ** **Why \_jspService method starts** **with \_ symbol in JSP? **
+28.  Why \_jspService method starts with \_ symbol in JSP? 
 
 
 
@@ -12878,7 +12878,7 @@ It appears that container uses \_ symbol to distinguish the method that cannot b
 
 
 
-**29. ** **Why do we use tag library in JSP? **
+29.  Why do we use tag library in JSP? 
 
 
 
@@ -12896,7 +12896,7 @@ Another benefit of taglib is reusability of the code. This promotes writing code
 
 
 
-**30. ** **What is the different type of tag** **library groups in JSTL? **
+30.  What is the different type of tag library groups in JSTL? 
 
 
 
@@ -12924,7 +12924,7 @@ JSTL Functions
 
 
 
-**31. ** **How will you pass information** **from one JSP to another JSP? **
+31.  How will you pass information from one JSP to another JSP? 
 
 
 
@@ -12940,7 +12940,7 @@ included in the main JSP, then we can use jsp:param to pass this information.
 
 
 
-**32. ** **How will you call a stored** **procedure from JSP? **
+32.  How will you call a stored procedure from JSP? 
 
 
 
@@ -12958,7 +12958,7 @@ If we are using Spring framework, then we can use JdbcTemplate class to invoke s
 
 
 
-**33. ** **Can we override \_jspService\(\)** **method in JSP? **
+33.  Can we override \_jspService\(\) method in JSP? 
 
 
 
@@ -12968,7 +12968,7 @@ No, JSP specification does not allow overriding of \_jspService method in JSP. W
 
 
 
-**34. ** **What is a directive in JSP? **
+34.  What is a directive in JSP? 
 
 
 
@@ -12992,7 +12992,7 @@ Some of the important directives in JSP are: page, include and taglib.
 
 
 
-**35. ** **How will you implement Session** **tracking in JSP? **
+35.  How will you implement Session tracking in JSP? 
 
 
 
@@ -13002,25 +13002,25 @@ We can use different mechanisms to implement Session tracking JSP. Some these me
 
 1. 
 
-**Cookies**: We can use cookie to set session information and pass it to web client. In subsequent requests we can use the information in cookie to track session. 
+Cookies: We can use cookie to set session information and pass it to web client. In subsequent requests we can use the information in cookie to track session. 
 
 
 
 2. 
 
-**Hidden Form Field**: We can send session id in a hidden field in HTML form. By using this we can track session. 
+Hidden Form Field: We can send session id in a hidden field in HTML form. By using this we can track session. 
 
 
 
 3. 
 
-**Session object**: We can use the built in session object to track session in JSP. 
+Session object: We can use the built in session object to track session in JSP. 
 
 
 
 4. 
 
-**URL Rewriting**: We can also add session id at the end of a URL. 
+URL Rewriting: We can also add session id at the end of a URL. 
 
 
 
@@ -13030,7 +13030,7 @@ Like- www.abcserver.com?sessionid=1234
 
 
 
-**36. ** **How do you debug code in JSP? **
+36.  How do you debug code in JSP? 
 
 
 
@@ -13046,7 +13046,7 @@ Once we link IDE debugger to JSP Engine, we can use standard operations of debug
 
 
 
-**37. ** **How will you implement error** **page in JSP? **
+37.  How will you implement error page in JSP? 
 
 
 
@@ -13080,7 +13080,7 @@ Now we can use this error page in other JSP where we want to handle error. In ca
 
 
 
-**38. ** **How will you send XML data from** **a JSP? **
+38.  How will you send XML data from a JSP? 
 
 
 
@@ -13094,7 +13094,7 @@ E.g. <%@page contentType=”text/xml” %>
 
 
 
-**39. ** **What happens when we request** **for a JSP page from web browser? **
+39.  What happens when we request for a JSP page from web browser? 
 
 
 
@@ -13116,7 +13116,7 @@ The \_jspService\(\) method will create the output that will be sent by JSP cont
 
 
 
-**40. ** **How will you implement Auto** **Refresh of page in JSP? **
+40.  How will you implement Auto Refresh of page in JSP? 
 
 
 
@@ -13134,7 +13134,7 @@ E.g. response.setIntHeader\(“Refresh”,10\)
 
 
 
-**41. ** **What are the important status** **codes in HTTP? **
+41.  What are the important status codes in HTTP? 
 
 
 
@@ -13164,7 +13164,7 @@ The important status codes in HTTP are as follows: 1.
 
 
 
-**42. ** **What is the meaning of Accept** **attribute in HTTP header? **
+42.  What is the meaning of Accept attribute in HTTP header? 
 
 
 
@@ -13174,7 +13174,7 @@ In HTTP header, Accept attribute is used to specify the MIME types that a HTTP c
 
 
 
-**43. ** **What is the difference between** **Expression and Scriptlet in JSP? **
+43.  What is the difference between Expression and Scriptlet in JSP? 
 
 
 
@@ -13188,13 +13188,13 @@ Scriptlet is for writing Java code in a JSP. We can define variable, methods etc
 
 
 
-**44. ** **How will you delete a Cookie in** **JSP? **
+44.  How will you delete a Cookie in JSP? 
 
 
 
 We can use following options to delete a Cookie in JSP: 1. 
 
-**setMaxAge**\(\): we can set the maximum age of a cookie. 
+setMaxAge\(\): we can set the maximum age of a cookie. 
 
 After this time period, Cookie will expire and will be deleted. 
 
@@ -13202,13 +13202,13 @@ After this time period, Cookie will expire and will be deleted.
 
 2. 
 
-**Header**: We can also set the expiry time in header of response. Respone.setHeader\(\). This will also expire the cookie after specified time period. 
+Header: We can also set the expiry time in header of response. Respone.setHeader\(\). This will also expire the cookie after specified time period. 
 
 
 
 
 
-**45. ** **How will you use a Cookie in JSP? **
+45.  How will you use a Cookie in JSP? 
 
 
 
@@ -13236,7 +13236,7 @@ In this way we can use Cookie to set some information at client side and retriev
 
 
 
-**46. ** **What is the main difference** **between a Session and Cookie in JSP? **
+46.  What is the main difference between a Session and Cookie in JSP? 
 
 
 
@@ -13254,7 +13254,7 @@ We can use both the methods for Session tracking. But Cookie method needs permis
 
 
 
-**47. ** **How will you prevent creation of** **session in JSP? **
+47.  How will you prevent creation of session in JSP? 
 
 
 
@@ -13268,7 +13268,7 @@ E.g. <% @page session=”false” %>
 
 
 
-**48. ** **What is an output comment in** **JSP? **
+48.  What is an output comment in JSP? 
 
 
 
@@ -13288,9 +13288,9 @@ If we output comment in above format, it will be visible to client.
 
 
 
-**49. ** **How will you prevent caching of** **HTML output by web browser in**
+49.  How will you prevent caching of HTML output by web browser in
 
-**JSP? **
+JSP? 
 
 
 
@@ -13308,7 +13308,7 @@ response.setHeader\(“Cache-Control”, “no-store”\); response.setDateHeade
 
 
 
-**50. ** **How will you redirect request to** **another page in browser in JSP code? **
+50.  How will you redirect request to another page in browser in JSP code? 
 
 
 
@@ -13330,7 +13330,7 @@ Sample code is as follows:
 
 
 
-**51. ** **What is the difference between** **sendRedirect and forward in a JSP? **
+51.  What is the difference between sendRedirect and forward in a JSP? 
 
 
 
@@ -13378,7 +13378,7 @@ HttpServletResponse object.
 
 
 
-**52. ** **What is the use of config implicit** **object in JSP? **
+52.  What is the use of config implicit object in JSP? 
 
 
 
@@ -13388,7 +13388,7 @@ In JSP, config object is of type ServletConfig. This object is created by Servle
 
 
 
-**53. ** **What is the difference between** **init-param and context-param? **
+53.  What is the difference between init-param and context-param? 
 
 
 
@@ -13406,7 +13406,7 @@ We use context-param to specify the parameters for overall application scope. Th
 
 
 
-**54. ** **What is the purpose of** **RequestDispatcher? **
+54.  What is the purpose of RequestDispatcher? 
 
 
 
@@ -13428,25 +13428,25 @@ We have to first get the RequestDispatcher object from the container and then we
 
 
 
-**55. ** **How can be read data from a** **Form in a JSP? **
+55.  How can be read data from a Form in a JSP? 
 
 
 
 There is a built-in request object in a JSP that provides methods to read Form data. Some of the methods are as follows:: 1. 
 
-**getParameterNames\(\):** This method returns the list of all the parameters in the Form. 
+getParameterNames\(\): This method returns the list of all the parameters in the Form. 
 
 
 
 2. 
 
-**getParameter\(\):** We call this method to get the value of parameter set in the Form. It returns null if the parameter is not found. 
+getParameter\(\): We call this method to get the value of parameter set in the Form. It returns null if the parameter is not found. 
 
 
 
 3. 
 
-**getParameterValues\(\):** If a Parameter is mentioned multiple 
+getParameterValues\(\): If a Parameter is mentioned multiple 
 
 times 
 
@@ -13470,13 +13470,13 @@ This method returns an array of String values.
 
 4. 
 
-**getParameterMap\(\):** This method returns the map of all the Parameters in Form. 
+getParameterMap\(\): This method returns the map of all the Parameters in Form. 
 
 
 
 
 
-**56. ** **What is a filter in JSP? **
+56.  What is a filter in JSP? 
 
 
 
@@ -13494,7 +13494,7 @@ JSP Engine loads all the filters in when we start the server.
 
 
 
-**57. ** **How can you upload a large file in** **JSP? **
+57.  How can you upload a large file in JSP? 
 
 
 
@@ -13518,9 +13518,9 @@ framework to read large files via this method.
 
 
 
-**58. ** **In which scenario, Container** **initializes multiple JSP/Servlet**
+58.  In which scenario, Container initializes multiple JSP/Servlet
 
-**objects? **
+objects? 
 
 
 
@@ -13534,11 +13534,11 @@ This indicates to JSP container to initialize separate JSP/Servlet object for ea
 
 
 
-**Java Design Patterns**
+Java Design Patterns
 
 
 
-**59. ** **When will you use Strategy Design** **Pattern in Java? **
+59.  When will you use Strategy Design Pattern in Java? 
 
 
 
@@ -13566,7 +13566,7 @@ In Java Collections.sort\(\) method uses strategy design pattern.
 
 
 
-**60. ** **What is Observer design pattern? **
+60.  What is Observer design pattern? 
 
 
 
@@ -13590,7 +13590,7 @@ The subject holds a strong reference to observers. If observers are not de-regis
 
 
 
-**61. ** **What are the examples of** **Observer design pattern in JDK? **
+61.  What are the examples of Observer design pattern in JDK? 
 
 
 
@@ -13624,9 +13624,9 @@ javax.faces.event.PhaseListener
 
 
 
-**62. ** **How Strategy design pattern is** **different from State design pattern in**
+62.  How Strategy design pattern is different from State design pattern in
 
-**Java? **
+Java? 
 
 
 
@@ -13656,7 +13656,7 @@ State pattern is very useful in increasing the maintainability of the code in a 
 
 
 
-**63. ** **Can you explain Decorator design** **pattern with an example in Java? **
+63.  Can you explain Decorator design pattern with an example in Java? 
 
 
 
@@ -13690,7 +13690,7 @@ ObjectInputStream ois = new ObjectInputStream\(gis\); So with each step we have 
 
 
 
-**64. ** **What is a good scenario for using** **Composite design Pattern in Java? **
+64.  What is a good scenario for using Composite design Pattern in Java? 
 
 
 
@@ -13718,7 +13718,7 @@ Graphics: Another good use of Composite design pattern is in Graphics. We can gr
 
 
 
-**65. ** **Have you used Singleton design** **pattern in your Java project? **
+65.  Have you used Singleton design pattern in your Java project? 
 
 
 
@@ -13734,9 +13734,9 @@ This helps in storing properties that have to be used in the application in a un
 
 
 
-**66. ** **What are the main uses of** **Singleton design pattern in Java**
+66.  What are the main uses of Singleton design pattern in Java
 
-**project? **
+project? 
 
 
 
@@ -13774,7 +13774,7 @@ container. But Spring also provides options to make the scope of a bean prototyp
 
 
 
-**67. ** **Why java.lang.Runtime is a** **Singleton in Java? **
+67.  Why java.lang.Runtime is a Singleton in Java? 
 
 
 
@@ -13808,9 +13808,9 @@ To ensure single copy of Runtime, it is implemented as a Singleton in Java.
 
 
 
-**68. ** **What is the way to implement a** **thread-safe Singleton design pattern**
+68.  What is the way to implement a thread-safe Singleton design pattern
 
-**in Java? **
+in Java? 
 
 
 
@@ -13936,7 +13936,7 @@ public static void doImplementation\(\)\{
 
 
 
-**69. ** **What are the examples of** **Singleton design pattern in JDK? **
+69.  What are the examples of Singleton design pattern in JDK? 
 
 
 
@@ -13968,7 +13968,7 @@ java.awt.Desktop.getDesktop\(\)
 
 
 
-**70. ** **What is Template Method design** **pattern in Java? **
+70.  What is Template Method design pattern in Java? 
 
 
 
@@ -13992,7 +13992,7 @@ Template Method pattern is very useful in providing customizable class to users.
 
 
 
-**71. ** **What are the examples of Template** **method design pattern in JDK? **
+71.  What are the examples of Template method design pattern in JDK? 
 
 
 
@@ -14038,9 +14038,9 @@ These methods are implementation of Template method design pattern.
 
 
 
-**72. ** **Can you tell some examples of** **Factory Method design pattern**
+72.  Can you tell some examples of Factory Method design pattern
 
-**implementation in Java? **
+implementation in Java? 
 
 
 
@@ -14070,9 +14070,9 @@ javax.xml.bind.JAXBContext.createMarshaller\(\)
 
 
 
-**73. ** **What is the benefit we get by** **using static factory method to create**
+73.  What is the benefit we get by using static factory method to create
 
-**object? **
+object? 
 
 
 
@@ -14108,7 +14108,7 @@ ConnectionPool.getConnection\(\).
 
 
 
-**74. ** **What are the examples of Builder** **design pattern in JDK? **
+74.  What are the examples of Builder design pattern in JDK? 
 
 
 
@@ -14150,9 +14150,9 @@ java.lang.StringBuffer.append\(\): StringBuffer is similar to StringBuilder and 
 
 
 
-**75. ** **What are the examples of** **Abstract Factory design pattern in**
+75.  What are the examples of Abstract Factory design pattern in
 
-**JDK? **
+JDK? 
 
 
 
@@ -14170,7 +14170,7 @@ javax.xml.parsers.DocumentBuilderFactory.newInstance\(\) javax.xml.transform.Tra
 
 
 
-**76. ** **What are the examples of** **Decorator design pattern in JDK? **
+76.  What are the examples of Decorator design pattern in JDK? 
 
 
 
@@ -14224,7 +14224,7 @@ HttpServletResponseWrapper that are based on Decorator design pattern.
 
 
 
-**77. ** **What are the examples of Proxy** **design pattern in JDK? **
+77.  What are the examples of Proxy design pattern in JDK? 
 
 
 
@@ -14258,7 +14258,7 @@ javax.persistence.PersistenceContext
 
 
 
-**78. ** **What are the examples of Chain of** **Responsibility design pattern in JDK? **
+78.  What are the examples of Chain of Responsibility design pattern in JDK? 
 
 
 
@@ -14288,7 +14288,7 @@ request/response pair is passed through the chain. With filter the request reach
 
 
 
-**79. ** **What are the main uses of** **Command design pattern? **
+79.  What are the main uses of Command design pattern? 
 
 
 
@@ -14340,7 +14340,7 @@ Transactions: In a transactional behavior code there are multiple tasks/updates.
 
 
 
-**80. ** **What are the examples of** **Command design pattern in JDK? **
+80.  What are the examples of Command design pattern in JDK? 
 
 
 
@@ -14356,7 +14356,7 @@ All implementations of javax.swing.Action
 
 
 
-**81. ** **What are the examples of** **Interpreter design pattern in JDK? **
+81.  What are the examples of Interpreter design pattern in JDK? 
 
 
 
@@ -14400,7 +14400,7 @@ Subclasses of javax.el.ELResolver: ArrayELResolver, MapELResolver, CompositeELRe
 
 
 
-**82. ** **What are the examples of** **Mediator design pattern in JDK? **
+82.  What are the examples of Mediator design pattern in JDK? 
 
 
 
@@ -14440,7 +14440,7 @@ java.util.concurrent.ScheduledExecutorService: Here also schedule\(\) method and
 
 
 
-**83. ** **What are the examples of Strategy** **design pattern in JDK? **
+83.  What are the examples of Strategy design pattern in JDK? 
 
 
 
@@ -14464,7 +14464,7 @@ javax.servlet.http.HttpServlet: In a HttpServlet class service\(\) and doGet\(\)
 
 
 
-**84. ** **What are the examples of Visitor** **design pattern in JDK? **
+84.  What are the examples of Visitor design pattern in JDK? 
 
 
 
@@ -14496,7 +14496,7 @@ VisitCallback
 
 
 
-**85. ** **How Decorator design pattern is** **different from Proxy pattern? **
+85.  How Decorator design pattern is different from Proxy pattern? 
 
 
 
@@ -14524,11 +14524,11 @@ Proxy is mainly used for access to another object.
 
 
 
-**86. ** **What are the different scenarios** **to use Setter and Constructor based**
+86.  What are the different scenarios to use Setter and Constructor based
 
-**injection in Dependency Injection**
+injection in Dependency Injection
 
-**\(DI\) design pattern? **
+\(DI\) design pattern? 
 
 
 
@@ -14542,7 +14542,7 @@ In Spring IoC, Dependency Injection is heavily used. There we have to differenti
 
 
 
-**87. ** **What are the different scenarios** **for using Proxy design pattern? **
+87.  What are the different scenarios for using Proxy design pattern? 
 
 
 
@@ -14572,9 +14572,9 @@ Protective Proxy: This is an object that control the access to a Master object. 
 
 Smart Proxy: It is an object that can add additional information to the main object. It can track the number of other objects accessing the main object. It can track the different clients from where request is coming. It can even deny access to an object if the number of requests is greater than a threshold. 
 
-**88. ** **What is the main difference** **between Adapter and Proxy design**
+88.  What is the main difference between Adapter and Proxy design
 
-**pattern? **
+pattern? 
 
 
 
@@ -14592,7 +14592,7 @@ E.g. In electrical appliances we use Adapter to convert from one type of socket 
 
 
 
-**89. ** **When will you use Adapter design** **pattern in Java? **
+89.  When will you use Adapter design pattern in Java? 
 
 
 
@@ -14606,7 +14606,7 @@ It is generally used for working with third party libraries. We create an Adapte
 
 
 
-**90. ** **What are the examples of Adapter** **design pattern in JDK? **
+90.  What are the examples of Adapter design pattern in JDK? 
 
 
 
@@ -14642,9 +14642,9 @@ javax.xml.bind.annotation.adapters.XmlAdapter.marshal\(\)
 
 
 
-**91. ** **What is the difference between** **Factory and Abstract Factory design**
+91.  What is the difference between Factory and Abstract Factory design
 
-**pattern? **
+pattern? 
 
 
 
@@ -14664,7 +14664,7 @@ So it is a subtle difference between Factory and Abstract Factory design pattern
 
 
 
-**92. ** **What is Open/closed design** **principle in Software engineering? **
+92.  What is Open/closed design principle in Software engineering? 
 
 
 
@@ -14690,7 +14690,7 @@ It is used in State and Strategy design patterns. Context class is closed for mo
 
 
 
-**93. ** **What is SOLID design principle? **
+93.  What is SOLID design principle? 
 
 
 
@@ -14726,7 +14726,7 @@ If we follow these principles, then we can create a stable program that is easy 
 
 
 
-**94. ** **What is Builder design pattern? **
+94.  What is Builder design pattern? 
 
 
 
@@ -14744,9 +14744,9 @@ Main feature of Builder pattern is step-by-step building of a complex object wit
 
 
 
-**95. ** **What are the different categories** **of Design Patterns used in Object**
+95.  What are the different categories of Design Patterns used in Object
 
-**Oriented Design? **
+Oriented Design? 
 
 
 
@@ -14810,9 +14810,9 @@ Interpreter
 
 
 
-**96. ** **What is the design pattern** **suitable to access elements of a**
+96.  What is the design pattern suitable to access elements of a
 
-**Collection? **
+Collection? 
 
 
 
@@ -14826,7 +14826,7 @@ In Java there are many implementation of Iterator in Collections package. We hav
 
 
 
-**97. ** **How can we implement Producer** **Consumer design pattern in Java? **
+97.  How can we implement Producer Consumer design pattern in Java? 
 
 
 
@@ -14840,17 +14840,17 @@ It is a concurrent design pattern.
 
 
 
-**98. ** **What design pattern is suitable to** **add new features to an existing**
+98.  What design pattern is suitable to add new features to an existing
 
-**object? **
+object? 
 
 
 
 We can use Decorator design pattern to add new features to an existing object. With a Decorator we work on same object and return the same object with more features. But the structure of the object remains same since all the decorated versions of object implement same interface. 
 
-**99. ** **Which design pattern can be used** **when to decouple abstraction from the**
+99.  Which design pattern can be used when to decouple abstraction from the
 
-**implementation? **
+implementation? 
 
 
 
@@ -14876,7 +14876,7 @@ So we create two hierarchies. One is Shape to Square and Shape to Circle hierarc
 
 
 
-**100. ** **Which is the design pattern used** **in Android applications? **
+100.  Which is the design pattern used in Android applications? 
 
 
 
@@ -14912,11 +14912,11 @@ E.g. If we have a Model with large news article data, and view needs only headli
 
 
 
-**101. ** **How can we prevent users from** **creating more than one instance of**
+101.  How can we prevent users from creating more than one instance of
 
-**singleton object by using clone\(\)**
+singleton object by using clone\(\)
 
-**method? **
+method? 
 
 
 
@@ -14934,7 +14934,7 @@ This will ensure that no one can use clone\(\) method or Cloneable interface to 
 
 
 
-**102. ** **What is the use of Interceptor** **design pattern? **
+102.  What is the use of Interceptor design pattern? 
 
 
 
@@ -14954,7 +14954,7 @@ This pattern is also used in Spring framework in HandlerInterceptor and MVC inte
 
 
 
-**103. ** **What are the Architectural** **patterns that you have used? **
+103.  What are the Architectural patterns that you have used? 
 
 
 
@@ -14998,7 +14998,7 @@ to increase the modularity of an application. We keep the objects loosely couple
 
 
 
-**104. ** **What are the popular uses of** **Façade design pattern? **
+104.  What are the popular uses of Façade design pattern? 
 
 
 
@@ -15026,9 +15026,9 @@ A Façade pattern can be used when a System is very complex and difficult to use
 
 
 
-**105. ** **What is the difference between** **Builder design pattern and Factory**
+105.  What is the difference between Builder design pattern and Factory
 
-**design pattern? **
+design pattern? 
 
 
 
@@ -15052,7 +15052,7 @@ So a Builder can support creation of a large number of variants of an object. Bu
 
 
 
-**106. ** **What is Memento design** **pattern? **
+106.  What is Memento design pattern? 
 
 
 
@@ -15078,7 +15078,7 @@ E.g. One good use of memento is in online Forms. If we want to show to user a fo
 
 
 
-**107. ** **What is an AntiPattern? **
+107.  What is an AntiPattern? 
 
 
 
@@ -15114,7 +15114,7 @@ Copy Paste Programming: Just copying the same code multiple times rather than wr
 
 
 
-**108. ** **What is a Data Access Object** **\(DAO\) design pattern? **
+108.  What is a Data Access Object \(DAO\) design pattern? 
 
 
 
@@ -15140,13 +15140,13 @@ Recently we can combine DAO with Spring framework to inject any DB implementatio
 
 
 
-**Spring**
+Spring
 
 
 
 
 
-**109. ** **What is Spring framework? **
+109.  What is Spring framework? 
 
 
 
@@ -15166,7 +15166,7 @@ With Spring we can develop large-scale complex Java applications very easily. It
 
 
 
-**110. ** **What are the benefits of Spring** **framework in software development? **
+110.  What are the benefits of Spring framework in software development? 
 
 
 
@@ -15216,7 +15216,7 @@ etc.
 
 
 
-**111. ** **What are the modules in Core** **Container of Spring framework? **
+111.  What are the modules in Core Container of Spring framework? 
 
 
 
@@ -15236,9 +15236,9 @@ Spring Expression Language module
 
 
 
-**112. ** **What are the modules in Data** **Access/Integration layer of Spring**
+112.  What are the modules in Data Access/Integration layer of Spring
 
-**framework? **
+framework? 
 
 
 
@@ -15258,7 +15258,7 @@ Transactions module: Transaction Management for POJO classes
 
 
 
-**113. ** **What are the modules in Web** **layer of Spring framework? **
+113.  What are the modules in Web layer of Spring framework? 
 
 
 
@@ -15274,9 +15274,9 @@ Portlet module: MVC implementation for Portlet environment.
 
 
 
-**114. ** **What is the main use of Core** **Container module in Spring**
+114.  What is the main use of Core Container module in Spring
 
-**framework? **
+framework? 
 
 
 
@@ -15288,7 +15288,7 @@ Its main use is to provide Dependency Injection \(DI\) and Inversion of control 
 
 
 
-**115. ** **What kind of testing can be done** **in Spring Test Module? **
+115.  What kind of testing can be done in Spring Test Module? 
 
 
 
@@ -15296,7 +15296,7 @@ Spring Test Module provides support for Unit testing as well as Integration test
 
 
 
-**116. ** **What is the use of BeanFactory in** **Spring framework? **
+116.  What is the use of BeanFactory in Spring framework? 
 
 
 
@@ -15308,9 +15308,9 @@ Implementations of BeanFactory like XmlBeanFactory class are used by application
 
 
 
-**117. ** **Which is the most popular** **implementation of BeanFactory in**
+117.  Which is the most popular implementation of BeanFactory in
 
-**Spring? **
+Spring? 
 
 
 
@@ -15318,7 +15318,7 @@ XMLBeanFactory is the most popular implementation of BeanFactory in Spring.
 
 
 
-**118. ** **What is XMLBeanFactory in** **Spring framework? **
+118.  What is XMLBeanFactory in Spring framework? 
 
 
 
@@ -15332,7 +15332,7 @@ file and creates a fully configured application with the help of XMLBeanFactory 
 
 
 
-**119. ** **What are the uses of AOP module** **in Spring framework? **
+119.  What are the uses of AOP module in Spring framework? 
 
 
 
@@ -15350,11 +15350,11 @@ Supports metadata programming to Spring
 
 
 
-**120. ** **What are the benefits of JDBC**
+120.  What are the benefits of JDBC
 
-**abstraction layer module in Spring**
+abstraction layer module in Spring
 
-**framework? **
+framework? 
 
 
 
@@ -15374,9 +15374,9 @@ Provides transaction management services for objects in a Spring application
 
 
 
-**121. ** **How does Spring support Object** **Relational Mapping \(ORM\)**
+121.  How does Spring support Object Relational Mapping \(ORM\)
 
-**integration? **
+integration? 
 
 
 
@@ -15390,7 +15390,7 @@ Transaction Management module of Spring framework supports all of these ORM fram
 
 
 
-**122. ** **How does Web module work in** **Spring framework? **
+122.  How does Web module work in Spring framework? 
 
 
 
@@ -15408,7 +15408,7 @@ This module also supports integration with popular web frameworks like Jakarta S
 
 
 
-**123. ** **What are the main uses of Spring** **MVC module? **
+123.  What are the main uses of Spring MVC module? 
 
 
 
@@ -15430,7 +15430,7 @@ Allows developers to declaratively bind request parameters to business objects
 
 
 
-**124. ** **What is the purpose of Spring** **configuration file? **
+124.  What is the purpose of Spring configuration file? 
 
 
 
@@ -15446,7 +15446,7 @@ The other ways of specifying configuration metadata are Java based configuration
 
 
 
-**125. ** **What is the purpose of Spring** **IoC container? **
+125.  What is the purpose of Spring IoC container? 
 
 
 
@@ -15466,7 +15466,7 @@ Managing complete lifecycle of objects
 
 
 
-**126. ** **What is the main benefit of** **Inversion of Control \(IOC\) principle? **
+126.  What is the main benefit of Inversion of Control \(IOC\) principle? 
 
 
 
@@ -15480,9 +15480,9 @@ Most important benefit is that it leads to loose coupling within objects. With l
 
 
 
-**127. ** **Does IOC containers support** **Eager Instantiation or Lazy loading of**
+127.  Does IOC containers support Eager Instantiation or Lazy loading of
 
-**beans? **
+beans? 
 
 
 
@@ -15490,7 +15490,7 @@ IOC Container in Spring supports both the approaches. Eager instantiation as wel
 
 
 
-**128. ** **What are the benefits of** **ApplicationContext in Spring? **
+128.  What are the benefits of ApplicationContext in Spring? 
 
 
 
@@ -15504,9 +15504,9 @@ Parent Context: Ability to inherit from a parent context
 
 
 
-**129. ** **How will you implement** **ApplicationContext in Spring**
+129.  How will you implement ApplicationContext in Spring
 
-**framework? **
+framework? 
 
 
 
@@ -15560,9 +15560,9 @@ WebXmlApplicationContext: To provide configuration for a web application WebXmlA
 
 
 
-**130. ** **Explain the difference between** **ApplicationContext and BeanFactory**
+130.  Explain the difference between ApplicationContext and BeanFactory
 
-**in Spring? **
+in Spring? 
 
 
 
@@ -15592,9 +15592,9 @@ ApplicationEvent: We cannot publish ApplicationEvent with BeanFactory. But Appli
 
 
 
-**131. ** **Between ApplicationContext and** **BeanFactory which one is preferable**
+131.  Between ApplicationContext and BeanFactory which one is preferable
 
-**to use in Spring? **
+to use in Spring? 
 
 
 
@@ -15604,7 +15604,7 @@ Spring documentation recommends using ApplicationContext in almost all the cases
 
 
 
-**132. ** **What are the main components of** **a typical Spring based application? **
+132.  What are the main components of a typical Spring based application? 
 
 
 
@@ -15618,7 +15618,7 @@ Implementation: Application code with implementation of APIs Aspects: Spring Asp
 
 
 
-**133. ** **Explain Dependency Injection** **\(DI\) concept in Spring framework? **
+133.  Explain Dependency Injection \(DI\) concept in Spring framework? 
 
 
 
@@ -15630,7 +15630,7 @@ A container is responsible for creating and wiring the objects. The container ca
 
 
 
-**134. ** **What are the different roles in** **Dependency Injection \(DI\)? **
+134.  What are the different roles in Dependency Injection \(DI\)? 
 
 
 
@@ -15644,9 +15644,9 @@ Interface that defines how client uses services Injector responsible for constru
 
 
 
-**135. ** **Spring framework provides what** **kinds of Dependency Injection**
+135.  Spring framework provides what kinds of Dependency Injection
 
-**mechanism? **
+mechanism? 
 
 
 
@@ -15664,11 +15664,11 @@ Setter-based Dependency Injection: Spring container can call setter method on a 
 
 
 
-**136. ** **In Spring framework, which** **Dependency Injection is better? **
+136.  In Spring framework, which Dependency Injection is better? 
 
-**Constructor-based DI or Setter-based**
+Constructor-based DI or Setter-based
 
-**DI? **
+DI? 
 
 
 
@@ -15680,7 +15680,7 @@ It is recommended to use Constructor-based DI for mandatory dependencies. Wherea
 
 
 
-**137. ** **What are the advantages of** **Dependency Injection \(DI\)? **
+137.  What are the advantages of Dependency Injection \(DI\)? 
 
 
 
@@ -15712,7 +15712,7 @@ Dependency injection \(DI\) isolates client from the impact of design and implem
 
 
 
-**138. ** **What are the disadvantages of** **Dependency Injection \(DI\)? **
+138.  What are the disadvantages of Dependency Injection \(DI\)? 
 
 
 
@@ -15734,7 +15734,7 @@ Dependency injection increases complexity in the linkages between classes. It ma
 
 
 
-**139. ** **What is a Spring Bean? **
+139.  What is a Spring Bean? 
 
 
 
@@ -15758,7 +15758,7 @@ By default the value of this attribute is true. Therefore, by default all the be
 
 
 
-**140. ** **What does the definition of a** **Spring Bean contain? **
+140.  What does the definition of a Spring Bean contain? 
 
 
 
@@ -15772,9 +15772,9 @@ Resolve its dependencies
 
 
 
-**141. ** **What are the different ways to** **provide configuration metadata to a**
+141.  What are the different ways to provide configuration metadata to a
 
-**Spring Container? **
+Spring Container? 
 
 
 
@@ -15794,7 +15794,7 @@ Java-based configuration: This is introduced from Spring 3.0. We can embed annot
 
 
 
-**142. ** **What are the different scopes** **of a Bean supported by Spring? **
+142.  What are the different scopes of a Bean supported by Spring? 
 
 
 
@@ -15830,7 +15830,7 @@ websocket: In this scope, a single bean definition is tied to the lifecycle of a
 
 
 
-**143. ** **How will you define the scope** **of a bean in Spring? **
+143.  How will you define the scope of a bean in Spring? 
 
 
 
@@ -15856,9 +15856,9 @@ This is an example of userService bean with prototype scope.
 
 
 
-**144. ** **Is it safe to assume that a** **Singleton bean is thread safe in Spring**
+144.  Is it safe to assume that a Singleton bean is thread safe in Spring
 
-**Framework? **
+Framework? 
 
 
 
@@ -15866,7 +15866,7 @@ No, Spring framework does not guarantee anything related to multithreaded behavi
 
 
 
-**145. ** **What are the design-patterns** **used in Spring framework? **
+145.  What are the design-patterns used in Spring framework? 
 
 
 
@@ -15902,7 +15902,7 @@ View Helper – Spring has multiple options to separating core code from present
 
 
 
-**146. ** **What is the lifecycle of a Bean** **in Spring framework? **
+146.  What is the lifecycle of a Bean in Spring framework? 
 
 
 
@@ -15946,7 +15946,7 @@ Destruction: During the destruction of a bean, if bean implements DisposableBean
 
 
 
-**147. ** **What are the two main groups** **of methods in a Bean’s lifecycle? **
+147.  What are the two main groups of methods in a Bean’s lifecycle? 
 
 
 
@@ -15968,7 +15968,7 @@ Recent recommendation from Spring is to not use these methods, since it can stro
 
 
 
-**148. ** **Can we override main lifecycle** **methods of a Bean in Spring? **
+148.  Can we override main lifecycle methods of a Bean in Spring? 
 
 
 
@@ -15976,7 +15976,7 @@ Yes, Spring framework allows developers to override the lifecycle methods of a B
 
 
 
-**149. ** **What are Inner beans in** **Spring? **
+149.  What are Inner beans in Spring? 
 
 
 
@@ -15994,7 +15994,7 @@ Inner bean does not need a scope. By default it is of prototype scope.
 
 
 
-**150. ** ** How can we inject a Java** **Collection in Spring framework? **
+150.   How can we inject a Java Collection in Spring framework? 
 
 
 
@@ -16024,7 +16024,7 @@ Following tags can be used for this purpose:
 
 
 
-**151. ** **What is Bean wiring in Spring? **
+151.  What is Bean wiring in Spring? 
 
 
 
@@ -16038,7 +16038,7 @@ Developer mentions in configuration file, the dependencies between beans. And Sp
 
 
 
-**152. ** **What is Autowiring in Spring? **
+152.  What is Autowiring in Spring? 
 
 
 
@@ -16054,7 +16054,7 @@ Spring resolves the dependencies automatically by looking at this attribute of b
 
 
 
-**153. ** **What are the different modes of** **Autowiring supported by Spring? **
+153.  What are the different modes of Autowiring supported by Spring? 
 
 
 
@@ -16148,9 +16148,9 @@ autowire="autodetect" />
 
 
 
-**154. ** **What are the cases in which** **Autowiring may not work in Spring**
+154.  What are the cases in which Autowiring may not work in Spring
 
-**framework? **
+framework? 
 
 
 
@@ -16168,7 +16168,7 @@ Primitive Data types: Autowiring does not allow wiring of properties that are ba
 
 
 
-**155. ** **Is it allowed to inject null or** **empty String values in Spring? **
+155.  Is it allowed to inject null or empty String values in Spring? 
 
 
 
@@ -16178,7 +16178,7 @@ Yes, Spring allows injecting null or empty String values.
 
 
 
-**156. ** **What is a Java-based** **Configuration in Spring? **
+156.  What is a Java-based Configuration in Spring? 
 
 
 
@@ -16190,9 +16190,9 @@ You can use annotations like- @Configuration, @Bean, @Import and @DependsOn in J
 
 
 
-**157. ** **What is the purpose of**
+157.  What is the purpose of
 
-**@Configuration annotation? **
+@Configuration annotation? 
 
 
 
@@ -16202,9 +16202,9 @@ This annotation is used in a class to indicate that this is class is the primary
 
 
 
-**158. ** **What is the difference between** **Full @Configuration and 'lite' **
+158.  What is the difference between Full @Configuration and 'lite' 
 
-**@Beans mode? **
+@Beans mode? 
 
 
 
@@ -16228,9 +16228,9 @@ Spring recommends that @Bean methods declared within
 
 
 
-**159. ** **In Spring framework, what is** **Annotation-based container**
+159.  In Spring framework, what is Annotation-based container
 
-**configuration? **
+configuration? 
 
 
 
@@ -16268,7 +16268,7 @@ Spring container can use this information from annotation for creating and wirin
 
 
 
-**160. ** **How will you switch on** **Annotation based wiring in Spring? **
+160.  How will you switch on Annotation based wiring in Spring? 
 
 
 
@@ -16286,7 +16286,7 @@ Once it is turned on, we can use @Autowired annotation or
 
 
 
-**161. ** **What is @Autowired annotation? **
+161.  What is @Autowired annotation? 
 
 
 
@@ -16300,7 +16300,7 @@ Before using @Autowired annotation we have to register AutowiredAnnotationBeanPo
 
 
 
-**162. ** **What is @Required annotation? **
+162.  What is @Required annotation? 
 
 
 
@@ -16320,9 +16320,9 @@ When we use @Required annotation, we have to register RequiredAnnotationBeanPost
 
 
 
-**163. ** **What are the two ways to enable** **RequiredAnnotationBeanPostProcessor**
+163.  What are the two ways to enable RequiredAnnotationBeanPostProcessor
 
-**in Spring? **
+in Spring? 
 
 
 
@@ -16406,7 +16406,7 @@ class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostPr
 
 
 
-**164. ** **What is @Qualifier annotation** **in Spring? **
+164.  What is @Qualifier annotation in Spring? 
 
 
 
@@ -16414,7 +16414,7 @@ We use @Qualifier annotation to mark a bean as ready for auto wiring. This annot
 
 
 
-**165. ** **How Spring framework makes** **JDBC coding easier for developers? **
+165.  How Spring framework makes JDBC coding easier for developers? 
 
 
 
@@ -16426,7 +16426,7 @@ They just have to write queries and related statements to fetch the data or to s
 
 
 
-**166. ** **What is the purpose of** **JdbcTemplate? **
+166.  What is the purpose of JdbcTemplate? 
 
 
 
@@ -16438,7 +16438,7 @@ This class makes it very easy to work with database in our Application and it al
 
 
 
-**167. ** **What are the benefits of using** **Spring DAO? **
+167.  What are the benefits of using Spring DAO? 
 
 
 
@@ -16452,7 +16452,7 @@ No need for catching framework specific exceptions.
 
 
 
-**168. ** **What are the different ways to** **use Hibernate in Spring? **
+168.  What are the different ways to use Hibernate in Spring? 
 
 
 
@@ -16466,9 +16466,9 @@ interceptor node to use Hibernate.
 
 We can also use HibernateTemplate and Callback to access Hibernate. This is based on Inversion of Control. 
 
-**169. ** **What types of Object Relational** **Mapping \(ORM\) are supported by**
+169.  What types of Object Relational Mapping \(ORM\) are supported by
 
-**Spring? **
+Spring? 
 
 
 
@@ -16486,9 +16486,9 @@ Java Data Objects \(JDO\)
 
 Apache Object Relational Bridge \(ORB\)
 
-**170. ** **How will you integrate Spring** **and Hibernate by using**
+170.  How will you integrate Spring and Hibernate by using
 
-**HibernateDaoSupport? **
+HibernateDaoSupport? 
 
 
 
@@ -16498,9 +16498,9 @@ Use Hibernate functions via getHibernateTemplate\(\) method
 
 
 
-**171. ** **What are the different types of** **the Transaction Management**
+171.  What are the different types of the Transaction Management
 
-**supported by Spring framework? **
+supported by Spring framework? 
 
 
 
@@ -16518,9 +16518,9 @@ Declarative: In this approach, we can separate Transaction Management from the A
 
 
 
-**172. ** **What are the benefits provided by** **Spring Framework’s Transaction**
+172.  What are the benefits provided by Spring Framework’s Transaction
 
-**Management? **
+Management? 
 
 
 
@@ -16540,11 +16540,11 @@ Integration: Spring Transaction management is easier to integrate with other dat
 
 
 
-**173. ** **Given a choice between** **declarative and programmatic**
+173.  Given a choice between declarative and programmatic
 
-**Transaction Management, which**
+Transaction Management, which
 
-**method will you choose? **
+method will you choose? 
 
 
 
@@ -16556,7 +16556,7 @@ Although Declarative method gives less flexibility than Programmatic method, it 
 
 
 
-**174. ** **What is Aspect Oriented** **Programming \(AOP\)**
+174.  What is Aspect Oriented Programming \(AOP\)
 
 
 
@@ -16578,7 +16578,7 @@ In an Auto company, one team can work on software to integrate with different co
 
 
 
-**175. ** ** What is an Aspect in Spring? **
+175.   What is an Aspect in Spring? 
 
 
 
@@ -16602,9 +16602,9 @@ An Aspect can be implemented by using annotation @Aspect on a class.
 
 
 
-**176. ** **In Spring AOP, what is the main** **difference between a Concern and a**
+176.  In Spring AOP, what is the main difference between a Concern and a
 
-**Cross cutting concern? **
+Cross cutting concern? 
 
 
 
@@ -16620,7 +16620,7 @@ E.g. Security, Logging, Transaction Management etc. are cross cutting concerns i
 
 
 
-**177. ** **What is a Joinpoint in Spring** **AOP? **
+177.  What is a Joinpoint in Spring AOP? 
 
 
 
@@ -16636,7 +16636,7 @@ This is the place where the code of an Aspect is inserted to add new behavior in
 
 
 
-**178. ** **What is an Advice in Spring** **AOP? **
+178.  What is an Advice in Spring AOP? 
 
 
 
@@ -16652,7 +16652,7 @@ There are multiple types of Advice in Spring AOP.
 
 
 
-**179. ** **What are the different types of** **Advice in Spring AOP? **
+179.  What are the different types of Advice in Spring AOP? 
 
 
 
@@ -16692,7 +16692,7 @@ Around Advice: This type of advice runs before and after the method is invoked. 
 
 
 
-**180. ** ** What is a Pointcut in Spring** **AOP? **
+180.   What is a Pointcut in Spring AOP? 
 
 
 
@@ -16708,7 +16708,7 @@ We can use class names, method names or regular expressions to specify the Point
 
 
 
-**181. ** ** What is an Introduction in** **Spring AOP? **
+181.   What is an Introduction in Spring AOP? 
 
 
 
@@ -16720,7 +16720,7 @@ E.g. We can use an Introduction for making a bean implement IsModified interface
 
 
 
-**182. ** **What is a Target object in** **Spring AOP? **
+182.  What is a Target object in Spring AOP? 
 
 
 
@@ -16736,7 +16736,7 @@ In most cases it is a proxy object.
 
 
 
-**183. ** **What is a Proxy in Spring AOP? **
+183.  What is a Proxy in Spring AOP? 
 
 
 
@@ -16744,7 +16744,7 @@ In Spring AOP, a Proxy is an object created by the AOP framework to implement As
 
 
 
-**184. ** **What are the different types of** **AutoProxy creators in Spring? **
+184.  What are the different types of AutoProxy creators in Spring? 
 
 
 
@@ -16778,7 +16778,7 @@ AbstractAdvisorAutoProxyCreator: This is the parent class of DefaultAdvisorAutoP
 
 
 
-**185. ** **What is Weaving in Spring** **AOP? **
+185.  What is Weaving in Spring AOP? 
 
 
 
@@ -16794,7 +16794,7 @@ Weaving can be done at compile time, load time or at run time.
 
 
 
-**186. ** **In Spring AOP, Weaving is done** **at compile time or run time? **
+186.  In Spring AOP, Weaving is done at compile time or run time? 
 
 
 
@@ -16802,7 +16802,7 @@ Spring container performs Weaving at run time.
 
 
 
-**187. ** **What is XML Schema-based** **Aspect implementation? **
+187.  What is XML Schema-based Aspect implementation? 
 
 
 
@@ -16840,9 +16840,9 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
 
 
 
-**188. ** **What is Annotation-based** **aspect implementation in Spring**
+188.  What is Annotation-based aspect implementation in Spring
 
-**AOP? **
+AOP? 
 
 
 
@@ -16854,9 +16854,9 @@ This can be used Java 5 onwards, when the support for Annotations was introduced
 
 
 
-**189. ** **How does Spring MVC**
+189.  How does Spring MVC
 
-**framework work? **
+framework work? 
 
 
 
@@ -16876,7 +16876,7 @@ Spring MVC framework also supports annotation based binding of request parameter
 
 
 
-**190. ** **What is DispatcherServlet? **
+190.  What is DispatcherServlet? 
 
 
 
@@ -16892,7 +16892,7 @@ In case of RMI invocation, it sends back response to the client application.
 
 
 
-**191. ** **Can we have more than one** **DispatcherServlet in Spring MVC? **
+191.  Can we have more than one DispatcherServlet in Spring MVC? 
 
 
 
@@ -16906,7 +16906,7 @@ Only the root application context will be shared among these Servlets.
 
 
 
-**192. ** **What is WebApplicationContext** **in Spring MVC? **
+192.  What is WebApplicationContext in Spring MVC? 
 
 
 
@@ -16934,7 +16934,7 @@ WebApplicationContext.
 
 
 
-**193. ** **What is Controller in Spring** **MVC framework? **
+193.  What is Controller in Spring MVC framework? 
 
 
 
@@ -16972,7 +16972,7 @@ The dispatcher in Spring scans for @Controller annotated classes for mapped meth
 
 
 
-**194. ** **What is @RequestMapping** **annotation in Spring? **
+194.  What is @RequestMapping annotation in Spring? 
 
 
 
@@ -17006,7 +17006,7 @@ headers = "Accept=application/json"\)
 
 
 
-**195. ** **What are the main features of** **Spring MVC? **
+195.  What are the main features of Spring MVC? 
 
 
 
@@ -17054,9 +17054,9 @@ Customizable locale, time zone and theme resolution: Spring MVC supports customi
 
 
 
-**196. ** ** What is the difference between a** **Singleton and Prototype bean in**
+196.   What is the difference between a Singleton and Prototype bean in
 
-**Spring? **
+Spring? 
 
 
 
@@ -17088,9 +17088,9 @@ In prototype scope bean, the Spring IoC container creates new bean instance of t
 
 
 
-**197. ** **How will you decide which scope-Prototype or Singleton to use for a**
+197.  How will you decide which scope-Prototype or Singleton to use for a
 
-**bean in Spring? **
+bean in Spring? 
 
 
 
@@ -17108,11 +17108,11 @@ In a stateful bean, there is a need to maintain the state in each request, it is
 
 
 
-**198. ** **What is the difference between** **Setter and Constructor based**
+198.  What is the difference between Setter and Constructor based
 
-**Dependency Injection \(DI\) in Spring**
+Dependency Injection \(DI\) in Spring
 
-**framework? **
+framework? 
 
 
 
@@ -17144,9 +17144,9 @@ Readability: Setter injection is more readable than Constructor injection. Gener
 
 
 
-**199. ** **What are the drawbacks of Setter** **based Dependency Injection \(DI\) in**
+199.  What are the drawbacks of Setter based Dependency Injection \(DI\) in
 
-**Spring? **
+Spring? 
 
 
 
@@ -17172,9 +17172,9 @@ Circular Dependency: Setter based DI can cause circular dependency between objec
 
 
 
-**200. ** **What are the differences** **between Dependency Injection \(DI\)**
+200.  What are the differences between Dependency Injection \(DI\)
 
-**and Factory Pattern? **
+and Factory Pattern? 
 
 
 
@@ -17206,11 +17206,11 @@ Cleaner Code: DI code is much cleaner than Factory pattern based code. In DI, we
 
 
 
-**201. ** **In Spring framework, what is the** **difference between**
+201.  In Spring framework, what is the difference between
 
-**FileSystemResource and**
+FileSystemResource and
 
-**ClassPathResource? **
+ClassPathResource? 
 
 
 
@@ -17232,9 +17232,9 @@ ClassPathResource looks for configuration file in CLASSPATH, whereas FileSystemR
 
 
 
-**202. ** **Name some popular Spring** **framework annotations that you use**
+202.  Name some popular Spring framework annotations that you use
 
-**in your project? **
+in your project? 
 
 
 
@@ -17280,7 +17280,7 @@ Spring has many Annotations to serve different purposes. For regular use we refe
 
 
 
-**203. ** **How can you upload a file in** **Spring MVC Application? **
+203.  How can you upload a file in Spring MVC Application? 
 
 
 
@@ -17290,9 +17290,9 @@ In Spring MVC framework we can use MultipartResolver interface to upload a file.
 
 
 
-**204. ** **What are the different types of** **events provided by Spring**
+204.  What are the different types of events provided by Spring
 
-**framework? **
+framework? 
 
 
 
@@ -17366,9 +17366,9 @@ RequestHandledEvent: This is a web specific event that informs to all beans that
 
 
 
-**205. ** **What is the difference between** **DispatcherServlet and**
+205.  What is the difference between DispatcherServlet and
 
-**ContextLoaderListener in Spring? **
+ContextLoaderListener in Spring? 
 
 
 
@@ -17388,9 +17388,9 @@ ContextLoaderListener is a listener to start up and shut down Spring’s root We
 
 
 
-**206. ** **How will you handle** **exceptions in Spring MVC**
+206.  How will you handle exceptions in Spring MVC
 
-**Framework? **
+Framework? 
 
 
 
@@ -17412,7 +17412,7 @@ HandlerExceptionResolver implementation: Spring Framework provides HandlerExcept
 
 
 
-**207. ** **What are the best practices of** **Spring Framework? **
+207.  What are the best practices of Spring Framework? 
 
 
 
@@ -17456,7 +17456,7 @@ Dependency Injection \(DI\) has to be used when there is real benefit.
 
 It should not be used just for the sake of loose coupling. 
 
-**208. ** **What is Spring Boot? **
+208.  What is Spring Boot? 
 
 
 
@@ -17472,11 +17472,11 @@ It does not require any code generation or xml configuration. It is an easy solu
 
 
 
-**Hibernate**
+Hibernate
 
 
 
-**209. ** **What is Hibernate** **framework? **
+209.  What is Hibernate framework? 
 
 
 
@@ -17496,7 +17496,7 @@ In simple words, it is a framework to retrieve and store data from database tabl
 
 
 
-**210. ** **What is an Object Relational** **Mapping \(ORM\)? **
+210.  What is an Object Relational Mapping \(ORM\)? 
 
 
 
@@ -17514,9 +17514,9 @@ ORM helps in data retrieval in an Object Oriented way from an RDBMS. It reduces 
 
 
 
-**211. ** **What is the purpose of** **Configuration Interface in**
+211.  What is the purpose of Configuration Interface in
 
-**Hibernate? **
+Hibernate? 
 
 
 
@@ -17538,7 +17538,7 @@ In short, Configuration interface is used for configuring Hibernate framework in
 
 
 
-**212. ** **What is Object Relational** **Impedance Mismatch? **
+212.  What is Object Relational Impedance Mismatch? 
 
 
 
@@ -17552,9 +17552,9 @@ Relational model or a RDBMS represents data in tabular format like a spreadsheet
 
 Mixing these two models leads to various problems. The common name for these issues is Object Relational Impedance Mismatch. 
 
-**213. ** **What are the main problems of** **Object Relational Impedance**
+213.  What are the main problems of Object Relational Impedance
 
-**Mismatch? **
+Mismatch? 
 
 
 
@@ -17586,7 +17586,7 @@ calls, so we get all the data by using joins.
 
 
 
-**214. ** **What are the key** **characteristics of Hibernate? **
+214.  What are the key characteristics of Hibernate? 
 
 
 
@@ -17624,7 +17624,7 @@ Extensible: Hibernate is quite generic in nature. It can be configured and exten
 
 
 
-**215. ** **Can you tell us about the core** **interfaces of Hibernate framework? **
+215.  Can you tell us about the core interfaces of Hibernate framework? 
 
 
 
@@ -17654,9 +17654,9 @@ Criteria: This is a simplified API to retrieve objects by creating Criterion obj
 
 
 
-**216. ** **How will you map the columns of** **a DB table to the properties of a Java**
+216.  How will you map the columns of a DB table to the properties of a Java
 
-**class in Hibernate? **
+class in Hibernate? 
 
 
 
@@ -17670,9 +17670,9 @@ XML: We can map the column of a table to the property of a class in XML file. It
 
 
 
-**217. ** **Does Hibernate make it** **mandatory for a mapping file to have**
+217.  Does Hibernate make it mandatory for a mapping file to have
 
-**.hbm.xml extension? **
+.hbm.xml extension? 
 
 
 
@@ -17680,7 +17680,7 @@ No. It is a convention to have.hbm.xml extension in the name of a mapping file. 
 
 
 
-**218. ** **What are the steps for creating** **a SessionFactory in Hibernate? **
+218.  What are the steps for creating a SessionFactory in Hibernate? 
 
 
 
@@ -17704,7 +17704,7 @@ config.addResource\(“testInstance/configuration.hbm.xml”\); config.setProper
 
 
 
-**219. ** **Why do we use POJO in** **Hibernate? **
+219.  Why do we use POJO in Hibernate? 
 
 
 
@@ -17728,7 +17728,7 @@ POJO also comes with a default constructor that makes it easier to persist with 
 
 
 
-**220. ** **What is Hibernate Query** **Language \(HQL\)? **
+220.  What is Hibernate Query Language \(HQL\)? 
 
 
 
@@ -17750,7 +17750,7 @@ HQL supports direct running of native SQL queries also. But it creates an issue 
 
 
 
-**221. ** **How will you call a stored** **procedure in Hibernate? **
+221.  How will you call a stored procedure in Hibernate? 
 
 
 
@@ -17926,7 +17926,7 @@ System.out.println\(employee.getEmployeeCode\(\)\);
 
 
 
-**222. ** **What is Criteria API in** **Hibernate? **
+222.  What is Criteria API in Hibernate? 
 
 
 
@@ -17944,7 +17944,7 @@ Criterion instances are obtained through factory methods on Restrictions.
 
 
 
-**223. ** **Why do we use** **HibernateTemplate? **
+223.  Why do we use HibernateTemplate? 
 
 
 
@@ -17954,7 +17954,7 @@ There were earlier good reasons to use HibernateTemplate. But now the trend has 
 
 
 
-**224. ** **How can you see SQL code** **generated by Hibernate on console? **
+224.  How can you see SQL code generated by Hibernate on console? 
 
 
 
@@ -17970,7 +17970,7 @@ This can be done in Hibernate configuration as follows:
 
 
 
-**225. ** **What are the different types of** **collections supported by Hibernate? **
+225.  What are the different types of collections supported by Hibernate? 
 
 
 
@@ -17980,11 +17980,11 @@ Sorted Collections: java.util.SortedMap and java.util.SortedSet
 
 
 
-**226. ** **What is the difference between** **session.save\(\) and**
+226.  What is the difference between session.save\(\) and
 
-**session.saveOrUpdate\(\) methods in**
+session.saveOrUpdate\(\) methods in
 
-**Hibernate? **
+Hibernate? 
 
 
 
@@ -18002,7 +18002,7 @@ If an identifier exists for the entity then update\(\) method is called. If ther
 
 
 
-**227. ** **What are the advantages of** **Hibernate framework over JDBC? **
+227.  What are the advantages of Hibernate framework over JDBC? 
 
 
 
@@ -18020,7 +18020,7 @@ Complexity: Hibernate handles complex query scenarios very well with its interna
 
 
 
-**228. ** **How can we get statistics of a** **SessionFactory in Hibernate? **
+228.  How can we get statistics of a SessionFactory in Hibernate? 
 
 
 
@@ -18028,7 +18028,7 @@ In Hibernate we can get the statistics of a SessionFactory by using Statistics i
 
 
 
-**229. ** **What is the Transient state of** **an object in Hibernate? **
+229.  What is the Transient state of an object in Hibernate? 
 
 
 
@@ -18042,7 +18042,7 @@ In Transient state, object does not have a persistent representation in database
 
 An object in Transient state can be garbage collected if there is no reference pointing to it. 
 
-**230. ** **What is the Detached state of** **an object in Hibernate? **
+230.  What is the Detached state of an object in Hibernate? 
 
 
 
@@ -18056,7 +18056,7 @@ Any reference to this object is still valid. We can even update this object. Lat
 
 Detached state is very useful in application transactions where a user takes some time to finish the work. 
 
-**231. ** **What is the use of Dirty Checking** **in Hibernate? **
+231.  What is the use of Dirty Checking in Hibernate? 
 
 
 
@@ -18068,7 +18068,7 @@ By Dirty Checking, only those fields of an object are updated that require any c
 
 
 
-**232. ** **What is the purpose of** **Callback interface in Hibernate? **
+232.  What is the purpose of Callback interface in Hibernate? 
 
 
 
@@ -18080,9 +18080,9 @@ Egg. We can use Callback to get the notification when an object is loaded into o
 
 
 
-**233. ** **What are the different ORM**
+233.  What are the different ORM
 
-**levels in Hibernate? **
+levels in Hibernate? 
 
 
 
@@ -18102,7 +18102,7 @@ Full Object Mapping: This is one of the most sophisticated object modeling level
 
 
 
-**234. ** **What are the different ways to** **configure a Hibernate application? **
+234.  What are the different ways to configure a Hibernate application? 
 
 
 
@@ -18116,7 +18116,7 @@ Programming based: We can also use code logic to configure Hibernate in our appl
 
 
 
-**235. ** **What is Query Cache in** **Hibernate? **
+235.  What is Query Cache in Hibernate? 
 
 
 
@@ -18134,9 +18134,9 @@ It has to be used based on the benefits gained by it in performance of the queri
 
 
 
-**236. ** **What are the different types of** **Association mappings supported by**
+236.  What are the different types of Association mappings supported by
 
-**Hibernate? **
+Hibernate? 
 
 
 
@@ -18150,9 +18150,9 @@ Bidirectional association with join tables
 
 
 
-**237. ** **What are the different types of** **Unidirectional Association mappings**
+237.  What are the different types of Unidirectional Association mappings
 
-**in Hibernate? **
+in Hibernate? 
 
 
 
@@ -18168,7 +18168,7 @@ One to many
 
 
 
-**238. ** **What is Unit of Work design** **pattern? **
+238.  What is Unit of Work design pattern? 
 
 
 
@@ -18188,7 +18188,7 @@ Egg. In case of money transfer from account A to B, the unit of work can be two 
 
 
 
-**239. ** **In Hibernate, how can an** **object go in Detached state? **
+239.  In Hibernate, how can an object go in Detached state? 
 
 
 
@@ -18200,7 +18200,7 @@ This state is quite useful in concurrent applications that have long unit of wor
 
 
 
-**240. ** **How will you order the results** **returned by a Criteria in Hibernate? **
+240.  How will you order the results returned by a Criteria in Hibernate? 
 
 
 
@@ -18232,7 +18232,7 @@ List employees = session.createCriteria\(Employee.class\)
 
 .list\(\); 
 
-**241. ** **How does Example criterion** **work in Hibernate? **
+241.  How does Example criterion work in Hibernate? 
 
 
 
@@ -18260,7 +18260,7 @@ List results = session.createCriteria\(Book.class\)
 
 
 
-**242. ** **How does Transaction** **management work in Hibernate? **
+242.  How does Transaction management work in Hibernate? 
 
 
 
@@ -18302,9 +18302,9 @@ s.close\(\);
 
 
 
-**243. ** **How can we mark an** **entity/collection as immutable in**
+243.  How can we mark an entity/collection as immutable in
 
-**Hibernate? **
+Hibernate? 
 
 
 
@@ -18328,9 +18328,9 @@ file for an entity to make it immutable.
 
 
 
-**244. ** **What are the different options** **to retrieve an object from database in**
+244.  What are the different options to retrieve an object from database in
 
-**Hibernate? **
+Hibernate? 
 
 
 
@@ -18354,7 +18354,7 @@ Native SQL: We can write native SQL query for a database and just execute it to 
 
 
 
-**245. ** **How can we auto-generate** **primary key in Hibernate? **
+245.  How can we auto-generate primary key in Hibernate? 
 
 
 
@@ -18378,9 +18378,9 @@ Sometimes, AUTO strategy refers to a SEQUENCE instead of an IDENTITY .
 
 
 
-**246. ** **How will you re-attach an** **object in Detached state in**
+246.  How will you re-attach an object in Detached state in
 
-**Hibernate? **
+Hibernate? 
 
 
 
@@ -18404,7 +18404,7 @@ Session.saveOrUpdate\(\), or Session.merge\(\) to re-attach an object in detache
 
 
 
-**247. ** **What is the first level of cache** **in Hibernate? **
+247.  What is the first level of cache in Hibernate? 
 
 
 
@@ -18416,7 +18416,7 @@ The second level of cache is at JVM or SessionFactory level.
 
 
 
-**248. ** **What are the different second** **level caches available in Hibernate? **
+248.  What are the different second level caches available in Hibernate? 
 
 
 
@@ -18442,7 +18442,7 @@ JBoss Cache 2
 
 
 
-**249. ** **Which is the default** **transaction factory in Hibernate? **
+249.  Which is the default transaction factory in Hibernate? 
 
 
 
@@ -18462,7 +18462,7 @@ JDBCTransactionFactory. But we can change it by setting the property hibernate.t
 
 
 
-**250. ** **What are the options to disable** **second level cache in Hibernate? **
+250.  What are the options to disable second level cache in Hibernate? 
 
 
 
@@ -18476,7 +18476,7 @@ We can use CacheMode.IGNORE to stop interaction between the session and second-l
 
 
 
-**251. ** **What are the different fetching** **strategies in Hibernate? **
+251.  What are the different fetching strategies in Hibernate? 
 
 
 
@@ -18506,9 +18506,9 @@ to retrieve a batch of entity instances or collections by specifying a list of p
 
 
 
-**252. ** **What is the difference between** **Immediate fetching and Lazy**
+252.  What is the difference between Immediate fetching and Lazy
 
-**collection fetching? **
+collection fetching? 
 
 
 
@@ -18526,7 +18526,7 @@ Lazy fetching is better from performance perspective.
 
 
 
-**253. ** **What is ‘Extra lazy fetching’ in** **Hibernate? **
+253.  What is ‘Extra lazy fetching’ in Hibernate? 
 
 
 
@@ -18542,9 +18542,9 @@ It is a good fetching strategy for large collections of objects.
 
 
 
-**254. ** **How can we check is a** **collection is initialized or not under**
+254.  How can we check is a collection is initialized or not under
 
-**Lazy Initialization strategy? **
+Lazy Initialization strategy? 
 
 
 
@@ -18556,9 +18556,9 @@ By using Hibernate.initialize\(\) we can force the initialization of a collectio
 
 
 
-**255. ** **What are the different** **strategies for cache mapping in**
+255.  What are the different strategies for cache mapping in
 
-**Hibernate? **
+Hibernate? 
 
 
 
@@ -18590,7 +18590,7 @@ Transactional: This strategy supports full transactional cache providers like JB
 
 
 
-**256. ** **What is the difference between** **a Set and a Bag in Hibernate? **
+256.  What is the difference between a Set and a Bag in Hibernate? 
 
 
 
@@ -18602,9 +18602,9 @@ A Set in Hibernate can only store unique objects. If we add the same element to 
 
 
 
-**257. ** **How can we monitor the** **performance of Hibernate in an**
+257.  How can we monitor the performance of Hibernate in an
 
-**application? **
+application? 
 
 
 
@@ -18636,9 +18636,9 @@ We can tune Hibernate settings and strategies based on these metrics.
 
 
 
-**258. ** **How can we check if an Object** **is in Persistent, Detached or Transient**
+258.  How can we check if an Object is in Persistent, Detached or Transient
 
-**state in Hibernate? **
+state in Hibernate? 
 
 
 
@@ -18694,7 +18694,7 @@ EntityManagerFactory in Hibernate.
 
 
 
-**259. ** **What is ‘the inverse side of** **association’ in a mapping? **
+259.  What is ‘the inverse side of association’ in a mapping? 
 
 
 
@@ -18718,7 +18718,7 @@ Also customer has no column to save order data. But an Order table can store cus
 
 
 
-**260. ** **What is ORM metadata? **
+260.  What is ORM metadata? 
 
 
 
@@ -18734,7 +18734,7 @@ Application developers can also access Hibernate Metadata by using ClassMetadata
 
 
 
-**261. ** **What is the difference between** **load\(\) and get\(\) method in Hibernate? **
+261.  What is the difference between load\(\) and get\(\) method in Hibernate? 
 
 
 
@@ -18754,9 +18754,9 @@ It is recommended that we should use load\(\) method only when we are sure that 
 
 
 
-**262. ** **When should we use get\(\)** **method or load\(\) method in**
+262.  When should we use get\(\) method or load\(\) method in
 
-**Hibernate? **
+Hibernate? 
 
 
 
@@ -18768,7 +18768,7 @@ We should use load\(\) method when we need a reference to an object without runn
 
 
 
-**263. ** **What is a derived property in** **Hibernate? **
+263.  What is a derived property in Hibernate? 
 
 
 
@@ -18794,7 +18794,7 @@ i.buyPrice\) FROM item i WHERE i.Id = Id\)"/>
 
 
 
-**264. ** **How can we use Named Query** **in Hibernate? **
+264.  How can we use Named Query in Hibernate? 
 
 
 
@@ -18836,7 +18836,7 @@ query = "from Book s where s.author = :author”
 
 
 
-**265. ** **What are the two locking** **strategies in Hibernate? **
+265.  What are the two locking strategies in Hibernate? 
 
 
 
@@ -18862,7 +18862,7 @@ The other transaction can proceed with same resource only after the lock has bee
 
 
 
-**266. ** **What is the use of version** **number in Hibernate? **
+266.  What is the use of version number in Hibernate? 
 
 
 
@@ -18874,7 +18874,7 @@ If the version number at the time of write is different than the version number 
 
 
 
-**267. ** **What is the use of** **session.lock\(\) method in Hibernate? **
+267.  What is the use of session.lock\(\) method in Hibernate? 
 
 
 
@@ -18894,9 +18894,9 @@ buildLockRequest\(LockMode\).lock\(entityName, object\) method in Hibernate.
 
 
 
-**268. ** **What inheritance mapping** **strategies are supported by**
+268.  What inheritance mapping strategies are supported by
 
-**Hibernate? **
+Hibernate? 
 
 
 
@@ -18918,9 +18918,9 @@ Table per concrete class: In this case also we have separate table for each kind
 
 
 
-**Maven**
+Maven
 
-**269. ** **What is Maven? **
+269.  What is Maven? 
 
 
 
@@ -18932,7 +18932,7 @@ It is used for building, reporting and documenting a Software project. It is mai
 
 
 
-**270. ** **What are the main features of** **Maven? **
+270.  What are the main features of Maven? 
 
 
 
@@ -18942,55 +18942,55 @@ Some of the main features of Maven are:
 
 1. 
 
-**Simple**: Maven provides simple project setup that is based on best practices. 
+Simple: Maven provides simple project setup that is based on best practices. 
 
 
 
 2. 
 
-**Fast**: You can get a new project or module started in a few seconds in Maven. 
+Fast: You can get a new project or module started in a few seconds in Maven. 
 
 
 
 3. 
 
-**Easy to learn**: Maven usage and commands are easy to learn across all projects. Therefore ramp up time for new developers coming onto a project is very less. 
+Easy to learn: Maven usage and commands are easy to learn across all projects. Therefore ramp up time for new developers coming onto a project is very less. 
 
 
 
 4. 
 
-**Dependency management**: Maven provides superior dependency management including automatic updates and transitive dependencies. 
+Dependency management: Maven provides superior dependency management including automatic updates and transitive dependencies. 
 
 
 
 5. 
 
-**Multiple Projects**: You can easily work with multiple projects at the same time by using Maven. 
+Multiple Projects: You can easily work with multiple projects at the same time by using Maven. 
 
 
 
 6. 
 
-**Large Library**: Maven has a large and growing repository of libraries and metadata to use out of the box. 
+Large Library: Maven has a large and growing repository of libraries and metadata to use out of the box. 
 
 
 
 7. 
 
-**Extensible**: Maven supports the ability to easily write plugins in Java or scripting languages for extending its core functionality. 
+Extensible: Maven supports the ability to easily write plugins in Java or scripting languages for extending its core functionality. 
 
 
 
 8. 
 
-**Instant**: Maven is online and it provides instant access to new features with very less configuration. 
+Instant: Maven is online and it provides instant access to new features with very less configuration. 
 
 
 
 
 
-**271. ** **What areas of a Project can you** **manage by using Maven? **
+271.  What areas of a Project can you manage by using Maven? 
 
 
 
@@ -19024,7 +19024,7 @@ Distribution
 
 
 
-**272. ** **What are the main advantages** **of Maven? **
+272.  What are the main advantages of Maven? 
 
 
 
@@ -19036,29 +19036,29 @@ Some of the main advantages are:
 
 1. 
 
-**Common Project Structure**: By using Maven, every developer has a common project structure that helps in understanding the code as well as developing new features in a new project. 
+Common Project Structure: By using Maven, every developer has a common project structure that helps in understanding the code as well as developing new features in a new project. 
 
 
 
 2. 
 
-**Modular Design**: Maven promotes modular design that divides a complex project into multiple modules that are easier to manage. By using Maven, it is easier to manage multiple modules for build, test, release etc. 
+Modular Design: Maven promotes modular design that divides a complex project into multiple modules that are easier to manage. By using Maven, it is easier to manage multiple modules for build, test, release etc. 
 
 
 
 3. 
 
-**Centralized Dependency Management**: With Maven, each developer does not have to include the jars separately in each project or module. Maven provides a centralized dependency management that can help improve efficiency of software development. 
+Centralized Dependency Management: With Maven, each developer does not have to include the jars separately in each project or module. Maven provides a centralized dependency management that can help improve efficiency of software development. 
 
 
 
 4. 
 
-**Fewer Decisions**: With Maven a developer has to make fewer decisions about things unrelated to software development work. The project structure comes ready with Maven, dependency management is a uniform approach and build/release are handled by Maven. So a developer can focus on core work of developing software. 
+Fewer Decisions: With Maven a developer has to make fewer decisions about things unrelated to software development work. The project structure comes ready with Maven, dependency management is a uniform approach and build/release are handled by Maven. So a developer can focus on core work of developing software. 
 
 
 
-**273. ** **Why do we say “Maven uses** **convention over configuration”? **
+273.  Why do we say “Maven uses convention over configuration”? 
 
 
 
@@ -19078,39 +19078,39 @@ In case of other tools, there are a lot of configuration options are present. Bu
 
 
 
-**274. ** **What are the responsibilities of** **a Build tool like Maven? **
+274.  What are the responsibilities of a Build tool like Maven? 
 
 
 
 A Build tool like Maven helps us with following tasks: 1. 
 
-**Source Code**: A Build tool can generate source code based on templates. 
+Source Code: A Build tool can generate source code based on templates. 
 
 
 
 2. 
 
-**Documentation**: We can get documentation files from source code by using a build tool. E.g. Javadoc 3. 
+Documentation: We can get documentation files from source code by using a build tool. E.g. Javadoc 3. 
 
-**Compilation**: Primary responsibility of a Build tool is to compile source code into executable code. 
+Compilation: Primary responsibility of a Build tool is to compile source code into executable code. 
 
 
 
 4. 
 
-**Packaging**: A Build tool packages compiled code into a deployable file like- jar, zip war etc. 
+Packaging: A Build tool packages compiled code into a deployable file like- jar, zip war etc. 
 
 
 
 5. 
 
-**Deployment**: We can deploy the packaged code on server by using a Build tool. 
+Deployment: We can deploy the packaged code on server by using a Build tool. 
 
 
 
 
 
-**275. ** **What are the differences** **between Ant and Maven? **
+275.  What are the differences between Ant and Maven? 
 
 
 
@@ -19148,7 +19148,7 @@ Ant scripts are not reusable in multiple projects. Maven has plugins that are re
 
 
 
-**276. ** **What is MOJO in Maven? **
+276.  What is MOJO in Maven? 
 
 
 
@@ -19166,7 +19166,7 @@ A Maven plugin can contain multiple MOJOs.
 
 
 
-**277. ** **What is a Repository in** **Maven? **
+277.  What is a Repository in Maven? 
 
 
 
@@ -19176,31 +19176,31 @@ A repository is a location on file system where build artifacts, jars, dependenc
 
 
 
-**278. ** **What are the different types of** **repositories in Maven? **
+278.  What are the different types of repositories in Maven? 
 
 
 
 There are mainly two types of repositories in Maven: 1. 
 
-**Local Repository**: This is your local folder in which a copy of your installation and dependencies is stored. 
+Local Repository: This is your local folder in which a copy of your installation and dependencies is stored. 
 
 
 
 2. 
 
-**Remote Repository**: This is a remote folder in which jars and other build artifacts are stored. These can be located on servers within your organization. 
+Remote Repository: This is a remote folder in which jars and other build artifacts are stored. These can be located on servers within your organization. 
 
 
 
 3. 
 
-**Central Remote Repository**: This is the central Maven repository that is located on repo.maven.apache.org or uk.maven.org or any other third party location. This where we can find artifacts from different providers that are available for download and use. Like- Hibernate, Spring libraries etc. 
+Central Remote Repository: This is the central Maven repository that is located on repo.maven.apache.org or uk.maven.org or any other third party location. This where we can find artifacts from different providers that are available for download and use. Like- Hibernate, Spring libraries etc. 
 
 
 
 
 
-**279. ** **What is a local repository in** **Maven? **
+279.  What is a local repository in Maven? 
 
 
 
@@ -19216,7 +19216,7 @@ Unix/Linux/Mac – ~/.m2
 
 
 
-**280. ** **What is a central repository in** **Maven? **
+280.  What is a central repository in Maven? 
 
 
 
@@ -19232,7 +19232,7 @@ Central repository contains a large amount of data. Therefore it is not allowed 
 
 
 
-**281. ** **What is a Remote repository** **in Maven? **
+281.  What is a Remote repository in Maven? 
 
 
 
@@ -19248,9 +19248,9 @@ These can be truly remote repositories set up by third party vendors or location
 
 
 
-**282. ** **Why we should not store jars** **in CVS or any other version control**
+282.  Why we should not store jars in CVS or any other version control
 
-**system instead of Maven repository? **
+system instead of Maven repository? 
 
 
 
@@ -19276,7 +19276,7 @@ No need for versioning: There is no need to version JARS since external dependen
 
 
 
-**283. ** **Can anyone upload JARS or** **artifacts to Central Repository? **
+283.  Can anyone upload JARS or artifacts to Central Repository? 
 
 
 
@@ -19286,7 +19286,7 @@ No, we need special permissions to upload JARS and artifacts to Central Maven Re
 
 
 
-**284. ** **What is a POM? **
+284.  What is a POM? 
 
 
 
@@ -19302,7 +19302,7 @@ It also contains default values for many projects. E.g. target is the name of bu
 
 
 
-**285. ** **What is Super POM? **
+285.  What is Super POM? 
 
 
 
@@ -19310,7 +19310,7 @@ Super POM is Maven’s default POM. All the POM files extend from Super POM.
 
 
 
-**286. ** **What are the main required** **elements in POM file? **
+286.  What are the main required elements in POM file? 
 
 
 
@@ -19338,7 +19338,7 @@ version: the version of the artifact under the specified group
 
 
 
-**287. ** **What are the phases in Build** **lifecycle in Maven? **
+287.  What are the phases in Build lifecycle in Maven? 
 
 
 
@@ -19348,47 +19348,47 @@ In Maven, each build lifecycle consists of many phases. Default build lifecycle 
 
 1. 
 
-**validate**: In this phase, Maven validates that the project is correct and all necessary information is available to run next phase. 
+validate: In this phase, Maven validates that the project is correct and all necessary information is available to run next phase. 
 
 
 
 2. 
 
-**compile**: Maven compiles the source code of the project in this phase. 
+compile: Maven compiles the source code of the project in this phase. 
 
 
 
 3. 
 
-**test**: This is the phase to run unit tests on the compiled source. There should not be any need to package or deploy the code to run these tests. 
+test: This is the phase to run unit tests on the compiled source. There should not be any need to package or deploy the code to run these tests. 
 
 
 
 4. 
 
-**package**: In this phase, Maven takes the compiled code and packages it in its distributable format, such as a JAR. 
+package: In this phase, Maven takes the compiled code and packages it in its distributable format, such as a JAR. 
 
 
 
 5. 
 
-**verify**: Maven runs any checks on results of integration tests to ensure that quality criteria are met. 
+verify: Maven runs any checks on results of integration tests to ensure that quality criteria are met. 
 
 
 
 6. 
 
-**install**: In this phase, Maven installs the package into local repository. After this it can be used as a dependency in other projects locally. 
+install: In this phase, Maven installs the package into local repository. After this it can be used as a dependency in other projects locally. 
 
 
 
 7. 
 
-**deploy**: In the build environment, Maven copies the final package to the remote repository for sharing with other developers and projects. 
+deploy: In the build environment, Maven copies the final package to the remote repository for sharing with other developers and projects. 
 
 
 
-**288. ** **What command will you use to** **package your Maven project? **
+288.  What command will you use to package your Maven project? 
 
 
 
@@ -19400,9 +19400,9 @@ mvn -package
 
 
 
-**289. ** **What is the format of fully** **qualified artifact name of a Maven**
+289.  What is the format of fully qualified artifact name of a Maven
 
-**project? **
+project? 
 
 
 
@@ -19438,7 +19438,7 @@ org.Orgname.Projectname:org.Orgname.Projectname.Modulename-1.0.0.jar
 
 
 
-**290. ** **What is an Archetype in** **Maven? **
+290.  What is an Archetype in Maven? 
 
 
 
@@ -19454,7 +19454,7 @@ Archetype promotes consistency in the process of creating and working on a proje
 
 
 
-**291. ** **What is the command in Maven** **to generate an Archetype? **
+291.  What is the command in Maven to generate an Archetype? 
 
 
 
@@ -19468,7 +19468,7 @@ mvn archetype:generate
 
 
 
-**292. ** **What are the three main build** **lifecycles of Maven? **
+292.  What are the three main build lifecycles of Maven? 
 
 
 
@@ -19478,25 +19478,25 @@ Maven has following three build lifecycles that further contain multiple phases:
 
 1. 
 
-**clean**: In this lifecycle any files generated by previous builds are removed. 
+clean: In this lifecycle any files generated by previous builds are removed. 
 
 
 
 2. 
 
-**default**: This lifecycle is used for validating, compiling and creating the application. It has multiple phases like-compile, test, package inside it. 
+default: This lifecycle is used for validating, compiling and creating the application. It has multiple phases like-compile, test, package inside it. 
 
 
 
 3. 
 
-**site**: Maven generates and deploys the documentation of a site in this phase. 
+site: Maven generates and deploys the documentation of a site in this phase. 
 
 
 
 
 
-**293. ** **What are the main uses of a** **Maven plugin? **
+293.  What are the main uses of a Maven plugin? 
 
 
 
@@ -19544,7 +19544,7 @@ Generate a checkstyle report
 
 
 
-**294. ** **How will you find the version** **of a plugin being used? **
+294.  How will you find the version of a plugin being used? 
 
 
 
@@ -19556,9 +19556,9 @@ Note: In the above command replace Dplugin with the plugin prefix as the argumen
 
 
 
-**295. ** **What are the different types of** **profile in Maven? Where will you**
+295.  What are the different types of profile in Maven? Where will you
 
-**define these profiles? **
+define these profiles? 
 
 
 
@@ -19616,9 +19616,9 @@ Descriptor is located in project basedir \(profiles.xml\) \(It is not supported 
 
 
 
-**296. ** **What are the different setting** **files in Maven? Where will you find**
+296.  What are the different setting files in Maven? Where will you find
 
-**these files? **
+these files? 
 
 
 
@@ -19630,7 +19630,7 @@ The main locations where this file can be found are: Maven Installation director
 
 
 
-**297. ** **What are the main elements we** **can find in settings.xml? **
+297.  What are the main elements we can find in settings.xml? 
 
 
 
@@ -19638,7 +19638,7 @@ In settings.xml we can have all the configuration information for Maven. Some of
 
 
 
-**localRepository**: The value of this element is the path of this build system’s 
+localRepository: The value of this element is the path of this build system’s 
 
 local 
 
@@ -19660,11 +19660,11 @@ It is used for a main build server to allow all logged-in users to build from a 
 
 
 
-**interactiveMode**: If it is true then Maven should attempt to interact with the user for input. If it is false then Maven does not interact with the user. Default setting is true. 
+interactiveMode: If it is true then Maven should attempt to interact with the user for input. If it is false then Maven does not interact with the user. Default setting is true. 
 
 
 
-**usePluginRegistry**: 
+usePluginRegistry: 
 
 If 
 
@@ -19684,11 +19684,11 @@ $\{user.home\}/.m2/plugin-registry.xml file to manage plugin versions. By defaul
 
 
 
-**offline**: If it is true this build system should be able to operate in offline mode. By default it is false. This element is used for build servers that cannot connect to a remote repository due to network setup or security reasons. 
+offline: If it is true this build system should be able to operate in offline mode. By default it is false. This element is used for build servers that cannot connect to a remote repository due to network setup or security reasons. 
 
 
 
-**298. ** **How will you check the version** **of Maven in your system? **
+298.  How will you check the version of Maven in your system? 
 
 
 
@@ -19702,7 +19702,7 @@ mvn -version
 
 
 
-**299. ** **How will you verify if Maven is** **installed on Windows? **
+299.  How will you verify if Maven is installed on Windows? 
 
 
 
@@ -19710,7 +19710,7 @@ To check this, type mvn –version in cmd prompt of Windows. This will give you 
 
 
 
-**300. ** **What is a Maven artifact? **
+300.  What is a Maven artifact? 
 
 
 
@@ -19734,7 +19734,7 @@ In Maven, we specify a project's dependencies as artifacts.
 
 
 
-**301. ** **What are the different** **dependency scopes in Maven? **
+301.  What are the different dependency scopes in Maven? 
 
 
 
@@ -19742,11 +19742,11 @@ Maven supports following dependency scopes:
 
 
 
-**compile**: This is the default dependency scope in Maven. The compile level dependencies are available in all classpaths of a project. These dependencies are also propagated to dependent projects. 
+compile: This is the default dependency scope in Maven. The compile level dependencies are available in all classpaths of a project. These dependencies are also propagated to dependent projects. 
 
 
 
-**provided**: This scope is similar to compile. But in this scope we expect the JDK or a container to provide the dependency at runtime. 
+provided: This scope is similar to compile. But in this scope we expect the JDK or a container to provide the dependency at runtime. 
 
 E.g. While building a web application for the Java Enterprise Edition, we can set the dependency on the Servlet API and related Java EE APIs to scope provided. The web container will provide these classes at runtime to our application. 
 
@@ -19758,15 +19758,15 @@ runtime: The dependency in this scope is not required for compilation. It is req
 
 
 
-**test**: This scope is used for dependencies that are required for test compilation and execution phases. This scope is not transitive. 
+test: This scope is used for dependencies that are required for test compilation and execution phases. This scope is not transitive. 
 
 
 
-**system**: This scope is same as provided scope, except that you have to provide the JAR that contains it explicitly. In this case, he artifact is always available. There is no need to look it up in a repository. 
+system: This scope is same as provided scope, except that you have to provide the JAR that contains it explicitly. In this case, he artifact is always available. There is no need to look it up in a repository. 
 
 
 
-**import**: This scope is only used on a dependency of type pom in the
+import: This scope is only used on a dependency of type pom in the
 
 <dependencyManagement> section. In this case, the specified POM
 
@@ -19780,7 +19780,7 @@ Maven 2.0.9 or later.
 
 
 
-**302. ** **How can we exclude a** **dependency in Maven? **
+302.  How can we exclude a dependency in Maven? 
 
 
 
@@ -19826,9 +19826,9 @@ E.g.
 
 
 
-**303. ** **How Maven searches for JAR**
+303.  How Maven searches for JAR
 
-**corresponding to a dependency? **
+corresponding to a dependency? 
 
 
 
@@ -19844,7 +19844,7 @@ From remote repository it stores the JAR into local repository.
 
 
 
-**304. ** **What is a transitive** **dependency in Maven? **
+304.  What is a transitive dependency in Maven? 
 
 
 
@@ -19862,7 +19862,7 @@ Maven takes care of resolving the Transitive dependencies and includes them auto
 
 
 
-**305. ** **What are Excluded** **dependencies in Maven? **
+305.  What are Excluded dependencies in Maven? 
 
 
 
@@ -19876,7 +19876,7 @@ Such dependencies are called Excluded dependencies in Maven.
 
 
 
-**306. ** **What are Optional** **dependencies in Maven? **
+306.  What are Optional dependencies in Maven? 
 
 
 
@@ -19898,9 +19898,9 @@ The developers of project A may then explicitly add a dependency on C. The depen
 
 
 
-**307. ** **Where will you find the class** **files after compiling a Maven project**
+307.  Where will you find the class files after compiling a Maven project
 
-**successfully? **
+successfully? 
 
 
 
@@ -19910,9 +19910,9 @@ Once Maven completes the compilation successfully, it stores the files in target
 
 
 
-**308. ** **What are the default locations** **for source, test and build directories**
+308.  What are the default locations for source, test and build directories
 
-**in Maven? **
+in Maven? 
 
 
 
@@ -19930,7 +19930,7 @@ Build: Target
 
 
 
-**309. ** **What is the result of jar:jar** **goal in Maven? **
+309.  What is the result of jar:jar goal in Maven? 
 
 
 
@@ -19950,9 +19950,9 @@ jar:jar does not recompile sources. It just creates a jar from already compiled 
 
 
 
-**310. ** **How can we get the debug or** **error messages from the execution of**
+310.  How can we get the debug or error messages from the execution of
 
-**Maven? **
+Maven? 
 
 
 
@@ -19970,9 +19970,9 @@ To get the error/exception messages we can call Maven with -e option.
 
 
 
-**311. ** **What is the difference between a** **Release version and SNAPSHOT**
+311.  What is the difference between a Release version and SNAPSHOT
 
-**version in Maven? **
+version in Maven? 
 
 
 
@@ -19998,7 +19998,7 @@ But release version always gives exactly same set files with each download.
 
 
 
-**312. ** **How will you run test classes in** **Maven? **
+312.  How will you run test classes in Maven? 
 
 
 
@@ -20026,9 +20026,9 @@ mvn -Dtest=TestCaseA,TestCaseB,TestImportant\* test
 
 
 
-**313. ** **Sometimes Maven compiles the** **test classes but doesn't run them? **
+313.  Sometimes Maven compiles the test classes but doesn't run them? 
 
-**What could be the reason for it? **
+What could be the reason for it? 
 
 
 
@@ -20060,7 +20060,7 @@ We need to look for following in pom.xml/settings.xml and fix it:
 
 
 
-**314. ** **How can we skip the running** **of tests in Maven? **
+314.  How can we skip the running of tests in Maven? 
 
 
 
@@ -20080,7 +20080,7 @@ The parameter -DskipTests=true skips the execution of tests Surefire plugin of M
 
 
 
-**315. ** **Can we create our own directory** **structure for a project in Maven? **
+315.  Can we create our own directory structure for a project in Maven? 
 
 
 
@@ -20090,7 +20090,7 @@ Yes, Maven gives us the flexibility of creating our own directory structure. We 
 
 
 
-**316. ** **What are the differences between** **Gradle and Maven? **
+316.  What are the differences between Gradle and Maven? 
 
 
 
@@ -20110,9 +20110,9 @@ Maven scripts have predefined structure. So it is less flexible.
 
 Maven is mainly used for Java based systems. Gradle is used for a variety of languages. It is a Polyglot build tool. 
 
-**317. ** **What is the difference between** **Inheritance and Multi-module in**
+317.  What is the difference between Inheritance and Multi-module in
 
-**Maven? **
+Maven? 
 
 
 
@@ -20128,7 +20128,7 @@ Whereas in Inheritance, the parent-child project relationship starts from the le
 
 
 
-**318. ** **What is Build portability in** **Maven? **
+318.  What is Build portability in Maven? 
 
 
 
@@ -20144,11 +20144,11 @@ Open source projects from Apache Commons are one of the most portable projects. 
 
 
 
-**GIT**
+GIT
 
-**319. ** **How can we see n most recent**
+319.  How can we see n most recent
 
-**commits in GIT? **
+commits in GIT? 
 
 
 
@@ -20156,7 +20156,7 @@ We can use git log command to see the latest commits. To see the three most rece
 
 
 
-**320. ** **How can we know if a branch** **is already merged into master in GIT? **
+320.  How can we know if a branch is already merged into master in GIT? 
 
 
 
@@ -20184,7 +20184,7 @@ Or we can use -r flag to show only the remote branches.
 
 
 
-**321. ** **What is the purpose of git stash** **drop? **
+321.  What is the purpose of git stash drop? 
 
 
 
@@ -20196,7 +20196,7 @@ By default, this command removes to latest added stash To remove a specific stas
 
 
 
-**322. ** **What is the HEAD in GIT? **
+322.  What is the HEAD in GIT? 
 
 
 
@@ -20212,7 +20212,7 @@ At any given time, one head is selected as the ‘current head’ This head is a
 
 
 
-**323. ** **What is the most popular** **branching strategy in GIT? **
+323.  What is the most popular branching strategy in GIT? 
 
 
 
@@ -20232,7 +20232,7 @@ Once the code is ready for deployment to production, it is merged into master br
 
 
 
-**324. ** **What is SubGit? **
+324.  What is SubGit? 
 
 
 
@@ -20250,7 +20250,7 @@ SubGit also takes care of synchronization between Git and Subversion.
 
 
 
-**325. ** **What is the use of git** **instaweb? **
+325.  What is the use of git instaweb? 
 
 
 
@@ -20262,7 +20262,7 @@ It sets up the gitweb and a web-server that makes the working repository availab
 
 
 
-**326. ** **What are git hooks? **
+326.  What are git hooks? 
 
 
 
@@ -20278,7 +20278,7 @@ These are generally used for enforcing a GIT commit policy.
 
 
 
-**327. ** **What is GIT? **
+327.  What is GIT? 
 
 
 
@@ -20298,7 +20298,7 @@ GIT can be used to handle small and large projects.
 
 
 
-**328. ** **What is a repository in GIT? **
+328.  What is a repository in GIT? 
 
 
 
@@ -20316,7 +20316,7 @@ In .git, GIT stores all the metadata for the repository. The contents of .git di
 
 
 
-**329. ** **What are the main benefits of** **GIT? **
+329.  What are the main benefits of GIT? 
 
 
 
@@ -20352,7 +20352,7 @@ Collaboration: GIT is very easy to use for projects in which collaboration is re
 
 
 
-**330. ** **What are the disadvantages of** **GIT? **
+330.  What are the disadvantages of GIT? 
 
 
 
@@ -20374,7 +20374,7 @@ Steep Learning Curve: It takes some time for a newcomer to learn GIT. Some of th
 
 Slow remote speed: Sometimes the use of remote repositories in slow due to network latency. Still GIT is better than other VCS in speed. 
 
-**331. ** **What are the main differences** **between GIT and SVN? **
+331.  What are the main differences between GIT and SVN? 
 
 
 
@@ -20418,7 +20418,7 @@ User Interface: GIT does not have good UI. But SVN has good user interfaces.
 
 
 
-**332. ** **How will you start GIT for** **your project? **
+332.  How will you start GIT for your project? 
 
 
 
@@ -20432,7 +20432,7 @@ After this we can use git add and git commit commands to add files to our GIT re
 
 
 
-**333. ** **What is git clone in GIT? **
+333.  What is git clone in GIT? 
 
 
 
@@ -20450,7 +20450,7 @@ It is similar to svn checkout. But in this case the working copy is a full-fledg
 
 
 
-**334. ** **How will you create a** **repository in GIT? **
+334.  How will you create a repository in GIT? 
 
 
 
@@ -20462,7 +20462,7 @@ Now, GIT creates .git directory in our project directory. This is how our new GI
 
 
 
-**335. ** **What are the different ways to** **start work in GIT? **
+335.  What are the different ways to start work in GIT? 
 
 
 
@@ -20480,7 +20480,7 @@ Existing Project: To work on an existing repository we use git clone command.
 
 
 
-**336. ** **GIT is written in which** **language? **
+336.  GIT is written in which language? 
 
 
 
@@ -20490,7 +20490,7 @@ Most of the GIT distributions are written in C language with Bourne shell. Some 
 
 
 
-**337. ** **What does ‘git pull’ command** **in GIT do internally? **
+337.  What does ‘git pull’ command in GIT do internally? 
 
 
 
@@ -20508,23 +20508,23 @@ We use git pull command to bring our local branch up to date with its remote ver
 
 
 
-**338. ** **What does ‘git push’ command** **in GIT do internally? **
+338.  What does ‘git push’ command in GIT do internally? 
 
 
 
 In GIT, git push command does following two commands: 1. 
 
-**fetch**: First GIT, copies all the extra commits from server into local repo and moves origin/master branch pointer to the end of commit chain. 
+fetch: First GIT, copies all the extra commits from server into local repo and moves origin/master branch pointer to the end of commit chain. 
 
 
 
 2. 
 
-**merge**: Then it merges the origin/master branch into the master branch. Now the master branch pointer moves to the newly created commit. But the origin/master pointer remains there. 
+merge: Then it merges the origin/master branch into the master branch. Now the master branch pointer moves to the newly created commit. But the origin/master pointer remains there. 
 
 
 
-**339. ** **What is git stash? **
+339.  What is git stash? 
 
 
 
@@ -20546,9 +20546,9 @@ At times we are in the middle of some work and do not want to lose the unfinishe
 
 
 
-**340. ** **What is the meaning of ‘stage’**
+340.  What is the meaning of ‘stage’
 
-**in GIT? **
+in GIT? 
 
 
 
@@ -20562,7 +20562,7 @@ Let say, you are working on two features in GIT. One of the features is finished
 
 
 
-**341. ** **What is the purpose of git** **config command? **
+341.  What is the purpose of git config command? 
 
 
 
@@ -20572,9 +20572,9 @@ We can set the configuration options for GIT installation by using git config co
 
 
 
-**342. ** **How can we see the** **configuration settings of GIT**
+342.  How can we see the configuration settings of GIT
 
-**installation? **
+installation? 
 
 
 
@@ -20586,7 +20586,7 @@ configuration settings in GIT installation.
 
 
 
-**343. ** **How will you write a message** **with commit command in GIT? **
+343.  How will you write a message with commit command in GIT? 
 
 
 
@@ -20596,7 +20596,7 @@ We call following command for commit with a message: $/> git commit –m <messag
 
 
 
-**344. ** **What is stored inside a commit** **object in GIT? **
+344.  What is stored inside a commit object in GIT? 
 
 
 
@@ -20606,7 +20606,7 @@ Reference: Any reference to parent commit objects
 
 
 
-**345. ** **How many heads can you** **create in a GIT repository? **
+345.  How many heads can you create in a GIT repository? 
 
 
 
@@ -20620,7 +20620,7 @@ By default there is one head known as HEAD in each repository in GIT.
 
 
 
-**346. ** **Why do we create branches in** **GIT? **
+346.  Why do we create branches in GIT? 
 
 
 
@@ -20638,7 +20638,7 @@ So working on multiple tasks is the main reason for using multiple branches.
 
 
 
-**347. ** **What are the different kinds of** **branches that can be created in GIT? **
+347.  What are the different kinds of branches that can be created in GIT? 
 
 
 
@@ -20660,7 +20660,7 @@ Hotfix branches: These are used for releasing a hotfix to production for a defec
 
 
 
-**348. ** **How will you create a new** **branch in GIT? **
+348.  How will you create a new branch in GIT? 
 
 
 
@@ -20670,13 +20670,13 @@ We use following command to create a new branch in GIT: $/> git checkout –b <b
 
 
 
-**349. ** **How will you add a new feature** **to the main branch? **
+349.  How will you add a new feature to the main branch? 
 
 
 
 We do the development work on a feature branch that is created from master branch. Once the development work is ready we use git merge command to merge it into master branch. 
 
-**350. ** **What is a pull request in GIT? **
+350.  What is a pull request in GIT? 
 
 
 
@@ -20686,7 +20686,7 @@ A pull request in GIT is the list of changes that have been pushed to GIT reposi
 
 
 
-**351. ** **What is merge conflict in GIT? **
+351.  What is merge conflict in GIT? 
 
 
 
@@ -20698,7 +20698,7 @@ Sometimes the commit to be merged and current commit have changes in same locati
 
 
 
-**352. ** **How can we resolve a merge** **conflict in GIT? **
+352.  How can we resolve a merge conflict in GIT? 
 
 
 
@@ -20736,7 +20736,7 @@ After editing the file we run git add command followed by git commit command. Si
 
 
 
-**353. ** **What command will you use to** **delete a branch? **
+353.  What command will you use to delete a branch? 
 
 
 
@@ -20750,9 +20750,9 @@ To delete an unwanted branch we use following command: git branch –d <branchna
 
 
 
-**354. ** **What command will you use to** **delete a branch that has unmerged**
+354.  What command will you use to delete a branch that has unmerged
 
-**changes? **
+changes? 
 
 
 
@@ -20766,7 +20766,7 @@ git branch –D <branchname>
 
 
 
-**355. ** **What is the alternative** **command to merging in GIT? **
+355.  What is the alternative command to merging in GIT? 
 
 
 
@@ -20776,7 +20776,7 @@ Another alternative of merging in GIT is rebasing. It is done by git rebase comm
 
 
 
-**356. ** **What is Rebasing in GIT? **
+356.  What is Rebasing in GIT? 
 
 
 
@@ -20794,7 +20794,7 @@ Once the commits are pushed to a public repository, it is not a good practice to
 
 
 
-**357. ** **What is the ‘Golden Rule of** **Rebasing’ in GIT? **
+357.  What is the ‘Golden Rule of Rebasing’ in GIT? 
 
 
 
@@ -20808,7 +20808,7 @@ Therefore, it is not recommended to do rebasing on a public branch that is also 
 
 
 
-**358. ** **Why do we use Interactive** **Rebasing in place of Auto Rebasing? **
+358.  Why do we use Interactive Rebasing in place of Auto Rebasing? 
 
 
 
@@ -20826,7 +20826,7 @@ Generally, we use Interactive Rebasing to clean up the messy history of commits 
 
 
 
-**359. ** **What is the command for** **Rebasing in Git? **
+359.  What is the command for Rebasing in Git? 
 
 
 
@@ -20838,7 +20838,7 @@ git rebase <new-commit>
 
 
 
-**360. ** **What is the main difference** **between git clone and git remote? **
+360.  What is the main difference between git clone and git remote? 
 
 
 
@@ -20856,7 +20856,7 @@ git clone creates a new local repository by copying another repository from a UR
 
 
 
-**361. ** **What is GIT version control? **
+361.  What is GIT version control? 
 
 
 
@@ -20872,7 +20872,7 @@ version control. Any bug introduced by a change can be discovered and reverted b
 
 
 
-**362. ** **What GUI do you use for** **working on GIT? **
+362.  What GUI do you use for working on GIT? 
 
 
 
@@ -20896,7 +20896,7 @@ GitUp
 
 
 
-**363. ** **What is the use of git diff** **command in GIT? **
+363.  What is the use of git diff command in GIT? 
 
 
 
@@ -20914,7 +20914,7 @@ It helps in finding the changes that can be used for code review for a feature o
 
 
 
-**364. ** **What is git rerere? **
+364.  What is git rerere? 
 
 In GIT, rerere is a hidden feature. The full form of rerere is “reuse recorded resolution”. 
 
@@ -20926,7 +20926,7 @@ By using rerere, GIT remembers how we’ve resolved a hunk conflict. The next ti
 
 
 
-**365. ** **What are the three most** **popular version of git diff command? **
+365.  What are the three most popular version of git diff command? 
 
 
 
@@ -20942,7 +20942,7 @@ git diff HEAD: It displays the differences between working directory and the mos
 
 
 
-**366. ** **What is the use of git status** **command? **
+366.  What is the use of git status command? 
 
 
 
@@ -20978,7 +20978,7 @@ Among the above three items, first item is the one that we commit by using git c
 
 
 
-**367. ** **What is the main difference** **between git diff and git status? **
+367.  What is the main difference between git diff and git status? 
 
 
 
@@ -20990,7 +20990,7 @@ Whereas, git status command just shows the current status of working tree.
 
 
 
-**368. ** **What is the use of git rm** **command in GIT? **
+368.  What is the use of git rm command in GIT? 
 
 
 
@@ -21004,7 +21004,7 @@ We use git rm –r to recursively remove all files from a leading directory.
 
 
 
-**369. ** **What is the command to apply** **a stash? **
+369.  What is the command to apply a stash? 
 
 
 
@@ -21026,7 +21026,7 @@ git stash apply <stashname>
 
 
 
-**370. ** **Why do we use git log** **command? **
+370.  Why do we use git log command? 
 
 
 
@@ -21038,7 +21038,7 @@ We can search git history by author, date or content. It can even list the commi
 
 
 
-**371. ** **Why do we need git add** **command in GIT? **
+371.  Why do we need git add command in GIT? 
 
 
 
@@ -21050,7 +21050,7 @@ When we are working on multiple tasks and we want to just commit the finished ta
 
 
 
-**372. ** **Why do we use git reset** **command? **
+372.  Why do we use git reset command? 
 
 
 
@@ -21064,7 +21064,7 @@ So we use git reset command to undo the changes of git add command.
 
 
 
-**373. ** **What does a commit object** **contain? **
+373.  What does a commit object contain? 
 
 
 
@@ -21080,7 +21080,7 @@ Comment: Some text messages that contains the reason for the commit .
 
 
 
-**374. ** **How can we convert git log** **messages to a different format? **
+374.  How can we convert git log messages to a different format? 
 
 
 
@@ -21108,9 +21108,9 @@ ba72a6c - Dave Adams, 3 years ago : changed the version number
 
 
 
-**375. ** **What are the programming** **languages in which git hooks can be**
+375.  What are the programming languages in which git hooks can be
 
-**written? **
+written? 
 
 
 
@@ -21122,7 +21122,7 @@ Git hooks can also be written in Python script.
 
 
 
-**376. ** **What is a commit message in** **GIT? **
+376.  What is a commit message in GIT? 
 
 
 
@@ -21140,7 +21140,7 @@ for a project.
 
 
 
-**377. ** **How GIT protects the code in** **a repository? **
+377.  How GIT protects the code in a repository? 
 
 
 
@@ -21156,7 +21156,7 @@ This algorithm also maintains the integrity of GIT repository by protecting the 
 
 
 
-**378. ** **How GIT provides flexibility in** **version control? **
+378.  How GIT provides flexibility in version control? 
 
 
 
@@ -21168,7 +21168,7 @@ GIT also supports both branching and tagging that promotes multiple kinds of wor
 
 
 
-**379. ** **How can we change a commit** **message in GIT? **
+379.  How can we change a commit message in GIT? 
 
 
 
@@ -21184,9 +21184,9 @@ When we push the commit, a new message appears on GitHub.
 
 
 
-**380. ** **Why is it advisable to create an** **additional commit instead of**
+380.  Why is it advisable to create an additional commit instead of
 
-**amending an existing commit? **
+amending an existing commit? 
 
 Git amend internally creates a new commit and replaces the old commit. If commits have already been pushed to central repository, it should not be used to modify the previous commits. 
 
@@ -21198,7 +21198,7 @@ It should be generally used for only amending the git comment.
 
 
 
-**381. ** **What is a bare repository in GIT? **
+381.  What is a bare repository in GIT? 
 
 
 
@@ -21224,7 +21224,7 @@ There is no working tree in bare repository, since no one directly edits files i
 
 
 
-**382. ** **How do we put a local** **repository on GitHub server? **
+382.  How do we put a local repository on GitHub server? 
 
 
 
@@ -21240,7 +21240,7 @@ Once it is added, we use git push command to push the contents of local reposito
 
 
 
-**383. ** **How will you delete a branch** **in GIT? **
+383.  How will you delete a branch in GIT? 
 
 
 
@@ -21252,9 +21252,9 @@ In case a local branch is not fully merged, but we want to delete it by force, t
 
 
 
-**384. ** **How can we set up a Git** **repository to run code sanity checks**
+384.  How can we set up a Git repository to run code sanity checks
 
-**and UAT tests just before a commit? **
+and UAT tests just before a commit? 
 
 
 
@@ -21268,9 +21268,9 @@ If this hook passes, then only commit will be successful.
 
 
 
-**385. ** **How can we revert a commit** **that was pushed earlier and is public**
+385.  How can we revert a commit that was pushed earlier and is public
 
-**now? **
+now? 
 
 
 
@@ -21288,7 +21288,7 @@ The other option is to checkout a previous commit version and then commit it as 
 
 
 
-**386. ** **In GIT, how will you compress** **last n commits into a single commit? **
+386.  In GIT, how will you compress last n commits into a single commit? 
 
 
 
@@ -21302,7 +21302,7 @@ It should be done carefully, since it can lead to unexpected results.
 
 
 
-**387. ** **How will you switch from one** **branch to a new branch in GIT? **
+387.  How will you switch from one branch to a new branch in GIT? 
 
 
 
@@ -21312,9 +21312,9 @@ In GIT, we can use git checkout <new branchname> command to switch to a new bran
 
 
 
-**388. ** **How can we clean unwanted** **files from our working directory in**
+388.  How can we clean unwanted files from our working directory in
 
-**GIT? **
+GIT? 
 
 
 
@@ -21330,7 +21330,7 @@ If we use git clean –x, then ignored files are also removed.
 
 
 
-**389. ** **What is the purpose of git tag** **command? **
+389.  What is the purpose of git tag command? 
 
 We use git tag command to add, delete, list or verify a tag object in GIT. 
 
@@ -21346,7 +21346,7 @@ Annotated tags are generally used for release.
 
 
 
-**390. ** **What is cherry-pick in GIT? **
+390.  What is cherry-pick in GIT? 
 
 
 
@@ -21360,7 +21360,7 @@ In case we want to selectively release a feature, we can remove the unwanted fil
 
 
 
-**391. ** **What is shortlog in GIT? **
+391.  What is shortlog in GIT? 
 
 
 
@@ -21370,9 +21370,9 @@ A shortlog in GIT is a command that summarizes the git log output.
 
 The output of git shortlog is in a format suitable for release announcements. 
 
-**392. ** **How can you find the names of** **files that were changed in a specific**
+392.  How can you find the names of files that were changed in a specific
 
-**commit? **
+commit? 
 
 
 
@@ -21398,9 +21398,9 @@ By using -r flag, we just get the list of individual files.
 
 
 
-**393. ** **How can we attach an** **automated script to run on the event**
+393.  How can we attach an automated script to run on the event
 
-**of a new commit by push command? **
+of a new commit by push command? 
 
 
 
@@ -21414,9 +21414,9 @@ GIT will automatically run the script on the event of any of these hooks.
 
 
 
-**394. ** **What is the difference between** **pre-receive, update and post-receive**
+394.  What is the difference between pre-receive, update and post-receive
 
-**hooks in GIT? **
+hooks in GIT? 
 
 
 
@@ -21434,7 +21434,7 @@ Post-receive hook is invoked after the updates have been done and accepted by a 
 
 
 
-**395. ** **Do we have to store Scripts for** **GIT hooks within same repository? **
+395.  Do we have to store Scripts for GIT hooks within same repository? 
 
 
 
@@ -21452,9 +21452,9 @@ Also when we store scripts in a separate common repository, we can reuse same sc
 
 
 
-**396. ** **How can we determine the** **commit that is the source of a bug in**
+396.  How can we determine the commit that is the source of a bug in
 
-**GIT? **
+GIT? 
 
 
 
@@ -21480,7 +21480,7 @@ It continues to narrow down the range until it discovers the exact commit respon
 
 
 
-**397. ** **How can we see differences** **between two commits in GIT? **
+397.  How can we see differences between two commits in GIT? 
 
 
 
@@ -21494,7 +21494,7 @@ git diff <commit\#1> <commit\#2>
 
 
 
-**398. ** **What are the different ways to** **identify a commit in GIT? **
+398.  What are the different ways to identify a commit in GIT? 
 
 
 
@@ -21512,11 +21512,11 @@ Git also provides support for creating an alias for a commit. This alias is know
 
 
 
-**399. ** **When we run git branch**
+399.  When we run git branch
 
-**<branchname>, how does GIT know**
+<branchname>, how does GIT know
 
-**the SHA-1 of the last commit? **
+the SHA-1 of the last commit? 
 
 
 
@@ -21546,7 +21546,7 @@ ref: refs/heads/branchA
 
 
 
-**400. ** **What are the different types of** **Tags you can create in GIT? **
+400.  What are the different types of Tags you can create in GIT? 
 
 
 
@@ -21590,7 +21590,7 @@ m 'test tag'
 
 
 
-**401. ** **How can we rename a remote** **repository? **
+401.  How can we rename a remote repository? 
 
 
 
@@ -21600,9 +21600,9 @@ We can use command git remote rename for changing the name of a remote repositor
 
 
 
-**402. ** **Some people use git checkout** **and some use git co for checkout. How**
+402.  Some people use git checkout and some use git co for checkout. How
 
-**is that possible? **
+is that possible? 
 
 
 
@@ -21624,9 +21624,9 @@ So the people using git co have made the alias for git checkout in their own env
 
 
 
-**403. ** **How can we see the last** **commit on each of our branch in**
+403.  How can we see the last commit on each of our branch in
 
-**GIT? **
+GIT? 
 
 
 
@@ -21656,7 +21656,7 @@ testing 972ac34 add dave to the developer list
 
 
 
-**404. ** **Is origin a special branch in** **GIT? **
+404.  Is origin a special branch in GIT? 
 
 
 
@@ -21678,7 +21678,7 @@ Origin is the default name for a remote when we run git clone command. If we run
 
 
 
-**405. ** **How can we configure GIT to** **not ask for password every time? **
+405.  How can we configure GIT to not ask for password every time? 
 
 
 
@@ -21696,9 +21696,9 @@ It is kept in memory for a few minutes. We can set it by running: git config --g
 
 
 
-**406. ** **What are the four major** **protocols used by GIT for data**
+406.  What are the four major protocols used by GIT for data
 
-**transfer? **
+transfer? 
 
 
 
@@ -21720,7 +21720,7 @@ Git
 
 
 
-**407. ** **What is GIT protocol? **
+407.  What is GIT protocol? 
 
 
 
@@ -21734,7 +21734,7 @@ But Git protocol does not support any authentication.
 
 So on plus side, this is a very fast network transfer protocol. But it lacks authentication. 
 
-**408. ** **How can we work on a project** **where we do not have push access? **
+408.  How can we work on a project where we do not have push access? 
 
 
 
@@ -21744,7 +21744,7 @@ In case of projects where we do not have push access, we can just fork the repos
 
 
 
-**409. ** **What is git grep? **
+409.  What is git grep? 
 
 
 
@@ -21758,13 +21758,13 @@ By default, it works on the files in your current working directory.
 
 
 
-**410. ** **How can your reorder** **commits in GIT? **
+410.  How can your reorder commits in GIT? 
 
 
 
 We can use git rebase command to reorder commits in GIT. It can work interactively and you can also select the ordering of commits. 
 
-**411. ** **How will you split a commit into** **multiple commits? **
+411.  How will you split a commit into multiple commits? 
 
 
 
@@ -21774,7 +21774,7 @@ To split a commit, we have to use git rebase command in interactive mode. Once w
 
 
 
-**412. ** **What is filter-branch in GIT? **
+412.  What is filter-branch in GIT? 
 
 
 
@@ -21792,7 +21792,7 @@ You can even set you name and email in the commit history by using filter-branch
 
 
 
-**413. ** **What are the three main trees** **maintained by GIT? **
+413.  What are the three main trees maintained by GIT? 
 
 
 
@@ -21810,7 +21810,7 @@ Working Directory: This is the sandbox for doing changes.
 
 
 
-**414. ** **What are the three main steps** **of working GIT? **
+414.  What are the three main steps of working GIT? 
 
 GIT has following three main steps in a simple workflow: 1. 
 
@@ -21826,7 +21826,7 @@ Commit the changes from Index to HEAD.
 
 
 
-**415. ** **What are ours and theirs** **merge options in GIT? **
+415.  What are ours and theirs merge options in GIT? 
 
 
 
@@ -21840,7 +21840,7 @@ These options tell the GIT which side to favor in merge conflicts.
 
 In ours, we run a command like git merge -Xours branchA As the name suggests, in ours, the changes in our branch are favored over the other branch during a merge conflict. 
 
-**416. ** **How can we ignore merge** **conflicts due to Whitespace? **
+416.  How can we ignore merge conflicts due to Whitespace? 
 
 
 
@@ -21860,7 +21860,7 @@ git merge -Xignore-space-change whitespace
 
 
 
-**417. ** **What is git blame? **
+417.  What is git blame? 
 
 
 
@@ -21890,7 +21890,7 @@ af6560e4 \(Dave Adams 2016-03-17 21:52:20 -0700 19\) \}
 
 
 
-**418. ** **What is a submodule in GIT? **
+418.  What is a submodule in GIT? 
 
 
 
@@ -21908,11 +21908,11 @@ It allows us to keep our commits to submodule separate from the commits to main 
 
 
 
-**AWS**
+AWS
 
-**419. ** **What do you know about AWS**
+419.  What do you know about AWS
 
-**Region? **
+Region? 
 
 An AWS Region is a completely independent entity in a geographical area. There are two more Availability Zones in an AWS Region. 
 
@@ -21928,17 +21928,17 @@ Since each AWS Region is isolated from another Region, it provides very high fau
 
 For launching an EC2 instance, we have to select an AMI within the same region. 
 
-**420. ** **What are the important** **components of IAM? **
+420.  What are the important components of IAM? 
 
 The important components of IAM are as follows: 1. 
 
-**IAM User**: An IAM User is a person or service that will interact with AWS. User can sign into AWS Management Console for performing tasks in AWS. 
+IAM User: An IAM User is a person or service that will interact with AWS. User can sign into AWS Management Console for performing tasks in AWS. 
 
 
 
 2. 
 
-**IAM Group**: An IAM Group is a collection of IAM users. 
+IAM Group: An IAM Group is a collection of IAM users. 
 
 We can specify permission to an IAM Group. This helps in managing large number of IAM users. We can simply add or remove an IAM User to an IAM Group to manage the permissions. 
 
@@ -21946,21 +21946,21 @@ We can specify permission to an IAM Group. This helps in managing large number o
 
 3. 
 
-**IAM Role**: An IAM Role is an identity to which we give permissions. A Role does not have any credentials \(password or access keys\). We can temporarily give an IAM Role to an IAM User to perform certain tasks in AWS. 
+IAM Role: An IAM Role is an identity to which we give permissions. A Role does not have any credentials \(password or access keys\). We can temporarily give an IAM Role to an IAM User to perform certain tasks in AWS. 
 
 
 
 4. 
 
-**IAM Permission: **In IAM we can create two types of Permissions. Identity based and Resource based. We can create a Permission to access or perform an action on an AWS Resource and assign it to a User, Role or Group. We can also create Permissions on resources like S3 bucket, Glacier vault etc and specify who has access to the resource. 
+IAM Permission: In IAM we can create two types of Permissions. Identity based and Resource based. We can create a Permission to access or perform an action on an AWS Resource and assign it to a User, Role or Group. We can also create Permissions on resources like S3 bucket, Glacier vault etc and specify who has access to the resource. 
 
-****
+
 
 5. 
 
-**IAM Policy**: An IAM Policy is a document in which we list permissions to specify Actions, Resources and Effects. This document is in JSON format. We can attach a Policy to an IAM User or Group. 
+IAM Policy: An IAM Policy is a document in which we list permissions to specify Actions, Resources and Effects. This document is in JSON format. We can attach a Policy to an IAM User or Group. 
 
-**421. ** **What are the important points** **about AWS IAM? **
+421.  What are the important points about AWS IAM? 
 
 Some of the important points about AWS IAM are as follows: 1. 
 
@@ -21988,7 +21988,7 @@ When we first setup our AWS account, we get a root account that has complete Adm
 
 
 
-**422. ** **What are the important** **features of Amazon S3? **
+422.  What are the important features of Amazon S3? 
 
 Some of the important features of Amazon S3 are as follows: 1. 
 
@@ -22010,7 +22010,7 @@ In Amazon S3, names of buckets have to be unique globally.
 
 Amazon S3 is Object Based storage. 
 
-**423. ** **What is the scale of durability** **in Amazon S3? **
+423.  What is the scale of durability in Amazon S3? 
 
 
 
@@ -22018,7 +22018,7 @@ Amazon S3 supports durability at the scale of 99.999999999% of time. This is 9 n
 
 
 
-**424. ** **What are the Consistency** **levels supported by Amazon S3? **
+424.  What are the Consistency levels supported by Amazon S3? 
 
 
 
@@ -22030,33 +22030,33 @@ For deletion of an object, Amazon S3 supports Eventual Consistency after DELETE.
 
 
 
-**425. ** **What are the different tiers in** **Amazon S3 storage? **
+425.  What are the different tiers in Amazon S3 storage? 
 
 
 
 Different Storage tiers in Amazon S3 are as follows: 1. 
 
-**S3 Standard**: In this tier, S3 supports durable storage of files that become immediately available. This is used for frequently used files. 
+S3 Standard: In this tier, S3 supports durable storage of files that become immediately available. This is used for frequently used files. 
 
 
 
 2. 
 
-**S3 Standard -Infrequent Access \(IA\):** In this tier, S3 provides durable storage that is immediately available. But in this tier files are infrequently accessed. 
+S3 Standard -Infrequent Access \(IA\): In this tier, S3 provides durable storage that is immediately available. But in this tier files are infrequently accessed. 
 
 
 
 3. 
 
-**S3 Reduced Redundancy Storage \(RRS\)**: In this tier, S3 provides the option to customers to store data at lower levels of redundancy. In this case data is copied to multiple locations but not on as many locations as standard S3. 
+S3 Reduced Redundancy Storage \(RRS\): In this tier, S3 provides the option to customers to store data at lower levels of redundancy. In this case data is copied to multiple locations but not on as many locations as standard S3. 
 
 
 
 
 
-**426. ** **How will you upload a file** **greater than 100 megabytes in**
+426.  How will you upload a file greater than 100 megabytes in
 
-**Amazon S3? **
+Amazon S3? 
 
 
 
@@ -22068,7 +22068,7 @@ Each part will be independently uploaded. It doesn’t matter in what order each
 
 
 
-**427. ** **What happens to an Object** **when we delete it from Amazon S3? **
+427.  What happens to an Object when we delete it from Amazon S3? 
 
 
 
@@ -22082,7 +22082,7 @@ In case the bucket is Multi-factor authentication \(MFA\) enabled, then the DELE
 
 
 
-**428. ** **What is the use of Amazon** **Glacier? **
+428.  What is the use of Amazon Glacier? 
 
 
 
@@ -22098,9 +22098,9 @@ One use case is for storing certificates that can be issued only once and only t
 
 
 
-**429. ** **Can we disable versioning on a** **version-enabled bucket in Amazon**
+429.  Can we disable versioning on a version-enabled bucket in Amazon
 
-**S3? **
+S3? 
 
 
 
@@ -22114,9 +22114,9 @@ On overwriting an existing object, it just replaces the object with null version
 
 object. 
 
-**430. ** **What are the use cases of** **Cross Region Replication Amazon**
+430.  What are the use cases of Cross Region Replication Amazon
 
-**S3? **
+S3? 
 
 
 
@@ -22126,35 +22126,35 @@ We have to add replication configuration on our source bucket in S3 to make use 
 
 Some of the main use cases of Cross Region Replication are as follows: 1. 
 
-**Compliance**: Some times there are laws/regulatory requirements that ask for storing data at farther geographic locations. This kind of compliance can be achieved by using AWS Regions that are spread across the world. 
+Compliance: Some times there are laws/regulatory requirements that ask for storing data at farther geographic locations. This kind of compliance can be achieved by using AWS Regions that are spread across the world. 
 
 
 
 2. 
 
-**Failover**: At times, we want to minimize the probability of system failure due to complete blackout in a region. We can use Cross-Region Replication in such a scenario. 
+Failover: At times, we want to minimize the probability of system failure due to complete blackout in a region. We can use Cross-Region Replication in such a scenario. 
 
 3. 
 
-**Latency**: In case we are serving multiple geographies, it makes sense to replicate objects in the geographical Regions that are closer to end customer. This helps in reducing the latency. 
+Latency: In case we are serving multiple geographies, it makes sense to replicate objects in the geographical Regions that are closer to end customer. This helps in reducing the latency. 
 
 
 
-**431. ** **Can we do Cross Region** **replication in Amazon S3 without**
+431.  Can we do Cross Region replication in Amazon S3 without
 
-**enabling versioning on a bucket? **
+enabling versioning on a bucket? 
 
 No, we have to enable versioning on a bucket to perform Cross Region Replication. 
 
-**432. ** **What are the different types of** **actions in Object Lifecycle**
+432.  What are the different types of actions in Object Lifecycle
 
-**Management in Amazon S3? **
+Management in Amazon S3? 
 
 There are mainly two types of Object Lifecycle Management actions in Amazon S3. 
 
 1. 
 
-**Transition Actions**: These actions define the state when an Object transitions from one storage class to another storage class. E.g. a new object may transition to STANDARD\_IA \(infrequent access\) class after 60 days of creation. And it can transition to GLACIER after 180
+Transition Actions: These actions define the state when an Object transitions from one storage class to another storage class. E.g. a new object may transition to STANDARD\_IA \(infrequent access\) class after 60 days of creation. And it can transition to GLACIER after 180
 
 days of creation. 
 
@@ -22162,29 +22162,29 @@ days of creation.
 
 2. 
 
-**Expiration Actions**: These actions specify what happens when an Object expires. We can ask S3 to delete an object completely on expiration. 
+Expiration Actions: These actions specify what happens when an Object expires. We can ask S3 to delete an object completely on expiration. 
 
-**433. ** **How do we get higher** **performance in our application by**
+433.  How do we get higher performance in our application by
 
-**using Amazon CloudFront? **
+using Amazon CloudFront? 
 
 
 
 If our application is content rich and used across multiple locations, we can use Amazon CloudFront to increase its performance. Some of the techniques used by Amazon CloudFront are as follows:
 
-**Caching**: Amazon CloudFront caches the copies of our application’s content at locations closer to our viewers. By this caching our users get our content very fast. Also due to caching the load on our main server decreases. 
+Caching: Amazon CloudFront caches the copies of our application’s content at locations closer to our viewers. By this caching our users get our content very fast. Also due to caching the load on our main server decreases. 
 
-**Edge / Regional Locations**: CloudFront uses a global network of Edge and Regional edge locations to cache our content. These locations cater to almost all of the geographical areas across the world. 
+Edge / Regional Locations: CloudFront uses a global network of Edge and Regional edge locations to cache our content. These locations cater to almost all of the geographical areas across the world. 
 
-**Persistent Connections**: In certain cases, CloudFront keeps persistent connections with the main server to fetch the content quickly. 
+Persistent Connections: In certain cases, CloudFront keeps persistent connections with the main server to fetch the content quickly. 
 
-**Other Optimization**: Amazon CloudFront also uses other optimization techniques like TCP initial congestion window etc to deliver high performance experience. 
+Other Optimization: Amazon CloudFront also uses other optimization techniques like TCP initial congestion window etc to deliver high performance experience. 
 
 
 
-**434. ** **What is the mechanism behind** **Regional Edge Cache in Amazon**
+434.  What is the mechanism behind Regional Edge Cache in Amazon
 
-**CloudFront? **
+CloudFront? 
 
 A Regional Edge Cache location lies between the main webserver and the global edge location. When the popularity of an object/content decreases, the global edge location may take it out from the cache. 
 
@@ -22194,29 +22194,29 @@ This improves the performance for serving content to our users in Amazon CloudFr
 
 
 
-**435. ** **What are the benefits of** **Streaming content? **
+435.  What are the benefits of Streaming content? 
 
 We can get following benefits by Streaming content: 1. 
 
-**Control**: We can provide more control to our users for what they want to watch. In a video streaming, users can select the locations in video where they want to start watching from. 
+Control: We can provide more control to our users for what they want to watch. In a video streaming, users can select the locations in video where they want to start watching from. 
 
 
 
 2. 
 
-**Content**: With streaming our entire content does not stay at a user’s device. Users gets only the part they are watching. Once the session is over, content is removed from the user’s device. 
+Content: With streaming our entire content does not stay at a user’s device. Users gets only the part they are watching. Once the session is over, content is removed from the user’s device. 
 
 
 
 3. 
 
-**Cost**: With streaming there is no need to download all the content to a user’s device. A user can start viewing content as soon as some part is available for viewing. This saves costs since we do not have to download a large media file before starting each viewing session. 
+Cost: With streaming there is no need to download all the content to a user’s device. A user can start viewing content as soon as some part is available for viewing. This saves costs since we do not have to download a large media file before starting each viewing session. 
 
 
 
 
 
-**436. ** **What is Lambda@Edge in** **AWS? **
+436.  What is Lambda@Edge in AWS? 
 
 In AWS, we can use Lambda@Edge utility to solve the problem of low network latency for end users. 
 
@@ -22226,29 +22226,29 @@ When a request for content is received by CloudFront edge location, the Lambda c
 
 This is a very good option for scaling up the operations in CloudFront without managing servers. 
 
-**437. ** **What are the different types of** **events triggered by Amazon**
+437.  What are the different types of events triggered by Amazon
 
-**CloudFront? **
+CloudFront? 
 
 Different types of events triggered by Amazon CloudFront are as follows: 1. 
 
-**Viewer Request**: When an end user or a client program makes an HTTP/HTTPS request to CloudFront, this event is triggered at the Edge Location closer to the end user. 
+Viewer Request: When an end user or a client program makes an HTTP/HTTPS request to CloudFront, this event is triggered at the Edge Location closer to the end user. 
 
 2. 
 
-**Viewer Response**: When a CloudFront server is ready to respond to a request, this event is triggered. 
+Viewer Response: When a CloudFront server is ready to respond to a request, this event is triggered. 
 
 3. 
 
-**Origin Request**: When CloudFront server does not have the requested object in its cache, the request is forwarded to Origin server. At this time this event is triggered. 
+Origin Request: When CloudFront server does not have the requested object in its cache, the request is forwarded to Origin server. At this time this event is triggered. 
 
 4. 
 
-**Origin Response**: When CloudFront server at an Edge location receives the response from Origin server, this event is triggered. 
+Origin Response: When CloudFront server at an Edge location receives the response from Origin server, this event is triggered. 
 
 
 
-**438. ** **What is Geo Targeting in** **Amazon CloudFront? **
+438.  What is Geo Targeting in Amazon CloudFront? 
 
 
 
@@ -22258,7 +22258,7 @@ Based on different countries we can generate different content for different ver
 
 In this way we are able to target our end users based on their geographic locations. 
 
-**439. ** **What are the main features of** **Amazon CloudFront? **
+439.  What are the main features of Amazon CloudFront? 
 
 
 
@@ -22300,45 +22300,45 @@ Custom SSL
 
 
 
-**440. ** **What are the security** **mechanisms available in Amazon S3? **
+440.  What are the security mechanisms available in Amazon S3? 
 
 
 
 Amazon S3 is a very secure storage service. Some of the main security mechanisms available in Amazon S3 are as follows: 1. 
 
-**Access**: When we create a bucket or an object, only the owner get the access to the bucket and objects. 
+Access: When we create a bucket or an object, only the owner get the access to the bucket and objects. 
 
 
 
 2. 
 
-**Authentication**: Amazon S3 also support user authentication to control who has access to a specific object or bucket. 
+Authentication: Amazon S3 also support user authentication to control who has access to a specific object or bucket. 
 
 
 
 3. 
 
-**Access Control List**: We can create Access Control Lists \(ACL\) to provide selective permissions to users and groups. 
+Access Control List: We can create Access Control Lists \(ACL\) to provide selective permissions to users and groups. 
 
 
 
 4. 
 
-**HTTPS**: Amazon S3 also supports HTTPS protocol to securely upload and download data from cloud. 
+HTTPS: Amazon S3 also supports HTTPS protocol to securely upload and download data from cloud. 
 
 
 
 5. 
 
-**Encryption**: We can also use Server Side Encryption \(SSE\) in Amazon S3 to encrypt data. 
+Encryption: We can also use Server Side Encryption \(SSE\) in Amazon S3 to encrypt data. 
 
 
 
-**Cloud Computing**
+Cloud Computing
 
-****
 
-**441. ** **What are the benefits of Cloud** **Computing? **
+
+441.  What are the benefits of Cloud Computing? 
 
 
 
@@ -22372,7 +22372,7 @@ Environment Friendly: Cloud computing saves precious environmental resources als
 
 
 
-**442. ** **What is On-demand computing** **in Cloud Computing? **
+442.  What is On-demand computing in Cloud Computing? 
 
 
 
@@ -22398,7 +22398,7 @@ This is the most popular trend in computing model as of now.
 
 
 
-**443. ** **What are the different layers of** **Cloud computing? **
+443.  What are the different layers of Cloud computing? 
 
 
 
@@ -22420,9 +22420,9 @@ Software as a Service \(SAAS\): SAAS provider offer an actual working software a
 
 
 
-**444. ** **What resources are provided** **by Infrastructure as a Service \(IAAS\)**
+444.  What resources are provided by Infrastructure as a Service \(IAAS\)
 
-**provider? **
+provider? 
 
 
 
@@ -22440,7 +22440,7 @@ The main resources in IAAS are servers, storage, routers, switches and other rel
 
 
 
-**445. ** **What is the benefit of Platform** **as a Service? **
+445.  What is the benefit of Platform as a Service? 
 
 
 
@@ -22454,7 +22454,7 @@ In PAAS clients save time by not creating and managing infrastructure environmen
 
 
 
-**446. ** **What are the main advantages** **of PaaS? **
+446.  What are the main advantages of PaaS? 
 
 
 
@@ -22472,7 +22472,7 @@ It is suitable for situations in which multiple developers work on a single proj
 
 
 
-**447. ** **What is the main disadvantage** **of PaaS? **
+447.  What is the main disadvantage of PaaS? 
 
 
 
@@ -22486,9 +22486,9 @@ Some PaaS providers lock in the clients in their platform. This also decreases t
 
 
 
-**448. ** **What are the different** **deployment models in Cloud**
+448.  What are the different deployment models in Cloud
 
-**computing? **
+computing? 
 
 
 
@@ -22520,7 +22520,7 @@ A client gets functionalities and features of both the cloud platforms. By using
 
 
 
-**449. ** **What is the difference between** **Scalability and Elasticity? **
+449.  What is the difference between Scalability and Elasticity? 
 
 
 
@@ -22548,7 +22548,7 @@ Let say, you have just one user login every hour on your site. Your one server c
 
 
 
-**450. ** **What is Software as a Service? **
+450.  What is Software as a Service? 
 
 
 
@@ -22566,7 +22566,7 @@ The benefit of SaaS is that a client can add more users on the fly based on its 
 
 
 
-**451. ** **What are the different types of** **Datacenters in Cloud computing? **
+451.  What are the different types of Datacenters in Cloud computing? 
 
 
 
@@ -22590,9 +22590,9 @@ With high density of servers, the area gets heated. In such a scenario, effectiv
 
 
 
-**452. ** **Explain the various modes of** **Software as a Service \(SaaS\) cloud**
+452.  Explain the various modes of Software as a Service \(SaaS\) cloud
 
-**environment? **
+environment? 
 
 
 
@@ -22606,9 +22606,9 @@ Fine grain multi-tenancy: In this mode, the feature provided to each client is s
 
 
 
-**453. ** **What are the important things** **to care about in Security in a cloud**
+453.  What are the important things to care about in Security in a cloud
 
-**environment? **
+environment? 
 
 
 
@@ -22624,7 +22624,7 @@ Organizations have to keep their Data most secure during the transfer between tw
 
 
 
-**454. ** **Why do we use API in cloud** **computing environment? **
+454.  Why do we use API in cloud computing environment? 
 
 
 
@@ -22640,7 +22640,7 @@ There are different types of clients for cloud computing APIs. It is easier to s
 
 
 
-**455. ** **What are the different areas of** **Security Management in cloud? **
+455.  What are the different areas of Security Management in cloud? 
 
 
 
@@ -22662,7 +22662,7 @@ Authorization: In this aspect, we check for the permissions that are given to a 
 
 
 
-**456. ** **What are the main cost factors** **of cloud based data center? **
+456.  What are the main cost factors of cloud based data center? 
 
 
 
@@ -22682,7 +22682,7 @@ Computing cost: The biggest cost in Cloud environment is the cost that we pay to
 
 
 
-**457. ** **How can we measure the** **cloud-based services? **
+457.  How can we measure the cloud-based services? 
 
 
 
@@ -22702,7 +22702,7 @@ Another important aspect of measuring a cloud service is its availability. A clo
 
 
 
-**458. ** **How a traditional datacenter is** **different from a cloud environment? **
+458.  How a traditional datacenter is different from a cloud environment? 
 
 
 
@@ -22720,9 +22720,9 @@ With a traditional datacenter, people cost is very high since we have to hire a 
 
 
 
-**459. ** **How will you optimize** **availability of your application in a**
+459.  How will you optimize availability of your application in a
 
-**Cloud environment? **
+Cloud environment? 
 
 
 
@@ -22736,7 +22736,7 @@ Another aspect of cloud environment is that servers often fail or go down. In su
 
 
 
-**460. ** **What are the requirements for** **implementing IaaS strategy in Cloud? **
+460.  What are the requirements for implementing IaaS strategy in Cloud? 
 
 
 
@@ -22756,11 +22756,11 @@ strategy. It can be SaaS, PaaS or CaaS.
 
 
 
-**DOCKER**
+DOCKER
 
 
 
-**461. ** **What is Docker? **
+461.  What is Docker? 
 
 
 
@@ -22780,7 +22780,7 @@ Docker can package software in a complete file system that contains software cod
 
 
 
-**462. ** **What is the difference between** **Docker image and Docker container? **
+462.  What is the difference between Docker image and Docker container? 
 
 
 
@@ -22790,7 +22790,7 @@ Docker container is simply an instance of Docker image.
 
 
 
-A Docker image is an immutable file, which is a snapshot of container. We create an image with **build** command. 
+A Docker image is an immutable file, which is a snapshot of container. We create an image with build command. 
 
 
 
@@ -22804,7 +22804,7 @@ In programming language, an Image is a Class and a Container is an instance of t
 
 
 
-**463. ** **How will you remove an image** **from Docker? **
+463.  How will you remove an image from Docker? 
 
 
 
@@ -22836,7 +22836,7 @@ If we want to remove a docker container then we use docker rm command.
 
 
 
-**464. ** **How is a Docker container** **different from a hypervisor? **
+464.  How is a Docker container different from a hypervisor? 
 
 
 
@@ -22856,7 +22856,7 @@ In a way, Docker container and hypervisor are complementary to each other.
 
 
 
-**465. ** **Can we write compose file in** **json file instead of yaml? **
+465.  Can we write compose file in json file instead of yaml? 
 
 
 
@@ -22872,11 +22872,11 @@ If we use a json file then we have to specify in docker command that we are usin
 
 
 
-****
 
-**466. ** **Can we run multiple apps on** **one server with Docker? **
 
-****
+466.  Can we run multiple apps on one server with Docker? 
+
+
 
 Yes, theoretically we can run multiples apps on one Docker server. 
 
@@ -22886,27 +22886,27 @@ But in practice, it is better to run different components on separate containers
 
 With this we get cleaner environment and it can be used for multiple uses. 
 
-****
 
-****
 
-**467. ** **What are the common use** **cases of Docker? **
+
+
+467.  What are the common use cases of Docker? 
 
 
 
 Some of the common use cases of Docker are as follows: 1. 
 
-**Setting up Development Environment**: We can use Docker to set the development environment with the applications on which our code is dependent. 
+Setting up Development Environment: We can use Docker to set the development environment with the applications on which our code is dependent. 
 
 2. 
 
-**Testing Automation Setup**: Docker can also help in creating the Testing Automation setup. We can setup different services and apps with Docker to create the automation testing environment. 
+Testing Automation Setup: Docker can also help in creating the Testing Automation setup. We can setup different services and apps with Docker to create the automation testing environment. 
 
 3. 
 
-**Production **
+Production 
 
-**Deployment**: 
+Deployment: 
 
 Docker 
 
@@ -22930,31 +22930,31 @@ an
 
 application. We can use it to create the exact environment and process that will be used for doing the production deployment. 
 
-****
 
-**468. ** **What are the main features of** **Docker-compose? **
+
+468.  What are the main features of Docker-compose? 
 
 
 
 Some of the main features of Docker-compose are as follows: 1. 
 
-**Multiple environments on same Host**: We can use it to create multiple environments on the same host server. 
+Multiple environments on same Host: We can use it to create multiple environments on the same host server. 
 
 2. 
 
-**Preserve Volume Data on Container Creation**: Docker compose also preserves the volume data when we create a container. 
+Preserve Volume Data on Container Creation: Docker compose also preserves the volume data when we create a container. 
 
 3. 
 
-**Recreate the changed Containers**: We can also use compose to recreate the changed containers. 
+Recreate the changed Containers: We can also use compose to recreate the changed containers. 
 
 4. 
 
-**Variables in Compose file**: Docker compose also supports variables in compose file. In this way we can create variations of our containers. 
+Variables in Compose file: Docker compose also supports variables in compose file. In this way we can create variations of our containers. 
 
-****
 
-**469. ** **What is the most popular use** **of Docker? **
+
+469.  What is the most popular use of Docker? 
 
 
 
@@ -22964,11 +22964,11 @@ The most popular use of Docker is in build pipeline. With the use of Docker it i
 
 We use Docker for the complete build flow from development work, test run and deployment to production environment. 
 
-****
 
-**470. ** **What is the role of open source** **development in the popularity of**
 
-**Docker? **
+470.  What is the role of open source development in the popularity of
+
+Docker? 
 
 
 
@@ -22988,15 +22988,15 @@ Docker has wide acceptance due to its usability as well as its open source appro
 
 
 
-**UNIX Shell**
+UNIX Shell
 
 
 
-**471. ** **How will you remove all files** **in current directory? Including the**
+471.  How will you remove all files in current directory? Including the
 
-**files that are two levels down in a sub-**
+files that are two levels down in a sub-
 
-**directory. **
+directory. 
 
 
 
@@ -23034,9 +23034,9 @@ The asterisk \(\*\) is a wild card character that stands for all the files with 
 
 
 
-**472. ** **What is the difference between** **the –v and –x options in Bash shell**
+472.  What is the difference between the –v and –x options in Bash shell
 
-**scripts? **
+scripts? 
 
 
 
@@ -23062,7 +23062,7 @@ In –v option, If we run the script, the shell prints the entire file and then 
 
 
 
-**473. ** **What is a Filter in Unix** **command? **
+473.  What is a Filter in Unix command? 
 
 
 
@@ -23090,7 +23090,7 @@ Even Data scientists use Unix filters to get the overview of data stored in the 
 
 
 
-**474. ** **What is Kernel in Unix** **operating system? **
+474.  What is Kernel in Unix operating system? 
 
 
 
@@ -23124,7 +23124,7 @@ Kernel has a protected memory area that cannot be overwritten accidentally by an
 
 
 
-**475. ** **What is a Shell in Unix OS? **
+475.  What is a Shell in Unix OS? 
 
 
 
@@ -23150,7 +23150,7 @@ Some of the popular Shells on Unix are: Korn shell, BASH, C shell etc.
 
 
 
-**476. ** **What are the different shells in** **Unix that you know about? **
+476.  What are the different shells in Unix that you know about? 
 
 
 
@@ -23170,11 +23170,11 @@ Enhanced C shell: tcsh is the command for enhanced C shell.
 
 
 
-**477. ** 
+477.  
 
-**What is the first character of the output**
+What is the first character of the output
 
-**in ls –l command ? **
+in ls –l command ? 
 
 
 
@@ -23208,9 +23208,9 @@ In general we see d for directory and - for a regular file.
 
 
 
-**478. ** **What is the difference between** **Multi-tasking and Multi-user**
+478.  What is the difference between Multi-tasking and Multi-user
 
-**environment? **
+environment? 
 
 
 
@@ -23222,7 +23222,7 @@ In a Multi-user environment, more than one user can interact with the operating 
 
 
 
-**479. ** **What is Command** **Substitution in Unix? **
+479.  What is Command Substitution in Unix? 
 
 Command substitution is a mechanism by which Shell passes the output of a command as an argument to another command. We can even use it to set a variable or use an argument list in a for loop. 
 
@@ -23238,7 +23238,7 @@ In general Command Substitution is represented by back quotes \`.
 
 
 
-**480. ** **What is an Inode in Unix? **
+480.  What is an Inode in Unix? 
 
 An Inode is a Data Structure in Unix that denotes a file or a directory on file system. It contains information about file like-location of file on the disk, access mode, ownership, file type etc. 
 
@@ -23254,9 +23254,9 @@ We can use ls -i command to get the inode number of a file.
 
 
 
-**481. ** **What is the difference between** **absolute path and relative path in**
+481.  What is the difference between absolute path and relative path in
 
-**Unix file system? **
+Unix file system? 
 
 Absolute path is the complete path of a file or directory from the root directory. In general root directory is represented by / symbol. 
 
@@ -23278,7 +23278,7 @@ Absolute path of mail folder is /var/user/kevin/mail. For mail folder ./mail is 
 
 
 
-**482. ** **What are the main** **responsibilities of a Unix Shell? **
+482.  What are the main responsibilities of a Unix Shell? 
 
 Some of the main responsibilities of a Unix Shell are as follows: 1. Program Execution: A shell is responsible for executing the commands and script files in Unix. User can either interactively enter the commands in Command Line Interface called terminal or they can run a script file containing a program. 
 
@@ -23306,7 +23306,7 @@ We use >, <, >> characters for this purpose.
 
 
 
-**483. ** **What is a Shell variable? **
+483.  What is a Shell variable? 
 
 A Unix Shell variable is an internal variable that a shell maintains. 
 
@@ -23338,9 +23338,9 @@ E.g. echo $max\_threads
 
 
 
-**Microservices**
+Microservices
 
-**484. ** **What is a Microservice? **
+484.  What is a Microservice? 
 
 
 
@@ -23356,7 +23356,7 @@ Ideally, it does not share database with any other service.
 
 
 
-**485. ** **What are the benefits of** **Microservices architecture? **
+485.  What are the benefits of Microservices architecture? 
 
 
 
@@ -23400,7 +23400,7 @@ Easy Deployment: Microservices architecture, if done correctly, helps in making 
 
 If anything goes wrong, it can be rolled back easily and quickly in Microservices. 
 
-**486. ** **What is the role of architect in** **Microservices architecture? **
+486.  What is the role of architect in Microservices architecture? 
 
 
 
@@ -23416,11 +23416,11 @@ They have to provide technical governance so that the teams in their technical d
 
 At times they work as custodians of overall Microservices architecture. 
 
-**487. ** **What is the advantage of** **Microservices architecture over**
+487.  What is the advantage of Microservices architecture over
 
-**Service Oriented Architecture**
+Service Oriented Architecture
 
-**\(SOA\)? **
+\(SOA\)? 
 
 
 
@@ -23446,11 +23446,11 @@ hardware/middleware, any protocol etc. as long as you follow the principles of M
 
 Microservices architecture also provides more flexibility, stability and speed of development over SOA architecture. 
 
-**488. ** **Is it a good idea to provide a** **Tailored Service Template for**
+488.  Is it a good idea to provide a Tailored Service Template for
 
-**Microservices development in an**
+Microservices development in an
 
-**organization? **
+organization? 
 
 
 
@@ -23466,9 +23466,9 @@ This can lead to tight coupling between Microservices.
 
 
 
-**489. ** **What are the disadvantages of** **using Shared libraries approach to**
+489.  What are the disadvantages of using Shared libraries approach to
 
-**decompose a monolith application? **
+decompose a monolith application? 
 
 
 
@@ -23484,7 +23484,7 @@ Shared libraries introduce shared code that can increase coupling in software.
 
 
 
-**490. ** **What are the characteristics of** **a Good Microservice? **
+490.  What are the characteristics of a Good Microservice? 
 
 
 
@@ -23506,7 +23506,7 @@ Business Capability: Microservices individually add business capability that is 
 
 
 
-**491. ** **What is Bounded Context? **
+491.  What is Bounded Context? 
 
 
 
@@ -23514,9 +23514,9 @@ A bounded context is like a specific responsibility that is developed within a b
 
 
 
-**492. ** **What are the points to** **remember during integration of**
+492.  What are the points to remember during integration of
 
-**Microservices? **
+Microservices? 
 
 
 
@@ -23536,9 +23536,9 @@ Implementation Hiding: Each Microservice should hide its internal implementation
 
 Simple to use: A Microservice should be simple to use for a consumer, so that the integration points are simpler. It should allow clients to choose their own technology stack. 
 
-**493. ** **Is it a good idea for** **Microservices to share a common**
+493.  Is it a good idea for Microservices to share a common
 
-**database? **
+database? 
 
 
 
@@ -23546,11 +23546,11 @@ Sharing a common database between multiple Microservices increases coupling betw
 
 
 
-**494. ** **What is the preferred type of** **communication between**
+494.  What is the preferred type of communication between
 
-**Microservices? Synchronous or**
+Microservices? Synchronous or
 
-**Asynchronous? **
+Asynchronous? 
 
 
 
@@ -23568,9 +23568,9 @@ Synchronous Microservices are not loosely coupled.
 
 Depending on the need and critical nature of business domain, Microservices can choose synchronous or asynchronous form of communication. 
 
-**495. ** **What is the difference between** **Orchestration and Choreography in**
+495.  What is the difference between Orchestration and Choreography in
 
-**Microservices architecture? **
+Microservices architecture? 
 
 
 
@@ -23580,7 +23580,7 @@ Orchestration is a tightly coupled approach for integrating Microservices. But C
 
 Orchestration is often done by synchronous calls. But choreography is done by asynchronous calls. The synchronous calls are much simpler compared to asynchronous communication. 
 
-**496. ** **What are the issues in using** **REST over HTTP for Microservices? **
+496.  What are the issues in using REST over HTTP for Microservices? 
 
 
 
@@ -23596,7 +23596,7 @@ HTTP is not well suited for low-latency communications.
 
 There is more work in consumption of payload. There may be overhead of serialization, deserialization in HTTP. 
 
-**497. ** **Can we create Microservices** **as State Machines? **
+497.  Can we create Microservices as State Machines? 
 
 
 
